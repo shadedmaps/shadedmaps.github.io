@@ -6,9 +6,22 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
+    /* font-family: Arial, sans-serif; */
     line-height: 1.6;
     padding: 0 20px;
+    background-color: #EAEFF2;
+    color: #1A1A1A;
+}
+
+.content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+.content {  width: 600px;
+            text-align: justify;
 }
 
 header {
@@ -31,7 +44,7 @@ header {
 }
 
 .gallery img {
-    width: 800px; 
+    width: 800px;
     height: auto;
     cursor: pointer;
     border: 2px solid transparent;
@@ -63,7 +76,8 @@ header {
     left: 0;
     width: 800px;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    /*background: rgba(0.0, 0.0, 0.0, 0.5); /* Semi-transparent black */
+    background: rgba(0.302, 0.318, 0.455, 0.5);
     color: white;
     display: flex;
     justify-content: center;
@@ -73,6 +87,7 @@ header {
     pointer-events: none; /* Ignore pointer events on overlay */
     transition: opacity 0.3s ease; /* Smooth fade-in/out */
 }
+
 
 /* Show overlay on hover */
 .gallery-item:hover .hover-text {

@@ -5,69 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaded Maps</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/5.0.1/openseadragon.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>Shaded Maps</h1>
+  <div class="title">
+        <h2>Shaded Maps</h2>
+        <p>a gallery of detailed shaded maps, digitally manufactured with
+        <a href="https://python.org/" target="_blank">Python</a>,
+        <a href="https://pdal.io/" target="_blank">PDAL</a> and
+        <a href="https://gdal.org/" target="_blank">GDAL</a>
+        tools from elevation, point cloud and
+        <a href="https://openstreetmap.org/" target="_blank">OpenStreetMap</a> data</p>
+  </div>
   <div class="menu">
-      <a href="#">Home</a>
-      <a href="#">About</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="data.html">Data</a>
+      <a href="https://instagram.com/shadedmaps" target="_blank">Instagram</a>
   </div>
     </header>
 
+    <a href="#Australia">Australia</a>
+    <a href="#Belgium">Belgium</a>
+    <a href="#Brazil">Brazil</a>
+    <a href="#Finland">Finland</a>
+    <a href="#Germany">Germany</a>
+    <a href="#United_States_of_America">United States of America</a>
     <main>
-        <div class="gallery">
-    <div class="gallery-item">
+    <div class="gallery">
+    <div class="gallery-item" id="Australia">
     <h3>Sydney, Australia [33°51'S, 151°12'E] [36000 x 24000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs.png" data-full="/dzi_images/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs.dzi" alt="AUSTRALIA_SYDNEY_LONG_05" />
-    <span class="hover-text">Elevation data published by New South Wales Government - Spatial Services
-with license Attribution 4.0 International (CC BY 4.0)"</span>
+    <img src="thumbnails/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs.png" data-full="https://shaded-maps-dzi.s3.amazonaws.com/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs.dzi" alt="AUSTRALIA_SYDNEY_LONG_05" />
+    <span class="hover-text">Elevation data published by<br>New South Wales Government - Spatial Services<br>with license Attribution 4.0 International (CC BY 4.0)</span>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" id="Belgium">
     <h3>Antwerp, Belgium [51°13'N, 4°23'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BELGIUM_ANTWERP_RGBA_cs.png" data-full="/dzi_images/BELGIUM_ANTWERP_RGBA_cs.dzi" alt="BELGIUM_ANTWERP" />
-    <span class="hover-text">Elevation data published by Agentschap Digitaal Vlaanderen
-with license Gratis open data licentie Vlaanderen v1.2 met bronvermelding"</span>
+    <img src="thumbnails/BELGIUM_ANTWERP_RGBA_cs.png" data-full="https://shaded-maps-dzi.s3.amazonaws.com/BELGIUM_ANTWERP_RGBA_cs.dzi" alt="BELGIUM_ANTWERP" />
+    <span class="hover-text">Elevation data published by<br>Agentschap Digitaal Vlaanderen<br>with license Gratis open data licentie Vlaanderen v1.2 met bronvermelding</span>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" id="Brazil">
     <h3>Sao Paulo, Brazil [23°32'S, 46°38'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BRAZIL_SAO_PAULO_RGBA_cs.png" data-full="/dzi_images/BRAZIL_SAO_PAULO_RGBA_cs.dzi" alt="BRAZIL_SAO_PAULO" />
-    <span class="hover-text">Elevation data published by Prefeitura de Sao Paulo
-with license Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"</span>
+    <img src="thumbnails/BRAZIL_SAO_PAULO_RGBA_cs.png" data-full="https://shaded-maps-dzi.s3.amazonaws.com/BRAZIL_SAO_PAULO_RGBA_cs.dzi" alt="BRAZIL_SAO_PAULO" />
+    <span class="hover-text">Elevation data published by<br>Prefeitura de Sao Paulo<br>with license Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</span>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" id="Finland">
     <h3>Helsinki, Finland [60°10'N, 24°56'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/FINLAND_HELSINKI_2021_RGBA_cs.png" data-full="/dzi_images/FINLAND_HELSINKI_2021_RGBA_cs.dzi" alt="FINLAND_HELSINKI_2021" />
-    <span class="hover-text">Elevation data published by Helsingin kaupunkiympäristön toimiala / Kaupunkimittauspalvelut
-with license Attribution 4.0 International (CC BY 4.0)"</span>
+    <img src="thumbnails/FINLAND_HELSINKI_2021_RGBA_cs.png" data-full="https://shaded-maps-dzi.s3.amazonaws.com/FINLAND_HELSINKI_2021_RGBA_cs.dzi" alt="FINLAND_HELSINKI_2021" />
+    <span class="hover-text">Elevation data published by<br>Helsingin kaupunkiympäristön toimiala / Kaupunkimittauspalvelut<br>with license Attribution 4.0 International (CC BY 4.0)</span>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" id="Germany">
     <h3>Berlin, Germany [52°31'N, 13°24'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/GERMANY_BERLIN_RGBA_cs.png" data-full="/dzi/GERMANY_BERLIN_RGBA_cs.dzi" alt="GERMANY_BERLIN" />
-    <span class="hover-text">Elevation data published by Geoportal Berlin / Airborne Laserscanning (ALS) Primäre 3D Laserscan-Daten
-with license data license Germany - Attribution - Version 2.0"</span>
+    <img src="thumbnails/GERMANY_BERLIN_RGBA_cs.png" data-full="https://shaded-maps-dzi.s3.amazonaws.com/GERMANY_BERLIN_RGBA_cs.dzi" alt="GERMANY_BERLIN" />
+    <span class="hover-text">Elevation data published by<br>Geoportal Berlin / Airborne Laserscanning (ALS) Primäre 3D Laserscan-Daten<br>with data license Germany - Attribution - Version 2.0</span>
     </div>
     <div class="gallery-item">
     <h3>Munich, Germany [48°8'N, 11°34'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/GERMANY_MUNICH_RGBA_cs.png" data-full="/dzi_images/GERMANY_MUNICH_RGBA_cs.dzi" alt="GERMANY_MUNICH" />
-    <span class="hover-text">Elevation data published by Bayerische Vermessungsverwaltung
-with license CC BY 4.0 DEED Attribution 4.0 International"</span>
+    <img src="thumbnails/GERMANY_MUNICH_RGBA_cs.png" data-full="https://shaded-maps-dzi.s3.amazonaws.com/GERMANY_MUNICH_RGBA_cs.dzi" alt="GERMANY_MUNICH" />
+    <span class="hover-text">Elevation data published by<br>Bayerische Vermessungsverwaltung<br>with license CC BY 4.0 DEED Attribution 4.0 International</span>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" id="United_States_of_America">
     <h3>Chicago, Illinois, USA [41°53'N, 87°37'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]</h3>
-    <img src="thumbnails/USA_CHICAGO_RGBA_cs.png" data-full="/dzi_images/USA_CHICAGO_RGBA_cs.dzi" alt="USA_CHICAGO" />
-    <span class="hover-text">Elevation data published by 
-with license "</span>
+    <img src="thumbnails/USA_CHICAGO_RGBA_cs.png" data-full="https://shaded-maps-dzi.s3.amazonaws.com/USA_CHICAGO_RGBA_cs.dzi" alt="USA_CHICAGO" />
+    <span class="hover-text">Elevation data published by<br>U.S. Department of Commerce, National Oceanic and Atmospheric Administration<br>with license CC0 1.0 Universal</span>
     </div>
         </div>
-
         <div id="viewer-container">
             <div class="close-button">✖</div>
             <div id="openseadragon-viewer"></div>
         </div>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
