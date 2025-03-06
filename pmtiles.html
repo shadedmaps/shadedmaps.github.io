@@ -46,9 +46,9 @@
     </style>
 </head>
 <body>
-    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles')">
-    <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/output.pmtiles')">
-    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/winnipeg.pmtiles')">
+    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles', [97.140200, 49.894677], 7)">
+    <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('output.pmtiles', [-97.140200, 49.894677], 10)">
+    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('winnipeg.pmtiles', [-97.141200, 49.895677], 11)">
 
     <div id="mapPopup">
         <button class="closeBtn" onclick="closeMapPopup()">Close</button>
@@ -58,7 +58,7 @@
     <script type="text/javascript">
         let map; // Declare map variable in a broader scope
 
-        function openMapPopup(pmTilesUrl) {
+        function openMapPopup(pmTilesUrl, centerCoordinates, zoomLevel) {
             document.getElementById('mapPopup').style.display = 'block';
 
             const rasterLayer = new ol.layer.WebGLTile({
@@ -75,9 +75,9 @@
                 layers: [rasterLayer],
                 target: 'map',
                 view: new ol.View({
-                    center: [-97.140200, 49.894677],
-                    zoom: 10,
-                    multiWorld: true
+                    center: centerCoordinates,
+                    zoom: zoomLevel,
+                    multiWorld: false
                 }),
             });
         }
