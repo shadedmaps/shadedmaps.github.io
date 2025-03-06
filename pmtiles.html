@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMTiles Viewer Popup</title>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.0.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.0.0/ol.css">
+    <script src="https://unpkg.com/ol-pmtiles@2.0.2/dist/olpmtiles.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .thumbnail {
+            width: 200px;
+            cursor: pointer;
+            margin: 20px;
+        }
+        #mapPopup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 80%;
+            z-index: 1000;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        .closeBtn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            z-index: 1001;
+        }
+    </style>
+</head>
+<body>
+    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles')">
+    <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/output.pmtiles')">
+    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/yet_another_map.pmtiles')">
+
+    <div id="mapPopup">
+        <button class="closeBtn" onclick="closeMapPopup()">Close</button>
+        <div id="map"></div>
+    </div>
+
+    <script type="text/javascript">
+        let map; // Declare map variable in a broader scope
+
+        function openMapPopup(pmTilesUrl) {
+            document.getElementById('mapPopup').style.display = 'block';
+
+            const rasterLayer = new ol.layer.WebGLTile({
+                source: new olpmtiles.PMTilesRasterSource({
+                    url: pmTilesUrl,
+                    attributions: ["TEST"],
+                    tileSize: [512, 512]
+                })
+            });
+
+            ol.proj.useGeographic();
+
+            map = new ol.Map({
+                layers: [rasterLayer],
+                target: 'map',
+                view: new ol.View({
+                    center: [0, 0],
+                    zoom: 1,
+                    multiWorld: true
+                }),
+            });
+        }
+
+        function closeMapPopup() {
+            document.getElementById('mapPopup').style.display = 'none';
+            if (map) {
+                map.setTarget(null); // Properly dispose of the map instance
+                map = null; // Clear the map variable
+            }
+        }
+    </script>
+</body>
+</html>
