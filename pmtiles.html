@@ -43,25 +43,46 @@
             cursor: pointer;
             z-index: 1001;
         }
+        .layer-controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1001;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .layer-controls button,
+        .layer-controls input {
+            display: block;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 <body>
-    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles', [97.140200, 49.894677], 7)">
+    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles', [-97.140200, 49.894677], 10)">
     <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/output.pmtiles', [-97.140200, 49.894677], 10)">
-    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/winnipeg.pmtiles', [-97.141200, 49.895677], 11)">
+    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/winnipeg.pmtiles', [-97.140200, 49.894677], 10)">
+    <img src="thumbnail4.jpg" alt="Map Thumbnail 4" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/coggg8.pmtiles', [-97.140200, 49.894677], 10)">
 
     <div id="mapPopup">
-        <button class="closeBtn" onclick="closeMapPopup()">Close</button>
+        <div class="layer-controls">
+            <button onclick="toggleLayer('osm')">Toggle OSM Layer</button>
+            <label for="opacitySlider">OSM Layer Opacity</label>
+            <input type="range" id="opacitySlider" min="0" max="1" step="0.1" value="1" onchange="setLayerOpacity(this.value)">
+            <button class="closeBtn" onclick="closeMapPopup()">Close</button>
+        </div>
         <div id="map"></div>
     </div>
 
     <script type="text/javascript">
         let map; // Declare map variable in a broader scope
+        let osmLayer, rasterLayer; // Declare layer variables in a broader scope
 
         function openMapPopup(pmTilesUrl, centerCoordinates, zoomLevel) {
             document.getElementById('mapPopup').style.display = 'block';
 
-            const rasterLayer = new ol.layer.WebGLTile({
+            rasterLayer = new ol.layer.WebGLTile({
                 source: new olpmtiles.PMTilesRasterSource({
                     url: pmTilesUrl,
                     attributions: ["TEST"],
@@ -69,15 +90,19 @@
                 })
             });
 
+            osmLayer = new ol.layer.Tile({
+                source: new ol.source.OSM()
+            });
+
             ol.proj.useGeographic();
 
             map = new ol.Map({
-                layers: [rasterLayer],
+                layers: [rasterLayer, osmLayer], // Add raster layer first, then OSM layer
                 target: 'map',
                 view: new ol.View({
                     center: centerCoordinates,
                     zoom: zoomLevel,
-                    multiWorld: false
+                    multiWorld: false // Ensure only one world is displayed
                 }),
             });
         }
@@ -89,6 +114,25 @@
                 map = null; // Clear the map variable
             }
         }
+
+        function toggleLayer(layerName) {
+            let layer;
+            if (layerName === 'osm') {
+                layer = osmLayer;
+            }
+
+            if (layer) {
+                const visible = layer.getVisible();
+                layer.setVisible(!visible);
+            }
+        }
+
+        function setLayerOpacity(opacity) {
+            if (osmLayer) {
+                osmLayer.setOpacity(parseFloat(opacity));
+            }
+        }
     </script>
 </body>
 </html>
+
