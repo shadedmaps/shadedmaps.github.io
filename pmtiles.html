@@ -60,10 +60,10 @@
     </style>
 </head>
 <body>
-    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles', [-97.140200, 49.894677], 10)">
-    <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/sydney.pmtiles', [151.2088, -33.8592], 12)">
-    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/winnipeg.pmtiles', [-97.140200, 49.894677], 10)">
-    <img src="thumbnail4.jpg" alt="Map Thumbnail 4" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/coggg8.pmtiles', [-97.140200, 49.894677], 10)">
+    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles', [-97.140200, 49.894677], [-97.150896, 49.888102, -97.129504, 49.901251], 13)">
+    <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/sydney.pmtiles', [151.2088, -33.8592], [151.110438, -33.911890, 151.307195, -33.806590], 12)">
+    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/sydney_17.pmtiles', [151.2088, -33.8592], [151.110438, -33.911890, 151.307195, -33.806590], 13)">
+    <img src="thumbnail4.jpg" alt="Map Thumbnail 4" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/coggg8.pmtiles', [-97.140200, 49.894677], [-97.150896, 49.888102, -97.129504, 49.901251], 14)">
 
     <div id="mapPopup">
         <div class="layer-controls">
@@ -79,7 +79,7 @@
         let map; // Declare map variable in a broader scope
         let osmLayer, rasterLayer; // Declare layer variables in a broader scope
 
-        function openMapPopup(pmTilesUrl, centerCoordinates, zoomLevel) {
+        function openMapPopup(pmTilesUrl, centerCoordinates, extentCoordinates, zoomLevel) {
             document.getElementById('mapPopup').style.display = 'block';
 
             rasterLayer = new ol.layer.WebGLTile({
@@ -102,6 +102,7 @@
                 view: new ol.View({
                     center: centerCoordinates,
                     zoom: zoomLevel,
+                    extent: extentCoordinates,
                     multiWorld: false // Ensure only one world is displayed
                 }),
             });
