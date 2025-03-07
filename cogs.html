@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COG Viewer Popup</title>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.0.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.0.0/ol.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .thumbnail {
+            width: 200px;
+            cursor: pointer;
+            margin: 20px;
+        }
+        #mapPopup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 80%;
+            z-index: 1000;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        .closeBtn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            z-index: 1001;
+        }
+        .layer-controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1001;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .layer-controls button,
+        .layer-controls input {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://your-cog-url-1.tif', [-97.140200, 49.894677], 10)">
+    <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://your-cog-url-2.tif', [-97.140200, 49.894677], 10)">
+    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://your-cog-url-3.tif', [-97.140200, 49.894677], 10)">
+    <img src="thumbnail4.jpg" alt="Map Thumbnail 4" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/coggg8.tif', [-97.140200, 49.894677], 10)">
+
+    <div id="mapPopup">
+        <div class="layer-controls">
+            <button onclick="toggleLayer('osm')">Toggle OSM Layer</button>
+            <label for="opacitySlider">OSM Layer Opacity</label>
+            <input type="range" id="opacitySlider" min="0" max="1" step="0.1" value="1" onchange="setLayerOpacity(this.value)">
+            <button class="closeBtn" onclick="closeMapPopup()">Close</button>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script type="text/javascript">
+        let map; // Declare map variable in a broader scope
+        let osmLayer, rasterLayer; // Declare layer variables in a broader scope
+
+        function openMapPopup(cogUrl, centerCoordinates, zoomLevel) {
+            document.getElementById('mapPopup').style.display = 'block';
+
+            rasterLayer = new ol.layer.Tile({
+                source: new ol.source.TileWMS({
+                    url: cogUrl,
+                    params: {
+                        'LAYERS': '0',
+                        'TILED': true,
+                        'VERSION': '1.3.0',
+                        'FORMAT': 'image/png'
+                    },
+                    serverType: 'geoserver',
+                    crossOrigin: 'anonymous'
+                })
+            });
+
+            osmLayer = new ol.layer.Tile({
+                source: new ol.source.OSM()
+            });
+
+            ol.proj.useGeographic();
+
+            map = new ol.Map({
+                layers: [rasterLayer, osmLayer], // Add raster layer first, then OSM layer
+                target: 'map',
+                view: new ol.View({
+                    center: centerCoordinates,
+                    zoom: zoomLevel,
+                    multiWorld: false // Ensure only one world is displayed
+                }),
+            });
+        }
+
+        function closeMapPopup() {
+            document.getElementById('mapPopup').style.display = 'none';
+            if (map) {
+                map.setTarget(null); // Properly dispose of the map instance
+                map = null; // Clear the map variable
+            }
+        }
+
+        function toggleLayer(layerName) {
+            let layer;
+            if (layerName === 'osm') {
+                layer = osmLayer;
+            }
+
+            if (layer) {
+                const visible = layer.getVisible();
+                layer.setVisible(!visible);
+            }
+        }
+
+        function setLayerOpacity(opacity) {
+            if (osmLayer) {
+                osmLayer.setOpacity(parseFloat(opacity));
+            }
+        }
+    </script>
+</body>
+</html>
