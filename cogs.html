@@ -6,6 +6,8 @@
     <title>COG Viewer Popup</title>
     <script src="https://cdn.jsdelivr.net/npm/ol@v9.0.0/dist/ol.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.0.0/ol.css">
+    <script src="https://cdn.jsdelivr.net/npm/geotiff@1.0.0-beta.6/dist/geotiff.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol-geotiff@2.0.0/dist/ol-geotiff.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -59,10 +61,10 @@
     </style>
 </head>
 <body>
-    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://your-cog-url-1.tif', [-97.140200, 49.894677], 10)">
+    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/36/Q/WD/2020/7/S2A_36QWD_20200701_0_L2A/TCI.tif', [32.69, 25.73], 10)">
     <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://your-cog-url-2.tif', [-97.140200, 49.894677], 10)">
     <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://your-cog-url-3.tif', [-97.140200, 49.894677], 10)">
-    <img src="thumbnail4.jpg" alt="Map Thumbnail 4" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/coggg8.tif', [-97.140200, 49.894677], 10)">
+    <img src="thumbnail4.jpg" alt="Map Thumbnail 4" class="thumbnail" onclick="openMapPopup('https://your-cog-url-4.tif', [-97.140200, 49.894677], 10)">
 
     <div id="mapPopup">
         <div class="layer-controls">
@@ -76,19 +78,15 @@
 
     <script type="text/javascript">
         let map; // Declare map variable in a broader scope
-        let osmLayer, rasterLayer; // Declare layer variables in a broader scope
+        let osmLayer, cogLayer; // Declare layer variables in a broader scope
 
-        function openMapPopup(cogUrl, centerCoordinates, zoomLevel) {
+        async function openMapPopup(cogUrl, centerCoordinates, zoomLevel) {
             document.getElementById('mapPopup').style.display = 'block';
 
-            rasterLayer = new ol.layer.Tile({
-                source: new ol.source.TileImage({
-                    url: cogUrl,
-                    tileGrid: ol.tilegrid.createXYZ({
-                        tileSize: 256
-                    }),
-                    crossOrigin: 'anonymous'
-                })
+            cogLayer = new ol.layer.WebGLTile({
+                source: new ol.source.GeoTIFF({
+                    sources: [{ url: cogUrl }],
+                }),
             });
 
             osmLayer = new ol.layer.Tile({
@@ -98,12 +96,12 @@
             ol.proj.useGeographic();
 
             map = new ol.Map({
-                layers: [rasterLayer, osmLayer], // Add raster layer first, then OSM layer
+                layers: [cogLayer, osmLayer], // Add OSM layer first, then COG layer
                 target: 'map',
                 view: new ol.View({
                     center: centerCoordinates,
                     zoom: zoomLevel,
-                    multiWorld: false // Ensure only one world is displayed
+                    projection: 'EPSG:4326', // Ensure the projection is geographic coordinates
                 }),
             });
         }
