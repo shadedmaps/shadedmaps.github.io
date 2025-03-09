@@ -92,23 +92,23 @@
                 })
             });
 
-            // Initialize vector tile layer
-            pmtilesLayer = new ol.layer.WebGLTile({
-                declutter: true,
-                source: new olpmtiles.PMTilesVectorSource({
-                    url: pmTilesUrl2,
-                    attributions: ["Vector Layer"]
-                }),
+          const pmtilesLayer = new ol.layer.VectorTile({
+            declutter: true,
+            source: new olpmtiles.PMTilesVectorSource({
+              url: pmTilesUrl2,
+              attributions: ["ciao vector"]
+            }),
             style: new ol.style.Style({
               stroke: new ol.style.Stroke({
-                color: "gray",
+                color: 'gray',
                 width: 1,
               }),
               fill: new ol.style.Fill({
-                color: "rgba(20,20,20,0.9)",
-              }),
-            }),
-            });
+                color: 'rgba(20,20,20,0.9)',
+              })
+            })
+          });
+
 
             ol.proj.useGeographic();
 
