@@ -85,7 +85,7 @@
             rasterLayer = new ol.layer.WebGLTile({
                 source: new olpmtiles.PMTilesRasterSource({
                     url: pmTilesUrl,
-                    attributions: ["TEST"],
+                    attributions: ["Raster Layer"],
                     tileSize: [512, 512]
                 })
             });
@@ -93,7 +93,7 @@
             pmtilesLayer = new ol.layer.VectorTile({
                 source: new olpmtiles.PMTilesVectorSource({
                     url: pmTilesUrl2,
-                    attributions: ["TEST"]
+                    attributions: ["Vector Layer"]
                 }),
                 style: new ol.style.Style({
                     stroke: new ol.style.Stroke({
@@ -108,17 +108,22 @@
 
             ol.proj.useGeographic();
 
-            map = new ol.Map({
-                layers: [rasterLayer, pmtilesLayer], // Add raster layer first, then pmtiles layer
-                target: 'map',
-                view: new ol.View({
-                    center: centerCoordinates,
-                    zoom: zoomLevel,
-                    maxZoom: 18,
-                    extent: extentCoordinates,
-                    multiWorld: false // Ensure only one world is displayed
-                }),
-            });
+            try {
+                map = new ol.Map({
+                    layers: [rasterLayer, pmtilesLayer], // Add raster layer first, then pmtiles layer
+                    target: 'map',
+                    view: new ol.View({
+                        center: centerCoordinates,
+                        zoom: zoomLevel,
+                        maxZoom: 18,
+                        extent: extentCoordinates,
+                        multiWorld: false // Ensure only one world is displayed
+                    }),
+                });
+                console.log("Map initialized successfully");
+            } catch (error) {
+                console.error("Error initializing map:", error);
+            }
         }
 
         function closeMapPopup() {
@@ -126,6 +131,7 @@
             if (map) {
                 map.setTarget(null); // Properly dispose of the map instance
                 map = null; // Clear the map variable
+                console.log("Map closed and disposed");
             }
         }
 
@@ -138,12 +144,14 @@
             if (layer) {
                 const visible = layer.getVisible();
                 layer.setVisible(!visible);
+                console.log(`${layerName} layer visibility: ${!visible}`);
             }
         }
 
         function setLayerOpacity(opacity) {
             if (pmtilesLayer) {
                 pmtilesLayer.setOpacity(parseFloat(opacity));
+                console.log(`PMTiles layer opacity set to: ${opacity}`);
             }
         }
     </script>
