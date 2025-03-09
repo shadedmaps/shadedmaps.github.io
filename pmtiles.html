@@ -97,15 +97,17 @@
                     url: pmTilesUrl2,
                     attributions: ["Vector Layer"]
                 }),
-                style: new ol.style.Style({
-                    stroke: new ol.style.Stroke({
-                        color: 'rgba(0, 0, 255, 1.0)',
-                        width: 2
-                    }),
-                    fill: new ol.style.Fill({
-                        color: 'rgba(0, 0, 255, 0.6)'
-                    })
-                })
+                style: function(feature, resolution) {
+                    return new ol.style.Style({
+                        stroke: new ol.style.Stroke({
+                            color: 'rgba(0, 0, 255, 1.0)',
+                            width: 2
+                        }),
+                        fill: new ol.style.Fill({
+                            color: 'rgba(0, 0, 255, 0.6)'
+                        })
+                    });
+                }
             });
 
             ol.proj.useGeographic();
