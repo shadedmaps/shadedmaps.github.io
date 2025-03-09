@@ -93,21 +93,20 @@
 
             // Initialize vector tile layer
             pmtilesLayer = new ol.layer.VectorTile({
+                declutter: true,
                 source: new olpmtiles.PMTilesVectorSource({
                     url: pmTilesUrl2,
                     attributions: ["Vector Layer"]
                 }),
-                style: function(feature, resolution) {
-                    return new ol.style.Style({
-                        stroke: new ol.style.Stroke({
-                            color: 'rgba(0, 0, 255, 1.0)',
-                            width: 2
-                        }),
-                        fill: new ol.style.Fill({
-                            color: 'rgba(0, 0, 255, 0.6)'
-                        })
-                    });
-                }
+            style: new Style({
+              stroke: new Stroke({
+                color: "gray",
+                width: 1,
+              }),
+              fill: new Fill({
+                color: "rgba(20,20,20,0.9)",
+              }),
+            }),
             });
 
             ol.proj.useGeographic();
