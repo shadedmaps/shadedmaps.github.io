@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PMTiles Viewer Popup</title>
+    <title>PMTiles Vector Viewer Popup</title>
     <script src="https://cdn.jsdelivr.net/npm/ol@v10.4.0/dist/ol.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v10.4.0/ol.css">
     <script src="https://unpkg.com/ol-pmtiles@2.0.2/dist/olpmtiles.js"></script>
@@ -90,11 +90,10 @@
                 })
             });
 
-            pmtilesLayer = new ol.layer.WebGLTile({
-                source: new olpmtiles.PMTilesRasterSource({
+            pmtilesLayer = new ol.layer.VectorTile({
+                source: new olpmtiles.PMTilesVectorSource({
                     url: pmTilesUrl2,
-                    attributions: ["TEST"],
-                    tileSize: [512, 512]
+                    attributions: ["TEST"]
                 })
             });
 
