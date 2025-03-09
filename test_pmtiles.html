@@ -42,15 +42,6 @@
         </label>
     </div>
     <script type="text/javascript">
-        // Initialize raster layer
-        const rasterLayer = new ol.layer.WebGLTile({
-            source: new olpmtiles.PMTilesRasterSource({
-                url: 'https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles',
-                attributions: ["Raster Layer"],
-                tileSize: [512, 512]
-            })
-        });
-
         // Initialize vector tile layer
         const vectorLayer = new ol.layer.VectorTile({
             source: new olpmtiles.PMTilesVectorSource({
@@ -67,6 +58,18 @@
                 })
             })
         });
+
+        // Initialize raster layer
+        const rasterLayer = new ol.layer.WebGLTile({
+            source: new olpmtiles.PMTilesRasterSource({
+                url: 'https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles',
+                attributions: ["Raster Layer"],
+                tileSize: [512, 512]
+            })
+        });
+
+
+        ol.proj.useGeographic();
 
         // Initialize the map
         const map = new ol.Map({
