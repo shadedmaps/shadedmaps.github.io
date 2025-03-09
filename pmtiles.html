@@ -82,6 +82,7 @@
         function openMapPopup(pmTilesUrl, pmTilesUrl2, centerCoordinates, extentCoordinates, zoomLevel) {
             document.getElementById('mapPopup').style.display = 'block';
 
+            // Initialize raster layer
             rasterLayer = new ol.layer.WebGLTile({
                 source: new olpmtiles.PMTilesRasterSource({
                     url: pmTilesUrl,
@@ -90,6 +91,7 @@
                 })
             });
 
+            // Initialize vector tile layer
             pmtilesLayer = new ol.layer.VectorTile({
                 source: new olpmtiles.PMTilesVectorSource({
                     url: pmTilesUrl2,
