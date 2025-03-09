@@ -93,7 +93,7 @@
             });
 
             // Initialize vector tile layer
-            pmtilesLayer = new ol.layer.VectorTile({
+            pmtilesLayer = new ol.layer.WebGLTile({
                 declutter: true,
                 source: new olpmtiles.PMTilesVectorSource({
                     url: pmTilesUrl2,
