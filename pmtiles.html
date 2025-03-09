@@ -60,15 +60,15 @@
     </style>
 </head>
 <body>
-    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles', [-97.140200, 49.894677], [-97.150896, 49.888102, -97.129504, 49.901251], 13)">
-    <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/sydney.pmtiles', [151.2088, -33.8592], [151.110438, -33.911890, 151.307195, -33.806590], 12)">
-    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/sydney_17.pmtiles', [151.2088, -33.8592], [151.110438, -33.911890, 151.307195, -33.806590], 13)">
-    <img src="thumbnail4.jpg" alt="Map Thumbnail 4" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/coggg8.pmtiles', [-97.140200, 49.894677], [-97.150896, 49.888102, -97.129504, 49.901251], 14)">
+    <img src="thumbnail1.jpg" alt="Map Thumbnail 1" class="thumbnail" onclick="openMapPopup('https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/another_pmtiles_1.pmtiles', [-97.140200, 49.894677], [-97.150896, 49.888102, -97.129504, 49.901251], 13)">
+    <img src="thumbnail2.jpg" alt="Map Thumbnail 2" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/sydney.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/another_pmtiles_2.pmtiles', [151.2088, -33.8592], [151.110438, -33.911890, 151.307195, -33.806590], 12)">
+    <img src="thumbnail3.jpg" alt="Map Thumbnail 3" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/sydney_17.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/another_pmtiles_3.pmtiles', [151.2088, -33.8592], [151.110438, -33.911890, 151.307195, -33.806590], 13)">
+    <img src="thumbnail4.jpg" alt="Map Thumbnail 4" class="thumbnail" onclick="openMapPopup('https://shaded-maps-dzi.s3.amazonaws.com/coggg8.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/winnipeg_osm.pmtiles', [-97.140200, 49.894677], [-97.150896, 49.888102, -97.129504, 49.901251], 14)">
 
     <div id="mapPopup">
         <div class="layer-controls">
-            <button onclick="toggleLayer('osm')">Toggle OSM Layer</button>
-            <label for="opacitySlider">OSM Layer Opacity</label>
+            <button onclick="toggleLayer('raster')">Toggle Raster Layer</button>
+            <label for="opacitySlider">Raster Layer Opacity</label>
             <input type="range" id="opacitySlider" min="0" max="1" step="0.1" value="1" onchange="setLayerOpacity(this.value)">
             <button class="closeBtn" onclick="closeMapPopup()">Close</button>
         </div>
@@ -77,9 +77,9 @@
 
     <script type="text/javascript">
         let map; // Declare map variable in a broader scope
-        let osmLayer, rasterLayer; // Declare layer variables in a broader scope
+        let rasterLayer, pmtilesLayer; // Declare layer variables in a broader scope
 
-        function openMapPopup(pmTilesUrl, centerCoordinates, extentCoordinates, zoomLevel) {
+        function openMapPopup(pmTilesUrl, pmTilesUrl2, centerCoordinates, extentCoordinates, zoomLevel) {
             document.getElementById('mapPopup').style.display = 'block';
 
             rasterLayer = new ol.layer.WebGLTile({
@@ -90,14 +90,18 @@
                 })
             });
 
-            osmLayer = new ol.layer.Tile({
-                source: new ol.source.OSM()
+            pmtilesLayer = new ol.layer.WebGLTile({
+                source: new olpmtiles.PMTilesRasterSource({
+                    url: pmTilesUrl2,
+                    attributions: ["TEST"],
+                    tileSize: [512, 512]
+                })
             });
 
             ol.proj.useGeographic();
 
             map = new ol.Map({
-                layers: [rasterLayer, osmLayer], // Add raster layer first, then OSM layer
+                layers: [rasterLayer, pmtilesLayer], // Add raster layer first, then pmtiles layer
                 target: 'map',
                 view: new ol.View({
                     center: centerCoordinates,
@@ -119,8 +123,8 @@
 
         function toggleLayer(layerName) {
             let layer;
-            if (layerName === 'osm') {
-                layer = osmLayer;
+            if (layerName === 'raster') {
+                layer = rasterLayer;
             }
 
             if (layer) {
@@ -130,11 +134,10 @@
         }
 
         function setLayerOpacity(opacity) {
-            if (osmLayer) {
-                osmLayer.setOpacity(parseFloat(opacity));
+            if (rasterLayer) {
+                rasterLayer.setOpacity(parseFloat(opacity));
             }
         }
     </script>
 </body>
 </html>
-
