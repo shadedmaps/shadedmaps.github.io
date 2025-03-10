@@ -139,6 +139,14 @@
         document.getElementById('vectorLayerCheckbox').addEventListener('change', function() {
             vectorLayer.setVisible(this.checked);
         });
+
+
+        // Log feature properties on click
+        map.on('click', function(evt) {
+            map.forEachFeatureAtPixel(evt.pixel, function(feature) {
+                console.log(feature.getProperties());
+            });
+        });
     </script>
 </body>
 </html>
