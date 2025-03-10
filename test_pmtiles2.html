@@ -9905,6 +9905,48 @@
     "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf"
 };
 
+
+        // Function to convert Mapbox GL paint properties to OpenLayers style
+        const convertPaintToStyle = (paint, type) => {
+            let style = {};
+            if (type === 'fill') {
+                style.fill = new ol.style.Fill({
+                    color: paint['fill-color'] || 'rgba(0,0,0,0.5)'
+                });
+                if (paint['fill-opacity']) {
+                    style.fill.setOpacity(paint['fill-opacity']);
+                }
+            } else if (type === 'line') {
+                style.stroke = new ol.style.Stroke({
+                    color: paint['line-color'] || 'rgba(0,0,0,1)',
+                    width: paint['line-width'] || 1
+                });
+            } else if (type === 'circle') {
+                style.image = new ol.style.Circle({
+                    radius: paint['circle-radius'] || 5,
+                    fill: new ol.style.Fill({
+                        color: paint['circle-color'] || 'rgba(0,0,0,0.5)'
+                    }),
+                    stroke: new ol.style.Stroke({
+                        color: paint['circle-stroke-color'] || 'rgba(0,0,0,1)',
+                        width: paint['circle-stroke-width'] || 1
+                    })
+                });
+            }
+            return new ol.style.Style(style);
+        };
+
+        // Create the style function for the vector layer
+        const vectorStyleFunction = (feature) => {
+            const layerId = feature.get('layer');
+            const layerStyle = mapboxStyle.layers.find(layer => layer.id === layerId);
+            if (layerStyle && layerStyle.paint) {
+                return convertPaintToStyle(layerStyle.paint, layerStyle.type);
+            }
+            return new ol.style.Style();
+        };
+
+
         ol.proj.useGeographic();
 
 
