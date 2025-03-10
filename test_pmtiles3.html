@@ -54,7 +54,7 @@
         });
 
         // Initialize raster layer
-        const rasterLayer = new ol.layer.Tile({
+        const rasterLayer = new ol.layer.WebGLTile({
             source: new olpmtiles.PMTilesRasterSource({
                 url: 'https://shaded-maps-dzi.s3.amazonaws.com/coggg8.pmtiles',
                 attributions: ["Raster Layer"],
