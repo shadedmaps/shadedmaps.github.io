@@ -3,7 +3,7 @@
   "sources": {
     "protomaps": {
       "type": "vector",
-      "url": "https://shaded-maps-dzi.s3.amazonaws.com/winnipeg_osm.pmtiles"
+      "url": "pmtiles://https://shaded-maps-dzi.s3.amazonaws.com/winnipeg_osm.pmtiles"
     }
   },
   "layers": [
