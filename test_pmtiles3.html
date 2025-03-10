@@ -66,7 +66,7 @@
         map.addLayer(rasterLayer);
 
         // Apply Mapbox GL style
-        olms(map, 'style3.json');
+        olms.apply(map, 'style3.json');
 
         // Handle checkbox changes
         document.getElementById('rasterLayerCheckbox').addEventListener('change', function() {
