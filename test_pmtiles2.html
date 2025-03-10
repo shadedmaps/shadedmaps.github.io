@@ -52,7 +52,7 @@
                     ],
                     "tileSize": 512
                 },
-                "vector-tiles": {
+                "protomaps": {
                     "type": "vector",
                     "tiles": [
                         "https://shaded-maps-dzi.s3.amazonaws.com/winnipeg_osm.pmtiles"
@@ -9907,15 +9907,15 @@
         const map = new ol.Map({
             target: 'map',
             view: new ol.View({
-                center: ol.proj.fromLonLat([151.2088, -33.8592]), // Sydney coordinates
-                zoom: 12,
+                center: [-97.140200, 49.894677], // Winnipeg coordinates
+                zoom: 14,
                 maxZoom: 18
             })
         });
 
         olms.apply(map, mapboxStyle).then(() => {
             const rasterLayer = map.getLayers().getArray().find(layer => layer.get('mapbox-source') === 'raster-tiles');
-            const vectorLayer = map.getLayers().getArray().find(layer => layer.get('mapbox-source') === 'vector-tiles');
+            const vectorLayer = map.getLayers().getArray().find(layer => layer.get('mapbox-source') === 'protomaps');
 
             document.getElementById('rasterLayerCheckbox').addEventListener('change', function() {
                 if (rasterLayer) {
