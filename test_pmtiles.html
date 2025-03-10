@@ -75,7 +75,7 @@
             } else if (geometryType === 'LineString' || geometryType === 'MultiLineString') {
                 style = new ol.style.Style({
                     stroke: new ol.style.Stroke({
-                        color: 'rgba(0, 0, 0, 0.8)',
+                        color: 'rgba(0, 0, 0, 0.5)',
                         width: 2
                     }),
                     text: textStyle
@@ -83,10 +83,10 @@
             } else if (geometryType === 'Polygon' || geometryType === 'MultiPolygon') {
                 style = new ol.style.Style({
                     fill: new ol.style.Fill({
-                        color: 'rgba(255, 255, 255, 0.6)'
+                        color: 'rgba(255, 255, 255, 0.3)'
                     }),
                     stroke: new ol.style.Stroke({
-                        color: 'rgba(0, 0, 0, 0.8)',
+                        color: 'rgba(0, 0, 0, 0.5)',
                         width: 2
                     }),
                     text: textStyle
