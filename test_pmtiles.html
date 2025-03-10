@@ -43,40 +43,59 @@
     </div>
     <script type="text/javascript">
 
-        // Custom style function for vector layer
+        // Custom style function for vector layer with labels
         const vectorStyleFunction = function(feature) {
             const geometryType = feature.getGeometry().getType();
+            const properties = feature.getProperties();
+            const label = properties.name || properties.street || properties.label || ''; // Change these property names according to your data
             let style;
+
+            const textStyle = new ol.style.Text({
+                font: '12px Calibri,sans-serif',
+                overflow: true,
+                fill: new ol.style.Fill({
+                    color: '#000'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#fff',
+                    width: 3
+                }),
+                text: label
+            });
 
             if (geometryType === 'Point' || geometryType === 'MultiPoint') {
                 style = new ol.style.Style({
                     image: new ol.style.Circle({
                         radius: 5,
-                        fill: new ol.style.Fill({color: 'rgba(0, 0, 255, 0.6)'}),
-                        stroke: new ol.style.Stroke({color: 'rgba(0, 0, 255, 1.0)', width: 2})
-                    })
+                        fill: new ol.style.Fill({color: 'rgba(255, 255, 255, 0.8)'}),
+                        stroke: new ol.style.Stroke({color: 'rgba(0, 0, 0, 0.8)', width: 1})
+                    }),
+                    text: textStyle
                 });
             } else if (geometryType === 'LineString' || geometryType === 'MultiLineString') {
                 style = new ol.style.Style({
                     stroke: new ol.style.Stroke({
-                        color: 'rgba(0, 255, 0, 1.0)',
-                        width: 3
-                    })
+                        color: 'rgba(0, 0, 0, 0.8)',
+                        width: 2
+                    }),
+                    text: textStyle
                 });
             } else if (geometryType === 'Polygon' || geometryType === 'MultiPolygon') {
                 style = new ol.style.Style({
                     fill: new ol.style.Fill({
-                        color: 'rgba(255, 0, 0, 0.6)'
+                        color: 'rgba(255, 255, 255, 0.6)'
                     }),
                     stroke: new ol.style.Stroke({
-                        color: 'rgba(255, 0, 0, 1.0)',
+                        color: 'rgba(0, 0, 0, 0.8)',
                         width: 2
-                    })
+                    }),
+                    text: textStyle
                 });
             }
 
             return style;
         };
+
 
         // Initialize vector tile layer
         const vectorLayer = new ol.layer.VectorTile({
