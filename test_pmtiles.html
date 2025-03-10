@@ -44,6 +44,7 @@
     <script type="text/javascript">
         // Initialize vector tile layer
         const vectorLayer = new ol.layer.VectorTile({
+            declutter: true,
             source: new olpmtiles.PMTilesVectorSource({
                 url: 'https://shaded-maps-dzi.s3.amazonaws.com/sydney.pmtiles',
                 attributions: ["Vector Layer"]
@@ -64,7 +65,7 @@
             source: new olpmtiles.PMTilesRasterSource({
                 url: 'https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium_z9.pmtiles',
                 attributions: ["Raster Layer"],
-                tileSize: [512, 512]
+                //tileSize: [512, 512]
             })
         });
 
@@ -74,7 +75,7 @@
         // Initialize the map
         const map = new ol.Map({
             target: 'map',
-            layers: [vectorLayer],
+            layers: [vectorLayer, rasterLayer],
             view: new ol.View({
                 center: [151.2088, -33.8592], // Sydney coordinates
                 zoom: 12,
