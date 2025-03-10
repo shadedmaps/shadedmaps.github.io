@@ -75,7 +75,7 @@ const vectorStyleFunction = function(feature) {
                 }),
                 stroke: new ol.style.Stroke({
                     color: '#ffffff',
-                    width: 3
+                    width: 5
                 }),
                 text: label,
                 declutterMode: 'declutter'
@@ -83,10 +83,10 @@ const vectorStyleFunction = function(feature) {
         });
     } else if (properties.layer === 'roads') {
         style = new ol.style.Style({
-            stroke: new ol.style.Stroke({
-                color: 'rgba(0, 0, 0, 0.5)',
-                width: 4,
-            }),
+            //stroke: new ol.style.Stroke({
+            //    color: 'rgba(0, 0, 0, 0.5)',
+            //    width: 4,
+            //}),
             text: new ol.style.Text({
                 font: '12px Calibri,sans-serif',
                 fill: new ol.style.Fill({
@@ -94,7 +94,7 @@ const vectorStyleFunction = function(feature) {
                 }),
                 stroke: new ol.style.Stroke({
                     color: '#ffffff',
-                    width: 3
+                    width: 5
                 }),
                 text: label,
                 declutterMode: 'declutter'
@@ -109,7 +109,7 @@ const vectorStyleFunction = function(feature) {
                 }),
                 stroke: new ol.style.Stroke({
                     color: '#fff',
-                    width: 3
+                    width: 5
                 }),
                 text: label,
                 declutterMode: 'declutter'
