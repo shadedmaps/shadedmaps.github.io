@@ -43,8 +43,100 @@
     </div>
     <script type="text/javascript">
 
+    // Custom style function for vector layer with different styles for cities, streets, and POIs
+const vectorStyleFunction = function(feature) {
+    const geometryType = feature.getGeometry().getType();
+    const properties = feature.getProperties();
+    const label = properties.name || properties.street || properties.label || ''; // Change these property names according to your data
+    let style;
+
+    // Define text styles
+    const textStyle = new ol.style.Text({
+        font: '14px Calibri,sans-serif',
+        overflow: true,
+        fill: new ol.style.Fill({
+            color: '#000'
+        }),
+        stroke: new ol.style.Stroke({
+            color: '#fff',
+            width: 3
+        }),
+        text: label,
+        declutterMode: 'declutter'
+    });
+
+    // Define specific styles for cities, streets, and POIs
+    if (properties.layer === 'pois') {
+        style = new ol.style.Style({
+            text: new ol.style.Text({
+                font: '10px Calibri,sans-serif',
+                fill: new ol.style.Fill({
+                    color: '#ff0000'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#fff',
+                    width: 1
+                }),
+                text: label,
+                declutterMode: 'declutter'
+            })
+        });
+    } else if (properties.layer === 'roads') {
+        style = new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: '#0000ff',
+                width: 2
+            }),
+            text: new ol.style.Text({
+                font: '12px Calibri,sans-serif',
+                fill: new ol.style.Fill({
+                    color: '#0000ff'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#fff',
+                    width: 2
+                }),
+                text: label,
+                declutterMode: 'declutter'
+            })
+        });
+    } else if (properties.layer === 'places') {
+        style = new ol.style.Style({
+            image: new ol.style.Circle({
+                radius: 7,
+                fill: new ol.style.Fill({
+                    color: 'rgba(0, 255, 0, 0.5)'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: 'rgba(0, 255, 0, 0.8)',
+                    width: 1
+                })
+            }),
+            text: new ol.style.Text({
+                font: '14px Calibri,sans-serif',
+                fill: new ol.style.Fill({
+                    color: '#00ff00'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#fff',
+                    width: 3
+                }),
+                text: label,
+                declutterMode: 'declutter'
+            })
+        });
+    } else {
+        // Default style for other features
+        style = new ol.style.Style({
+            text: textStyle
+        });
+    }
+
+    return style;
+};
+
         // Custom style function for vector layer with labels
-        const vectorStyleFunction = function(feature) {
+        const vectorStyleFunction2 = function(feature) {
             const geometryType = feature.getGeometry().getType();
             const properties = feature.getProperties();
             const label = properties.name || properties.street || properties.label || ''; // Change these property names according to your data
