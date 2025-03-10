@@ -55,11 +55,11 @@ const vectorStyleFunction = function(feature) {
         font: '12px Calibri,sans-serif',
         overflow: true,
         fill: new ol.style.Fill({
-            color: '#000'
+            color: '#000000'
         }),
         stroke: new ol.style.Stroke({
-            color: '#fff',
-            width: 3
+            color: '#fffffff',
+            width: 5
         }),
         text: label,
         declutterMode: 'declutter'
@@ -70,6 +70,7 @@ const vectorStyleFunction = function(feature) {
         style = new ol.style.Style({
             text: new ol.style.Text({
                 font: '10px Calibri,sans-serif',
+                overflow: true,
                 fill: new ol.style.Fill({
                     color: '#000000'
                 }),
@@ -89,6 +90,7 @@ const vectorStyleFunction = function(feature) {
             //}),
             text: new ol.style.Text({
                 font: '12px Calibri,sans-serif',
+                overflow: true,
                 fill: new ol.style.Fill({
                     color: '#000000'
                 }),
@@ -100,16 +102,33 @@ const vectorStyleFunction = function(feature) {
                 declutterMode: 'declutter'
             })
         });
-    } else if (properties.layer === 'places') {
+    } else if ((properties.layer === 'places') && (properties.kind === 'neighbourhood')) {
         style = new ol.style.Style({
             text: new ol.style.Text({
                 font: '14px Calibri,sans-serif',
+                overflow: true,
                 fill: new ol.style.Fill({
                     color: '#000000'
                 }),
                 stroke: new ol.style.Stroke({
-                    color: '#fff',
-                    width: 5
+                    color: '#ffffff',
+                    width: 6
+                }),
+                text: label,
+                declutterMode: 'declutter'
+            })
+        });
+    } else if (properties.layer === 'places') {
+        style = new ol.style.Style({
+            text: new ol.style.Text({
+                font: '18px Calibri,sans-serif',
+                overflow: true,
+                fill: new ol.style.Fill({
+                    color: '#000000'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#ffffff',
+                    width: 7
                 }),
                 text: label,
                 declutterMode: 'declutter'
