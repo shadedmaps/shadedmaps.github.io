@@ -46,7 +46,7 @@
         const vectorLayer = new ol.layer.VectorTile({
             declutter: true,
             source: new olpmtiles.PMTilesVectorSource({
-                url: 'https://shaded-maps-dzi.s3.amazonaws.com/sydney.pmtiles',
+                url: 'https://shaded-maps-dzi.s3.amazonaws.com/winnipeg_osm.pmtiles',
                 attributions: ["Vector Layer"]
             }),
             style: new ol.style.Style({
@@ -77,8 +77,8 @@
             target: 'map',
             layers: [rasterLayer, vectorLayer],
             view: new ol.View({
-                center: [151.2088, -33.8592], // Sydney coordinates
-                zoom: 12,
+                center: [-97.140200, 49.894677], // Winnipeg coordinates
+                zoom: 14,
                 maxZoom: 18
             })
         });
