@@ -51,7 +51,7 @@
             let style;
 
             const textStyle = new ol.style.Text({
-                font: '12px Calibri,sans-serif',
+                font: '14px Calibri,sans-serif',
                 overflow: true,
                 fill: new ol.style.Fill({
                     color: '#000'
@@ -75,20 +75,20 @@
             } else if (geometryType === 'LineString' || geometryType === 'MultiLineString') {
                 style = new ol.style.Style({
                     stroke: new ol.style.Stroke({
-                        color: 'rgba(0, 0, 0, 0.5)',
-                        width: 2
+                        color: 'rgba(0, 0, 0, 0.1)',
+                        width: 1
                     }),
                     text: textStyle
                 });
             } else if (geometryType === 'Polygon' || geometryType === 'MultiPolygon') {
                 style = new ol.style.Style({
-                    fill: new ol.style.Fill({
-                        color: 'rgba(255, 255, 255, 0.3)'
-                    }),
-                    stroke: new ol.style.Stroke({
-                        color: 'rgba(0, 0, 0, 0.5)',
-                        width: 2
-                    }),
+                    //fill: new ol.style.Fill({
+                    //    color: 'rgba(255, 255, 255, 0.3)'
+                    //}),
+                    //stroke: new ol.style.Stroke({
+                    //    color: 'rgba(0, 0, 0, 0.5)',
+                    //    width: 2
+                    //}),
                     text: textStyle
                 });
             }
