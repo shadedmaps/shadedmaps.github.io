@@ -9959,7 +9959,7 @@
             })
         });
 
-        olms.apply(map, mapboxStyle).then(() => {
+        olms.apply(map, 'data_viz_white.json').then(() => {
             const rasterLayer = map.getLayers().getArray().find(layer => layer.get('mapbox-source') === 'raster-tiles');
             const vectorLayer = map.getLayers().getArray().find(layer => layer.get('mapbox-source') === 'protomaps');
 

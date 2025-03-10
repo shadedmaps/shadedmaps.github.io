@@ -1,11 +1,20 @@
 {
     "version": 8,
     "sources": {
-        "protomaps": {
-            "type": "vector",
-            "attribution": "<a href=\"https://github.com/protomaps/basemaps\">Protomaps</a> © <a href=\"https://openstreetmap.org\">OpenStreetMap</a>",
-            "url": "pmtiles://https://demo-bucket.protomaps.com/v4.pmtiles"
-        }
+            "sources": {
+                "raster-tiles": {
+                    "type": "raster",
+                    "tiles": [
+                        "https://shaded-maps-dzi.s3.amazonaws.com/coggg8.pmtiles"
+                    ],
+                    "tileSize": 512
+                },
+                "protomaps": {
+                    "type": "vector",
+                    "tiles": [
+                        "https://shaded-maps-dzi.s3.amazonaws.com/winnipeg_osm.pmtiles"
+                    ]
+                }
     },
     "layers": [
         {
@@ -9850,4 +9859,5 @@
     ],
     "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/white",
     "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf"
+}
 }
