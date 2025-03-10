@@ -1,0 +1,47 @@
+{
+  "version": 8,
+  "sources": {
+    "protomaps": {
+      "type": "vector",
+      "url": "pmtiles://https://shaded-maps-dzi.s3.amazonaws.com/winnipeg_osm.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "id": "cities",
+      "type": "symbol",
+      "source": "protomaps",
+      "source-layer": "places",
+      "layout": {
+        "text-field": "{name}",
+        "text-size": ["interpolate", ["linear"], ["zoom"], 10, 12, 15, 22]
+      },
+      "paint": {
+        "text-color": "#ff0000"
+      }
+    },
+    {
+      "id": "streets",
+      "type": "line",
+      "source": "protomaps",
+      "source-layer": "roads",
+      "paint": {
+        "line-color": "#0000ff",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 10, 1, 15, 4]
+      }
+    },
+    {
+      "id": "poi",
+      "type": "symbol",
+      "source": "protomaps",
+      "source-layer": "pois",
+      "layout": {
+        "text-field": "{name}",
+        "text-size": ["interpolate", ["linear"], ["zoom"], 10, 10, 15, 18]
+      },
+      "paint": {
+        "text-color": "#00ff00"
+      }
+    }
+  ]
+}

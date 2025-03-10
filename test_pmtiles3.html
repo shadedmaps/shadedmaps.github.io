@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMTiles Layers with Zoom Levels</title>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.0.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.0.0/ol.css">
+    <script src="https://unpkg.com/ol-pmtiles@2.0.2/dist/olpmtiles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol-mapbox-style@latest/dist/olms.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        .controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="controls">
+        <label>
+            <input type="checkbox" id="rasterLayerCheckbox" checked>
+            Raster Layer
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="vectorLayerCheckbox" checked>
+            Vector Layer
+        </label>
+    </div>
+    <script type="text/javascript">
+        // Initialize the map
+        const map = new ol.Map({
+            target: 'map',
+            view: new ol.View({
+                center: ol.proj.fromLonLat([151.2088, -33.8592]), // Sydney coordinates
+                zoom: 12,
+                maxZoom: 18
+            })
+        });
+
+        // Initialize raster layer
+        const rasterLayer = new ol.layer.Tile({
+            source: new olpmtiles.PMTilesRasterSource({
+                url: 'https://shaded-maps-dzi.s3.amazonaws.com/coggg8.pmtiles',
+                attributions: ["Raster Layer"],
+                tileSize: [512, 512]
+            })
+        });
+
+        // Add raster layer to the map
+        map.addLayer(rasterLayer);
+
+        // Apply Mapbox GL style
+        olms(map, 'style3.json');
+
+        // Handle checkbox changes
+        document.getElementById('rasterLayerCheckbox').addEventListener('change', function() {
+            rasterLayer.setVisible(this.checked);
+        });
+
+        document.getElementById('vectorLayerCheckbox').addEventListener('change', function() {
+            const vectorLayer = map.getLayers().getArray().find(layer => layer instanceof ol.layer.VectorTile);
+            if (vectorLayer) {
+                vectorLayer.setVisible(this.checked);
+            }
+        });
+    </script>
+</body>
+</html>

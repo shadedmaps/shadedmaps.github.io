@@ -47,12 +47,12 @@
 const vectorStyleFunction = function(feature) {
     const geometryType = feature.getGeometry().getType();
     const properties = feature.getProperties();
-    const label = properties.name || properties.street || properties.label || ''; // Change these property names according to your data
+    const label = properties.name || '';
     let style;
 
     // Define text styles
     const textStyle = new ol.style.Text({
-        font: '14px Calibri,sans-serif',
+        font: '12px Calibri,sans-serif',
         overflow: true,
         fill: new ol.style.Fill({
             color: '#000'
@@ -71,10 +71,10 @@ const vectorStyleFunction = function(feature) {
             text: new ol.style.Text({
                 font: '10px Calibri,sans-serif',
                 fill: new ol.style.Fill({
-                    color: '#ff0000'
+                    color: '#000000'
                 }),
                 stroke: new ol.style.Stroke({
-                    color: '#fff',
+                    color: '#ffffff',
                     width: 1
                 }),
                 text: label,
@@ -84,16 +84,16 @@ const vectorStyleFunction = function(feature) {
     } else if (properties.layer === 'roads') {
         style = new ol.style.Style({
             stroke: new ol.style.Stroke({
-                color: '#0000ff',
-                width: 2
+                color: 'rgba(0, 0, 0, 0.5)',
+                width: 4,
             }),
             text: new ol.style.Text({
                 font: '12px Calibri,sans-serif',
                 fill: new ol.style.Fill({
-                    color: '#0000ff'
+                    color: '#000000'
                 }),
                 stroke: new ol.style.Stroke({
-                    color: '#fff',
+                    color: '#ffffff',
                     width: 2
                 }),
                 text: label,
@@ -102,16 +102,6 @@ const vectorStyleFunction = function(feature) {
         });
     } else if (properties.layer === 'places') {
         style = new ol.style.Style({
-            image: new ol.style.Circle({
-                radius: 7,
-                fill: new ol.style.Fill({
-                    color: 'rgba(0, 255, 0, 0.5)'
-                }),
-                stroke: new ol.style.Stroke({
-                    color: 'rgba(0, 255, 0, 0.8)',
-                    width: 1
-                })
-            }),
             text: new ol.style.Text({
                 font: '14px Calibri,sans-serif',
                 fill: new ol.style.Fill({
@@ -135,59 +125,6 @@ const vectorStyleFunction = function(feature) {
     return style;
 };
 
-        // Custom style function for vector layer with labels
-        const vectorStyleFunction2 = function(feature) {
-            const geometryType = feature.getGeometry().getType();
-            const properties = feature.getProperties();
-            const label = properties.name || properties.street || properties.label || ''; // Change these property names according to your data
-            let style;
-
-            const textStyle = new ol.style.Text({
-                font: '14px Calibri,sans-serif',
-                overflow: true,
-                fill: new ol.style.Fill({
-                    color: '#000'
-                }),
-                stroke: new ol.style.Stroke({
-                    color: '#fff',
-                    width: 3
-                }),
-                text: label,
-                declutterMode: 'declutter'
-            });
-
-            if (geometryType === 'Point' || geometryType === 'MultiPoint') {
-                style = new ol.style.Style({
-                    //image: new ol.style.Circle({
-                    //    radius: 5,
-                    //    fill: new ol.style.Fill({color: 'rgba(255, 255, 255, 0.8)'}),
-                    //    stroke: new ol.style.Stroke({color: 'rgba(0, 0, 0, 0.8)', width: 1})
-                    //}),
-                    text: textStyle
-                });
-            } else if (geometryType === 'LineString' || geometryType === 'MultiLineString') {
-                style = new ol.style.Style({
-                    stroke: new ol.style.Stroke({
-                        color: 'rgba(0, 0, 0, 0.1)',
-                        width: 1
-                    }),
-                    text: textStyle
-                });
-            } else if (geometryType === 'Polygon' || geometryType === 'MultiPolygon') {
-                style = new ol.style.Style({
-                    //fill: new ol.style.Fill({
-                    //    color: 'rgba(255, 255, 255, 0.3)'
-                    //}),
-                    //stroke: new ol.style.Stroke({
-                    //    color: 'rgba(0, 0, 0, 0.5)',
-                    //    width: 2
-                    //}),
-                    text: textStyle
-                });
-            }
-
-            return style;
-        };
 
 
         // Initialize vector tile layer
