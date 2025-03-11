@@ -117,6 +117,7 @@ function openMapPopup(rasterAttribution, rasterPmtilesUrl, vectorPmtilesUrl, cen
 
     vectorLayer = new ol.layer.VectorTile({
     declutter: true,
+    visible: false,
     source: new olpmtiles.PMTilesVectorSource({
         url: vectorPmtilesUrl,
         attributions: [' + <a href="https://github.com/protomaps/basemaps">Protomaps</a> + <a href="https://openstreetmap.org">OpenStreetMap</a>']
