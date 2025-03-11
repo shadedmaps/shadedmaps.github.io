@@ -152,6 +152,7 @@ function closeMapPopup() {
         map = null; // Clear the map variable
         console.log("Map closed and disposed");
     }
+    document.getElementById('vectorLayerCheckbox').checked = false; // Uncheck the checkbox
 }
 
 document.getElementById('vectorLayerCheckbox').addEventListener('change', function() {
