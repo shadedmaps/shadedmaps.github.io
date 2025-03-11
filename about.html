@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaded Maps</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.0.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.0.0/ol.css">
+    <script src="https://unpkg.com/ol-pmtiles@2.0.2/dist/olpmtiles.js"></script>
+</head><body>
+    <header>
+  <div class="title">
+        <h2>Shaded Maps</h2>
+        <p>a gallery of detailed shaded maps, digitally manufactured with
+        <a href="https://python.org/" target="_blank">Python</a>,
+        <a href="https://pdal.io/" target="_blank">PDAL</a> and
+        <a href="https://gdal.org/" target="_blank">GDAL</a>
+        tools from elevation, point cloud and
+        <a href="https://openstreetmap.org/" target="_blank">OpenStreetMap</a> data</p>
+  </div>
+  <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="data.html">Data</a>
+      <a href="https://instagram.com/shadedmaps" target="_blank">Instagram</a>
+  </div>
+    </header>
+
+    <div class="content-wrapper">
+    <div class="content">
+        <p>The <i>Shaded Maps</i> project, born by chance during the COVID pandemic
+        on an island in the Mediterranean Sea, is the brainchild of a
+        research software engineer with a passion for maps.
+        This project involves creating a collection of images that represent shadows
+        on each pixel of a map, caused by obstructions between the pixel and various
+        positions of the sun in the sky.</p>
+        <br>
+        <p>Obstructions are depicted using high-resolution digital surface models,
+        which are sometimes already available through national, regional, or city geoportals,
+        or otherwise generated from open data LiDAR point clouds.</p>
+        <br>
+        <p>Creating a single shaded map requires:</p>
+        <ul>
+            <li>an extensive and detailed digital surface model;</li>
+            <li>the identification of areas covered by water (e.g., ocean, sea,
+            lakes, rivers, canals);</li>
+            <li>the computationally expensive calculation of shadows for each pixel
+            and for 250+ sun positions;</li>
+            <li>the transformation of the calculated shadows into images.</li>
+        </ul>
+        <br>
+        <p>Morever, many other difficulties challenges are tackled:</p>
+        <ul>
+            <li>finding the necessary data, which is often difficult as it may not exist,
+            or the geoportal is complicated to navigate <i>by design</i> or because
+            of language barrier;</li>
+            <li>ensuring the data is of high quality (resolution should not exceed one meter)
+            and available for a sufficiently large area (at least 10 km x 10 km);</li>
+            <li>building the digital surface model from raster files, if available,
+            or after the processing of LiDAR point cloud files;</li>
+            <li>archiving and managing 15+ TB of raw data, processed data, metadata and images;</li>
+            <li>publishing the shaded maps on the web, which is not so straightforward
+            when the images are huge.</li>
+        </ul>
+
+    </div>
+    </div>
+</body>
+</html>
