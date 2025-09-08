@@ -3,8 +3,8 @@ const locations = [
         "city_id": "AUSTRALIA_ADELAIDE",
         "cityName": "Adelaide",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             138.59987948881727,
             -34.927705206351966
@@ -30,8 +30,8 @@ const locations = [
         "city_id": "AUSTRALIA_BRISBANE",
         "cityName": "Brisbane",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             153.02451800254198,
             -27.469953899170427
@@ -57,8 +57,8 @@ const locations = [
         "city_id": "AUSTRALIA_CANBERRA",
         "cityName": "Canberra",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             149.1268750006652,
             -35.29695217751767
@@ -84,8 +84,8 @@ const locations = [
         "city_id": "AUSTRALIA_MELBOURNE",
         "cityName": "Melbourne",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             144.9497,
             -37.8077
@@ -111,8 +111,8 @@ const locations = [
         "city_id": "AUSTRALIA_SYDNEY_LONG_05",
         "cityName": "Sydney",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             151.2088763495824,
             -33.85925934261056
@@ -138,8 +138,8 @@ const locations = [
         "city_id": "BELGIUM_ANTWERP",
         "cityName": "Antwerp",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.3992550655858285,
             51.22062948145971
@@ -165,8 +165,8 @@ const locations = [
         "city_id": "BELGIUM_BRUSSELS",
         "cityName": "Brussels",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.351787,
             50.846729
@@ -192,8 +192,8 @@ const locations = [
         "city_id": "BELGIUM_CHARLEROI",
         "cityName": "Charleroi",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.444637778380521,
             50.41170590431629
@@ -219,8 +219,8 @@ const locations = [
         "city_id": "BELGIUM_LIEGE",
         "cityName": "Liege",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             5.5755176272527684,
             50.636570663844495
@@ -246,8 +246,8 @@ const locations = [
         "city_id": "BELGIUM_MONS",
         "cityName": "Mons",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_MONS_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_MONS_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_MONS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_MONS_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             3.9513354182338447,
             50.45344824506188
@@ -273,8 +273,8 @@ const locations = [
         "city_id": "BELGIUM_NAMUR",
         "cityName": "Namur",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.863814795212151,
             50.465832363979516
@@ -300,8 +300,8 @@ const locations = [
         "city_id": "BRAZIL_SAO_PAULO",
         "cityName": "Sao Paulo",
         "country_name": "Brazil",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -46.634304814653284,
             -23.549670703074327
@@ -327,8 +327,8 @@ const locations = [
         "city_id": "CANADA_VANCOUVER",
         "cityName": "Vancouver",
         "country_name": "Canada",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -123.1184,
             49.27976
@@ -354,8 +354,8 @@ const locations = [
         "city_id": "FINLAND_HELSINKI_2021",
         "cityName": "Helsinki",
         "country_name": "Finland",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             24.937555221720952,
             60.182989143135586
@@ -381,8 +381,8 @@ const locations = [
         "city_id": "FRANCE_PARIS",
         "cityName": "Paris",
         "country_name": "France",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_PARIS_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_PARIS_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_PARIS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_PARIS_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             2.337991948692943,
             48.858195017332235
@@ -408,8 +408,8 @@ const locations = [
         "city_id": "GERMANY_BERLIN",
         "cityName": "Berlin",
         "country_name": "Germany",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             13.41420676005533,
             52.51855560371546
@@ -435,8 +435,8 @@ const locations = [
         "city_id": "GERMANY_MUNICH",
         "cityName": "Munich",
         "country_name": "Germany",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_MUNICH_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_MUNICH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             11.573358844391784,
             48.138594653118275
@@ -462,8 +462,8 @@ const locations = [
         "city_id": "ITALY_FIRENZE",
         "cityName": "Firenze",
         "country_name": "Italy",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             11.247261,
             43.777169
@@ -489,8 +489,8 @@ const locations = [
         "city_id": "NETHERLANDS_AMSTERDAM",
         "cityName": "Amsterdam",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.898434257169302,
             52.37357014709851
@@ -516,8 +516,8 @@ const locations = [
         "city_id": "NETHERLANDS_DEN_HAAG",
         "cityName": "The Hague",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.3103620478401075,
             52.077984733897914
@@ -543,8 +543,8 @@ const locations = [
         "city_id": "NETHERLANDS_MAASTRICHT",
         "cityName": "Maastricht",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             5.697699009975752,
             50.84873462521852
@@ -570,8 +570,8 @@ const locations = [
         "city_id": "NETHERLANDS_ROTTERDAM",
         "cityName": "Rotterdam",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.475926660362134,
             51.916947917982675
@@ -597,8 +597,8 @@ const locations = [
         "city_id": "NETHERLANDS_UTRECHT",
         "cityName": "Utrecht",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             5.126786888549559,
             52.08948968599842
@@ -624,8 +624,8 @@ const locations = [
         "city_id": "NEW_ZEALAND_AUCKLAND_2024",
         "cityName": "Auckland",
         "country_name": "New Zealand",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             174.73792,
             -36.8538
@@ -651,8 +651,8 @@ const locations = [
         "city_id": "SPAIN_BARCELONA_CIR",
         "cityName": "Barcelona",
         "country_name": "Spain",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             2.15076,
             41.39547
@@ -678,8 +678,8 @@ const locations = [
         "city_id": "SWITZERLAND_BASEL",
         "cityName": "Basel",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BASEL_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BASEL_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BASEL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BASEL_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             7.589356557949264,
             47.556614725252075
@@ -705,8 +705,8 @@ const locations = [
         "city_id": "SWITZERLAND_BERN",
         "cityName": "Bern",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BERN_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BERN_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BERN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BERN_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             7.447366,
             46.947967
@@ -732,8 +732,8 @@ const locations = [
         "city_id": "SWITZERLAND_GENEVE",
         "cityName": "Geneva",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             6.144946379341421,
             46.20217277230693
@@ -759,8 +759,8 @@ const locations = [
         "city_id": "SWITZERLAND_LAUSANNE",
         "cityName": "Lausanne",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             6.632541784005301,
             46.520550491566475
@@ -786,8 +786,8 @@ const locations = [
         "city_id": "SWITZERLAND_ZURICH",
         "cityName": "Z\u00fcrich",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             8.541176339989368,
             47.37423677905411
@@ -813,8 +813,8 @@ const locations = [
         "city_id": "USA_CHICAGO",
         "cityName": "Chicago",
         "country_name": "Illinois, USA",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CHICAGO_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CHICAGO_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CHICAGO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CHICAGO_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -87.627799584805,
             41.88417350280863
@@ -840,8 +840,8 @@ const locations = [
         "city_id": "USA_OKLAHOMA_CITY",
         "cityName": "Oklahoma City",
         "country_name": "Oklahoma, USA",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -97.51475932171803,
             35.46550181858135
@@ -867,8 +867,8 @@ const locations = [
         "city_id": "USA_PORTLAND",
         "cityName": "Portland",
         "country_name": "Oregon, USA",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PORTLAND_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PORTLAND_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PORTLAND_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PORTLAND_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -122.67468,
             45.52138
@@ -894,8 +894,8 @@ const locations = [
         "city_id": "USA_PROVIDENCE_PAWTUCKET",
         "cityName": "Providence - Pawtucket",
         "country_name": "Rhode Island, USA",
-        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles'",
-        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles'",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -71.3964,
             41.83471
@@ -1118,7 +1118,7 @@ const placesWhiteFlavorStyle = function(feature, resolution) {
 // Basemap layer
 const basemapLayer = new ol.layer.VectorTile({
   source: new olpmtiles.PMTilesVectorSource({
-    url: "vector_pmtiles/basemap_z7.pmtiles",
+    url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/vector_pmtiles/basemap_z7.pmtiles",
   }),
   style: basemapWhiteFlavorStyle
 });
@@ -1126,7 +1126,7 @@ const basemapLayer = new ol.layer.VectorTile({
 // Places layer (optional, can be commented out if not needed)
 const placesLayer = new ol.layer.VectorTile({
   source: new olpmtiles.PMTilesVectorSource({
-    url: "vector_pmtiles/basemap_z7.pmtiles",
+    url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/vector_pmtiles/basemap_z7.pmtiles",
   }),
   style: placesWhiteFlavorStyle
 });
