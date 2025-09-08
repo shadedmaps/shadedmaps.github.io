@@ -3,8 +3,6 @@ const locations = [
         "city_id": "AUSTRALIA_ADELAIDE",
         "cityName": "Adelaide",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             138.59987948881727,
             -34.927705206351966
@@ -24,14 +22,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Adelaide, Australia [34\u00b055'S, 138\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Adelaide, Australia [34\u00b055'S, 138\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_BRISBANE",
         "cityName": "Brisbane",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             153.02451800254198,
             -27.469953899170427
@@ -51,14 +49,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Brisbane, Australia [27\u00b028'S, 153\u00b01'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Brisbane, Australia [27\u00b028'S, 153\u00b01'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_CANBERRA",
         "cityName": "Canberra",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             149.1268750006652,
             -35.29695217751767
@@ -78,14 +76,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Canberra, Australia [35\u00b017'S, 149\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Canberra, Australia [35\u00b017'S, 149\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_MELBOURNE",
         "cityName": "Melbourne",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             144.9497,
             -37.8077
@@ -105,14 +103,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Melbourne, Australia [37\u00b048'S, 144\u00b056'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Melbourne, Australia [37\u00b048'S, 144\u00b056'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_SYDNEY_LONG_05",
         "cityName": "Sydney",
         "country_name": "Australia",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             151.2088763495824,
             -33.85925934261056
@@ -132,14 +130,14 @@ const locations = [
         "height": 24000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Sydney, Australia [33\u00b051'S, 151\u00b012'E] [36000 x 24000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Sydney, Australia [33\u00b051'S, 151\u00b012'E] [36000 x 24000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_ANTWERP",
         "cityName": "Antwerp",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.3992550655858285,
             51.22062948145971
@@ -159,14 +157,14 @@ const locations = [
         "height": 18000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Antwerp, Belgium [51\u00b013'N, 4\u00b023'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Antwerp, Belgium [51\u00b013'N, 4\u00b023'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_BRUSSELS",
         "cityName": "Brussels",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.351787,
             50.846729
@@ -186,14 +184,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Brussels, Belgium [50\u00b050'N, 4\u00b021'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Brussels, Belgium [50\u00b050'N, 4\u00b021'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_CHARLEROI",
         "cityName": "Charleroi",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.444637778380521,
             50.41170590431629
@@ -213,14 +211,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Charleroi, Belgium [50\u00b024'N, 4\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Charleroi, Belgium [50\u00b024'N, 4\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_LIEGE",
         "cityName": "Liege",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             5.5755176272527684,
             50.636570663844495
@@ -240,14 +238,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Liege, Belgium [50\u00b038'N, 5\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Liege, Belgium [50\u00b038'N, 5\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_MONS",
         "cityName": "Mons",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_MONS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_MONS_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             3.9513354182338447,
             50.45344824506188
@@ -267,14 +265,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Mons, Belgium [50\u00b027'N, 3\u00b057'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Mons, Belgium [50\u00b027'N, 3\u00b057'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_MONS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_MONS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_NAMUR",
         "cityName": "Namur",
         "country_name": "Belgium",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.863814795212151,
             50.465832363979516
@@ -294,14 +292,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Namur, Belgium [50\u00b027'N, 4\u00b051'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Namur, Belgium [50\u00b027'N, 4\u00b051'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BRAZIL_SAO_PAULO",
         "cityName": "Sao Paulo",
         "country_name": "Brazil",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -46.634304814653284,
             -23.549670703074327
@@ -321,14 +319,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Sao Paulo, Brazil [23\u00b032'S, 46\u00b038'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Sao Paulo, Brazil [23\u00b032'S, 46\u00b038'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CANADA_VANCOUVER",
         "cityName": "Vancouver",
         "country_name": "Canada",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -123.1184,
             49.27976
@@ -348,14 +346,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Vancouver, Canada [49\u00b016'N, 123\u00b07'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Vancouver, Canada [49\u00b016'N, 123\u00b07'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FINLAND_HELSINKI_2021",
         "cityName": "Helsinki",
         "country_name": "Finland",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             24.937555221720952,
             60.182989143135586
@@ -375,14 +373,14 @@ const locations = [
         "height": 18000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Helsinki, Finland [60\u00b010'N, 24\u00b056'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Helsinki, Finland [60\u00b010'N, 24\u00b056'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_PARIS",
         "cityName": "Paris",
         "country_name": "France",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_PARIS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_PARIS_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             2.337991948692943,
             48.858195017332235
@@ -402,14 +400,14 @@ const locations = [
         "height": 24000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Paris, France [48\u00b051'N, 2\u00b020'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Paris, France [48\u00b051'N, 2\u00b020'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_PARIS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_PARIS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_BERLIN",
         "cityName": "Berlin",
         "country_name": "Germany",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             13.41420676005533,
             52.51855560371546
@@ -429,14 +427,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_MUNICH",
         "cityName": "Munich",
         "country_name": "Germany",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_MUNICH_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             11.573358844391784,
             48.138594653118275
@@ -456,14 +454,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Munich, Germany [48\u00b08'N, 11\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Munich, Germany [48\u00b08'N, 11\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_MUNICH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_FIRENZE",
         "cityName": "Firenze",
         "country_name": "Italy",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             11.247261,
             43.777169
@@ -483,14 +481,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_AMSTERDAM",
         "cityName": "Amsterdam",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.898434257169302,
             52.37357014709851
@@ -510,14 +508,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Amsterdam, Netherlands [52\u00b022'N, 4\u00b053'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Amsterdam, Netherlands [52\u00b022'N, 4\u00b053'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_DEN_HAAG",
         "cityName": "The Hague",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.3103620478401075,
             52.077984733897914
@@ -537,14 +535,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "The Hague, Netherlands [52\u00b04'N, 4\u00b018'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "The Hague, Netherlands [52\u00b04'N, 4\u00b018'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_MAASTRICHT",
         "cityName": "Maastricht",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             5.697699009975752,
             50.84873462521852
@@ -564,14 +562,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Maastricht, Netherlands [50\u00b050'N, 5\u00b041'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Maastricht, Netherlands [50\u00b050'N, 5\u00b041'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_ROTTERDAM",
         "cityName": "Rotterdam",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             4.475926660362134,
             51.916947917982675
@@ -591,14 +589,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Rotterdam, Netherlands [51\u00b055'N, 4\u00b028'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Rotterdam, Netherlands [51\u00b055'N, 4\u00b028'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_UTRECHT",
         "cityName": "Utrecht",
         "country_name": "Netherlands",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             5.126786888549559,
             52.08948968599842
@@ -618,14 +616,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Utrecht, Netherlands [52\u00b05'N, 5\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Utrecht, Netherlands [52\u00b05'N, 5\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NEW_ZEALAND_AUCKLAND_2024",
         "cityName": "Auckland",
         "country_name": "New Zealand",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             174.73792,
             -36.8538
@@ -645,14 +643,14 @@ const locations = [
         "height": 36000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Auckland, New Zealand [36\u00b051'S, 174\u00b044'E] [36000 x 36000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Auckland, New Zealand [36\u00b051'S, 174\u00b044'E] [36000 x 36000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_BARCELONA_CIR",
         "cityName": "Barcelona",
         "country_name": "Spain",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             2.15076,
             41.39547
@@ -672,14 +670,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.8",
         "raster_units": "m",
-        "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [16000 x 16000 pixels, 1 pixel = 0.8 m]"
+        "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [16000 x 16000 pixels, 1 pixel = 0.8 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_BASEL",
         "cityName": "Basel",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BASEL_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BASEL_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             7.589356557949264,
             47.556614725252075
@@ -699,14 +697,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Basel, Switzerland [47\u00b033'N, 7\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Basel, Switzerland [47\u00b033'N, 7\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BASEL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BASEL_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_BERN",
         "cityName": "Bern",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BERN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BERN_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             7.447366,
             46.947967
@@ -726,14 +724,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Bern, Switzerland [46\u00b056'N, 7\u00b026'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Bern, Switzerland [46\u00b056'N, 7\u00b026'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BERN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BERN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_GENEVE",
         "cityName": "Geneva",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             6.144946379341421,
             46.20217277230693
@@ -753,14 +751,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Geneva, Switzerland [46\u00b012'N, 6\u00b08'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Geneva, Switzerland [46\u00b012'N, 6\u00b08'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_LAUSANNE",
         "cityName": "Lausanne",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             6.632541784005301,
             46.520550491566475
@@ -780,14 +778,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Lausanne, Switzerland [46\u00b031'N, 6\u00b037'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Lausanne, Switzerland [46\u00b031'N, 6\u00b037'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_ZURICH",
         "cityName": "Z\u00fcrich",
         "country_name": "Switzerland",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             8.541176339989368,
             47.37423677905411
@@ -807,14 +805,68 @@ const locations = [
         "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Z\u00fcrich, Switzerland [47\u00b022'N, 8\u00b032'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Z\u00fcrich, Switzerland [47\u00b022'N, 8\u00b032'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "URUGUAY_MONTEVIDEO",
+        "cityName": "Montevideo",
+        "country_name": "Uruguay",
+        "centerCoords": [
+            -56.19689873782312,
+            -34.901132855989836
+        ],
+        "extentCoords": [
+            -56.2467444,
+            -34.939125,
+            -56.1500003,
+            -34.8593378
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Infraestructura de Datos Espaciales",
+        "license_name": "Licencia de Datos Abiertos - Uruguay",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Infraestructura de Datos Espaciales [Licencia de Datos Abiertos - Uruguay]",
+        "dms": "34\u00b054'S, 56\u00b011'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Montevideo, Uruguay [34\u00b054'S, 56\u00b011'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/URUGUAY_MONTEVIDEO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/URUGUAY_MONTEVIDEO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_AUSTIN",
+        "cityName": "Austin",
+        "country_name": "Texas, USA",
+        "centerCoords": [
+            -97.74436529334355,
+            30.26667169432038
+        ],
+        "extentCoords": [
+            -97.7863859,
+            30.2309788,
+            -97.7023175,
+            30.302358
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "30\u00b016'N, 97\u00b044'W",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Austin, Texas, USA [30\u00b016'N, 97\u00b044'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_AUSTIN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_AUSTIN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_CHICAGO",
         "cityName": "Chicago",
         "country_name": "Illinois, USA",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CHICAGO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CHICAGO_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -87.627799584805,
             41.88417350280863
@@ -834,14 +886,14 @@ const locations = [
         "height": 20000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Chicago, Illinois, USA [41\u00b053'N, 87\u00b037'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]"
+        "city_state_coords": "Chicago, Illinois, USA [41\u00b053'N, 87\u00b037'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CHICAGO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CHICAGO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_OKLAHOMA_CITY",
         "cityName": "Oklahoma City",
         "country_name": "Oklahoma, USA",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -97.51475932171803,
             35.46550181858135
@@ -861,14 +913,41 @@ const locations = [
         "height": 15000,
         "raster_resolution": "1.0",
         "raster_units": "m",
-        "city_state_coords": "Oklahoma City, Oklahoma, USA [35\u00b027'N, 97\u00b030'W] [15000 x 15000 pixels, 1 pixel = 1.0 m]"
+        "city_state_coords": "Oklahoma City, Oklahoma, USA [35\u00b027'N, 97\u00b030'W] [15000 x 15000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_PHILADELPHIA",
+        "cityName": "Philadelphia",
+        "country_name": "Pennsylvania, USA",
+        "centerCoords": [
+            -75.18737,
+            39.95404
+        ],
+        "extentCoords": [
+            -75.2368712,
+            39.9157488,
+            -75.139003,
+            39.9922296
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Department of Commerce, National Oceanic and Atmospheric Administration",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Department of Commerce, National Oceanic and Atmospheric Administration [CC0 1.0 Universal]",
+        "dms": "39\u00b057'N, 75\u00b011'W",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Philadelphia, Pennsylvania, USA [39\u00b057'N, 75\u00b011'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PHILADELPHIA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PHILADELPHIA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_PORTLAND",
         "cityName": "Portland",
         "country_name": "Oregon, USA",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PORTLAND_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PORTLAND_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -122.67468,
             45.52138
@@ -888,14 +967,14 @@ const locations = [
         "height": 16000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+        "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PORTLAND_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PORTLAND_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_PROVIDENCE_PAWTUCKET",
         "cityName": "Providence - Pawtucket",
         "country_name": "Rhode Island, USA",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles",
         "centerCoords": [
             -71.3964,
             41.83471
@@ -915,11 +994,17 @@ const locations = [
         "height": 40000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Providence - Pawtucket, Rhode Island, USA [41\u00b050'N, 71\u00b023'W] [28000 x 40000 pixels, 1 pixel = 1.0 ft]"
+        "city_state_coords": "Providence - Pawtucket, Rhode Island, USA [41\u00b050'N, 71\u00b023'W] [28000 x 40000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles"
     }
 ];
 
+const basemapPMTilesUrl = "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/basemap_z7.pmtiles";
+
 // Insert here the locations data
+
+// Insert here the URL of the basemap vector PMTiles file
 
 // Use geographic coordinates (lon/lat) instead of Web Mercator
 ol.proj.useGeographic();
@@ -1118,7 +1203,8 @@ const placesWhiteFlavorStyle = function(feature, resolution) {
 // Basemap layer
 const basemapLayer = new ol.layer.VectorTile({
   source: new olpmtiles.PMTilesVectorSource({
-    url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/basemap_z7.pmtiles",
+    url: basemapPMTilesUrl,
+    //url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/basemap_z7.pmtiles",
   }),
   style: basemapWhiteFlavorStyle
 });
@@ -1126,7 +1212,8 @@ const basemapLayer = new ol.layer.VectorTile({
 // Places layer (optional, can be commented out if not needed)
 const placesLayer = new ol.layer.VectorTile({
   source: new olpmtiles.PMTilesVectorSource({
-    url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/basemap_z7.pmtiles",
+    url: basemapPMTilesUrl,
+    //url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/basemap_z7.pmtiles",
   }),
   style: placesWhiteFlavorStyle
 });
