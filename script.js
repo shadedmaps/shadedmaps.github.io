@@ -1,173 +1,1308 @@
-let map; // Declare map variable in a broader scope
-let rasterLayer, vectorLayer; // Declare layer variables in a broader scope
-
-// Custom style function for vector layer with different styles for cities, streets, and POIs
-const vectorStyleFunction = function(feature) {
-    const geometryType = feature.getGeometry().getType();
-    const properties = feature.getProperties();
-    const label = properties.name || '';
-    let style;
-
-    // Define text styles
-    const textStyle = new ol.style.Text({
-        font: '12px Calibri,sans-serif',
-        overflow: true,
-        fill: new ol.style.Fill({
-            color: '#000000'
-        }),
-        stroke: new ol.style.Stroke({
-            color: '#ffffff',
-            width: 5
-        }),
-        text: label,
-        declutterMode: 'declutter'
-    });
-
-    // Define specific styles for cities, streets, and POIs
-    if (properties.layer === 'pois') {
-        style = new ol.style.Style({
-            text: new ol.style.Text({
-                font: '10px Calibri,sans-serif',
-                overflow: true,
-                fill: new ol.style.Fill({
-                    color: '#000000'
-                }),
-                stroke: new ol.style.Stroke({
-                    color: '#ffffff',
-                    width: 5
-                }),
-                text: label,
-                declutterMode: 'declutter'
-            })
-        });
-    } else if (properties.layer === 'roads') {
-        style = new ol.style.Style({
-            //stroke: new ol.style.Stroke({
-            //    color: 'rgba(0, 0, 0, 0.5)',
-            //    width: 4,
-            //}),
-            text: new ol.style.Text({
-                font: '12px Calibri,sans-serif',
-                overflow: true,
-                fill: new ol.style.Fill({
-                    color: '#000000'
-                }),
-                stroke: new ol.style.Stroke({
-                    color: '#ffffff',
-                    width: 5
-                }),
-                text: label,
-                declutterMode: 'declutter'
-            })
-        });
-    } else if ((properties.layer === 'places') && (properties.kind === 'neighbourhood')) {
-        style = new ol.style.Style({
-            text: new ol.style.Text({
-                font: '14px Calibri,sans-serif',
-                overflow: true,
-                fill: new ol.style.Fill({
-                    color: '#000000'
-                }),
-                stroke: new ol.style.Stroke({
-                    color: '#ffffff',
-                    width: 6
-                }),
-                text: label,
-                declutterMode: 'declutter'
-            })
-        });
-    } else if (properties.layer === 'places') {
-        style = new ol.style.Style({
-            text: new ol.style.Text({
-                font: '18px Calibri,sans-serif',
-                overflow: true,
-                fill: new ol.style.Fill({
-                    color: '#000000'
-                }),
-                stroke: new ol.style.Stroke({
-                    color: '#ffffff',
-                    width: 7
-                }),
-                text: label,
-                declutterMode: 'declutter'
-            })
-        });
-    } else {
-        // Default style for other features
-        style = new ol.style.Style({
-            text: textStyle
-        });
+const locations = [
+    {
+        "city_id": "AUSTRALIA_ADELAIDE",
+        "cityName": "Adelaide",
+        "country_name": "Australia",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            138.59987948881727,
+            -34.927705206351966
+        ],
+        "extentCoords": [
+            138.5438362,
+            -34.9716597,
+            138.655856,
+            -34.8837258
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment and Water Information, Government of South Australia",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment and Water Information, Government of South Australia [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "34\u00b055'S, 138\u00b035'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Adelaide, Australia [34\u00b055'S, 138\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "AUSTRALIA_BRISBANE",
+        "cityName": "Brisbane",
+        "country_name": "Australia",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            153.02451800254198,
+            -27.469953899170427
+        ],
+        "extentCoords": [
+            152.973896,
+            -27.5150939,
+            153.0750913,
+            -27.4247962
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "State of Queensland (Department of Resources)",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | State of Queensland (Department of Resources) [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "27\u00b028'S, 153\u00b01'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Brisbane, Australia [27\u00b028'S, 153\u00b01'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "AUSTRALIA_CANBERRA",
+        "cityName": "Canberra",
+        "country_name": "Australia",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            149.1268750006652,
+            -35.29695217751767
+        ],
+        "extentCoords": [
+            149.073069,
+            -35.3429587,
+            149.1806203,
+            -35.2509174
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Australian Capital Territory and Aerometrex Limited",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Australian Capital Territory and Aerometrex Limited [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "35\u00b017'S, 149\u00b07'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Canberra, Australia [35\u00b017'S, 149\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "AUSTRALIA_MELBOURNE",
+        "cityName": "Melbourne",
+        "country_name": "Australia",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            144.9497,
+            -37.8077
+        ],
+        "extentCoords": [
+            144.9032646,
+            -37.8429252,
+            144.995964,
+            -37.7728104
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "City of Melbourne",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | City of Melbourne [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "37\u00b048'S, 144\u00b056'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Melbourne, Australia [37\u00b048'S, 144\u00b056'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "AUSTRALIA_SYDNEY_LONG_05",
+        "cityName": "Sydney",
+        "country_name": "Australia",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            151.2088763495824,
+            -33.85925934261056
+        ],
+        "extentCoords": [
+            151.1104379,
+            -33.91189,
+            151.307195,
+            -33.80659
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "New South Wales Government - Spatial Services",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | New South Wales Government - Spatial Services [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "33\u00b051'S, 151\u00b012'E",
+        "width": 36000,
+        "height": 24000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Sydney, Australia [33\u00b051'S, 151\u00b012'E] [36000 x 24000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "BELGIUM_ANTWERP",
+        "cityName": "Antwerp",
+        "country_name": "Belgium",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            4.3992550655858285,
+            51.22062948145971
+        ],
+        "extentCoords": [
+            4.334879,
+            51.1801839,
+            4.463752,
+            51.261045
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Agentschap Digitaal Vlaanderen",
+        "license_name": "Gratis open data licentie Vlaanderen v1.2 met bronvermelding",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agentschap Digitaal Vlaanderen [Gratis open data licentie Vlaanderen v1.2 met bronvermelding]",
+        "dms": "51\u00b013'N, 4\u00b023'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Antwerp, Belgium [51\u00b013'N, 4\u00b023'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "BELGIUM_BRUSSELS",
+        "cityName": "Brussels",
+        "country_name": "Belgium",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            4.351787,
+            50.846729
+        ],
+        "extentCoords": [
+            4.280871,
+            50.801751,
+            4.422833,
+            50.891665
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Paradigm Brussels",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Paradigm Brussels [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "50\u00b050'N, 4\u00b021'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Brussels, Belgium [50\u00b050'N, 4\u00b021'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "BELGIUM_CHARLEROI",
+        "cityName": "Charleroi",
+        "country_name": "Belgium",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            4.444637778380521,
+            50.41170590431629
+        ],
+        "extentCoords": [
+            4.3883452,
+            50.3757701,
+            4.5010288,
+            50.4476106
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Service public de Wallonie",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Service public de Wallonie [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "50\u00b024'N, 4\u00b026'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Charleroi, Belgium [50\u00b024'N, 4\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "BELGIUM_LIEGE",
+        "cityName": "Liege",
+        "country_name": "Belgium",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            5.5755176272527684,
+            50.636570663844495
+        ],
+        "extentCoords": [
+            5.5180909,
+            50.6011856,
+            5.6330183,
+            50.6719183
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Service public de Wallonie",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Service public de Wallonie [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "50\u00b038'N, 5\u00b034'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Liege, Belgium [50\u00b038'N, 5\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "BELGIUM_MONS",
+        "cityName": "Mons",
+        "country_name": "Belgium",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_MONS_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_MONS_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            3.9513354182338447,
+            50.45344824506188
+        ],
+        "extentCoords": [
+            3.895365,
+            50.4172739,
+            4.0073978,
+            50.4895907
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Service public de Wallonie",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Service public de Wallonie [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "50\u00b027'N, 3\u00b057'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Mons, Belgium [50\u00b027'N, 3\u00b057'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "BELGIUM_NAMUR",
+        "cityName": "Namur",
+        "country_name": "Belgium",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            4.863814795212151,
+            50.465832363979516
+        ],
+        "extentCoords": [
+            4.8071325,
+            50.430103,
+            4.9205783,
+            50.5015352
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Service public de Wallonie",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Service public de Wallonie [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "50\u00b027'N, 4\u00b051'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Namur, Belgium [50\u00b027'N, 4\u00b051'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "BRAZIL_SAO_PAULO",
+        "cityName": "Sao Paulo",
+        "country_name": "Brazil",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            -46.634304814653284,
+            -23.549670703074327
+        ],
+        "extentCoords": [
+            -46.673939,
+            -23.585371,
+            -46.5946939,
+            -23.513962
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Prefeitura de Sao Paulo",
+        "license_name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Prefeitura de Sao Paulo [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]",
+        "dms": "23\u00b032'S, 46\u00b038'W",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Sao Paulo, Brazil [23\u00b032'S, 46\u00b038'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "CANADA_VANCOUVER",
+        "cityName": "Vancouver",
+        "country_name": "Canada",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            -123.1184,
+            49.27976
+        ],
+        "extentCoords": [
+            -123.173264,
+            49.243711,
+            -123.063443,
+            49.315785
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "City of Vancouver",
+        "license_name": "Open Government Licence - Vancouver",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | City of Vancouver [Open Government Licence - Vancouver]",
+        "dms": "49\u00b016'N, 123\u00b07'W",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Vancouver, Canada [49\u00b016'N, 123\u00b07'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "FINLAND_HELSINKI_2021",
+        "cityName": "Helsinki",
+        "country_name": "Finland",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            24.937555221720952,
+            60.182989143135586
+        ],
+        "extentCoords": [
+            24.856641,
+            60.142537,
+            25.018674,
+            60.223392
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Helsingin kaupunkiymp\u00e4rist\u00f6n toimiala / Kaupunkimittauspalvelut",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Helsingin kaupunkiymp\u00e4rist\u00f6n toimiala / Kaupunkimittauspalvelut [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "60\u00b010'N, 24\u00b056'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Helsinki, Finland [60\u00b010'N, 24\u00b056'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "FRANCE_PARIS",
+        "cityName": "Paris",
+        "country_name": "France",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_PARIS_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_PARIS_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            2.337991948692943,
+            48.858195017332235
+        ],
+        "extentCoords": [
+            2.256989,
+            48.803754,
+            2.419163,
+            48.912574
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l\\'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l\\'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "48\u00b051'N, 2\u00b020'E",
+        "width": 24000,
+        "height": 24000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Paris, France [48\u00b051'N, 2\u00b020'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "GERMANY_BERLIN",
+        "cityName": "Berlin",
+        "country_name": "Germany",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            13.41420676005533,
+            52.51855560371546
+        ],
+        "extentCoords": [
+            13.342236,
+            52.472616,
+            13.486317,
+            52.564457
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Geoportal Berlin / Airborne Laserscanning (ALS) Prim\u00e4re 3D Laserscan-Daten",
+        "license_name": "data license Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportal Berlin / Airborne Laserscanning (ALS) Prim\u00e4re 3D Laserscan-Daten [data license Germany - Attribution - Version 2.0]",
+        "dms": "52\u00b031'N, 13\u00b024'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "GERMANY_MUNICH",
+        "cityName": "Munich",
+        "country_name": "Germany",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_MUNICH_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            11.573358844391784,
+            48.138594653118275
+        ],
+        "extentCoords": [
+            11.517882,
+            48.103828,
+            11.628902,
+            48.173325
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Bayerische Vermessungsverwaltung",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "48\u00b08'N, 11\u00b034'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Munich, Germany [48\u00b08'N, 11\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "ITALY_FIRENZE",
+        "cityName": "Firenze",
+        "country_name": "Italy",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            11.247261,
+            43.777169
+        ],
+        "extentCoords": [
+            11.196273,
+            43.742143,
+            11.2983049,
+            43.812164
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Comune di Firenze",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Comune di Firenze [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "43\u00b046'N, 11\u00b014'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "NETHERLANDS_AMSTERDAM",
+        "cityName": "Amsterdam",
+        "country_name": "Netherlands",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            4.898434257169302,
+            52.37357014709851
+        ],
+        "extentCoords": [
+            4.825577,
+            52.328308,
+            4.971428,
+            52.418787
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "52\u00b022'N, 4\u00b053'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Amsterdam, Netherlands [52\u00b022'N, 4\u00b053'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "NETHERLANDS_DEN_HAAG",
+        "cityName": "The Hague",
+        "country_name": "Netherlands",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            4.3103620478401075,
+            52.077984733897914
+        ],
+        "extentCoords": [
+            4.2385849,
+            52.032727,
+            4.382276,
+            52.123928
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "52\u00b04'N, 4\u00b018'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "The Hague, Netherlands [52\u00b04'N, 4\u00b018'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "NETHERLANDS_MAASTRICHT",
+        "cityName": "Maastricht",
+        "country_name": "Netherlands",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            5.697699009975752,
+            50.84873462521852
+        ],
+        "extentCoords": [
+            5.640714,
+            50.812923,
+            5.754785,
+            50.884527
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "50\u00b050'N, 5\u00b041'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Maastricht, Netherlands [50\u00b050'N, 5\u00b041'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "NETHERLANDS_ROTTERDAM",
+        "cityName": "Rotterdam",
+        "country_name": "Netherlands",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            4.475926660362134,
+            51.916947917982675
+        ],
+        "extentCoords": [
+            4.404241,
+            51.871429,
+            4.547755,
+            51.962429
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "51\u00b055'N, 4\u00b028'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Rotterdam, Netherlands [51\u00b055'N, 4\u00b028'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "NETHERLANDS_UTRECHT",
+        "cityName": "Utrecht",
+        "country_name": "Netherlands",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            5.126786888549559,
+            52.08948968599842
+        ],
+        "extentCoords": [
+            5.054165,
+            52.0443659,
+            5.1995509,
+            52.1345669
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "52\u00b05'N, 5\u00b07'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Utrecht, Netherlands [52\u00b05'N, 5\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "NEW_ZEALAND_AUCKLAND_2024",
+        "cityName": "Auckland",
+        "country_name": "New Zealand",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            174.73792,
+            -36.8538
+        ],
+        "extentCoords": [
+            174.638743,
+            -36.936333,
+            174.836893,
+            -36.7711929
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Land Information New Zealand (LINZ)",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Information New Zealand (LINZ) [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "36\u00b051'S, 174\u00b044'E",
+        "width": 36000,
+        "height": 36000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Auckland, New Zealand [36\u00b051'S, 174\u00b044'E] [36000 x 36000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "SPAIN_BARCELONA_CIR",
+        "cityName": "Barcelona",
+        "country_name": "Spain",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            2.15076,
+            41.39547
+        ],
+        "extentCoords": [
+            2.079759,
+            41.3408749,
+            2.221883,
+            41.450014
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "41\u00b023'N, 2\u00b09'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.8",
+        "raster_units": "m",
+        "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [16000 x 16000 pixels, 1 pixel = 0.8 m]"
+    },
+    {
+        "city_id": "SWITZERLAND_BASEL",
+        "cityName": "Basel",
+        "country_name": "Switzerland",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BASEL_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BASEL_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            7.589356557949264,
+            47.556614725252075
+        ],
+        "extentCoords": [
+            7.522851,
+            47.511712,
+            7.655964,
+            47.601478
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Federal Office of Topography swisstopo",
+        "license_name": "Open Government Data (OGD)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
+        "dms": "47\u00b033'N, 7\u00b035'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Basel, Switzerland [47\u00b033'N, 7\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "SWITZERLAND_BERN",
+        "cityName": "Bern",
+        "country_name": "Switzerland",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BERN_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BERN_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            7.447366,
+            46.947967
+        ],
+        "extentCoords": [
+            7.381739,
+            46.90298,
+            7.513106,
+            46.992923
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Federal Office of Topography swisstopo",
+        "license_name": "Open Government Data (OGD)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
+        "dms": "46\u00b056'N, 7\u00b026'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Bern, Switzerland [46\u00b056'N, 7\u00b026'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "SWITZERLAND_GENEVE",
+        "cityName": "Geneva",
+        "country_name": "Switzerland",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            6.144946379341421,
+            46.20217277230693
+        ],
+        "extentCoords": [
+            6.081305,
+            46.156438,
+            6.208702,
+            46.247867
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Federal Office of Topography swisstopo",
+        "license_name": "Open Government Data (OGD)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
+        "dms": "46\u00b012'N, 6\u00b08'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Geneva, Switzerland [46\u00b012'N, 6\u00b08'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "SWITZERLAND_LAUSANNE",
+        "cityName": "Lausanne",
+        "country_name": "Switzerland",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            6.632541784005301,
+            46.520550491566475
+        ],
+        "extentCoords": [
+            6.567857,
+            46.490947,
+            6.697013,
+            46.570851
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Federal Office of Topography swisstopo",
+        "license_name": "Open Government Data (OGD)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
+        "dms": "46\u00b031'N, 6\u00b037'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Lausanne, Switzerland [46\u00b031'N, 6\u00b037'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "SWITZERLAND_ZURICH",
+        "cityName": "Z\u00fcrich",
+        "country_name": "Switzerland",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            8.541176339989368,
+            47.37423677905411
+        ],
+        "extentCoords": [
+            8.474352,
+            47.342212,
+            8.604874,
+            47.421924
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Federal Office of Topography swisstopo",
+        "license_name": "Open Government Data (OGD)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
+        "dms": "47\u00b022'N, 8\u00b032'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Z\u00fcrich, Switzerland [47\u00b022'N, 8\u00b032'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "USA_CHICAGO",
+        "cityName": "Chicago",
+        "country_name": "Illinois, USA",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CHICAGO_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CHICAGO_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            -87.627799584805,
+            41.88417350280863
+        ],
+        "extentCoords": [
+            -87.664806,
+            41.856954,
+            -87.595794,
+            41.911416
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Department of Commerce, National Oceanic and Atmospheric Administration",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Department of Commerce, National Oceanic and Atmospheric Administration [CC0 1.0 Universal]",
+        "dms": "41\u00b053'N, 87\u00b037'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Chicago, Illinois, USA [41\u00b053'N, 87\u00b037'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]"
+    },
+    {
+        "city_id": "USA_OKLAHOMA_CITY",
+        "cityName": "Oklahoma City",
+        "country_name": "Oklahoma, USA",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            -97.51475932171803,
+            35.46550181858135
+        ],
+        "extentCoords": [
+            -97.5985625,
+            35.3988846,
+            -97.4308095,
+            35.5320561
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "35\u00b027'N, 97\u00b030'W",
+        "width": 15000,
+        "height": 15000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Oklahoma City, Oklahoma, USA [35\u00b027'N, 97\u00b030'W] [15000 x 15000 pixels, 1 pixel = 1.0 m]"
+    },
+    {
+        "city_id": "USA_PORTLAND",
+        "cityName": "Portland",
+        "country_name": "Oregon, USA",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PORTLAND_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PORTLAND_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            -122.67468,
+            45.52138
+        ],
+        "extentCoords": [
+            -122.709668,
+            45.476821,
+            -122.639649,
+            45.5659289
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "45\u00b031'N, 122\u00b040'W",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]"
+    },
+    {
+        "city_id": "USA_PROVIDENCE_PAWTUCKET",
+        "cityName": "Providence - Pawtucket",
+        "country_name": "Rhode Island, USA",
+        "rasterPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles'",
+        "vectorPMTilesUrl": "'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles'",
+        "centerCoords": [
+            -71.3964,
+            41.83471
+        ],
+        "extentCoords": [
+            -71.447816,
+            41.7831509,
+            -71.344889,
+            41.8928269
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "41\u00b050'N, 71\u00b023'W",
+        "width": 28000,
+        "height": 40000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Providence - Pawtucket, Rhode Island, USA [41\u00b050'N, 71\u00b023'W] [28000 x 40000 pixels, 1 pixel = 1.0 ft]"
     }
+];
 
-    return style;
-};
+// Insert here the locations data
 
+// Use geographic coordinates (lon/lat) instead of Web Mercator
+ol.proj.useGeographic();
 
-function openMapPopup(rasterAttribution, rasterPmtilesUrl, vectorPmtilesUrl, centerCoordinates, extentCoordinates, zoomLevel) {
-    document.getElementById('mapPopup').style.display = 'block';
-
-    // Initialize raster layer
-    rasterLayer = new ol.layer.WebGLTile({
-        source: new olpmtiles.PMTilesRasterSource({
-            url: rasterPmtilesUrl,
-            attributions: [rasterAttribution],
-            tileSize: [512, 512]
-        })
-    });
-
-    vectorLayer = new ol.layer.VectorTile({
-    declutter: true,
-    visible: false,
-    source: new olpmtiles.PMTilesVectorSource({
-        url: vectorPmtilesUrl,
-        attributions: [' + <a href="https://github.com/protomaps/basemaps">Protomaps</a> + <a href="https://openstreetmap.org">OpenStreetMap</a>']
-    }),
-    style: vectorStyleFunction
-    });
-
-    ol.proj.useGeographic();
-
-    try {
-        map = new ol.Map({
-            layers: [rasterLayer, vectorLayer], // Add raster layer first, then pmtiles layer
-            target: 'map',
-            view: new ol.View({
-                center: centerCoordinates,
-                zoom: zoomLevel,
-                maxZoom: 18,
-                extent: extentCoordinates,
-                multiWorld: false // Ensure only one world is displayed
-            }),
-        });
-        console.log("Map initialized successfully");
-    } catch (error) {
-        console.error("Error initializing map:", error);
-    }
-}
-
-function closeMapPopup() {
-    document.getElementById('mapPopup').style.display = 'none';
-    if (map) {
-        map.setTarget(null); // Properly dispose of the map instance
-        map = null; // Clear the map variable
-        console.log("Map closed and disposed");
-    }
-    document.getElementById('vectorLayerCheckbox').checked = false; // Uncheck the checkbox
-}
-
-document.getElementById('vectorLayerCheckbox').addEventListener('change', function() {
-    vectorLayer.setVisible(this.checked);
+// Marker default style
+const markerDefaultStyle = new ol.style.Style({
+  image: new ol.style.Circle({
+    radius: 6,
+    fill: new ol.style.Fill({
+      color: '#ff660000'}),
+    stroke: new ol.style.Stroke({
+      color: '#00000080',
+      width: 2})
+  })
 });
 
-function toggleLayer(layerName) {
-    let layer;
-    if (layerName === 'pmtiles') {
-        layer = pmtilesLayer;
-    }
+// Marker hover style
+const markerHoverStyle = new ol.style.Style({
+  image: new ol.style.Circle({
+    radius: 6,
+    fill: new ol.style.Fill({
+      color: '#dddddd'}), // blue on hover
+    stroke: new ol.style.Stroke({
+      color: '#000000',
+      width: 2 })
+  })
+});
 
-    if (layer) {
-        const visible = layer.getVisible();
-        layer.setVisible(!visible);
-        console.log(`${layerName} layer visibility: ${!visible}`);
-    }
+// Marker features
+const markerFeatures = locations.map((loc) =>
+  new ol.Feature({
+    geometry: new ol.geom.Point(loc.centerCoords),
+    name: loc.cityName
+  })
+);
+
+// Define clusted features
+const clusterSource = new ol.source.Cluster({
+  distance: 20, // pixel distance for clustering
+  source: new ol.source.Vector({ features: markerFeatures })
+});
+
+// Cluster style
+const clusterStyle = function(feature) {
+  const size = feature.get('features').length;
+  if (size === 1) {
+    // Single marker, use normal style
+    const single = feature.get('features')[0];
+    return single.get('hover') ? markerHoverStyle : markerDefaultStyle;
+  } else {
+    // Clustered marker
+    return new ol.style.Style({
+      image: new ol.style.Circle({
+        radius: 10,
+        fill: new ol.style.Fill({ color: '#88888880' }),
+        stroke: new ol.style.Stroke({ color: '#000000', width: 2 })
+      }),
+      text: new ol.style.Text({
+        text: size.toString(),
+        fill: new ol.style.Fill({ color: '#fff' }),
+        font: 'bold 12px sans-serif'
+      })
+    });
+  }
+};
+
+// Cluster layer
+const markerLayer = new ol.layer.Vector({
+  source: clusterSource,
+  style: clusterStyle
+});
+
+
+// Vector layer visibility checkbox and opacity slider logic
+function setupVectorLayerControls() {
+  const visCheckbox = document.getElementById('vectorLayerVisibleCheckbox');
+  const slider = document.getElementById('opacitySlider');
+  const valueLabel = document.getElementById('opacityValue');
+  // Visibility checkbox
+  let currentSlider = slider;
+  if (slider && valueLabel) {
+    let opacity = window.vectorLayer ? window.vectorLayer.getOpacity() : 0.0;
+    slider.value = opacity;
+    valueLabel.textContent = slider.value;
+    // Remove previous event listeners by cloning
+    const newSlider = slider.cloneNode(true);
+    slider.parentNode.replaceChild(newSlider, slider);
+    currentSlider = newSlider;
+    newSlider.disabled = visCheckbox && !visCheckbox.checked;
+    newSlider.addEventListener('input', function() {
+      valueLabel.textContent = newSlider.value;
+      if (window.vectorLayer) window.vectorLayer.setOpacity(parseFloat(newSlider.value));
+    });
+  }
+  if (visCheckbox) {
+    visCheckbox.checked = window.vectorLayer ? window.vectorLayer.getVisible() : false;
+    // Set initial slider state
+    if (currentSlider) currentSlider.disabled = !visCheckbox.checked;
+    visCheckbox.addEventListener('change', function() {
+      if (window.vectorLayer) window.vectorLayer.setVisible(visCheckbox.checked);
+      if (currentSlider) currentSlider.disabled = !visCheckbox.checked;
+    });
+  }
 }
+
+// Call setupVectorLayerControls when popup is shown
+const origShowPopup = window.showPopup;
+window.showPopup = function() {
+  if (typeof origShowPopup === 'function') origShowPopup.apply(this, arguments);
+  setupVectorLayerControls();
+};
+
+// If popup is shown by other means, also call setupVectorLayerControls after DOMContentLoaded
+document.addEventListener('DOMContentLoaded', function() {
+  setupVectorLayerControls();
+});
+
+// White Flavor style for basemap
+const basemapWhiteFlavorStyle = function(feature, resolution) {
+  const layer = feature.get('layer') || feature.get('layer_name'); // Adjust property as needed
+  const kind = feature.get('kind');
+  const styles = [];
+  // Water
+  if (layer === 'water') {
+    styles.push(new ol.style.Style({
+      fill: new ol.style.Fill({ color: '#dddddd' }) // very light blue
+    }));
+  }
+  // Landuse (parks, forests, etc.)
+  if (layer === 'landuse') {
+    styles.push(new ol.style.Style({
+      fill: new ol.style.Fill({ color: '#fff' }) // almost white-grey
+    }));
+  }
+  // Boundaries
+  if (layer === 'boundaries') {
+    styles.push(new ol.style.Style({
+      stroke: new ol.style.Stroke({ color: '#d6c4d8ff', width: 1 })
+    }));
+  }
+  // Roads
+  if (layer === 'roads') {
+    styles.push(new ol.style.Style({
+      stroke: new ol.style.Stroke({ color: '#eaeaea', width: 1 })
+    }));
+  }
+  // Buildings
+  if (layer === 'buildings') {
+    styles.push(new ol.style.Style({
+      fill: new ol.style.Fill({ color: '#ecececff' }),
+      stroke: new ol.style.Stroke({ color: '#ecececff', width: 1 })
+    }));
+  }
+  // Place labels (cities, towns)
+  if (layer === 'places' && feature.get('name')) {
+    styles.push(new ol.style.Style({
+      text: new ol.style.Text({
+        text: feature.get('name'),
+        font: '12px "Roboto", "Arial", sans-serif',
+        fill: new ol.style.Fill({ color: '#999' }),
+        stroke: new ol.style.Stroke({ color: '#fff', width: 2 }),
+        overflow: true
+      })
+    }));
+  }
+  // Default fallback (optional)
+  if (styles.length === 0) {
+    styles.push(new ol.style.Style({
+      stroke: new ol.style.Stroke({ color: '#fff', width: 1 }),
+      fill: new ol.style.Fill({ color: '#fff' })
+    }));
+  }
+  return styles;
+};
+
+// White Flavor style for places only
+const placesWhiteFlavorStyle = function(feature, resolution) {
+  const layer = feature.get('layer') || feature.get('layer_name'); // Adjust property as needed
+  const kind = feature.get('kind');
+  const styles = [];
+  // Place labels (cities, towns)
+  if (layer === 'places' && feature.get('name')) {
+    styles.push(new ol.style.Style({
+      text: new ol.style.Text({
+        text: feature.get('name'),
+        font: '12px "Roboto", "Arial", sans-serif',
+        fill: new ol.style.Fill({ color: '#999' }),
+        stroke: new ol.style.Stroke({ color: '#fff', width: 2 }),
+        overflow: true
+      })
+    }));
+  }
+  return styles;
+};
+
+// Basemap layer
+const basemapLayer = new ol.layer.VectorTile({
+  source: new olpmtiles.PMTilesVectorSource({
+    url: "vector_pmtiles/basemap_z7.pmtiles",
+  }),
+  style: basemapWhiteFlavorStyle
+});
+
+// Places layer (optional, can be commented out if not needed)
+const placesLayer = new ol.layer.VectorTile({
+  source: new olpmtiles.PMTilesVectorSource({
+    url: "vector_pmtiles/basemap_z7.pmtiles",
+  }),
+  style: placesWhiteFlavorStyle
+});
+
+// Main map
+const mainMap = new ol.Map({
+  target: 'map',
+  layers: [basemapLayer,
+           markerLayer,
+           //placesLayer
+  ],
+  view: new ol.View({
+    center: [10, 10],
+    zoom: 2,
+    extent: [-180, -65, 200, 75]
+  }),
+controls: new ol.control.defaults.defaults({
+  zoom: false,
+  rotate: false,
+  attribution: false
+})
+});
+
+// Tooltip overlay displaying the name of the location on hover
+const tooltip = document.createElement('div');
+tooltip.className = 'ol-tooltip';
+tooltip.style.position = 'absolute';
+tooltip.style.background = 'rgba(255,255,255,0.9)';
+tooltip.style.border = '1px solid #888';
+tooltip.style.padding = '3px 8px';
+tooltip.style.borderRadius = '6px';
+tooltip.style.pointerEvents = 'none';
+tooltip.style.whiteSpace = 'nowrap';
+tooltip.style.fontSize = '0.75em';
+tooltip.style.display = 'none';
+document.body.appendChild(tooltip);
+
+// Tooltip logic
+let lastHoveredFeature = null;
+mainMap.on('pointermove', function (evt) {
+  const pixel = evt.pixel;
+  // Only consider features from markerLayer
+  const feature = mainMap.forEachFeatureAtPixel(pixel, function (feature, layer) {
+    if (layer === markerLayer) return feature;
+  });
+  if (feature) {
+    const features = feature.get('features');
+    if (features.length === 1) {
+      const name = features[0].get('name');
+      tooltip.textContent = name;
+    } else {
+      tooltip.textContent = features.length + ' locations';
+    }
+    tooltip.style.display = 'block';
+    tooltip.style.left = (evt.originalEvent.clientX + 15) + 'px';
+    tooltip.style.top = (evt.originalEvent.clientY + 5) + 'px';
+  } else {
+    tooltip.style.display = 'none';
+  }
+  // Hover style logic (only for single features)
+  if (feature !== lastHoveredFeature) {
+    // Remove hover from last feature
+    if (lastHoveredFeature) {
+      const lastFeatures = lastHoveredFeature.get('features');
+      if (lastFeatures.length === 1) {
+        lastFeatures[0].set('hover', false);
+        markerLayer.changed();
+      }
+    }
+    // Set hover on new feature
+    if (feature) {
+      const features = feature.get('features');
+      if (features.length === 1) {
+        features[0].set('hover', true);
+        markerLayer.changed();
+      }
+    }
+    lastHoveredFeature = feature;
+  }
+});
+
+// Popup logic
+let popupMap = null;
+mainMap.on('singleclick', function(evt) {
+  mainMap.forEachFeatureAtPixel(evt.pixel, function(feature) {
+    const features = feature.get('features');
+    if (features.length === 1) {
+      const name = features[0].get('name');
+      const loc = locations.find(l => l.cityName === name);
+      if (loc) {
+        openMapPopup(loc);
+      }
+    }
+  });
+});
+
+// Function to open popup with map
+function openMapPopup(loc) {
+  // Hide the main map tooltip when popup appears
+  if (typeof tooltip !== 'undefined') {
+    tooltip.style.display = 'none';
+  }
+  // Show modal
+  document.getElementById('mapPopup').style.display = 'block';
+  // Combine raster and vector attributions for popup
+  const rasterAttr = loc.attribution || '';
+  const vectorAttr = '<a target="_blank" href="https://github.com/protomaps/basemaps">Protomaps</a> | <a target="_blank" href="https://openstreetmap.org">OpenStreetMap</a>';
+  document.getElementById('popupAttribution').innerHTML = `${rasterAttr} &nbsp; | &nbsp; ${vectorAttr}`;
+  // Clean up previous popup map
+  if (popupMap) {
+    popupMap.setTarget(null);
+    popupMap = null;
+    document.getElementById('popupInner').innerHTML = '';
+  }
+
+  // Initialize raster layer
+  rasterLayer = new ol.layer.WebGLTile({
+    source: new olpmtiles.PMTilesRasterSource({
+      url: loc.rasterPMTilesUrl,
+      attributions: [loc.attribution],
+      tileSize: [512, 512]
+    })
+  });
+
+// Vector source
+  vectorSource = new olpmtiles.PMTilesVectorSource({
+    url: loc.vectorPMTilesUrl,
+    attributions: [' + <a target="_blank" href="https://github.com/protomaps/basemaps">Protomaps</a> | <a target="_blank" href="https://openstreetmap.org">OpenStreetMap</a>']
+  });
+
+  // Opacity and visibility are set by slider and checkbox
+  let opacity = 0.0;
+  const slider = document.getElementById('opacitySlider');
+  const visCheckbox = document.getElementById('vectorLayerVisibleCheckbox');
+  if (slider) {
+    opacity = parseFloat(slider.value) || 0.0;
+  }
+  let visible = true;
+  if (visCheckbox) {
+    visible = visCheckbox.checked;
+  }
+  vectorLayer = new ol.layer.VectorTile({
+    declutter: true,
+    visible: visible,
+    opacity: opacity,
+    source: vectorSource,
+    style: basemapWhiteFlavorStyle
+  });
+  // Make vectorLayer globally accessible for slider
+  window.vectorLayer = vectorLayer;
+
+  // Create new popup map
+  popupMap = new ol.Map({
+    target: 'popupInner',
+    layers: [rasterLayer, vectorLayer],
+    view: new ol.View({
+      center: loc.centerCoords,
+      zoom: loc.zoomLevel,
+      maxZoom: 18,
+      extent: loc.extentCoords,
+      multiWorld: false
+    }),
+    controls: new ol.control.defaults.defaults({
+  zoom: false,
+  rotate: false,
+  attribution: false
+})
+  });
+}
+
+// Close popup logic
+document.getElementById('popupClose').onclick = function() {
+  if (popupMap) {
+    popupMap.setTarget(null);
+    popupMap = null;
+    document.getElementById('popupInner').innerHTML = '';
+  }
+  document.getElementById('mapPopup').style.display = 'none';
+};

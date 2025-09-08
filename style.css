@@ -1,205 +1,117 @@
-/* General Reset */
-* {
+html, body {
+    font-family: "Noto Sans", "Roboto", "Arial", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-    /* font-family: Arial, sans-serif; */
-    line-height: 1.6;
-    padding: 0 20px;
-    background-color: #EAEFF2;
-    color: #1A1A1A;
-}
-
-.content-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.content {
-    width: 600px;
-    text-align: justify;
-}
-
-header {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.gallery {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr)); /* Adjust minmax values as needed */
-    gap: 20px; /* Adjust gap between items */
-}
-
-.gallery img {
-    width: 800px;
-    height: auto;
-    cursor: pointer;
-    border: 2px solid transparent;
-    transition: border-color 0.3s;
-}
-
-.gallery img:hover {
-    border-color: #007BFF;
-}
-
-/* Ensure the overlay does not block pointer events */
-.gallery-item {
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-}
-
-.gallery-item img {
-    display: block;
-    width: 800px;
-    height: auto;
-}
-
-/* Overlay with text */
-.gallery-item .hover-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 800px;
     height: 100%;
-    /*background: rgba(0.0, 0.0, 0.0, 0.5); /* Semi-transparent black */
-    background: rgba(0.302, 0.318, 0.455, 0.5);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1em;
-    opacity: 0; /* Initially hidden */
-    pointer-events: none; /* Ignore pointer events on overlay */
-    transition: opacity 0.3s ease; /* Smooth fade-in/out */
-}
-
-/* Show overlay on hover */
-.gallery-item:hover .hover-text {
-    opacity: 1;
-}
-
-/* Fullscreen viewer styles */
-#viewer-container {
-    position: fixed; /* Make it cover the entire viewport */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7); /* Dark background for focus */
-    z-index: 1000; /* Ensure it appears on top */
-    display: none; /* Hidden by default */
-}
-
-#openseadragon-viewer {
     width: 100%;
-    height: 100%;
-}
-
-/* Close button */
-#viewer-container .close-button {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 2em;
-    color: white;
-    cursor: pointer;
-    z-index: 1100;
-}
-
-.-menu {
-    display: flex; /* Make the menu items horizontal */
-    align-items: center; /* Align vertically */
-    position: relative; /* Needed for menu positioning */
-}
-
-.menu nav {
-    display: none; /* Initially hide the navigation links */
-    position: absolute; /* Absolute positioning for menu dropdown */
-    top: 100%; /* Position below the button */
-    left: 0; /* Align to left side */
-    background-color: white; /* Background color for menu */
-    padding: 10px; /* Add padding for menu items */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
-}
-
-.menu nav a {
-    display: block; /* Make links block elements */
-    text-decoration: none; /* Remove underline */
-    color: #333; /* Adjust link color */
-    padding: 5px 10px; /* Add padding for links */
-}
-
-/* Additional styling for menu open state (optional) */
-.menu.active nav {
-    display: block; /* Show the navigation links */
-}
-
-/* PMTiles */
-#mapPopup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 99%;
-    height: 99%;
-    z-index: 1000;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #map {
+    width: 100vw;
+    height: 100vh;
+}
+
+.ol-attribution.ol-unselectable {
+    right: 0.5em;
+    left: auto;
+    bottom: 0.5em;
+    top: auto;
+    position: absolute !important;
+    background: #ffffff;
+    border-radius: 6px;
+    font-size: 0.75em;
+    color: #444;
+    margin: 0;
+    padding: 0.5em 1em;
+    z-index: 1002;
+}
+
+#mapPopup {
+    display: none;
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
+    width: 96vw;
+    height: 96vh;
+    background: white;
+    z-index: 1003;
+    border: 2px solid #444;
+    box-shadow: 0 0 20px #444;
+    border-radius: 1em;
+}
+
+#popupInner {
     width: 100%;
-    height: 100%;
+    height: 90%;
+    font-size: 0.75em;
 }
 
-.map-controls {
+#popupClose {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background: white;
-    color: black;
-    border: none;
-    font-size: 15px;
-    padding: 5px 10px;
-    cursor: pointer;
+    top: 0.5em;
+    right: 1em;
     z-index: 1001;
+    font-size: 1.0em;
+    background: #eee;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0.2em 0.5em;
 }
 
-.close-controls {
+#popupAttribution {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background: red;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    z-index: 1001;
+    bottom: 0.5em;
+    right: 1em;
+    left: auto;
+    background: #fafafa;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    font-size: 0.75em;
+    color: #444;
+    z-index: 1002;
 }
 
-.toggle-controls {
+#popupControls {
+    font-size: 0.75em;
+    margin: 10px 0;
+    background: #fafafa;
+    padding: 8px;
+    border-radius: 6px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    color: #444;
+    gap: 1em;
+}
+
+#mapInfo {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    background: white;
-    color: red;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    z-index: 1001;
+    top: 0.5em;
+    left: 1em;
+    right: auto;
+    bottom: auto;
+    background: #fafafa;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    font-size: 0.75em;
+    color: #444;
+    z-index: 1002;
 }
 
-.layer-controls button,
-.layer-controls input {
-    display: block;
-    margin-bottom: 50px;
+#mapAttribution {
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+    left: auto;
+    background: #fafafa;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    font-size: 0.75em;
+    color: #444;
+    z-index: 1002;
+}
+
+.ol-tooltip {
+    z-index: 1100;
 }

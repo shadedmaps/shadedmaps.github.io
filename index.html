@@ -1,228 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaded Maps</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/ol@v9.0.0/dist/ol.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.0.0/ol.css">
-    <script src="https://unpkg.com/ol-pmtiles@2.0.2/dist/olpmtiles.js"></script>
-</head><body>
-    <header>
-  <div class="title">
-        <h2>Shaded Maps</h2>
-        <p>a gallery of detailed shaded maps, digitally manufactured with
-        <a href="https://python.org/" target="_blank">Python</a>,
-        <a href="https://pdal.io/" target="_blank">PDAL</a> and
-        <a href="https://gdal.org/" target="_blank">GDAL</a>
-        tools from elevation, point cloud and
-        <a href="https://openstreetmap.org/" target="_blank">OpenStreetMap</a> data</p>
-  </div>
-  <div class="menu">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="data.html">Data</a>
-      <a href="https://instagram.com/shadedmaps" target="_blank">Instagram</a>
-  </div>
-    </header>
+  <meta charset="UTF-8">
+  <title>Shaded Maps</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/ol@9.2.4/dist/ol.js"></script>
+  <link type="text/css" href="https://unpkg.com/ol@9.2.4/ol.css" />
+  <script src="https://unpkg.com/ol-pmtiles@2.0.2/dist/olpmtiles.js"></script>
 
-    <a href="#Australia">Australia</a>
-    <a href="#Belgium">Belgium</a>
-    <a href="#Brazil">Brazil</a>
-    <a href="#Canada">Canada</a>
-    <a href="#Finland">Finland</a>
-    <a href="#France">France</a>
-    <a href="#Germany">Germany</a>
-    <a href="#Italy">Italy</a>
-    <a href="#Netherlands">Netherlands</a>
-    <a href="#New_Zealand">New Zealand</a>
-    <a href="#Spain">Spain</a>
-    <a href="#Switzerland">Switzerland</a>
-    <a href="#United_States_of_America">United States of America</a>
-    <main>
-    <div class="gallery">
-    <div class="gallery-item" id="Australia">
-    <h3>Adelaide, Australia [34°55'S, 138°35'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/AUSTRALIA_ADELAIDE_RGBA_cs.png" alt="AUSTRALIA_ADELAIDE" onclick="openMapPopup('Shaded Maps + Department for Environment and Water Information, Government of South Australia', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles', [138.59987948881727, -34.927705206351966], [138.543836, -34.971660, 138.655856, -34.883726], 12)" />
-    <span class="hover-text">Elevation data published by<br>Department for Environment and Water Information, Government of South Australia<br>with license Attribution 4.0 International (CC BY 4.0)</span>
+</head>
+<body>
+  <div id="map">
+  <div id="mapInfo">A gallery of detailed shaded maps, digitally manufactured
+                    from elevation, point cloud and
+                    <a href="https://openstreetmap.org/" target="_blank">OpenStreetMap</a> data with
+                    <a href="https://python.org/" target="_blank">Python</a>,
+                    <a href="https://protomaps.com/" target="_blank">PMTiles</a>,
+                    <a href="https://pdal.io/" target="_blank">PDAL</a> and
+                    <a href="https://gdal.org/" target="_blank">GDAL</a> tools
+                    <br>
+                    <!--<a href="about.html" target="_blank">About</a> |
+                    <a href="data.html" target="_blank">Data</a> |-->
+                    <a href="https://instagram.com/shadedmaps" target="_blank">Instagram</a> |
+                    <a href="https://www.reddit.com/user/ShadedMaps" target="_blank">Reddit</a> |
+                    <a href="https://x.com/ShadedMaps" target="_blank">X</a> |
+                    <a href="https://bsky.app/profile/shadedmaps.bsky.social" target="_blank">Bluesky</a></div>
+  <div id="mapAttribution"><a href="https://shadedmaps.github.io" target="_blank">Shaded Maps</a> |
+                           <a href="https://protomaps.com" target="_blank">Protomaps</a> |
+                           <a href="https://openstreetmap.org" target="_blank">OpenStreetMap</a></div>
+  </div>
+  <div id="mapPopup">
+    <button id="popupClose" title="Close">&times;</button>
+    <div id="popupControls">
+      <label for="vectorLayerVisibleCheckbox">Overlay basemap</label>
+      <input type="checkbox" id="vectorLayerVisibleCheckbox" checked> |
+      <label for="opacitySlider" style="margin-left:1em;">Basemap opacity</label>
+      <input type="range" id="opacitySlider" min="0" max="1" step="0.01" value="0.0" style="width:100px;">
+      <span id="opacityValue">0.0</span>
     </div>
-    <div class="gallery-item">
-    <h3>Brisbane, Australia [27°28'S, 153°1'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/AUSTRALIA_BRISBANE_RGBA_cs.png" alt="AUSTRALIA_BRISBANE" onclick="openMapPopup('Shaded Maps + State of Queensland (Department of Resources)', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles', [153.02451800254198, -27.469953899170427], [152.973896, -27.515094, 153.075091, -27.424796], 12)" />
-    <span class="hover-text">Elevation data published by<br>State of Queensland (Department of Resources)<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Canberra, Australia [35°17'S, 149°7'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/AUSTRALIA_CANBERRA_RGBA_cs.png" alt="AUSTRALIA_CANBERRA" onclick="openMapPopup('Shaded Maps + Australian Capital Territory and Aerometrex Limited', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles', [149.1268750006652, -35.29695217751767], [149.073069, -35.342959, 149.180620, -35.250917], 12)" />
-    <span class="hover-text">Elevation data published by<br>Australian Capital Territory and Aerometrex Limited<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Melbourne, Australia [37°48'S, 144°56'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/AUSTRALIA_MELBOURNE_RGBA_cs.png" alt="AUSTRALIA_MELBOURNE" onclick="openMapPopup('Shaded Maps + City of Melbourne', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles', [144.9497, -37.8077], [144.903265, -37.842925, 144.995964, -37.772810], 12)" />
-    <span class="hover-text">Elevation data published by<br>City of Melbourne<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Sydney, Australia [33°51'S, 151°12'E] [36000 x 24000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs.png" alt="AUSTRALIA_SYDNEY_LONG_05" onclick="openMapPopup('Shaded Maps + New South Wales Government - Spatial Services', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles', [151.2088763495824, -33.85925934261056], [151.110438, -33.911890, 151.307195, -33.806590], 12)" />
-    <span class="hover-text">Elevation data published by<br>New South Wales Government - Spatial Services<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item" id="Belgium">
-    <h3>Antwerp, Belgium [51°13'N, 4°23'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BELGIUM_ANTWERP_RGBA_cs.png" alt="BELGIUM_ANTWERP" onclick="openMapPopup('Shaded Maps + Agentschap Digitaal Vlaanderen', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles', [4.3992550655858285, 51.22062948145971], [4.334879, 51.180184, 4.463752, 51.261045], 12)" />
-    <span class="hover-text">Elevation data published by<br>Agentschap Digitaal Vlaanderen<br>with license Gratis open data licentie Vlaanderen v1.2 met bronvermelding</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Brussels, Belgium [50°50'N, 4°21'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BELGIUM_BRUSSELS_RGBA_cs.png" alt="BELGIUM_BRUSSELS" onclick="openMapPopup('Shaded Maps + Paradigm Brussels', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles', [4.351787, 50.846729], [4.280871, 50.801751, 4.422833, 50.891665], 12)" />
-    <span class="hover-text">Elevation data published by<br>Paradigm Brussels<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Charleroi, Belgium [50°24'N, 4°26'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BELGIUM_CHARLEROI_RGBA_cs.png" alt="BELGIUM_CHARLEROI" onclick="openMapPopup('Shaded Maps + Service public de Wallonie', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles', [4.444637778380521, 50.41170590431629], [4.388345, 50.375770, 4.501029, 50.447611], 12)" />
-    <span class="hover-text">Elevation data published by<br>Service public de Wallonie<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Liege, Belgium [50°38'N, 5°34'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BELGIUM_LIEGE_RGBA_cs.png" alt="BELGIUM_LIEGE" onclick="openMapPopup('Shaded Maps + Service public de Wallonie', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles', [5.5755176272527684, 50.636570663844495], [5.518091, 50.601186, 5.633018, 50.671918], 12)" />
-    <span class="hover-text">Elevation data published by<br>Service public de Wallonie<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Mons, Belgium [50°27'N, 3°57'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BELGIUM_MONS_RGBA_cs.png" alt="BELGIUM_MONS" onclick="openMapPopup('Shaded Maps + Service public de Wallonie', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_MONS_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_MONS_RGBA_cs_vector.pmtiles', [3.9513354182338447, 50.45344824506188], [3.895365, 50.417274, 4.007398, 50.489591], 12)" />
-    <span class="hover-text">Elevation data published by<br>Service public de Wallonie<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Namur, Belgium [50°27'N, 4°51'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BELGIUM_NAMUR_RGBA_cs.png" alt="BELGIUM_NAMUR" onclick="openMapPopup('Shaded Maps + Service public de Wallonie', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles', [4.863814795212151, 50.465832363979516], [4.807132, 50.430103, 4.920578, 50.501535], 12)" />
-    <span class="hover-text">Elevation data published by<br>Service public de Wallonie<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item" id="Brazil">
-    <h3>Sao Paulo, Brazil [23°32'S, 46°38'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/BRAZIL_SAO_PAULO_RGBA_cs.png" alt="BRAZIL_SAO_PAULO" onclick="openMapPopup('Shaded Maps + Prefeitura de Sao Paulo', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles', [-46.634304814653284, -23.549670703074327], [-46.673939, -23.585371, -46.594694, -23.513962], 12)" />
-    <span class="hover-text">Elevation data published by<br>Prefeitura de Sao Paulo<br>with license Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</span>
-    </div>
-    <div class="gallery-item" id="Canada">
-    <h3>Vancouver, Canada [49°16'N, 123°7'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/CANADA_VANCOUVER_RGBA_cs.png" alt="CANADA_VANCOUVER" onclick="openMapPopup('Shaded Maps + City of Vancouver', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles', [-123.1184, 49.27976], [-123.173264, 49.243711, -123.063443, 49.315785], 12)" />
-    <span class="hover-text">Elevation data published by<br>City of Vancouver<br>with Open Government Licence - Vancouver</span>
-    </div>
-    <div class="gallery-item" id="Finland">
-    <h3>Helsinki, Finland [60°10'N, 24°56'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/FINLAND_HELSINKI_2021_RGBA_cs.png" alt="FINLAND_HELSINKI_2021" onclick="openMapPopup('Shaded Maps + Helsingin kaupunkiympäristön toimiala / Kaupunkimittauspalvelut', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles', [24.937555221720952, 60.182989143135586], [24.856641, 60.142537, 25.018674, 60.223392], 12)" />
-    <span class="hover-text">Elevation data published by<br>Helsingin kaupunkiympäristön toimiala / Kaupunkimittauspalvelut<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item" id="France">
-    <h3>Paris, France [48°51'N, 2°20'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/FRANCE_PARIS_RGBA_cs.png" alt="FRANCE_PARIS" onclick="openMapPopup('Shaded Maps + Institut national de l\'information géographique et forestière', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_PARIS_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_PARIS_RGBA_cs_vector.pmtiles', [2.337991948692943, 48.858195017332235], [2.256989, 48.803754, 2.419163, 48.912574], 12)" />
-    <span class="hover-text">Elevation data published by<br>Institut national de l\'information géographique et forestière<br>with license Etalab 2.0</span>
-    </div>
-    <div class="gallery-item" id="Germany">
-    <h3>Berlin, Germany [52°31'N, 13°24'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/GERMANY_BERLIN_RGBA_cs.png" alt="GERMANY_BERLIN" onclick="openMapPopup('Shaded Maps + Geoportal Berlin / Airborne Laserscanning (ALS) Primäre 3D Laserscan-Daten', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles', [13.41420676005533, 52.51855560371546], [13.342236, 52.472616, 13.486317, 52.564457], 12)" />
-    <span class="hover-text">Elevation data published by<br>Geoportal Berlin / Airborne Laserscanning (ALS) Primäre 3D Laserscan-Daten<br>with data license Germany - Attribution - Version 2.0</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Munich, Germany [48°8'N, 11°34'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/GERMANY_MUNICH_RGBA_cs.png" alt="GERMANY_MUNICH" onclick="openMapPopup('Shaded Maps + Bayerische Vermessungsverwaltung', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_MUNICH_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles', [11.573358844391784, 48.138594653118275], [11.517882, 48.103828, 11.628902, 48.173325], 12)" />
-    <span class="hover-text">Elevation data published by<br>Bayerische Vermessungsverwaltung<br>with license CC BY 4.0 DEED Attribution 4.0 International</span>
-    </div>
-    <div class="gallery-item" id="Italy">
-    <h3>Firenze, Italy [43°46'N, 11°14'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/ITALY_FIRENZE_RGBA_cs.png" alt="ITALY_FIRENZE" onclick="openMapPopup('Shaded Maps + Comune di Firenze', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles', [11.247261, 43.777169], [11.196273, 43.742143, 11.298305, 43.812164], 12)" />
-    <span class="hover-text">Elevation data published by<br>Comune di Firenze<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item" id="Netherlands">
-    <h3>Amsterdam, Netherlands [52°22'N, 4°53'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/NETHERLANDS_AMSTERDAM_RGBA_cs.png" alt="NETHERLANDS_AMSTERDAM" onclick="openMapPopup('Shaded Maps + Rijkswaterstaat', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles', [4.898434257169302, 52.37357014709851], [4.825577, 52.328308, 4.971428, 52.418787], 12)" />
-    <span class="hover-text">Elevation data published by<br>Rijkswaterstaat<br>with license CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</span>
-    </div>
-    <div class="gallery-item">
-    <h3>The Hague, Netherlands [52°4'N, 4°18'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/NETHERLANDS_DEN_HAAG_RGBA_cs.png" alt="NETHERLANDS_DEN_HAAG" onclick="openMapPopup('Shaded Maps + Rijkswaterstaat', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles', [4.3103620478401075, 52.077984733897914], [4.238585, 52.032727, 4.382276, 52.123928], 12)" />
-    <span class="hover-text">Elevation data published by<br>Rijkswaterstaat<br>with license CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Maastricht, Netherlands [50°50'N, 5°41'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/NETHERLANDS_MAASTRICHT_RGBA_cs.png" alt="NETHERLANDS_MAASTRICHT" onclick="openMapPopup('Shaded Maps + Rijkswaterstaat', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles', [5.697699009975752, 50.84873462521852], [5.640714, 50.812923, 5.754785, 50.884527], 12)" />
-    <span class="hover-text">Elevation data published by<br>Rijkswaterstaat<br>with license CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Rotterdam, Netherlands [51°55'N, 4°28'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/NETHERLANDS_ROTTERDAM_RGBA_cs.png" alt="NETHERLANDS_ROTTERDAM" onclick="openMapPopup('Shaded Maps + Rijkswaterstaat', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles', [4.475926660362134, 51.916947917982675], [4.404241, 51.871429, 4.547755, 51.962429], 12)" />
-    <span class="hover-text">Elevation data published by<br>Rijkswaterstaat<br>with license CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Utrecht, Netherlands [52°5'N, 5°7'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/NETHERLANDS_UTRECHT_RGBA_cs.png" alt="NETHERLANDS_UTRECHT" onclick="openMapPopup('Shaded Maps + Rijkswaterstaat', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles', [5.126786888549559, 52.08948968599842], [5.054165, 52.044366, 5.199551, 52.134567], 12)" />
-    <span class="hover-text">Elevation data published by<br>Rijkswaterstaat<br>with license CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</span>
-    </div>
-    <div class="gallery-item" id="New_Zealand">
-    <h3>Auckland, New Zealand [36°51'S, 174°44'E] [36000 x 36000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs.png" alt="NEW_ZEALAND_AUCKLAND_2024" onclick="openMapPopup('Shaded Maps + Land Information New Zealand (LINZ)', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles', [174.73792, -36.8538], [174.638743, -36.936333, 174.836893, -36.771193], 12)" />
-    <span class="hover-text">Elevation data published by<br>Land Information New Zealand (LINZ)<br>with license CC BY 4.0 DEED Attribution 4.0 International</span>
-    </div>
-    <div class="gallery-item" id="Spain">
-    <h3>Barcelona, Spain [41°23'N, 2°9'E] [16000 x 16000 pixels, 1 pixel = 0.8 m]</h3>
-    <img src="thumbnails/SPAIN_BARCELONA_CIR_RGBA_cs.png" alt="SPAIN_BARCELONA_CIR" onclick="openMapPopup('Shaded Maps + Organismo Autónomo Centro Nacional de Información Geográfica - PNOA-LiDAR', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles', [2.15076, 41.39547], [2.079759, 41.340875, 2.221883, 41.450014], 12)" />
-    <span class="hover-text">Elevation data published by<br>Organismo Autónomo Centro Nacional de Información Geográfica - PNOA-LiDAR<br>with license Attribution 4.0 International (CC BY 4.0)</span>
-    </div>
-    <div class="gallery-item" id="Switzerland">
-    <h3>Basel, Switzerland [47°33'N, 7°35'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/SWITZERLAND_BASEL_RGBA_cs.png" alt="SWITZERLAND_BASEL" onclick="openMapPopup('Shaded Maps + Federal Office of Topography swisstopo', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BASEL_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BASEL_RGBA_cs_vector.pmtiles', [7.589356557949264, 47.556614725252075], [7.522851, 47.511712, 7.655964, 47.601478], 12)" />
-    <span class="hover-text">Elevation data published by<br>Federal Office of Topography swisstopo<br>with license Open Government Data (OGD)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Bern, Switzerland [46°56'N, 7°26'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/SWITZERLAND_BERN_RGBA_cs.png" alt="SWITZERLAND_BERN" onclick="openMapPopup('Shaded Maps + Federal Office of Topography swisstopo', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BERN_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BERN_RGBA_cs_vector.pmtiles', [7.447366, 46.947967], [7.381739, 46.902980, 7.513106, 46.992923], 12)" />
-    <span class="hover-text">Elevation data published by<br>Federal Office of Topography swisstopo<br>with license Open Government Data (OGD)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Geneva, Switzerland [46°12'N, 6°8'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/SWITZERLAND_GENEVE_RGBA_cs.png" alt="SWITZERLAND_GENEVE" onclick="openMapPopup('Shaded Maps + Federal Office of Topography swisstopo', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_vector.pmtiles', [6.144946379341421, 46.20217277230693], [6.081305, 46.156438, 6.208702, 46.247867], 12)" />
-    <span class="hover-text">Elevation data published by<br>Federal Office of Topography swisstopo<br>with license Open Government Data (OGD)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Lausanne, Switzerland [46°31'N, 6°37'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/SWITZERLAND_LAUSANNE_RGBA_cs.png" alt="SWITZERLAND_LAUSANNE" onclick="openMapPopup('Shaded Maps + Federal Office of Topography swisstopo', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_vector.pmtiles', [6.632541784005301, 46.520550491566475], [6.567857, 46.490947, 6.697013, 46.570851], 12)" />
-    <span class="hover-text">Elevation data published by<br>Federal Office of Topography swisstopo<br>with license Open Government Data (OGD)</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Zürich, Switzerland [47°22'N, 8°32'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/SWITZERLAND_ZURICH_RGBA_cs.png" alt="SWITZERLAND_ZURICH" onclick="openMapPopup('Shaded Maps + Federal Office of Topography swisstopo', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles', [8.541176339989368, 47.37423677905411], [8.474352, 47.342212, 8.604874, 47.421924], 12)" />
-    <span class="hover-text">Elevation data published by<br>Federal Office of Topography swisstopo<br>with license Open Government Data (OGD)</span>
-    </div>
-    <div class="gallery-item" id="United_States_of_America">
-    <h3>Chicago, Illinois, USA [41°53'N, 87°37'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]</h3>
-    <img src="thumbnails/USA_CHICAGO_RGBA_cs.png" alt="USA_CHICAGO" onclick="openMapPopup('Shaded Maps + U.S. Department of Commerce, National Oceanic and Atmospheric Administration', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CHICAGO_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CHICAGO_RGBA_cs_vector.pmtiles', [-87.627799584805, 41.88417350280863], [-87.664806, 41.856954, -87.595794, 41.911416], 12)" />
-    <span class="hover-text">Elevation data published by<br>U.S. Department of Commerce, National Oceanic and Atmospheric Administration<br>with license CC0 1.0 Universal</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Oklahoma City, Oklahoma, USA [35°27'N, 97°30'W] [15000 x 15000 pixels, 1 pixel = 1.0 m]</h3>
-    <img src="thumbnails/USA_OKLAHOMA_CITY_RGBA_cs.png" alt="USA_OKLAHOMA_CITY" onclick="openMapPopup('Shaded Maps + U.S. Geological Survey, National Geospatial Program', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_vector.pmtiles', [-97.51475932171803, 35.46550181858135], [-97.598562, 35.398885, -97.430809, 35.532056], 12)" />
-    <span class="hover-text">Elevation data published by<br>U.S. Geological Survey, National Geospatial Program<br>with license CC0 1.0 Universal</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Portland, Oregon, USA [45°31'N, 122°40'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]</h3>
-    <img src="thumbnails/USA_PORTLAND_RGBA_cs.png" alt="USA_PORTLAND" onclick="openMapPopup('Shaded Maps + U.S. Geological Survey, National Geospatial Program', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PORTLAND_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PORTLAND_RGBA_cs_vector.pmtiles', [-122.67468, 45.52138], [-122.709668, 45.476821, -122.639649, 45.565929], 12)" />
-    <span class="hover-text">Elevation data published by<br>U.S. Geological Survey, National Geospatial Program<br>with license CC0 1.0 Universal</span>
-    </div>
-    <div class="gallery-item">
-    <h3>Providence - Pawtucket, Rhode Island, USA [41°50'N, 71°23'W] [28000 x 40000 pixels, 1 pixel = 1.0 ft]</h3>
-    <img src="thumbnails/USA_PROVIDENCE_PAWTUCKET_RGBA_cs.png" alt="USA_PROVIDENCE_PAWTUCKET" onclick="openMapPopup('Shaded Maps + U.S. Geological Survey, National Geospatial Program', 'https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles', 'https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles', [-71.3964, 41.83471], [-71.447816, 41.783151, -71.344889, 41.892827], 12)" />
-    <span class="hover-text">Elevation data published by<br>U.S. Geological Survey, National Geospatial Program<br>with license CC0 1.0 Universal</span>
-    </div>
-        </div>
-        <div id="mapPopup">
-        <div class="map-controls">
-        <button onclick="closeMapPopup()"> Close map </button>
-        <br>
-        <label><input type="checkbox" id="vectorLayerCheckbox" unchecked> Labels</label>
-        </div>
-        <div id="map"></div>
-        </div>
-    </main>
-    <script src="script.js"></script>
+    <div id="popupInner"></div>
+    <div id="popupAttribution"></div>
+  </div>
+  <script src="script.js"></script>
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "beab773cb7e145f9ab29b8ee7939447b"}'>
+  </script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
