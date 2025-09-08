@@ -1118,7 +1118,7 @@ const placesWhiteFlavorStyle = function(feature, resolution) {
 // Basemap layer
 const basemapLayer = new ol.layer.VectorTile({
   source: new olpmtiles.PMTilesVectorSource({
-    url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/vector_pmtiles/basemap_z7.pmtiles",
+    url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/basemap_z7.pmtiles",
   }),
   style: basemapWhiteFlavorStyle
 });
@@ -1126,7 +1126,7 @@ const basemapLayer = new ol.layer.VectorTile({
 // Places layer (optional, can be commented out if not needed)
 const placesLayer = new ol.layer.VectorTile({
   source: new olpmtiles.PMTilesVectorSource({
-    url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/vector_pmtiles/basemap_z7.pmtiles",
+    url: "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/basemap_z7.pmtiles",
   }),
   style: placesWhiteFlavorStyle
 });
