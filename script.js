@@ -837,6 +837,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/URUGUAY_MONTEVIDEO_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_ATLANTA",
+        "cityName": "Atlanta",
+        "country_name": "Georgia, USA",
+        "centerCoords": [
+            -84.38941572478981,
+            33.75606440532846
+        ],
+        "extentCoords": [
+            -84.4795542,
+            33.7020229,
+            -84.3088958,
+            33.8031291
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "33\u00b045'N, 84\u00b023'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Atlanta, Georgia, USA [33\u00b045'N, 84\u00b023'W] [20000 x 20000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_ATLANTA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_ATLANTA_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "USA_AUSTIN",
         "cityName": "Austin",
         "country_name": "Texas, USA",
