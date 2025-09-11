@@ -648,6 +648,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "PORTUGAL_COIMBRA",
+        "cityName": "Coimbra",
+        "country_name": "Portugal",
+        "centerCoords": [
+            -8.414966,
+            40.2047
+        ],
+        "extentCoords": [
+            -8.4530021,
+            40.1753315,
+            -8.3768991,
+            40.2340549
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Dire\u00e7\u00e3o-Geral do Territ\u00f3rio",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Dire\u00e7\u00e3o-Geral do Territ\u00f3rio [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "40\u00b012'N, 8\u00b024'W",
+        "width": 13000,
+        "height": 13000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Coimbra, Portugal [40\u00b012'N, 8\u00b024'W] [13000 x 13000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/PORTUGAL_COIMBRA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/PORTUGAL_COIMBRA_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "SPAIN_BARCELONA_CIR",
         "cityName": "Barcelona",
         "country_name": "Spain",
