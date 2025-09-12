@@ -351,6 +351,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "CANADA_WINNIPEG",
+        "cityName": "Winnipeg",
+        "country_name": "Canada",
+        "centerCoords": [
+            -97.1402,
+            49.89468
+        ],
+        "extentCoords": [
+            -97.2114436,
+            49.8508232,
+            -97.0688307,
+            49.9384852
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "City of Winnipeg - Water & Waste Department",
+        "license_name": "Canada Open Government Licence",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | City of Winnipeg - Water & Waste Department [Canada Open Government Licence]",
+        "dms": "49\u00b053'N, 97\u00b08'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Winnipeg, Canada [49\u00b053'N, 97\u00b08'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_WINNIPEG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_WINNIPEG_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FINLAND_HELSINKI_2021",
         "cityName": "Helsinki",
         "country_name": "Finland",
@@ -862,6 +889,33 @@ const locations = [
         "city_state_coords": "Montevideo, Uruguay [34\u00b054'S, 56\u00b011'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/URUGUAY_MONTEVIDEO_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/URUGUAY_MONTEVIDEO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_ALBUQUERQUE",
+        "cityName": "Albuquerque",
+        "country_name": "New Mexico, USA",
+        "centerCoords": [
+            -106.6449,
+            35.0943
+        ],
+        "extentCoords": [
+            -106.6715304,
+            35.0722283,
+            -106.6182547,
+            35.1163639
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "35\u00b05'N, 106\u00b038'W",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Albuquerque, New Mexico, USA [35\u00b05'N, 106\u00b038'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_ALBUQUERQUE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_ALBUQUERQUE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_ATLANTA",
