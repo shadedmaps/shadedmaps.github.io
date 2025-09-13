@@ -405,6 +405,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_BORDEAUX",
+        "cityName": "Bordeaux",
+        "country_name": "France",
+        "centerCoords": [
+            -0.573975001203348,
+            44.84077559378069
+        ],
+        "extentCoords": [
+            -0.6222185,
+            44.8031612,
+            -0.5256667,
+            44.8783728
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "44\u00b050'N, 0\u00b034'W",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Bordeaux, France [44\u00b050'N, 0\u00b034'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_BORDEAUX_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_BORDEAUX_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_LYON",
         "cityName": "Lyon",
         "country_name": "France",
@@ -727,6 +754,33 @@ const locations = [
         "city_state_coords": "Coimbra, Portugal [40\u00b012'N, 8\u00b024'W] [13000 x 13000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/PORTUGAL_COIMBRA_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/PORTUGAL_COIMBRA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "PORTUGAL_LISBON",
+        "cityName": "Lisbon",
+        "country_name": "Portugal",
+        "centerCoords": [
+            -9.13937,
+            38.72262
+        ],
+        "extentCoords": [
+            -9.1962542,
+            38.6816108,
+            -9.0825376,
+            38.7726683
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Dire\u00e7\u00e3o-Geral do Territ\u00f3rio",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Dire\u00e7\u00e3o-Geral do Territ\u00f3rio [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "38\u00b043'N, 9\u00b08'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Lisbon, Portugal [38\u00b043'N, 9\u00b08'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/PORTUGAL_LISBON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/PORTUGAL_LISBON_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_BARCELONA_CIR",
