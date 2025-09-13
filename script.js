@@ -405,6 +405,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_LYON",
+        "cityName": "Lyon",
+        "country_name": "France",
+        "centerCoords": [
+            4.8473967129761295,
+            45.74684303645273
+        ],
+        "extentCoords": [
+            4.7882209,
+            45.7072665,
+            4.9066544,
+            45.7863923
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "45\u00b044'N, 4\u00b050'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Lyon, France [45\u00b044'N, 4\u00b050'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_LYON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_LYON_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_PARIS",
         "cityName": "Paris",
         "country_name": "France",
