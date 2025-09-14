@@ -459,6 +459,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_LYON_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_MARSEILLE",
+        "cityName": "Marseille",
+        "country_name": "France",
+        "centerCoords": [
+            5.3796571206854935,
+            43.305446980729165
+        ],
+        "extentCoords": [
+            5.3289513,
+            43.2705492,
+            5.4304177,
+            43.3403137
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "43\u00b018'N, 5\u00b022'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Marseille, France [43\u00b018'N, 5\u00b022'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_MARSEILLE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_MARSEILLE_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_PARIS",
         "cityName": "Paris",
         "country_name": "France",
@@ -484,6 +511,33 @@ const locations = [
         "city_state_coords": "Paris, France [48\u00b051'N, 2\u00b020'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_PARIS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_PARIS_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "FRANCE_TOULOUSE",
+        "cityName": "Toulouse",
+        "country_name": "France",
+        "centerCoords": [
+            1.4435587822914042,
+            43.60182117769797
+        ],
+        "extentCoords": [
+            1.3950533,
+            43.5651169,
+            1.4921327,
+            43.6385028
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "43\u00b036'N, 1\u00b026'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Toulouse, France [43\u00b036'N, 1\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_TOULOUSE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_TOULOUSE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_BERLIN",
