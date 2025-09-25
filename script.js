@@ -413,23 +413,50 @@ const locations = [
             44.84077559378069
         ],
         "extentCoords": [
-            -0.6222185,
-            44.8031612,
-            -0.5256667,
-            44.8783728
+            -0.6282444,
+            44.7984577,
+            -0.5196237,
+            44.8830708
         ],
         "zoomLevel": 12,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
         "dms": "44\u00b050'N, 0\u00b034'W",
-        "width": 16000,
-        "height": 16000,
+        "width": 18000,
+        "height": 18000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Bordeaux, France [44\u00b050'N, 0\u00b034'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "city_state_coords": "Bordeaux, France [44\u00b050'N, 0\u00b034'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_BORDEAUX_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_BORDEAUX_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "FRANCE_GRENOBLE",
+        "cityName": "Grenoble",
+        "country_name": "France",
+        "centerCoords": [
+            5.724421900133589,
+            45.18887776175447
+        ],
+        "extentCoords": [
+            5.6750878,
+            45.1562871,
+            5.7738257,
+            45.2214487
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "45\u00b011'N, 5\u00b043'E",
+        "width": 15000,
+        "height": 15000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Grenoble, France [45\u00b011'N, 5\u00b043'E] [15000 x 15000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_GRENOBLE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_GRENOBLE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_LYON",
@@ -484,6 +511,33 @@ const locations = [
         "city_state_coords": "Marseille, France [43\u00b018'N, 5\u00b022'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_MARSEILLE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_MARSEILLE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "FRANCE_NICE",
+        "cityName": "Nice",
+        "country_name": "France",
+        "centerCoords": [
+            7.263045492963002,
+            43.70097029210567
+        ],
+        "extentCoords": [
+            7.211274,
+            43.6725272,
+            7.3157166,
+            43.7405237
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "43\u00b042'N, 7\u00b015'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Nice, France [43\u00b042'N, 7\u00b015'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_NICE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_NICE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_PARIS",
@@ -619,6 +673,33 @@ const locations = [
         "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "MONACO_MONTECARLO",
+        "cityName": "Montecarlo",
+        "country_name": "Monaco",
+        "centerCoords": [
+            7.4261527451762435,
+            43.737353952874635
+        ],
+        "extentCoords": [
+            7.3744269,
+            43.7111423,
+            7.4735041,
+            43.7792151
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "43\u00b044'N, 7\u00b025'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Montecarlo, Monaco [43\u00b044'N, 7\u00b025'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/MONACO_MONTECARLO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/MONACO_MONTECARLO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_AMSTERDAM",
