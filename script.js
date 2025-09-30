@@ -513,6 +513,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_MARSEILLE_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_NANTES",
+        "cityName": "Nantes",
+        "country_name": "France",
+        "centerCoords": [
+            -1.553301,
+            47.215623
+        ],
+        "extentCoords": [
+            -1.6091844,
+            47.172831,
+            -1.4973186,
+            47.2583903
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "47\u00b012'N, 1\u00b033'W",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Nantes, France [47\u00b012'N, 1\u00b033'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_NANTES_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_NANTES_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_NICE",
         "cityName": "Nice",
         "country_name": "France",
