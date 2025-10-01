@@ -1348,6 +1348,33 @@ const locations = [
         "city_state_coords": "Providence - Pawtucket, Rhode Island, USA [41\u00b050'N, 71\u00b023'W] [28000 x 40000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_SAN_JOSE",
+        "cityName": "San Jose",
+        "country_name": "California, USA",
+        "centerCoords": [
+            -121.89087,
+            37.33512
+        ],
+        "extentCoords": [
+            -121.924738,
+            37.3072457,
+            -121.8569763,
+            37.3629854
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "37\u00b020'N, 121\u00b053'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "San Jose, California, USA [37\u00b020'N, 121\u00b053'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_SAN_JOSE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_SAN_JOSE_RGBA_cs_vector.pmtiles"
     }
 ];
 
