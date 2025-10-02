@@ -324,6 +324,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "CANADA_OTTAWA",
+        "cityName": "Ottawa",
+        "country_name": "Canada",
+        "centerCoords": [
+            -75.70036760747453,
+            45.41941804368536
+        ],
+        "extentCoords": [
+            -75.7351889,
+            45.3944484,
+            -75.665508,
+            45.4443827
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Government of Ontario",
+        "license_name": "Open Government Licence \u2013 Ontario",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of Ontario [Open Government Licence \u2013 Ontario]",
+        "dms": "45\u00b025'N, 75\u00b042'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Ottawa, Canada [45\u00b025'N, 75\u00b042'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_OTTAWA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_OTTAWA_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "CANADA_VANCOUVER",
         "cityName": "Vancouver",
         "country_name": "Canada",
@@ -376,6 +403,60 @@ const locations = [
         "city_state_coords": "Winnipeg, Canada [49\u00b053'N, 97\u00b08'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_WINNIPEG_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_WINNIPEG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "CZECH_REPUBLIC_BRNO",
+        "cityName": "Brno",
+        "country_name": "Czech Republic",
+        "centerCoords": [
+            16.60833612631781,
+            49.19500381958254
+        ],
+        "extentCoords": [
+            16.5916048,
+            49.1813831,
+            16.6250712,
+            49.208622
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Statut\u00e1rn\u00ed m\u011bsto Brno",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Statut\u00e1rn\u00ed m\u011bsto Brno [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "49\u00b011'N, 16\u00b036'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.2",
+        "raster_units": "m",
+        "city_state_coords": "Brno, Czech Republic [49\u00b011'N, 16\u00b036'E] [11000 x 11000 pixels, 1 pixel = 0.2 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CZECH_REPUBLIC_BRNO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CZECH_REPUBLIC_BRNO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "CZECH_REPUBLIC_PRAGUE",
+        "cityName": "Prague",
+        "country_name": "Czech Republic",
+        "centerCoords": [
+            14.41427646735983,
+            50.087284288706314
+        ],
+        "extentCoords": [
+            14.3486971,
+            50.0315279,
+            14.4800091,
+            50.142998
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Geoportal Praha",
+        "license_name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportal Praha [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]",
+        "dms": "50\u00b05'N, 14\u00b024'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Prague, Czech Republic [50\u00b05'N, 14\u00b024'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CZECH_REPUBLIC_PRAGUE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CZECH_REPUBLIC_PRAGUE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FINLAND_HELSINKI_2021",
@@ -970,6 +1051,33 @@ const locations = [
         "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [16000 x 16000 pixels, 1 pixel = 0.8 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SWEDEN_STOCKHOLM3",
+        "cityName": "Stockholm",
+        "country_name": "Sweden",
+        "centerCoords": [
+            18.068710881978312,
+            59.32786457542857
+        ],
+        "extentCoords": [
+            17.9953649,
+            59.2936316,
+            18.1422212,
+            59.3620621
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "",
+        "license_name": "",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> |  []",
+        "dms": "59\u00b019'N, 18\u00b04'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Stockholm, Sweden [59\u00b019'N, 18\u00b04'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_STOCKHOLM3_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_STOCKHOLM3_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_BASEL",
