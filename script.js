@@ -1756,7 +1756,7 @@ const locations = [
     },
     {
         "city_id": "USA_LOS_ANGELES_BEVERLY_HILLS",
-        "cityName": "Los Angeles",
+        "cityName": "Los Angeles [Beverly Hills]",
         "country_name": "California, USA",
         "centerCoords": [
             -118.40237641876925,
@@ -1777,13 +1777,13 @@ const locations = [
         "height": 16000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Los Angeles, California, USA [34\u00b04'N, 118\u00b024'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Los Angeles [Beverly Hills], California, USA [34\u00b04'N, 118\u00b024'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_BEVERLY_HILLS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_BEVERLY_HILLS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_DOWNTOWN",
-        "cityName": "Los Angeles",
+        "cityName": "Los Angeles [Downtown]",
         "country_name": "California, USA",
         "centerCoords": [
             -118.24614493970891,
@@ -1804,13 +1804,13 @@ const locations = [
         "height": 16000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Los Angeles, California, USA [34\u00b02'N, 118\u00b014'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Los Angeles [Downtown], California, USA [34\u00b02'N, 118\u00b014'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_DOWNTOWN_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_DOWNTOWN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_HOLLYWOOD",
-        "cityName": "Los Angeles",
+        "cityName": "Los Angeles [Hollywood]",
         "country_name": "California, USA",
         "centerCoords": [
             -118.32762505931629,
@@ -1831,13 +1831,13 @@ const locations = [
         "height": 16000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Los Angeles, California, USA [34\u00b05'N, 118\u00b019'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Los Angeles [Hollywood], California, USA [34\u00b05'N, 118\u00b019'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_HOLLYWOOD_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_HOLLYWOOD_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_INTERCHANGE",
-        "cityName": "Los Angeles",
+        "cityName": "Los Angeles [Judge Harry Pregerson Interchange]",
         "country_name": "California, USA",
         "centerCoords": [
             -118.28064566500615,
@@ -1858,13 +1858,13 @@ const locations = [
         "height": 16000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Los Angeles, California, USA [33\u00b055'N, 118\u00b016'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Los Angeles [Judge Harry Pregerson Interchange], California, USA [33\u00b055'N, 118\u00b016'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_INTERCHANGE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_INTERCHANGE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_SANTA_MONICA",
-        "cityName": "Los Angeles",
+        "cityName": "Los Angeles [Santa Monica]",
         "country_name": "California, USA",
         "centerCoords": [
             -118.47783514919072,
@@ -1885,7 +1885,7 @@ const locations = [
         "height": 16000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Los Angeles, California, USA [34\u00b01'N, 118\u00b028'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Los Angeles [Santa Monica], California, USA [34\u00b01'N, 118\u00b028'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_SANTA_MONICA_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_SANTA_MONICA_RGBA_cs_vector.pmtiles"
     },
@@ -2053,7 +2053,7 @@ const locations = [
     },
     {
         "city_id": "USA_NEW_YORK_CENTRAL_PARK",
-        "cityName": "New York",
+        "cityName": "New York [Central Park]",
         "country_name": "New York, USA",
         "centerCoords": [
             -73.96679,
@@ -2074,13 +2074,13 @@ const locations = [
         "height": 14000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York, New York, USA [40\u00b046'N, 73\u00b058'W] [14000 x 14000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York [Central Park], New York, USA [40\u00b046'N, 73\u00b058'W] [14000 x 14000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_YORK_CENTRAL_PARK_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_YORK_CENTRAL_PARK_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_EMPIRE_STATE_BUILDING",
-        "cityName": "New York",
+        "cityName": "New York [Empire State Building]",
         "country_name": "New York, USA",
         "centerCoords": [
             -73.98674,
@@ -2101,13 +2101,13 @@ const locations = [
         "height": 15000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York, New York, USA [40\u00b044'N, 73\u00b059'W] [15000 x 15000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York [Empire State Building], New York, USA [40\u00b044'N, 73\u00b059'W] [15000 x 15000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_YORK_EMPIRE_STATE_BUILDING_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_YORK_EMPIRE_STATE_BUILDING_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_FINANCIAL_DISTRICT",
-        "cityName": "New York",
+        "cityName": "New York [Financial District]",
         "country_name": "New York, USA",
         "centerCoords": [
             -74.00168,
@@ -2128,13 +2128,13 @@ const locations = [
         "height": 11000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York, New York, USA [40\u00b042'N, 74\u00b00'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York [Financial District], New York, USA [40\u00b042'N, 74\u00b00'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_ISLANDS",
-        "cityName": "New York",
+        "cityName": "New York [Upper Bay Islands]",
         "country_name": "New York, USA",
         "centerCoords": [
             -74.02982,
@@ -2155,7 +2155,7 @@ const locations = [
         "height": 8600,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York, New York, USA [40\u00b041'N, 74\u00b01'W] [12000 x 8600 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York [Upper Bay Islands], New York, USA [40\u00b041'N, 74\u00b01'W] [12000 x 8600 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_YORK_ISLANDS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_YORK_ISLANDS_RGBA_cs_vector.pmtiles"
     },
