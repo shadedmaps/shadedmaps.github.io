@@ -54,6 +54,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "AUSTRALIA_CAIRNS",
+        "cityName": "Cairns",
+        "country_name": "Australia",
+        "centerCoords": [
+            145.77349,
+            -16.9145
+        ],
+        "extentCoords": [
+            145.7167847,
+            -16.9683923,
+            145.8301457,
+            -16.8606174
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department of Natural Resources, Mines and Energy",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department of Natural Resources, Mines and Energy [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "16\u00b054'S, 145\u00b046'E",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Cairns, Australia [16\u00b054'S, 145\u00b046'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CAIRNS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CAIRNS_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "AUSTRALIA_CANBERRA",
         "cityName": "Canberra",
         "country_name": "Australia",
@@ -79,6 +106,33 @@ const locations = [
         "city_state_coords": "Canberra, Australia [35\u00b017'S, 149\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "AUSTRALIA_HOBART",
+        "cityName": "Hobart",
+        "country_name": "Australia",
+        "centerCoords": [
+            147.34453,
+            -42.86454
+        ],
+        "extentCoords": [
+            147.2713082,
+            -42.9187784,
+            147.4176169,
+            -42.8117876
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "GeoScience Australia",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | GeoScience Australia [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "42\u00b051'S, 147\u00b020'E",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Hobart, Australia [42\u00b051'S, 147\u00b020'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_HOBART_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_HOBART_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_MELBOURNE",
@@ -162,6 +216,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "BELGIUM_BRUGES",
+        "cityName": "Bruges",
+        "country_name": "Belgium",
+        "centerCoords": [
+            3.2243359712999644,
+            51.20885175159836
+        ],
+        "extentCoords": [
+            3.1469343,
+            51.1586299,
+            3.3018967,
+            51.2590137
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Agentschap Digitaal Vlaanderen",
+        "license_name": "Modellicentie voor gratis hergebruik",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agentschap Digitaal Vlaanderen [Modellicentie voor gratis hergebruik]",
+        "dms": "51\u00b012'N, 3\u00b013'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Bruges, Belgium [51\u00b012'N, 3\u00b013'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUGES_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUGES_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "BELGIUM_BRUSSELS",
         "cityName": "Brussels",
         "country_name": "Belgium",
@@ -214,6 +295,60 @@ const locations = [
         "city_state_coords": "Charleroi, Belgium [50\u00b024'N, 4\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "BELGIUM_GHENT",
+        "cityName": "Ghent",
+        "country_name": "Belgium",
+        "centerCoords": [
+            3.7241910523048216,
+            51.053235212417164
+        ],
+        "extentCoords": [
+            3.6465153,
+            51.0033419,
+            3.8020312,
+            51.1030738
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Agentschap Digitaal Vlaanderen",
+        "license_name": "Modellicentie voor gratis hergebruik",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agentschap Digitaal Vlaanderen [Modellicentie voor gratis hergebruik]",
+        "dms": "51\u00b03'N, 3\u00b043'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Ghent, Belgium [51\u00b03'N, 3\u00b043'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_GHENT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_GHENT_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "BELGIUM_LEUVEN",
+        "cityName": "Leuven",
+        "country_name": "Belgium",
+        "centerCoords": [
+            4.703301096521642,
+            50.8786992585703
+        ],
+        "extentCoords": [
+            4.6248855,
+            50.8294504,
+            4.7818887,
+            50.9278866
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Agentschap Digitaal Vlaanderen",
+        "license_name": "Modellicentie voor gratis hergebruik",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agentschap Digitaal Vlaanderen [Modellicentie voor gratis hergebruik]",
+        "dms": "50\u00b052'N, 4\u00b042'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Leuven, Belgium [50\u00b052'N, 4\u00b042'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LEUVEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LEUVEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_LIEGE",
@@ -594,6 +729,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/DENMARK_ROSKILDE_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "ESTONIA_TALLINN",
+        "cityName": "Tallinn",
+        "country_name": "Estonia",
+        "centerCoords": [
+            24.74593084550171,
+            59.43741414941703
+        ],
+        "extentCoords": [
+            24.6480813,
+            59.388564,
+            24.8440716,
+            59.4861984
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "",
+        "license_name": "",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> |  []",
+        "dms": "59\u00b026'N, 24\u00b044'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Tallinn, Estonia [59\u00b026'N, 24\u00b044'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ESTONIA_TALLINN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ESTONIA_TALLINN_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FINLAND_HELSINKI_2021",
         "cityName": "Helsinki",
         "country_name": "Finland",
@@ -837,6 +999,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_TOULOUSE_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "GERMANY_AACHEN",
+        "cityName": "Aachen",
+        "country_name": "Germany",
+        "centerCoords": [
+            6.086380204268355,
+            50.775416802484976
+        ],
+        "extentCoords": [
+            6.048988,
+            50.7497345,
+            6.123821,
+            50.8010788
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "50\u00b046'N, 6\u00b05'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Aachen, Germany [50\u00b046'N, 6\u00b05'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_AACHEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_AACHEN_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "GERMANY_BERLIN",
         "cityName": "Berlin",
         "country_name": "Germany",
@@ -857,9 +1046,9 @@ const locations = [
         "dms": "52\u00b031'N, 13\u00b024'E",
         "width": 20000,
         "height": 20000,
-        "raster_resolution": "0.5",
+        "raster_resolution": "1.0",
         "raster_units": "m",
-        "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles"
     },
@@ -916,6 +1105,60 @@ const locations = [
         "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "JAPAN_KOBE",
+        "cityName": "Kobe",
+        "country_name": "Japan",
+        "centerCoords": [
+            135.2039082444184,
+            34.67834031593773
+        ],
+        "extentCoords": [
+            135.1434107,
+            34.629179,
+            135.2644763,
+            34.7274775
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Hyogo Prefecture",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Hyogo Prefecture [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "34\u00b040'N, 135\u00b012'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Kobe, Japan [34\u00b040'N, 135\u00b012'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/JAPAN_KOBE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/JAPAN_KOBE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "JAPAN_SHIZUOKA",
+        "cityName": "Shizuoka",
+        "country_name": "Japan",
+        "centerCoords": [
+            138.3837842980162,
+            34.973788305002806
+        ],
+        "extentCoords": [
+            138.3400369,
+            34.9452531,
+            138.4123627,
+            34.99942
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Hyogo Prefecture",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Hyogo Prefecture [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "34\u00b058'N, 138\u00b023'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Shizuoka, Japan [34\u00b058'N, 138\u00b023'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/JAPAN_SHIZUOKA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/JAPAN_SHIZUOKA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "MONACO_MONTECARLO",
@@ -2342,9 +2585,9 @@ const locations = [
         "dms": "45\u00b031'N, 122\u00b040'W",
         "width": 16000,
         "height": 16000,
-        "raster_resolution": "0.9",
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [16000 x 16000 pixels, 1 pixel = 0.9 m]",
+        "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PORTLAND_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PORTLAND_RGBA_cs_vector.pmtiles"
     },
