@@ -189,6 +189,60 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "AUSTRIA_GRAZ",
+        "cityName": "Graz",
+        "country_name": "Austria",
+        "centerCoords": [
+            15.440293115379172,
+            47.068887696358104
+        ],
+        "extentCoords": [
+            15.3847073,
+            47.0312938,
+            15.4959579,
+            47.106455
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Land Steiermark",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Steiermark [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "47\u00b04'N, 15\u00b026'E",
+        "width": 8400,
+        "height": 8400,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Graz, Austria [47\u00b04'N, 15\u00b026'E] [8400 x 8400 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRIA_GRAZ_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRIA_GRAZ_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "AUSTRIA_INNSBRUCK",
+        "cityName": "Innsbruck",
+        "country_name": "Austria",
+        "centerCoords": [
+            11.393466709158641,
+            47.265360781139556
+        ],
+        "extentCoords": [
+            11.3400909,
+            47.2404577,
+            11.4521475,
+            47.29339
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Land Tirol",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Tirol [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "47\u00b015'N, 11\u00b023'E",
+        "width": 8400,
+        "height": 6000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Innsbruck, Austria [47\u00b015'N, 11\u00b023'E] [8400 x 6000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRIA_INNSBRUCK_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRIA_INNSBRUCK_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "BELGIUM_ANTWERP",
         "cityName": "Antwerp",
         "country_name": "Belgium",
@@ -1051,6 +1105,276 @@ const locations = [
         "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_BIELEFELD",
+        "cityName": "Bielefeld",
+        "country_name": "Germany",
+        "centerCoords": [
+            8.53071892532313,
+            52.026799246012835
+        ],
+        "extentCoords": [
+            8.4909203,
+            52.00191,
+            8.5705638,
+            52.0516776
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "52\u00b01'N, 8\u00b031'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Bielefeld, Germany [52\u00b01'N, 8\u00b031'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BIELEFELD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BIELEFELD_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_BOCHUM",
+        "cityName": "Bochum",
+        "country_name": "Germany",
+        "centerCoords": [
+            7.217805636066575,
+            51.48183725989465
+        ],
+        "extentCoords": [
+            7.1792032,
+            51.456511,
+            7.2564423,
+            51.5071451
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "51\u00b028'N, 7\u00b013'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Bochum, Germany [51\u00b028'N, 7\u00b013'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BOCHUM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BOCHUM_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_BONN",
+        "cityName": "Bonn",
+        "country_name": "Germany",
+        "centerCoords": [
+            7.100827422892272,
+            50.735435723992445
+        ],
+        "extentCoords": [
+            7.0628961,
+            50.7100787,
+            7.1387926,
+            50.7607816
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "50\u00b044'N, 7\u00b06'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Bonn, Germany [50\u00b044'N, 7\u00b06'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BONN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BONN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_CHEMNITZ",
+        "cityName": "Chemnitz",
+        "country_name": "Germany",
+        "centerCoords": [
+            12.920179864445842,
+            50.832732814537444
+        ],
+        "extentCoords": [
+            12.8616126,
+            50.7934515,
+            12.9788385,
+            50.8719903
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN)",
+        "license_name": "Data licence Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN) [Data licence Germany - Attribution - Version 2.0]",
+        "dms": "50\u00b049'N, 12\u00b055'E",
+        "width": 8500,
+        "height": 8500,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Chemnitz, Germany [50\u00b049'N, 12\u00b055'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_CHEMNITZ_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_CHEMNITZ_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_DORTMUND",
+        "cityName": "Dortmund",
+        "country_name": "Germany",
+        "centerCoords": [
+            7.465209747428075,
+            51.514135793633265
+        ],
+        "extentCoords": [
+            7.4264484,
+            51.4888937,
+            7.5040189,
+            51.5393671
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "51\u00b030'N, 7\u00b027'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Dortmund, Germany [51\u00b030'N, 7\u00b027'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_DORTMUND_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DORTMUND_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_DRESDEN",
+        "cityName": "Dresden",
+        "country_name": "Germany",
+        "centerCoords": [
+            13.737323039014965,
+            51.049649986417954
+        ],
+        "extentCoords": [
+            13.6778006,
+            51.0107746,
+            13.7969576,
+            51.0885015
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN)",
+        "license_name": "Data licence Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN) [Data licence Germany - Attribution - Version 2.0]",
+        "dms": "51\u00b02'N, 13\u00b044'E",
+        "width": 8500,
+        "height": 8500,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Dresden, Germany [51\u00b02'N, 13\u00b044'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_DRESDEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DRESDEN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_DUESSELDORF",
+        "cityName": "D\u00fcsseldorf",
+        "country_name": "Germany",
+        "centerCoords": [
+            6.774371194392864,
+            51.22529433818025
+        ],
+        "extentCoords": [
+            6.7362259,
+            51.1998332,
+            6.8125454,
+            51.25075
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "51\u00b013'N, 6\u00b046'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "D\u00fcsseldorf, Germany [51\u00b013'N, 6\u00b046'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_DUESSELDORF_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DUESSELDORF_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_DUISBURG",
+        "cityName": "Duisburg",
+        "country_name": "Germany",
+        "centerCoords": [
+            6.765996230491066,
+            51.4332383683671
+        ],
+        "extentCoords": [
+            6.7276937,
+            51.4077699,
+            6.8043427,
+            51.4586947
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "51\u00b025'N, 6\u00b045'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Duisburg, Germany [51\u00b025'N, 6\u00b045'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_DUISBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DUISBURG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_ESSEN",
+        "cityName": "Essen",
+        "country_name": "Germany",
+        "centerCoords": [
+            7.011083355139584,
+            51.45650685002174
+        ],
+        "extentCoords": [
+            6.9726275,
+            51.4311139,
+            7.0495918,
+            51.4818814
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "51\u00b027'N, 7\u00b00'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Essen, Germany [51\u00b027'N, 7\u00b00'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_ESSEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_ESSEN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_FRANKFURT",
+        "cityName": "Frankfurt am Main",
+        "country_name": "Germany",
+        "centerCoords": [
+            8.67530071508984,
+            50.111706550037624
+        ],
+        "extentCoords": [
+            8.5918498,
+            50.0574763,
+            8.7589476,
+            50.1658703
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Hessische Verwaltung f\u00fcr Bodenmanagement und Geoinformation",
+        "license_name": "Open Data",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Hessische Verwaltung f\u00fcr Bodenmanagement und Geoinformation [Open Data]",
+        "dms": "50\u00b06'N, 8\u00b040'E",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Frankfurt am Main, Germany [50\u00b06'N, 8\u00b040'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_FRANKFURT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_FRANKFURT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_MUNICH",
