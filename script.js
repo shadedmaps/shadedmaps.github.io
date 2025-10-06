@@ -1404,6 +1404,168 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "HAITI_PORT_AU_PRINCE",
+        "cityName": "Port-au-Prince",
+        "country_name": "Haiti",
+        "centerCoords": [
+            -72.31004,
+            18.56278
+        ],
+        "extentCoords": [
+            -72.3532647,
+            18.5227567,
+            -72.2738076,
+            18.597715
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "World Bank - ImageCat Inc. - RIT Haiti Earthquake LiDAR dataset",
+        "license_name": "",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | World Bank - ImageCat Inc. - RIT Haiti Earthquake LiDAR dataset []",
+        "dms": "18\u00b033'N, 72\u00b018'W",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "0.8",
+        "raster_units": "m",
+        "city_state_coords": "Port-au-Prince, Haiti [18\u00b033'N, 72\u00b018'W] [12000 x 12000 pixels, 1 pixel = 0.8 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/HAITI_PORT_AU_PRINCE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/HAITI_PORT_AU_PRINCE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "HONG_KONG_HONG_KONG",
+        "cityName": "Hong Kong",
+        "country_name": "Hong_Kong",
+        "centerCoords": [
+            114.17373014173438,
+            22.298716830086335
+        ],
+        "extentCoords": [
+            114.1470478,
+            22.273883,
+            114.2004217,
+            22.3235524
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Hong Kong Geodata Store",
+        "license_name": "TERMS AND CONDITIONS OF USE (version 1.3)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Hong Kong Geodata Store [TERMS AND CONDITIONS OF USE (version 1.3)]",
+        "dms": "22\u00b017'N, 114\u00b010'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Hong Kong, Hong_Kong [22\u00b017'N, 114\u00b010'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/HONG_KONG_HONG_KONG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/HONG_KONG_HONG_KONG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "IRELAND_DUBLIN",
+        "cityName": "Dublin",
+        "country_name": "Ireland",
+        "centerCoords": [
+            -6.25844,
+            53.34595
+        ],
+        "extentCoords": [
+            -6.2738086,
+            53.3371877,
+            -6.2430609,
+            53.3547111
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Government of Ireland",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of Ireland [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "53\u00b020'N, 6\u00b015'W",
+        "width": 4000,
+        "height": 4000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Dublin, Ireland [53\u00b020'N, 6\u00b015'W] [4000 x 4000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/IRELAND_DUBLIN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/IRELAND_DUBLIN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_BOLOGNA",
+        "cityName": "Bologna",
+        "country_name": "Italy",
+        "centerCoords": [
+            11.342939039656493,
+            44.50037098953136
+        ],
+        "extentCoords": [
+            11.2868809,
+            44.4603623,
+            11.4011815,
+            44.5399837
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica",
+        "license_name": "CC BY 4.0 Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica [CC BY 4.0 Attribution 4.0 International]",
+        "dms": "44\u00b030'N, 11\u00b020'E",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Bologna, Italy [44\u00b030'N, 11\u00b020'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_BOLOGNA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_BOLOGNA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_BOLZANO",
+        "cityName": "Bolzano",
+        "country_name": "Italy",
+        "centerCoords": [
+            11.343571802006299,
+            46.49377666423946
+        ],
+        "extentCoords": [
+            11.3060548,
+            46.469337,
+            11.381131,
+            46.5181976
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Provincia Autonoma di Bolzano - Alto Adige",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Provincia Autonoma di Bolzano - Alto Adige [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "46\u00b029'N, 11\u00b020'E",
+        "width": 11200,
+        "height": 11200,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Bolzano, Italy [46\u00b029'N, 11\u00b020'E] [11200 x 11200 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_BOLZANO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_BOLZANO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_CAGLIARI",
+        "cityName": "Cagliari",
+        "country_name": "Italy",
+        "centerCoords": [
+            9.142088771493722,
+            39.22614953879807
+        ],
+        "extentCoords": [
+            9.0783087,
+            39.1766514,
+            9.2059478,
+            39.2756166
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Regione Autonoma della Sardegna",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Regione Autonoma della Sardegna [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "39\u00b013'N, 9\u00b08'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Cagliari, Italy [39\u00b013'N, 9\u00b08'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_CAGLIARI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_CAGLIARI_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "ITALY_FIRENZE",
         "cityName": "Firenze",
         "country_name": "Italy",
@@ -1424,11 +1586,173 @@ const locations = [
         "dms": "43\u00b046'N, 11\u00b014'E",
         "width": 16000,
         "height": 16000,
-        "raster_resolution": "0.5",
+        "raster_resolution": "1.0",
         "raster_units": "m",
-        "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_GENOVA",
+        "cityName": "Genova",
+        "country_name": "Italy",
+        "centerCoords": [
+            8.91709,
+            44.43785
+        ],
+        "extentCoords": [
+            8.8418335,
+            44.3876598,
+            8.9924803,
+            44.4802011
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica",
+        "license_name": "CC BY 4.0 Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica [CC BY 4.0 Attribution 4.0 International]",
+        "dms": "44\u00b026'N, 8\u00b055'E",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Genova, Italy [44\u00b026'N, 8\u00b055'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_GENOVA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_GENOVA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_MILANO",
+        "cityName": "Milano",
+        "country_name": "Italy",
+        "centerCoords": [
+            9.1699262,
+            45.4650392
+        ],
+        "extentCoords": [
+            9.1098837,
+            45.4200839,
+            9.230064,
+            45.509962
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Ministero dell\u2019Ambiente e della Sicurezza Energetica",
+        "license_name": "Attribution-ShareAlike 3.0 Italy (CC BY-SA 3.0 IT)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Ministero dell\u2019Ambiente e della Sicurezza Energetica [Attribution-ShareAlike 3.0 Italy (CC BY-SA 3.0 IT)]",
+        "dms": "45\u00b027'N, 9\u00b010'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.9",
+        "raster_units": "m",
+        "city_state_coords": "Milano, Italy [45\u00b027'N, 9\u00b010'E] [11000 x 11000 pixels, 1 pixel = 0.9 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_MILANO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_MILANO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_NAPOLI",
+        "cityName": "Napoli",
+        "country_name": "Italy",
+        "centerCoords": [
+            14.25016,
+            40.85324
+        ],
+        "extentCoords": [
+            14.191388,
+            40.8078006,
+            14.3090034,
+            40.8986487
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Sistema Informativo Territoriale della Citt\u00e0 Metropolitana di Napoli",
+        "license_name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sistema Informativo Territoriale della Citt\u00e0 Metropolitana di Napoli [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]",
+        "dms": "40\u00b051'N, 14\u00b015'E",
+        "width": 10000,
+        "height": 10000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Napoli, Italy [40\u00b051'N, 14\u00b015'E] [10000 x 10000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_NAPOLI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_NAPOLI_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_PERUGIA",
+        "cityName": "Perugia",
+        "country_name": "Italy",
+        "centerCoords": [
+            12.386549293487299,
+            43.10548031942827
+        ],
+        "extentCoords": [
+            12.3277228,
+            43.0705817,
+            12.4339144,
+            43.1398858
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica",
+        "license_name": "CC BY 4.0 Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica [CC BY 4.0 Attribution 4.0 International]",
+        "dms": "43\u00b06'N, 12\u00b023'E",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Perugia, Italy [43\u00b06'N, 12\u00b023'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_PERUGIA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_PERUGIA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_TRENTO",
+        "cityName": "Trento",
+        "country_name": "Italy",
+        "centerCoords": [
+            11.122405677159792,
+            46.0706547471959
+        ],
+        "extentCoords": [
+            11.08746,
+            46.0465505,
+            11.1589042,
+            46.0947253
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Provincia Autonoma di Trento",
+        "license_name": "Attribution 2.5 Generic (CC BY 2.5)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Provincia Autonoma di Trento [Attribution 2.5 Generic (CC BY 2.5)]",
+        "dms": "46\u00b04'N, 11\u00b07'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Trento, Italy [46\u00b04'N, 11\u00b07'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_TRENTO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_TRENTO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "ITALY_TRIESTE",
+        "cityName": "Trieste",
+        "country_name": "Italy",
+        "centerCoords": [
+            13.7831,
+            45.63645
+        ],
+        "extentCoords": [
+            13.7184513,
+            45.5862388,
+            13.8512844,
+            45.6861224
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Regione Autonoma Friuli Venezia Giulia",
+        "license_name": "Italian Open Data Licence v2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Regione Autonoma Friuli Venezia Giulia [Italian Open Data Licence v2.0]",
+        "dms": "45\u00b038'N, 13\u00b046'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Trieste, Italy [45\u00b038'N, 13\u00b046'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_TRIESTE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_TRIESTE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "JAPAN_KOBE",
