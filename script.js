@@ -243,6 +243,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRIA_INNSBRUCK_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "AUSTRIA_WIEN",
+        "cityName": "Vienna",
+        "country_name": "Austria",
+        "centerCoords": [
+            16.371800628297223,
+            48.20951403850834
+        ],
+        "extentCoords": [
+            16.317989,
+            48.1735481,
+            16.4256735,
+            48.2433426
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Open Government Data Wien",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Open Government Data Wien [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "48\u00b012'N, 16\u00b022'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Vienna, Austria [48\u00b012'N, 16\u00b022'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRIA_WIEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRIA_WIEN_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "BELGIUM_ANTWERP",
         "cityName": "Antwerp",
         "country_name": "Belgium",
@@ -1586,9 +1613,9 @@ const locations = [
         "dms": "43\u00b046'N, 11\u00b014'E",
         "width": 16000,
         "height": 16000,
-        "raster_resolution": "1.0",
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
+        "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles"
     },
@@ -1809,6 +1836,87 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/JAPAN_SHIZUOKA_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "LATVIA_RIGA",
+        "cityName": "Riga",
+        "country_name": "Latvia",
+        "centerCoords": [
+            24.114051589265195,
+            56.95302480276672
+        ],
+        "extentCoords": [
+            24.0235942,
+            56.9036677,
+            24.2047443,
+            57.0023217
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Latvian Geospatial Information Agency",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Latvian Geospatial Information Agency [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "56\u00b057'N, 24\u00b06'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Riga, Latvia [56\u00b057'N, 24\u00b06'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/LATVIA_RIGA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/LATVIA_RIGA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "LIECHTENSTEIN_VADUZ",
+        "cityName": "Vaduz",
+        "country_name": "Liechtenstein",
+        "centerCoords": [
+            9.52061769234192,
+            47.14064079538869
+        ],
+        "extentCoords": [
+            9.4834289,
+            47.1165685,
+            9.5578321,
+            47.1647097
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Federal Office of Topography swisstopo",
+        "license_name": "Open Government Data (OGD)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
+        "dms": "47\u00b08'N, 9\u00b031'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Vaduz, Liechtenstein [47\u00b08'N, 9\u00b031'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/LIECHTENSTEIN_VADUZ_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/LIECHTENSTEIN_VADUZ_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "LUXEMBOURG_LUXEMBOURG_CITY",
+        "cityName": "Luxembourg",
+        "country_name": "Luxembourg",
+        "centerCoords": [
+            6.131785557785231,
+            49.61228956213712
+        ],
+        "extentCoords": [
+            6.0937734,
+            49.5875422,
+            6.1698398,
+            49.637016
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Administration du cadastre et de la topographie",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Administration du cadastre et de la topographie [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "49\u00b036'N, 6\u00b07'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Luxembourg, Luxembourg [49\u00b036'N, 6\u00b07'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "MONACO_MONTECARLO",
         "cityName": "Montecarlo",
         "country_name": "Monaco",
@@ -1998,6 +2106,249 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "NEW_ZEALAND_CHRISTCHURCH",
+        "cityName": "Christchurch",
+        "country_name": "New Zealand",
+        "centerCoords": [
+            172.6337113598142,
+            -43.53212795474367
+        ],
+        "extentCoords": [
+            172.5839566,
+            -43.5679779,
+            172.6833987,
+            -43.4962626
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Land Information New Zealand",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Information New Zealand [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "43\u00b031'S, 172\u00b038'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Christchurch, New Zealand [43\u00b031'S, 172\u00b038'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "NEW_ZEALAND_WELLINGTON",
+        "cityName": "Wellington",
+        "country_name": "New Zealand",
+        "centerCoords": [
+            174.77581623861875,
+            -41.2879147557007
+        ],
+        "extentCoords": [
+            174.7290173,
+            -41.3246568,
+            174.8225578,
+            -41.2511557
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Land Information New Zealand",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Information New Zealand [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "41\u00b017'S, 174\u00b046'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Wellington, New Zealand [41\u00b017'S, 174\u00b046'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_WELLINGTON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_WELLINGTON_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "NORWAY_BERGEN",
+        "cityName": "Bergen",
+        "country_name": "Norway",
+        "centerCoords": [
+            5.32347765719771,
+            60.389401240444016
+        ],
+        "extentCoords": [
+            5.239842,
+            60.333486,
+            5.4074006,
+            60.4452793
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Norwegian Mapping Authority",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "60\u00b023'N, 5\u00b019'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Bergen, Norway [60\u00b023'N, 5\u00b019'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_BERGEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_BERGEN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "NORWAY_OSLO",
+        "cityName": "Oslo",
+        "country_name": "Norway",
+        "centerCoords": [
+            10.752364412389243,
+            59.90566062336651
+        ],
+        "extentCoords": [
+            10.6607574,
+            59.8532174,
+            10.8442672,
+            59.9580489
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Norwegian Mapping Authority",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "59\u00b054'N, 10\u00b045'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Oslo, Norway [59\u00b054'N, 10\u00b045'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_OSLO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_OSLO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "NORWAY_STAVANGER",
+        "cityName": "Stavanger",
+        "country_name": "Norway",
+        "centerCoords": [
+            5.76474,
+            58.97275
+        ],
+        "extentCoords": [
+            5.6856056,
+            58.9177194,
+            5.8441144,
+            59.0277353
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Norwegian Mapping Authority",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "58\u00b058'N, 5\u00b045'E",
+        "width": 9700,
+        "height": 11800,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Stavanger, Norway [58\u00b058'N, 5\u00b045'E] [9700 x 11800 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_STAVANGER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_STAVANGER_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "NORWAY_TROMSO",
+        "cityName": "Troms\u00f8",
+        "country_name": "Norway",
+        "centerCoords": [
+            18.96552,
+            69.6558
+        ],
+        "extentCoords": [
+            18.8723514,
+            69.6219457,
+            19.0740411,
+            69.6831285
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Norwegian Mapping Authority",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "69\u00b039'N, 18\u00b057'E",
+        "width": 8000,
+        "height": 8000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Troms\u00f8, Norway [69\u00b039'N, 18\u00b057'E] [8000 x 8000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_TROMSO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_TROMSO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "NORWAY_TRONDHEIM",
+        "cityName": "Trondheim",
+        "country_name": "Norway",
+        "centerCoords": [
+            10.39521406582642,
+            63.43048683517563
+        ],
+        "extentCoords": [
+            10.2934698,
+            63.3777025,
+            10.4973497,
+            63.4831943
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Norwegian Mapping Authority",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "63\u00b025'N, 10\u00b023'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Trondheim, Norway [63\u00b025'N, 10\u00b023'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_TRONDHEIM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_TRONDHEIM_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "POLAND_KRAKOW",
+        "cityName": "Krak\u00f3w",
+        "country_name": "Poland",
+        "centerCoords": [
+            19.938294650194536,
+            50.06165906400675
+        ],
+        "extentCoords": [
+            19.8994027,
+            50.0372211,
+            19.9772227,
+            50.0860748
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Head Office of Geodesy and Cartography",
+        "license_name": "",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography []",
+        "dms": "50\u00b03'N, 19\u00b056'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Krak\u00f3w, Poland [50\u00b03'N, 19\u00b056'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/POLAND_KRAKOW_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/POLAND_KRAKOW_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "POLAND_WARSAW",
+        "cityName": "Warsaw",
+        "country_name": "Poland",
+        "centerCoords": [
+            21.014904543989793,
+            52.234282288628556
+        ],
+        "extentCoords": [
+            20.9735565,
+            52.2102477,
+            21.056307,
+            52.2583054
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Head Office of Geodesy and Cartography",
+        "license_name": "",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography []",
+        "dms": "52\u00b014'N, 21\u00b00'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Warsaw, Poland [52\u00b014'N, 21\u00b00'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/POLAND_WARSAW_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/POLAND_WARSAW_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "PORTUGAL_COIMBRA",
         "cityName": "Coimbra",
         "country_name": "Portugal",
@@ -2052,6 +2403,60 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/PORTUGAL_LISBON_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "SLOVAKIA_BRATISLAVA",
+        "cityName": "Bratislava",
+        "country_name": "Slovakia",
+        "centerCoords": [
+            17.13,
+            48.129
+        ],
+        "extentCoords": [
+            50.2005205,
+            63.1358228,
+            49.9321848,
+            63.0817379
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "",
+        "license_name": "",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> |  []",
+        "dms": "48\u00b07'N, 17\u00b07'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Bratislava, Slovakia [48\u00b07'N, 17\u00b07'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SLOVAKIA_BRATISLAVA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SLOVAKIA_BRATISLAVA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SLOVENIA_LJUBLJANA",
+        "cityName": "Ljubljana",
+        "country_name": "Slovenia",
+        "centerCoords": [
+            14.509172404150787,
+            46.051827235138546
+        ],
+        "extentCoords": [
+            14.4385992,
+            46.0020194,
+            14.5798671,
+            46.1015993
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Agencija Republike Slovenije za okolje",
+        "license_name": "",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agencija Republike Slovenije za okolje []",
+        "dms": "46\u00b03'N, 14\u00b030'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Ljubljana, Slovenia [46\u00b03'N, 14\u00b030'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SLOVENIA_LJUBLJANA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SLOVENIA_LJUBLJANA_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "SPAIN_BARCELONA_CIR",
         "cityName": "Barcelona",
         "country_name": "Spain",
@@ -2072,11 +2477,227 @@ const locations = [
         "dms": "41\u00b023'N, 2\u00b09'E",
         "width": 16000,
         "height": 16000,
-        "raster_resolution": "0.8",
+        "raster_resolution": "1.0",
         "raster_units": "m",
-        "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [16000 x 16000 pixels, 1 pixel = 0.8 m]",
+        "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_CORDOBA",
+        "cityName": "Cordoba",
+        "country_name": "Spain",
+        "centerCoords": [
+            -4.781636276543238,
+            37.88593151586789
+        ],
+        "extentCoords": [
+            -4.8429157,
+            37.8354209,
+            -4.7202695,
+            37.9364095
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda",
+        "license_name": "Creative Commons Attribution 4.0 International Public License (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda [Creative Commons Attribution 4.0 International Public License (CC BY 4.0)]",
+        "dms": "37\u00b053'N, 4\u00b046'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Cordoba, Spain [37\u00b053'N, 4\u00b046'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_CORDOBA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_CORDOBA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_GRANADA",
+        "cityName": "Granada",
+        "country_name": "Spain",
+        "centerCoords": [
+            -3.597846639729449,
+            37.17668388668109
+        ],
+        "extentCoords": [
+            -3.6593705,
+            37.1267794,
+            -3.5362424,
+            37.2265549
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda",
+        "license_name": "Creative Commons Attribution 4.0 International Public License (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda [Creative Commons Attribution 4.0 International Public License (CC BY 4.0)]",
+        "dms": "37\u00b010'N, 3\u00b035'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Granada, Spain [37\u00b010'N, 3\u00b035'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_GRANADA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_GRANADA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_LOGRONO",
+        "cityName": "Logro\u00f1o",
+        "country_name": "Spain",
+        "centerCoords": [
+            -2.4460336057412047,
+            42.46344515620782
+        ],
+        "extentCoords": [
+            -2.5132763,
+            42.4187231,
+            -2.3787255,
+            42.5046825
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Infraestructura de Datos Espaciales de La Rioja",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Infraestructura de Datos Espaciales de La Rioja [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "42\u00b027'N, 2\u00b026'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Logro\u00f1o, Spain [42\u00b027'N, 2\u00b026'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_LOGRONO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_LOGRONO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_MADRID3",
+        "cityName": "Madrid",
+        "country_name": "Spain",
+        "centerCoords": [
+            -3.707282327993127,
+            40.41545241490047
+        ],
+        "extentCoords": [
+            -3.7394203,
+            40.390475,
+            -3.6751163,
+            40.4404181
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Ayuntamiento de Madrid",
+        "license_name": "Open Data",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Ayuntamiento de Madrid [Open Data]",
+        "dms": "40\u00b024'N, 3\u00b042'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Madrid, Spain [40\u00b024'N, 3\u00b042'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_MADRID3_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_MADRID3_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_PAMPLONA2",
+        "cityName": "Pamplona",
+        "country_name": "Spain",
+        "centerCoords": [
+            -1.6436481716306741,
+            42.8181937238694
+        ],
+        "extentCoords": [
+            -1.6778088,
+            42.7938294,
+            -1.6094655,
+            42.8425483
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Sistema de Informaci\u00f3n Territorial de Navarra",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sistema de Informaci\u00f3n Territorial de Navarra [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "42\u00b049'N, 1\u00b038'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Pamplona, Spain [42\u00b049'N, 1\u00b038'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_PAMPLONA2_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_PAMPLONA2_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_SANTANDER",
+        "cityName": "Santander",
+        "country_name": "Spain",
+        "centerCoords": [
+            -3.8095056528423883,
+            43.46169718674397
+        ],
+        "extentCoords": [
+            -3.8767665,
+            43.4116792,
+            -3.7421235,
+            43.5116798
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Gobierno de Cantabria y del IGN-CNIG",
+        "license_name": "Open Data",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Gobierno de Cantabria y del IGN-CNIG [Open Data]",
+        "dms": "43\u00b027'N, 3\u00b048'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Santander, Spain [43\u00b027'N, 3\u00b048'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_SANTANDER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_SANTANDER_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_SAN_SEBASTIAN",
+        "cityName": "San Sebastian",
+        "country_name": "Spain",
+        "centerCoords": [
+            -1.977960022353367,
+            43.309695890389
+        ],
+        "extentCoords": [
+            -2.0389018,
+            43.265201,
+            -1.9094679,
+            43.347656
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Gipuzkoa Provincial Council",
+        "license_name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Gipuzkoa Provincial Council [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]",
+        "dms": "43\u00b018'N, 1\u00b058'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "San Sebastian, Spain [43\u00b018'N, 1\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_SAN_SEBASTIAN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_SAN_SEBASTIAN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_SEVILLA",
+        "cityName": "Sevilla",
+        "country_name": "Spain",
+        "centerCoords": [
+            -5.977115421012386,
+            37.38810886627135
+        ],
+        "extentCoords": [
+            -6.0429353,
+            37.338062,
+            -5.9258793,
+            37.4401375
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda",
+        "license_name": "Creative Commons Attribution 4.0 International Public License (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda [Creative Commons Attribution 4.0 International Public License (CC BY 4.0)]",
+        "dms": "37\u00b023'N, 5\u00b058'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Sevilla, Spain [37\u00b023'N, 5\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_SEVILLA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_SEVILLA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWEDEN_STOCKHOLM3",
