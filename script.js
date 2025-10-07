@@ -567,6 +567,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_OTTAWA_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "CANADA_TORONTO",
+        "cityName": "Toronto",
+        "country_name": "Canada",
+        "centerCoords": [
+            -79.38530363598082,
+            43.64300197286423
+        ],
+        "extentCoords": [
+            -79.4200415,
+            43.6187279,
+            -79.3505491,
+            43.6672674
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Government of Ontario",
+        "license_name": "Open Government Licence - Ontario",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of Ontario [Open Government Licence - Ontario]",
+        "dms": "43\u00b038'N, 79\u00b023'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Toronto, Canada [43\u00b038'N, 79\u00b023'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_TORONTO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_TORONTO_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "CANADA_VANCOUVER",
         "cityName": "Vancouver",
         "country_name": "Canada",
@@ -3267,6 +3294,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_SHEFFIELD_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "UK_ENGLAND_SOUTHAMPTON",
+        "cityName": "Southampton",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -1.406430461649131,
+            50.91183016891249
+        ],
+        "extentCoords": [
+            -1.4852066,
+            50.8627408,
+            -1.3274934,
+            50.9608575
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "50\u00b054'N, 1\u00b024'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Southampton, United Kingdom [50\u00b054'N, 1\u00b024'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "UK_ENGLAND_YORK",
         "cityName": "York",
         "country_name": "United Kingdom",
@@ -3389,9 +3443,9 @@ const locations = [
             51.5275625
         ],
         "zoomLevel": 12,
-        "data_publisher": "XXX",
-        "license_name": "XXX",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | XXX [XXX]",
+        "data_publisher": "Natural Resources Wales",
+        "license_name": "Open Government Licence v2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Natural Resources Wales [Open Government Licence v2.0]",
         "dms": "51\u00b028'N, 3\u00b010'W",
         "width": 11000,
         "height": 11000,
@@ -4561,6 +4615,33 @@ const locations = [
         "city_state_coords": "Seattle, Washington, USA [47\u00b036'N, 122\u00b018'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_SEATTLE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_SEATTLE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_WALT_DISNEY_WORLD",
+        "cityName": "Walt Disney World",
+        "country_name": "Florida, USA",
+        "centerCoords": [
+            -81.54936531806973,
+            28.370057718439217
+        ],
+        "extentCoords": [
+            -81.5663928,
+            28.3548643,
+            -81.5323442,
+            28.3852555
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "28\u00b022'N, 81\u00b032'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Walt Disney World, Florida, USA [28\u00b022'N, 81\u00b032'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_WALT_DISNEY_WORLD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_WALT_DISNEY_WORLD_RGBA_cs_vector.pmtiles"
     }
 ];
 
