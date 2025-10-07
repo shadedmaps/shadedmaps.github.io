@@ -2700,6 +2700,60 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_SEVILLA_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "SWEDEN_GOTEBORG",
+        "cityName": "G\u00f6teborg",
+        "country_name": "Sweden",
+        "centerCoords": [
+            11.966520584421087,
+            57.7055382220541
+        ],
+        "extentCoords": [
+            11.8786093,
+            57.6539685,
+            12.0546771,
+            57.757057
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Sweden Land Survey Authority",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "57\u00b042'N, 11\u00b057'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "G\u00f6teborg, Sweden [57\u00b042'N, 11\u00b057'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_GOTEBORG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_GOTEBORG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SWEDEN_MALMO",
+        "cityName": "Malm\u00f6",
+        "country_name": "Sweden",
+        "centerCoords": [
+            13.001634765002434,
+            55.59771977851561
+        ],
+        "extentCoords": [
+            12.9170257,
+            55.5468749,
+            13.0864613,
+            55.6484994
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Sweden Land Survey Authority",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "55\u00b035'N, 13\u00b00'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Malm\u00f6, Sweden [55\u00b035'N, 13\u00b00'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_MALMO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_MALMO_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "SWEDEN_STOCKHOLM3",
         "cityName": "Stockholm",
         "country_name": "Sweden",
@@ -2714,9 +2768,9 @@ const locations = [
             59.3620621
         ],
         "zoomLevel": 12,
-        "data_publisher": "",
-        "license_name": "",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> |  []",
+        "data_publisher": "Sweden Land Survey Authority",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
         "dms": "59\u00b019'N, 18\u00b04'E",
         "width": 16000,
         "height": 16000,
@@ -2725,6 +2779,60 @@ const locations = [
         "city_state_coords": "Stockholm, Sweden [59\u00b019'N, 18\u00b04'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_STOCKHOLM3_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_STOCKHOLM3_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SWEDEN_UPPSALA",
+        "cityName": "Uppsala",
+        "country_name": "Sweden",
+        "centerCoords": [
+            17.639755711822076,
+            59.85905745872293
+        ],
+        "extentCoords": [
+            17.5378991,
+            59.8116505,
+            17.7418892,
+            59.9063854
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Sweden Land Survey Authority",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "59\u00b051'N, 17\u00b038'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Uppsala, Sweden [59\u00b051'N, 17\u00b038'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_UPPSALA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_UPPSALA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SWEDEN_VASTERAS",
+        "cityName": "V\u00e4ster\u00e5s",
+        "country_name": "Sweden",
+        "centerCoords": [
+            16.54526231136347,
+            59.61141707702742
+        ],
+        "extentCoords": [
+            16.4457125,
+            59.5631541,
+            16.6451064,
+            59.659598
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Sweden Land Survey Authority",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "59\u00b036'N, 16\u00b032'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "V\u00e4ster\u00e5s, Sweden [59\u00b036'N, 16\u00b032'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_VASTERAS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_VASTERAS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_BASEL",
@@ -2860,6 +2968,438 @@ const locations = [
         "city_state_coords": "Z\u00fcrich, Switzerland [47\u00b022'N, 8\u00b032'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_BIRMINGHAM",
+        "cityName": "Birmingham",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -1.8975844272959332,
+            52.480012634135036
+        ],
+        "extentCoords": [
+            -1.9785943,
+            52.430611,
+            -1.8163987,
+            52.5293603
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "52\u00b028'N, 1\u00b053'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Birmingham, United Kingdom [52\u00b028'N, 1\u00b053'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_BIRMINGHAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_BIRMINGHAM_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_BRADFORD",
+        "cityName": "Bradford",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -1.7563244095261195,
+            53.793229227483124
+        ],
+        "extentCoords": [
+            -1.8400029,
+            53.743939,
+            -1.6724539,
+            53.8424669
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "53\u00b047'N, 1\u00b045'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Bradford, United Kingdom [53\u00b047'N, 1\u00b045'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_BRADFORD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_BRADFORD_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_BRISTOL",
+        "cityName": "Bristol",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -2.5904942235919592,
+            51.45738882007008
+        ],
+        "extentCoords": [
+            -2.6483644,
+            51.4076238,
+            -2.5190891,
+            51.507177
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "51\u00b027'N, 2\u00b035'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Bristol, United Kingdom [51\u00b027'N, 2\u00b035'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_BRISTOL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_BRISTOL_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_KINGSTON_UPON_HULL",
+        "cityName": "Kingston upon Hull",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -0.333360489963994,
+            53.7657415425215
+        ],
+        "extentCoords": [
+            -0.4186113,
+            53.7174565,
+            -0.2548373,
+            53.814066
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "53\u00b045'N, 0\u00b020'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Kingston upon Hull, United Kingdom [53\u00b045'N, 0\u00b020'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_LEEDS",
+        "cityName": "Leeds",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -1.5464046516214898,
+            53.7988809511169
+        ],
+        "extentCoords": [
+            -1.6303342,
+            53.7497326,
+            -1.4622716,
+            53.8479668
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "53\u00b047'N, 1\u00b032'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Leeds, United Kingdom [53\u00b047'N, 1\u00b032'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_LEEDS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_LEEDS_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_LEICESTER",
+        "cityName": "Leicester",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -1.133510519621631,
+            52.635097377647774
+        ],
+        "extentCoords": [
+            -1.1894734,
+            52.595039,
+            -1.0586789,
+            52.6794783
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "52\u00b038'N, 1\u00b08'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Leicester, United Kingdom [52\u00b038'N, 1\u00b08'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_LEICESTER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_LEICESTER_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_LIVERPOOL",
+        "cityName": "Liverpool",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -2.9791962276028676,
+            53.406375083689994
+        ],
+        "extentCoords": [
+            -3.060681,
+            53.3562401,
+            -2.8975134,
+            53.4564561
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "53\u00b024'N, 2\u00b058'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Liverpool, United Kingdom [53\u00b024'N, 2\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_LIVERPOOL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_LIVERPOOL_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_LONDON2",
+        "cityName": "London",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -0.10070380087677688,
+            51.49629506426874
+        ],
+        "extentCoords": [
+            -0.1593857,
+            51.4702485,
+            -0.0419656,
+            51.5223028
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "51\u00b029'N, 0\u00b06'W",
+        "width": 16000,
+        "height": 12000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "London, United Kingdom [51\u00b029'N, 0\u00b06'W] [16000 x 12000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_LONDON2_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_LONDON2_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_MANCHESTER",
+        "cityName": "Manchester",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -2.244911641377392,
+            53.47952423869547
+        ],
+        "extentCoords": [
+            -2.3274113,
+            53.4298887,
+            -2.162234,
+            53.5291004
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "53\u00b028'N, 2\u00b014'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Manchester, United Kingdom [53\u00b028'N, 2\u00b014'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_MANCHESTER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_MANCHESTER_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_NEWCASTLE_UPON_TYNE",
+        "cityName": "Newcastle upon Tyne",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -1.6129935168915464,
+            54.97319663123111
+        ],
+        "extentCoords": [
+            -1.6894858,
+            54.9239961,
+            -1.526501,
+            55.0223209
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "54\u00b058'N, 1\u00b036'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Newcastle upon Tyne, United Kingdom [54\u00b058'N, 1\u00b036'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_SHEFFIELD",
+        "cityName": "Sheffield",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -1.4708470286279651,
+            53.380103235568484
+        ],
+        "extentCoords": [
+            -1.5509959,
+            53.3309898,
+            -1.3874675,
+            53.4291398
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Department for Environment, Food and Rural Affairs",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
+        "dms": "53\u00b022'N, 1\u00b028'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Sheffield, United Kingdom [53\u00b022'N, 1\u00b028'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_SHEFFIELD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_SHEFFIELD_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_ENGLAND_YORK",
+        "cityName": "York",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -1.0831205798494767,
+            53.95953768140212
+        ],
+        "extentCoords": [
+            -1.1642395,
+            53.910699,
+            -0.9981189,
+            54.008297
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "XXX",
+        "license_name": "XXX",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | XXX [XXX]",
+        "dms": "53\u00b057'N, 1\u00b04'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "York, United Kingdom [53\u00b057'N, 1\u00b04'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_YORK_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_YORK_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_NORTH_IRELAND_BELFAST",
+        "cityName": "Belfast",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -5.929981115988549,
+            54.59846478783382
+        ],
+        "extentCoords": [
+            -5.9737311,
+            54.5744934,
+            -5.8861861,
+            54.6224132
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "OpenDataNI - Cyient Europe Ltd",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | OpenDataNI - Cyient Europe Ltd [Open Government License v3.0]",
+        "dms": "54\u00b035'N, 5\u00b055'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Belfast, United Kingdom [54\u00b035'N, 5\u00b055'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_NORTH_IRELAND_BELFAST_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_NORTH_IRELAND_BELFAST_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_SCOTLAND_EDINBURGH",
+        "cityName": "Edinburgh",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -3.1952120993531676,
+            55.950512736785406
+        ],
+        "extentCoords": [
+            -3.2384524,
+            55.9253756,
+            -3.1519256,
+            55.9756343
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Scottish Remote Sensing Portal",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Scottish Remote Sensing Portal [Open Government License v3.0]",
+        "dms": "55\u00b057'N, 3\u00b011'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Edinburgh, United Kingdom [55\u00b057'N, 3\u00b011'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_SCOTLAND_EDINBURGH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_SCOTLAND_EDINBURGH_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_SCOTLAND_GLASGOW",
+        "cityName": "Glasgow",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -4.253671846109971,
+            55.86012856892226
+        ],
+        "extentCoords": [
+            -4.2961133,
+            55.8346271,
+            -4.2111754,
+            55.8856141
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Scottish Remote Sensing Portal",
+        "license_name": "Open Government License v3.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Scottish Remote Sensing Portal [Open Government License v3.0]",
+        "dms": "55\u00b051'N, 4\u00b015'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Glasgow, United Kingdom [55\u00b051'N, 4\u00b015'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_SCOTLAND_GLASGOW_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_SCOTLAND_GLASGOW_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "UK_WALES_CARDIFF",
+        "cityName": "Cardiff",
+        "country_name": "United Kingdom",
+        "centerCoords": [
+            -3.1771734713519697,
+            51.47734609802474
+        ],
+        "extentCoords": [
+            -3.2549915,
+            51.4270856,
+            -3.0991794,
+            51.5275625
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "XXX",
+        "license_name": "XXX",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | XXX [XXX]",
+        "dms": "51\u00b028'N, 3\u00b010'W",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Cardiff, United Kingdom [51\u00b028'N, 3\u00b010'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_WALES_CARDIFF_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_WALES_CARDIFF_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "URUGUAY_MONTEVIDEO",
