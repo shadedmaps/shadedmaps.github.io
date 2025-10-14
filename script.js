@@ -1134,6 +1134,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_AACHEN_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "GERMANY_AUGSBURG",
+        "cityName": "Augsburg",
+        "country_name": "Germany",
+        "centerCoords": [
+            10.893526450492008,
+            48.36902870861831
+        ],
+        "extentCoords": [
+            10.8382471,
+            48.333938,
+            10.9488735,
+            48.404094
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Bayerische Vermessungsverwaltung",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "48\u00b022'N, 10\u00b053'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Augsburg, Germany [48\u00b022'N, 10\u00b053'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_AUGSBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_AUGSBURG_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "GERMANY_BERLIN",
         "cityName": "Berlin",
         "country_name": "Germany",
@@ -1377,6 +1404,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DUISBURG_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "GERMANY_ERLANGEN",
+        "cityName": "Erlangen",
+        "country_name": "Germany",
+        "centerCoords": [
+            10.993063324066279,
+            49.5858007023072
+        ],
+        "extentCoords": [
+            10.936335,
+            49.5507836,
+            11.049878,
+            49.6207922
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Bayerische Vermessungsverwaltung",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "49\u00b035'N, 10\u00b059'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Erlangen, Germany [49\u00b035'N, 10\u00b059'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_ERLANGEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_ERLANGEN_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "GERMANY_ESSEN",
         "cityName": "Essen",
         "country_name": "Germany",
@@ -1431,6 +1485,87 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_FRANKFURT_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "GERMANY_HAMBURG",
+        "cityName": "Hamburg",
+        "country_name": "Germany",
+        "centerCoords": [
+            9.991002979326433,
+            53.550287775987094
+        ],
+        "extentCoords": [
+            9.8993118,
+            53.4970777,
+            10.0829258,
+            53.6034239
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Freie und Hansestadt Hamburg, Landesbetrieb Geoinformation und Vermessung (LGV)",
+        "license_name": "Data License Germany Attribution 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Freie und Hansestadt Hamburg, Landesbetrieb Geoinformation und Vermessung (LGV) [Data License Germany Attribution 2.0]",
+        "dms": "53\u00b033'N, 9\u00b059'E",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Hamburg, Germany [53\u00b033'N, 9\u00b059'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_HAMBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_HAMBURG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_INGOLSTADT",
+        "cityName": "Ingolstadt",
+        "country_name": "Germany",
+        "centerCoords": [
+            11.424436574052008,
+            48.76510732256981
+        ],
+        "extentCoords": [
+            11.368362,
+            48.7302882,
+            11.4805921,
+            48.7999021
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Bayerische Vermessungsverwaltung",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "48\u00b045'N, 11\u00b025'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Ingolstadt, Germany [48\u00b045'N, 11\u00b025'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_INGOLSTADT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_INGOLSTADT_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_KOELN",
+        "cityName": "Cologne",
+        "country_name": "Germany",
+        "centerCoords": [
+            6.959679487841393,
+            50.93988099216314
+        ],
+        "extentCoords": [
+            6.9216695,
+            50.9144803,
+            6.9977362,
+            50.9652755
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "North Rhine - Westphalia Geoportal",
+        "license_name": "Data licence Germany - Zero - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "dms": "50\u00b056'N, 6\u00b057'E",
+        "width": 11000,
+        "height": 11000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Cologne, Germany [50\u00b056'N, 6\u00b057'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_KOELN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_KOELN_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "GERMANY_MUNICH",
         "cityName": "Munich",
         "country_name": "Germany",
@@ -1456,6 +1591,114 @@ const locations = [
         "city_state_coords": "Munich, Germany [48\u00b08'N, 11\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_MUNICH_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_NUREMBERG",
+        "cityName": "Nuremberg",
+        "country_name": "Germany",
+        "centerCoords": [
+            11.077142612745694,
+            49.45263543935335
+        ],
+        "extentCoords": [
+            11.0205108,
+            49.4176555,
+            11.1338574,
+            49.4875856
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Bayerische Vermessungsverwaltung",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "49\u00b027'N, 11\u00b04'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Nuremberg, Germany [49\u00b027'N, 11\u00b04'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_NUREMBERG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_NUREMBERG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_REGENSBURG",
+        "cityName": "Regensburg",
+        "country_name": "Germany",
+        "centerCoords": [
+            12.096369886473461,
+            49.018348434115104
+        ],
+        "extentCoords": [
+            12.039553,
+            48.9838674,
+            12.1532705,
+            49.0527924
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Bayerische Vermessungsverwaltung",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "49\u00b01'N, 12\u00b05'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Regensburg, Germany [49\u00b01'N, 12\u00b05'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_REGENSBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_REGENSBURG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_WURZBURG",
+        "cityName": "W\u00fcrzburg",
+        "country_name": "Germany",
+        "centerCoords": [
+            9.933544380316398,
+            49.79610449567004
+        ],
+        "extentCoords": [
+            9.8773163,
+            49.7605644,
+            9.9898426,
+            49.8316144
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Bayerische Vermessungsverwaltung",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "49\u00b047'N, 9\u00b056'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "W\u00fcrzburg, Germany [49\u00b047'N, 9\u00b056'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_WURZBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_WURZBURG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_ZWICKAU",
+        "cityName": "Zwickau",
+        "country_name": "Germany",
+        "centerCoords": [
+            12.482651053362368,
+            50.71740743742261
+        ],
+        "extentCoords": [
+            12.4246007,
+            50.6779129,
+            12.5407962,
+            50.7568777
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN)",
+        "license_name": "Data licence Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN) [Data licence Germany - Attribution - Version 2.0]",
+        "dms": "50\u00b043'N, 12\u00b028'E",
+        "width": 8500,
+        "height": 8500,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Zwickau, Germany [50\u00b043'N, 12\u00b028'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_ZWICKAU_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_ZWICKAU_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "HAITI_PORT_AU_PRINCE",
