@@ -1154,9 +1154,9 @@ const locations = [
         "dms": "52\u00b031'N, 13\u00b024'E",
         "width": 20000,
         "height": 20000,
-        "raster_resolution": "1.0",
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 1.0 m]",
+        "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles"
     },
@@ -1863,6 +1863,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/JAPAN_SHIZUOKA_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "JAPAN_TOKYO_IMPERIAL_PALACE",
+        "cityName": "Tokyo",
+        "country_name": "Japan",
+        "centerCoords": [
+            139.75328,
+            35.68465
+        ],
+        "extentCoords": [
+            139.6981128,
+            35.6395279,
+            139.808505,
+            35.7297383
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Tokyo Metropolitan Government",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Tokyo Metropolitan Government [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "35\u00b041'N, 139\u00b045'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Tokyo, Japan [35\u00b041'N, 139\u00b045'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "LATVIA_RIGA",
         "cityName": "Riga",
         "country_name": "Latvia",
@@ -2511,6 +2538,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "SPAIN_CEUTA",
+        "cityName": "Ceuta",
+        "country_name": "Spain",
+        "centerCoords": [
+            -5.32626,
+            35.89418
+        ],
+        "extentCoords": [
+            -5.3808819,
+            35.8686703,
+            -5.2722114,
+            35.9248592
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "35\u00b053'N, 5\u00b019'W",
+        "width": 20000,
+        "height": 12000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Ceuta, Spain [35\u00b053'N, 5\u00b019'W] [20000 x 12000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_CEUTA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_CEUTA_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "SPAIN_CORDOBA",
         "cityName": "Cordoba",
         "country_name": "Spain",
@@ -2619,6 +2673,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_MADRID3_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "SPAIN_MELILLA",
+        "cityName": "Melilla",
+        "country_name": "Spain",
+        "centerCoords": [
+            -2.94977,
+            35.29287
+        ],
+        "extentCoords": [
+            -2.977269,
+            35.2613171,
+            -2.9229827,
+            35.3242063
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "35\u00b017'N, 2\u00b056'W",
+        "width": 10000,
+        "height": 14000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Melilla, Spain [35\u00b017'N, 2\u00b056'W] [10000 x 14000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_MELILLA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_MELILLA_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "SPAIN_PAMPLONA2",
         "cityName": "Pamplona",
         "country_name": "Spain",
@@ -2725,6 +2806,33 @@ const locations = [
         "city_state_coords": "Sevilla, Spain [37\u00b023'N, 5\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_SEVILLA_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_SEVILLA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_VALENCIA",
+        "cityName": "Valencia",
+        "country_name": "Spain",
+        "centerCoords": [
+            -0.37255,
+            39.46801
+        ],
+        "extentCoords": [
+            -0.4680645,
+            39.3980616,
+            -0.2768363,
+            39.5378065
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "39\u00b028'N, 0\u00b022'W",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Valencia, Spain [39\u00b028'N, 0\u00b022'W] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_VALENCIA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_VALENCIA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWEDEN_GOTEBORG",
@@ -2979,9 +3087,9 @@ const locations = [
         ],
         "extentCoords": [
             8.474352,
-            47.342212,
-            8.604874,
-            47.421924
+            47.3422121,
+            8.6048735,
+            47.4219243
         ],
         "zoomLevel": 12,
         "data_publisher": "Federal Office of Topography swisstopo",
