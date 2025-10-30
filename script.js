@@ -3915,6 +3915,33 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_AUSTIN_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_BISMARCK_2023",
+        "cityName": "Bismarck",
+        "country_name": "North_Dakota, USA",
+        "centerCoords": [
+            -100.77631,
+            46.80827
+        ],
+        "extentCoords": [
+            -100.8160862,
+            46.7807465,
+            -100.7364963,
+            46.8357789
+        ],
+        "zoomLevel": 12,
+        "data_publisher": "Bismarck-Mandan Metropolitan Planning Organization (MPO)",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bismarck-Mandan Metropolitan Planning Organization (MPO) [CC0 1.0 Universal]",
+        "dms": "46\u00b048'N, 100\u00b046'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Bismarck, North_Dakota, USA [46\u00b048'N, 100\u00b046'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_BISMARCK_2023_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_BISMARCK_2023_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "USA_BOSTON",
         "cityName": "Boston",
         "country_name": "Massachusetts, USA",
