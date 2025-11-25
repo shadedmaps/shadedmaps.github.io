@@ -6944,6 +6944,174 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Lazio_vector.pmtiles"
     },
     {
+        "city_id": "tinitaly_Liguria",
+        "cityName": "Liguria",
+        "country_name": "Liguria",
+        "centerCoords": [
+            8.8017835,
+            44.2216975
+        ],
+        "extentCoords": [
+            7.4483768,
+            43.2438209,
+            10.1551902,
+            45.1995742
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "44\u00b013'N, 8\u00b048'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Liguria, tinitaly [44\u00b013'N, 8\u00b048'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Liguria_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Liguria_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Lombardia",
+        "cityName": "Lombardia",
+        "country_name": "Lombardia",
+        "centerCoords": [
+            10.0060021,
+            45.6458291
+        ],
+        "extentCoords": [
+            8.4411483,
+            44.5756128,
+            11.5708558,
+            46.7160455
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "45\u00b038'N, 10\u00b00'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Lombardia, tinitaly [45\u00b038'N, 10\u00b00'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Lombardia_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Lombardia_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Marche",
+        "cityName": "Marche",
+        "country_name": "Marche",
+        "centerCoords": [
+            13.0711019,
+            43.3253842
+        ],
+        "extentCoords": [
+            12.0742191,
+            42.6653813,
+            14.0679848,
+            43.9853871
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "43\u00b019'N, 13\u00b04'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Marche, tinitaly [43\u00b019'N, 13\u00b04'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Marche_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Marche_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Molise",
+        "cityName": "Molise",
+        "country_name": "Molise",
+        "centerCoords": [
+            14.5585076,
+            41.7213036
+        ],
+        "extentCoords": [
+            13.8484966,
+            41.2540608,
+            15.2685186,
+            42.1885464
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "41\u00b043'N, 14\u00b033'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Molise, tinitaly [41\u00b043'N, 14\u00b033'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Molise_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Molise_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Piemonte",
+        "cityName": "Piemonte",
+        "country_name": "Piemonte",
+        "centerCoords": [
+            7.9565782,
+            45.248491
+        ],
+        "extentCoords": [
+            6.2177671,
+            43.9883266,
+            9.6953893,
+            46.5086553
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "45\u00b014'N, 7\u00b057'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Piemonte, tinitaly [45\u00b014'N, 7\u00b057'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Piemonte_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Piemonte_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Puglia",
+        "cityName": "Puglia",
+        "country_name": "Puglia",
+        "centerCoords": [
+            16.8098899,
+            41.0109075
+        ],
+        "extentCoords": [
+            14.7059795,
+            39.6809734,
+            18.9138003,
+            42.3408416
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "41\u00b00'N, 16\u00b048'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Puglia, tinitaly [41\u00b00'N, 16\u00b048'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Puglia_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Puglia_vector.pmtiles"
+    },
+    {
         "city_id": "tinitaly_Sardegna",
         "cityName": "Sardegna",
         "country_name": "Sardegna",
@@ -6972,6 +7140,118 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Sardegna_vector.pmtiles"
     },
     {
+        "city_id": "tinitaly_Sicilia",
+        "cityName": "Sicilia",
+        "country_name": "Sicilia",
+        "centerCoords": [
+            13.7981405,
+            37.141304
+        ],
+        "extentCoords": [
+            11.494337,
+            35.4759843,
+            16.101944,
+            38.8066236
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "37\u00b08'N, 13\u00b047'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Sicilia, tinitaly [37\u00b08'N, 13\u00b047'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Sicilia_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Sicilia_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Toscana",
+        "cityName": "Toscana",
+        "country_name": "Toscana",
+        "centerCoords": [
+            11.043141,
+            43.3368715
+        ],
+        "extentCoords": [
+            9.4232935,
+            42.211266,
+            12.6629885,
+            44.4624771
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "43\u00b020'N, 11\u00b02'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Toscana, tinitaly [43\u00b020'N, 11\u00b02'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Toscana_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Toscana_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Trentino_Alto_Adige",
+        "cityName": "Trentino-Alto Adige",
+        "country_name": "Trentino-Alto Adige",
+        "centerCoords": [
+            11.4322468,
+            46.3812921
+        ],
+        "extentCoords": [
+            10.2888692,
+            45.6373169,
+            12.5756244,
+            47.1252674
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "46\u00b022'N, 11\u00b025'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Trentino-Alto Adige, tinitaly [46\u00b022'N, 11\u00b025'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Trentino_Alto_Adige_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Trentino_Alto_Adige_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Umbria",
+        "cityName": "Umbria",
+        "country_name": "Umbria",
+        "centerCoords": [
+            12.5973671,
+            42.9819198
+        ],
+        "extentCoords": [
+            11.6487571,
+            42.3427424,
+            13.5459771,
+            43.6210972
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "42\u00b058'N, 12\u00b035'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Umbria, tinitaly [42\u00b058'N, 12\u00b035'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Umbria_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Umbria_vector.pmtiles"
+    },
+    {
         "city_id": "tinitaly_Valle_d_Aosta",
         "cityName": "Valle d'Aosta",
         "country_name": "Valle d'Aosta",
@@ -6998,6 +7278,34 @@ const locations = [
         "city_state_coords": "Valle d'Aosta, tinitaly [45\u00b043'N, 7\u00b022'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Valle_d_Aosta_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Valle_d_Aosta_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Veneto",
+        "cityName": "Veneto",
+        "country_name": "Veneto",
+        "centerCoords": [
+            11.8960329,
+            45.7426818
+        ],
+        "extentCoords": [
+            10.4320483,
+            44.7894604,
+            13.3600175,
+            46.6959031
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "45\u00b044'N, 11\u00b053'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Veneto, tinitaly [45\u00b044'N, 11\u00b053'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Veneto_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Veneto_vector.pmtiles"
     }
 ];
 
