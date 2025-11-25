@@ -14,6 +14,7 @@ const locations = [
             -34.8837258
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment and Water Information, Government of South Australia",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment and Water Information, Government of South Australia [Attribution 4.0 International (CC BY 4.0)]",
@@ -23,8 +24,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Adelaide, Australia [34\u00b055'S, 138\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_BRISBANE",
@@ -41,6 +42,7 @@ const locations = [
             -27.4247962
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "State of Queensland (Department of Resources)",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | State of Queensland (Department of Resources) [Attribution 4.0 International (CC BY 4.0)]",
@@ -50,8 +52,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Brisbane, Australia [27\u00b028'S, 153\u00b01'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_CAIRNS",
@@ -68,6 +70,7 @@ const locations = [
             -16.8606174
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department of Natural Resources, Mines and Energy",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department of Natural Resources, Mines and Energy [Attribution 4.0 International (CC BY 4.0)]",
@@ -77,8 +80,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Cairns, Australia [16\u00b054'S, 145\u00b046'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CAIRNS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CAIRNS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRALIA_CAIRNS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRALIA_CAIRNS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_CANBERRA",
@@ -95,6 +98,7 @@ const locations = [
             -35.2509174
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Australian Capital Territory and Aerometrex Limited",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Australian Capital Territory and Aerometrex Limited [Attribution 4.0 International (CC BY 4.0)]",
@@ -104,8 +108,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Canberra, Australia [35\u00b017'S, 149\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_HOBART",
@@ -122,6 +126,7 @@ const locations = [
             -42.8117876
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "GeoScience Australia",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | GeoScience Australia [Attribution 4.0 International (CC BY 4.0)]",
@@ -131,8 +136,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Hobart, Australia [42\u00b051'S, 147\u00b020'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_HOBART_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_HOBART_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRALIA_HOBART_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRALIA_HOBART_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_MELBOURNE",
@@ -149,6 +154,7 @@ const locations = [
             -37.7728104
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "City of Melbourne",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | City of Melbourne [Attribution 4.0 International (CC BY 4.0)]",
@@ -158,8 +164,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Melbourne, Australia [37\u00b048'S, 144\u00b056'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRALIA_SYDNEY_LONG_05",
@@ -176,6 +182,7 @@ const locations = [
             -33.80659
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "New South Wales Government - Spatial Services",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | New South Wales Government - Spatial Services [Attribution 4.0 International (CC BY 4.0)]",
@@ -185,8 +192,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Sydney, Australia [33\u00b051'S, 151\u00b012'E] [36000 x 24000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRIA_GRAZ",
@@ -203,6 +210,7 @@ const locations = [
             47.106455
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Land Steiermark",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Steiermark [Attribution 4.0 International (CC BY 4.0)]",
@@ -212,8 +220,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Graz, Austria [47\u00b04'N, 15\u00b026'E] [8400 x 8400 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRIA_GRAZ_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRIA_GRAZ_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRIA_GRAZ_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRIA_GRAZ_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRIA_INNSBRUCK",
@@ -230,6 +238,7 @@ const locations = [
             47.29339
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Land Tirol",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Tirol [Attribution 4.0 International (CC BY 4.0)]",
@@ -239,8 +248,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Innsbruck, Austria [47\u00b015'N, 11\u00b023'E] [8400 x 6000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRIA_INNSBRUCK_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRIA_INNSBRUCK_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRIA_INNSBRUCK_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRIA_INNSBRUCK_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "AUSTRIA_WIEN",
@@ -257,6 +266,7 @@ const locations = [
             48.2433426
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Open Government Data Wien",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Open Government Data Wien [Attribution 4.0 International (CC BY 4.0)]",
@@ -266,8 +276,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Vienna, Austria [48\u00b012'N, 16\u00b022'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/AUSTRIA_WIEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/AUSTRIA_WIEN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/AUSTRIA_WIEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/AUSTRIA_WIEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_ANTWERP",
@@ -284,6 +294,7 @@ const locations = [
             51.261045
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Agentschap Digitaal Vlaanderen",
         "license_name": "Gratis open data licentie Vlaanderen v1.2 met bronvermelding",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agentschap Digitaal Vlaanderen [Gratis open data licentie Vlaanderen v1.2 met bronvermelding]",
@@ -293,8 +304,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Antwerp, Belgium [51\u00b013'N, 4\u00b023'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_BRUGES",
@@ -311,6 +322,7 @@ const locations = [
             51.2590137
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Agentschap Digitaal Vlaanderen",
         "license_name": "Modellicentie voor gratis hergebruik",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agentschap Digitaal Vlaanderen [Modellicentie voor gratis hergebruik]",
@@ -320,8 +332,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Bruges, Belgium [51\u00b012'N, 3\u00b013'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUGES_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUGES_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_BRUGES_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_BRUGES_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_BRUSSELS",
@@ -338,6 +350,7 @@ const locations = [
             50.891665
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Paradigm Brussels",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Paradigm Brussels [Attribution 4.0 International (CC BY 4.0)]",
@@ -347,8 +360,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Brussels, Belgium [50\u00b050'N, 4\u00b021'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_CHARLEROI",
@@ -365,6 +378,7 @@ const locations = [
             50.4476106
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Service public de Wallonie",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Service public de Wallonie [Attribution 4.0 International (CC BY 4.0)]",
@@ -374,8 +388,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Charleroi, Belgium [50\u00b024'N, 4\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_GHENT",
@@ -392,6 +406,7 @@ const locations = [
             51.1030738
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Agentschap Digitaal Vlaanderen",
         "license_name": "Modellicentie voor gratis hergebruik",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agentschap Digitaal Vlaanderen [Modellicentie voor gratis hergebruik]",
@@ -401,8 +416,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Ghent, Belgium [51\u00b03'N, 3\u00b043'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_GHENT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_GHENT_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_GHENT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_GHENT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_LEUVEN",
@@ -419,6 +434,7 @@ const locations = [
             50.9278866
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Agentschap Digitaal Vlaanderen",
         "license_name": "Modellicentie voor gratis hergebruik",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agentschap Digitaal Vlaanderen [Modellicentie voor gratis hergebruik]",
@@ -428,8 +444,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Leuven, Belgium [50\u00b052'N, 4\u00b042'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LEUVEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LEUVEN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_LEUVEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_LEUVEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_LIEGE",
@@ -446,6 +462,7 @@ const locations = [
             50.6719183
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Service public de Wallonie",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Service public de Wallonie [Attribution 4.0 International (CC BY 4.0)]",
@@ -455,8 +472,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Liege, Belgium [50\u00b038'N, 5\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_MONS",
@@ -473,6 +490,7 @@ const locations = [
             50.4895907
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Service public de Wallonie",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Service public de Wallonie [Attribution 4.0 International (CC BY 4.0)]",
@@ -482,8 +500,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Mons, Belgium [50\u00b027'N, 3\u00b057'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_MONS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_MONS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_MONS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_MONS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BELGIUM_NAMUR",
@@ -500,6 +518,7 @@ const locations = [
             50.5015352
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Service public de Wallonie",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Service public de Wallonie [Attribution 4.0 International (CC BY 4.0)]",
@@ -509,8 +528,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Namur, Belgium [50\u00b027'N, 4\u00b051'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "BRAZIL_SAO_PAULO",
@@ -527,6 +546,7 @@ const locations = [
             -23.513962
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Prefeitura de Sao Paulo",
         "license_name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Prefeitura de Sao Paulo [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]",
@@ -536,8 +556,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Sao Paulo, Brazil [23\u00b032'S, 46\u00b038'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CANADA_OTTAWA",
@@ -554,6 +574,7 @@ const locations = [
             45.4443827
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Government of Ontario",
         "license_name": "Open Government Licence \u2013 Ontario",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of Ontario [Open Government Licence \u2013 Ontario]",
@@ -563,8 +584,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Ottawa, Canada [45\u00b025'N, 75\u00b042'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_OTTAWA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_OTTAWA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_OTTAWA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_OTTAWA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CANADA_TORONTO",
@@ -581,6 +602,7 @@ const locations = [
             43.6672674
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Government of Ontario",
         "license_name": "Open Government Licence - Ontario",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of Ontario [Open Government Licence - Ontario]",
@@ -590,8 +612,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Toronto, Canada [43\u00b038'N, 79\u00b023'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_TORONTO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_TORONTO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_TORONTO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_TORONTO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CANADA_VANCOUVER",
@@ -608,6 +630,7 @@ const locations = [
             49.315785
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "City of Vancouver",
         "license_name": "Open Government Licence - Vancouver",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | City of Vancouver [Open Government Licence - Vancouver]",
@@ -617,8 +640,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Vancouver, Canada [49\u00b016'N, 123\u00b07'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CANADA_WINNIPEG",
@@ -635,6 +658,7 @@ const locations = [
             49.9384852
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "City of Winnipeg - Water & Waste Department",
         "license_name": "Canada Open Government Licence",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | City of Winnipeg - Water & Waste Department [Canada Open Government Licence]",
@@ -644,8 +668,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Winnipeg, Canada [49\u00b053'N, 97\u00b08'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CANADA_WINNIPEG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CANADA_WINNIPEG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_WINNIPEG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_WINNIPEG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CZECH_REPUBLIC_BRNO",
@@ -662,6 +686,7 @@ const locations = [
             49.208622
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Statut\u00e1rn\u00ed m\u011bsto Brno",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Statut\u00e1rn\u00ed m\u011bsto Brno [Attribution 4.0 International (CC BY 4.0)]",
@@ -671,8 +696,8 @@ const locations = [
         "raster_resolution": "0.2",
         "raster_units": "m",
         "city_state_coords": "Brno, Czech Republic [49\u00b011'N, 16\u00b036'E] [11000 x 11000 pixels, 1 pixel = 0.2 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CZECH_REPUBLIC_BRNO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CZECH_REPUBLIC_BRNO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CZECH_REPUBLIC_BRNO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CZECH_REPUBLIC_BRNO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CZECH_REPUBLIC_PRAGUE",
@@ -689,6 +714,7 @@ const locations = [
             50.142998
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Geoportal Praha",
         "license_name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportal Praha [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]",
@@ -698,8 +724,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Prague, Czech Republic [50\u00b05'N, 14\u00b024'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/CZECH_REPUBLIC_PRAGUE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/CZECH_REPUBLIC_PRAGUE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CZECH_REPUBLIC_PRAGUE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CZECH_REPUBLIC_PRAGUE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "DENMARK_AALBORG",
@@ -716,6 +742,7 @@ const locations = [
             57.0657916
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Danish Agency for Data Supply",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Danish Agency for Data Supply [Attribution 4.0 International (CC BY 4.0)]",
@@ -725,8 +752,8 @@ const locations = [
         "raster_resolution": "0.4",
         "raster_units": "m",
         "city_state_coords": "Aalborg, Denmark [57\u00b02'N, 9\u00b055'E] [11000 x 11000 pixels, 1 pixel = 0.4 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/DENMARK_AALBORG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/DENMARK_AALBORG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/DENMARK_AALBORG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_AALBORG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "DENMARK_AARHUS",
@@ -743,6 +770,7 @@ const locations = [
             56.1770435
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Danish Agency for Data Supply",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Danish Agency for Data Supply [Attribution 4.0 International (CC BY 4.0)]",
@@ -752,8 +780,8 @@ const locations = [
         "raster_resolution": "0.4",
         "raster_units": "m",
         "city_state_coords": "Aarhus, Denmark [56\u00b09'N, 10\u00b012'E] [11000 x 11000 pixels, 1 pixel = 0.4 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/DENMARK_AARHUS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/DENMARK_AARHUS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/DENMARK_AARHUS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_AARHUS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "DENMARK_COPENHAGEN",
@@ -770,6 +798,7 @@ const locations = [
             55.7117097
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Danish Agency for Data Supply",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Danish Agency for Data Supply [Attribution 4.0 International (CC BY 4.0)]",
@@ -779,8 +808,8 @@ const locations = [
         "raster_resolution": "0.4",
         "raster_units": "m",
         "city_state_coords": "Copenhagen, Denmark [55\u00b041'N, 12\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.4 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/DENMARK_COPENHAGEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/DENMARK_COPENHAGEN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/DENMARK_COPENHAGEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_COPENHAGEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "DENMARK_ODENSE",
@@ -797,6 +826,7 @@ const locations = [
             55.421248
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Danish Agency for Data Supply",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Danish Agency for Data Supply [Attribution 4.0 International (CC BY 4.0)]",
@@ -806,8 +836,8 @@ const locations = [
         "raster_resolution": "0.4",
         "raster_units": "m",
         "city_state_coords": "Odense, Denmark [55\u00b024'N, 10\u00b023'E] [11000 x 11000 pixels, 1 pixel = 0.4 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/DENMARK_ODENSE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/DENMARK_ODENSE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/DENMARK_ODENSE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_ODENSE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "DENMARK_ROSKILDE",
@@ -824,6 +854,7 @@ const locations = [
             55.6599788
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Danish Agency for Data Supply",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Danish Agency for Data Supply [Attribution 4.0 International (CC BY 4.0)]",
@@ -833,8 +864,8 @@ const locations = [
         "raster_resolution": "0.4",
         "raster_units": "m",
         "city_state_coords": "Roskilde, Denmark [55\u00b038'N, 12\u00b04'E] [11000 x 11000 pixels, 1 pixel = 0.4 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/DENMARK_ROSKILDE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/DENMARK_ROSKILDE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/DENMARK_ROSKILDE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_ROSKILDE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ESTONIA_TALLINN",
@@ -851,6 +882,7 @@ const locations = [
             59.4861984
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "",
         "license_name": "",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> |  []",
@@ -860,8 +892,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Tallinn, Estonia [59\u00b026'N, 24\u00b044'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ESTONIA_TALLINN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ESTONIA_TALLINN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ESTONIA_TALLINN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ESTONIA_TALLINN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FINLAND_HELSINKI_2021",
@@ -878,6 +910,7 @@ const locations = [
             60.223392
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Helsingin kaupunkiymp\u00e4rist\u00f6n toimiala / Kaupunkimittauspalvelut",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Helsingin kaupunkiymp\u00e4rist\u00f6n toimiala / Kaupunkimittauspalvelut [Attribution 4.0 International (CC BY 4.0)]",
@@ -887,8 +920,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Helsinki, Finland [60\u00b010'N, 24\u00b056'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_BORDEAUX",
@@ -905,6 +938,7 @@ const locations = [
             44.8830708
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -914,8 +948,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Bordeaux, France [44\u00b050'N, 0\u00b034'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_BORDEAUX_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_BORDEAUX_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_BORDEAUX_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_BORDEAUX_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_GRENOBLE",
@@ -932,6 +966,7 @@ const locations = [
             45.2214487
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -941,8 +976,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Grenoble, France [45\u00b011'N, 5\u00b043'E] [15000 x 15000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_GRENOBLE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_GRENOBLE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_GRENOBLE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_GRENOBLE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_LYON",
@@ -959,6 +994,7 @@ const locations = [
             45.7863923
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -968,8 +1004,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Lyon, France [45\u00b044'N, 4\u00b050'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_LYON_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_LYON_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_LYON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_LYON_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_MARSEILLE",
@@ -986,6 +1022,7 @@ const locations = [
             43.3403137
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -995,8 +1032,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Marseille, France [43\u00b018'N, 5\u00b022'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_MARSEILLE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_MARSEILLE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_MARSEILLE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_MARSEILLE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_NANTES",
@@ -1013,6 +1050,7 @@ const locations = [
             47.2583903
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -1022,8 +1060,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Nantes, France [47\u00b012'N, 1\u00b033'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_NANTES_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_NANTES_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_NANTES_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_NANTES_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_NICE",
@@ -1040,6 +1078,7 @@ const locations = [
             43.7405237
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -1049,8 +1088,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Nice, France [43\u00b042'N, 7\u00b015'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_NICE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_NICE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_NICE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_NICE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_PARIS",
@@ -1067,6 +1106,7 @@ const locations = [
             48.912574
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l\\'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l\\'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -1076,8 +1116,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Paris, France [48\u00b051'N, 2\u00b020'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_PARIS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_PARIS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_PARIS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_PARIS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_TOULOUSE",
@@ -1094,6 +1134,7 @@ const locations = [
             43.6385028
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -1103,8 +1144,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Toulouse, France [43\u00b036'N, 1\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/FRANCE_TOULOUSE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/FRANCE_TOULOUSE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_TOULOUSE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_TOULOUSE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_AACHEN",
@@ -1121,6 +1162,7 @@ const locations = [
             50.8010788
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1130,8 +1172,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Aachen, Germany [50\u00b046'N, 6\u00b05'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_AACHEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_AACHEN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_AACHEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_AACHEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_AUGSBURG",
@@ -1148,6 +1190,7 @@ const locations = [
             48.404094
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Bayerische Vermessungsverwaltung",
         "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
@@ -1157,8 +1200,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Augsburg, Germany [48\u00b022'N, 10\u00b053'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_AUGSBURG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_AUGSBURG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_AUGSBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_AUGSBURG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_BERLIN",
@@ -1175,6 +1218,7 @@ const locations = [
             52.564457
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Geoportal Berlin / Airborne Laserscanning (ALS) Prim\u00e4re 3D Laserscan-Daten",
         "license_name": "data license Germany - Attribution - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportal Berlin / Airborne Laserscanning (ALS) Prim\u00e4re 3D Laserscan-Daten [data license Germany - Attribution - Version 2.0]",
@@ -1184,8 +1228,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BERLIN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_BERLIN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_BIELEFELD",
@@ -1202,6 +1246,7 @@ const locations = [
             52.0516776
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1211,8 +1256,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Bielefeld, Germany [52\u00b01'N, 8\u00b031'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BIELEFELD_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BIELEFELD_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_BIELEFELD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_BIELEFELD_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_BOCHUM",
@@ -1229,6 +1274,7 @@ const locations = [
             51.5071451
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1238,8 +1284,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Bochum, Germany [51\u00b028'N, 7\u00b013'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BOCHUM_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BOCHUM_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_BOCHUM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_BOCHUM_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_BONN",
@@ -1256,6 +1302,7 @@ const locations = [
             50.7607816
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1265,8 +1312,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Bonn, Germany [50\u00b044'N, 7\u00b06'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_BONN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_BONN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_BONN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_BONN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_CHEMNITZ",
@@ -1283,6 +1330,7 @@ const locations = [
             50.8719903
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN)",
         "license_name": "Data licence Germany - Attribution - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN) [Data licence Germany - Attribution - Version 2.0]",
@@ -1292,8 +1340,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Chemnitz, Germany [50\u00b049'N, 12\u00b055'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_CHEMNITZ_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_CHEMNITZ_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_CHEMNITZ_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_CHEMNITZ_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_DORTMUND",
@@ -1310,6 +1358,7 @@ const locations = [
             51.5393671
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1319,8 +1368,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Dortmund, Germany [51\u00b030'N, 7\u00b027'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_DORTMUND_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DORTMUND_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_DORTMUND_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_DORTMUND_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_DRESDEN",
@@ -1337,6 +1386,7 @@ const locations = [
             51.0885015
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN)",
         "license_name": "Data licence Germany - Attribution - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN) [Data licence Germany - Attribution - Version 2.0]",
@@ -1346,8 +1396,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Dresden, Germany [51\u00b02'N, 13\u00b044'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_DRESDEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DRESDEN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_DRESDEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_DRESDEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_DUESSELDORF",
@@ -1364,6 +1414,7 @@ const locations = [
             51.25075
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1373,8 +1424,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "D\u00fcsseldorf, Germany [51\u00b013'N, 6\u00b046'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_DUESSELDORF_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DUESSELDORF_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_DUESSELDORF_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_DUESSELDORF_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_DUISBURG",
@@ -1391,6 +1442,7 @@ const locations = [
             51.4586947
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1400,8 +1452,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Duisburg, Germany [51\u00b025'N, 6\u00b045'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_DUISBURG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_DUISBURG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_DUISBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_DUISBURG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_ERLANGEN",
@@ -1418,6 +1470,7 @@ const locations = [
             49.6207922
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Bayerische Vermessungsverwaltung",
         "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
@@ -1427,8 +1480,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Erlangen, Germany [49\u00b035'N, 10\u00b059'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_ERLANGEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_ERLANGEN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_ERLANGEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_ERLANGEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_ESSEN",
@@ -1445,6 +1498,7 @@ const locations = [
             51.4818814
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1454,8 +1508,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Essen, Germany [51\u00b027'N, 7\u00b00'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_ESSEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_ESSEN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_ESSEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_ESSEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_FRANKFURT",
@@ -1472,6 +1526,7 @@ const locations = [
             50.1658703
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Hessische Verwaltung f\u00fcr Bodenmanagement und Geoinformation",
         "license_name": "Open Data",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Hessische Verwaltung f\u00fcr Bodenmanagement und Geoinformation [Open Data]",
@@ -1481,8 +1536,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Frankfurt am Main, Germany [50\u00b06'N, 8\u00b040'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_FRANKFURT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_FRANKFURT_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_FRANKFURT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_FRANKFURT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_HAMBURG",
@@ -1499,6 +1554,7 @@ const locations = [
             53.6034239
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Freie und Hansestadt Hamburg, Landesbetrieb Geoinformation und Vermessung (LGV)",
         "license_name": "Data License Germany Attribution 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Freie und Hansestadt Hamburg, Landesbetrieb Geoinformation und Vermessung (LGV) [Data License Germany Attribution 2.0]",
@@ -1508,8 +1564,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Hamburg, Germany [53\u00b033'N, 9\u00b059'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_HAMBURG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_HAMBURG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_HAMBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_HAMBURG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_INGOLSTADT",
@@ -1526,6 +1582,7 @@ const locations = [
             48.7999021
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Bayerische Vermessungsverwaltung",
         "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
@@ -1535,8 +1592,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Ingolstadt, Germany [48\u00b045'N, 11\u00b025'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_INGOLSTADT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_INGOLSTADT_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_INGOLSTADT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_INGOLSTADT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_KOELN",
@@ -1553,6 +1610,7 @@ const locations = [
             50.9652755
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "North Rhine - Westphalia Geoportal",
         "license_name": "Data licence Germany - Zero - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
@@ -1562,8 +1620,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Cologne, Germany [50\u00b056'N, 6\u00b057'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_KOELN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_KOELN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_KOELN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_KOELN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_MUNICH",
@@ -1580,6 +1638,7 @@ const locations = [
             48.173325
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Bayerische Vermessungsverwaltung",
         "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
@@ -1589,8 +1648,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Munich, Germany [48\u00b08'N, 11\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_MUNICH_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_MUNICH_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_MUNICH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_MUNICH_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_NUREMBERG",
@@ -1607,6 +1666,7 @@ const locations = [
             49.4875856
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Bayerische Vermessungsverwaltung",
         "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
@@ -1616,8 +1676,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Nuremberg, Germany [49\u00b027'N, 11\u00b04'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_NUREMBERG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_NUREMBERG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_NUREMBERG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_NUREMBERG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_REGENSBURG",
@@ -1634,6 +1694,7 @@ const locations = [
             49.0527924
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Bayerische Vermessungsverwaltung",
         "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
@@ -1643,8 +1704,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Regensburg, Germany [49\u00b01'N, 12\u00b05'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_REGENSBURG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_REGENSBURG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_REGENSBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_REGENSBURG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_WURZBURG",
@@ -1661,6 +1722,7 @@ const locations = [
             49.8316144
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Bayerische Vermessungsverwaltung",
         "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
@@ -1670,8 +1732,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "W\u00fcrzburg, Germany [49\u00b047'N, 9\u00b056'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_WURZBURG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_WURZBURG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_WURZBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_WURZBURG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_ZWICKAU",
@@ -1688,6 +1750,7 @@ const locations = [
             50.7568777
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN)",
         "license_name": "Data licence Germany - Attribution - Version 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN) [Data licence Germany - Attribution - Version 2.0]",
@@ -1697,8 +1760,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Zwickau, Germany [50\u00b043'N, 12\u00b028'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/GERMANY_ZWICKAU_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/GERMANY_ZWICKAU_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_ZWICKAU_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_ZWICKAU_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "HAITI_PORT_AU_PRINCE",
@@ -1715,6 +1778,7 @@ const locations = [
             18.597715
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "World Bank - ImageCat Inc. - RIT Haiti Earthquake LiDAR dataset",
         "license_name": "",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | World Bank - ImageCat Inc. - RIT Haiti Earthquake LiDAR dataset []",
@@ -1724,8 +1788,8 @@ const locations = [
         "raster_resolution": "0.8",
         "raster_units": "m",
         "city_state_coords": "Port-au-Prince, Haiti [18\u00b033'N, 72\u00b018'W] [12000 x 12000 pixels, 1 pixel = 0.8 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/HAITI_PORT_AU_PRINCE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/HAITI_PORT_AU_PRINCE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/HAITI_PORT_AU_PRINCE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/HAITI_PORT_AU_PRINCE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "HONG_KONG_HONG_KONG",
@@ -1742,6 +1806,7 @@ const locations = [
             22.3235524
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Hong Kong Geodata Store",
         "license_name": "TERMS AND CONDITIONS OF USE (version 1.3)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Hong Kong Geodata Store [TERMS AND CONDITIONS OF USE (version 1.3)]",
@@ -1751,8 +1816,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Hong Kong, Hong_Kong [22\u00b017'N, 114\u00b010'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/HONG_KONG_HONG_KONG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/HONG_KONG_HONG_KONG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/HONG_KONG_HONG_KONG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/HONG_KONG_HONG_KONG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "IRELAND_DUBLIN",
@@ -1769,6 +1834,7 @@ const locations = [
             53.3547111
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Government of Ireland",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of Ireland [Attribution 4.0 International (CC BY 4.0)]",
@@ -1778,8 +1844,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Dublin, Ireland [53\u00b020'N, 6\u00b015'W] [4000 x 4000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/IRELAND_DUBLIN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/IRELAND_DUBLIN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/IRELAND_DUBLIN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/IRELAND_DUBLIN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_BOLOGNA",
@@ -1796,6 +1862,7 @@ const locations = [
             44.5399837
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica",
         "license_name": "CC BY 4.0 Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica [CC BY 4.0 Attribution 4.0 International]",
@@ -1805,8 +1872,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Bologna, Italy [44\u00b030'N, 11\u00b020'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_BOLOGNA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_BOLOGNA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_BOLOGNA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_BOLOGNA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_BOLZANO",
@@ -1823,6 +1890,7 @@ const locations = [
             46.5181976
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Provincia Autonoma di Bolzano - Alto Adige",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Provincia Autonoma di Bolzano - Alto Adige [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -1832,8 +1900,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Bolzano, Italy [46\u00b029'N, 11\u00b020'E] [11200 x 11200 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_BOLZANO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_BOLZANO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_BOLZANO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_BOLZANO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_CAGLIARI",
@@ -1850,6 +1918,7 @@ const locations = [
             39.2756166
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Regione Autonoma della Sardegna",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Regione Autonoma della Sardegna [Attribution 4.0 International (CC BY 4.0)]",
@@ -1859,8 +1928,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Cagliari, Italy [39\u00b013'N, 9\u00b08'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_CAGLIARI_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_CAGLIARI_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_CAGLIARI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_CAGLIARI_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_FIRENZE",
@@ -1877,6 +1946,7 @@ const locations = [
             43.812164
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Comune di Firenze",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Comune di Firenze [Attribution 4.0 International (CC BY 4.0)]",
@@ -1886,8 +1956,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_FIRENZE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_FIRENZE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_GENOVA",
@@ -1904,6 +1974,7 @@ const locations = [
             44.4802011
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica",
         "license_name": "CC BY 4.0 Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica [CC BY 4.0 Attribution 4.0 International]",
@@ -1913,8 +1984,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Genova, Italy [44\u00b026'N, 8\u00b055'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_GENOVA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_GENOVA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_GENOVA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_GENOVA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_MILANO",
@@ -1931,6 +2002,7 @@ const locations = [
             45.509962
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Ministero dell\u2019Ambiente e della Sicurezza Energetica",
         "license_name": "Attribution-ShareAlike 3.0 Italy (CC BY-SA 3.0 IT)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Ministero dell\u2019Ambiente e della Sicurezza Energetica [Attribution-ShareAlike 3.0 Italy (CC BY-SA 3.0 IT)]",
@@ -1940,8 +2012,8 @@ const locations = [
         "raster_resolution": "0.9",
         "raster_units": "m",
         "city_state_coords": "Milano, Italy [45\u00b027'N, 9\u00b010'E] [11000 x 11000 pixels, 1 pixel = 0.9 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_MILANO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_MILANO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_MILANO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_MILANO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_NAPOLI",
@@ -1958,6 +2030,7 @@ const locations = [
             40.8986487
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Sistema Informativo Territoriale della Citt\u00e0 Metropolitana di Napoli",
         "license_name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sistema Informativo Territoriale della Citt\u00e0 Metropolitana di Napoli [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]",
@@ -1967,8 +2040,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Napoli, Italy [40\u00b051'N, 14\u00b015'E] [10000 x 10000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_NAPOLI_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_NAPOLI_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_NAPOLI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_NAPOLI_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_PERUGIA",
@@ -1985,6 +2058,7 @@ const locations = [
             43.1398858
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica",
         "license_name": "CC BY 4.0 Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica [CC BY 4.0 Attribution 4.0 International]",
@@ -1994,8 +2068,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Perugia, Italy [43\u00b06'N, 12\u00b023'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_PERUGIA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_PERUGIA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_PERUGIA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_PERUGIA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_TRENTO",
@@ -2012,6 +2086,7 @@ const locations = [
             46.0947253
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Provincia Autonoma di Trento",
         "license_name": "Attribution 2.5 Generic (CC BY 2.5)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Provincia Autonoma di Trento [Attribution 2.5 Generic (CC BY 2.5)]",
@@ -2021,8 +2096,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Trento, Italy [46\u00b04'N, 11\u00b07'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_TRENTO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_TRENTO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_TRENTO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_TRENTO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_TRIESTE",
@@ -2039,6 +2114,7 @@ const locations = [
             45.6861224
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Regione Autonoma Friuli Venezia Giulia",
         "license_name": "Italian Open Data Licence v2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Regione Autonoma Friuli Venezia Giulia [Italian Open Data Licence v2.0]",
@@ -2048,8 +2124,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Trieste, Italy [45\u00b038'N, 13\u00b046'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/ITALY_TRIESTE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/ITALY_TRIESTE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_TRIESTE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_TRIESTE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "JAPAN_KOBE",
@@ -2066,6 +2142,7 @@ const locations = [
             34.7274775
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Hyogo Prefecture",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Hyogo Prefecture [Attribution 4.0 International (CC BY 4.0)]",
@@ -2075,8 +2152,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Kobe, Japan [34\u00b040'N, 135\u00b012'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/JAPAN_KOBE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/JAPAN_KOBE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/JAPAN_KOBE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/JAPAN_KOBE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "JAPAN_SHIZUOKA",
@@ -2093,6 +2170,7 @@ const locations = [
             34.99942
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Hyogo Prefecture",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Hyogo Prefecture [Attribution 4.0 International (CC BY 4.0)]",
@@ -2102,8 +2180,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Shizuoka, Japan [34\u00b058'N, 138\u00b023'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/JAPAN_SHIZUOKA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/JAPAN_SHIZUOKA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/JAPAN_SHIZUOKA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/JAPAN_SHIZUOKA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "JAPAN_TOKYO_IMPERIAL_PALACE",
@@ -2120,6 +2198,7 @@ const locations = [
             35.7297383
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Tokyo Metropolitan Government",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Tokyo Metropolitan Government [Attribution 4.0 International (CC BY 4.0)]",
@@ -2129,8 +2208,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Tokyo, Japan [35\u00b041'N, 139\u00b045'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "LATVIA_RIGA",
@@ -2147,6 +2226,7 @@ const locations = [
             57.0023217
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Latvian Geospatial Information Agency",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Latvian Geospatial Information Agency [Attribution 4.0 International (CC BY 4.0)]",
@@ -2156,8 +2236,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Riga, Latvia [56\u00b057'N, 24\u00b06'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/LATVIA_RIGA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/LATVIA_RIGA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/LATVIA_RIGA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LATVIA_RIGA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "LIECHTENSTEIN_VADUZ",
@@ -2174,6 +2254,7 @@ const locations = [
             47.1647097
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Federal Office of Topography swisstopo",
         "license_name": "Open Government Data (OGD)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
@@ -2183,8 +2264,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Vaduz, Liechtenstein [47\u00b08'N, 9\u00b031'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/LIECHTENSTEIN_VADUZ_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/LIECHTENSTEIN_VADUZ_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/LIECHTENSTEIN_VADUZ_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LIECHTENSTEIN_VADUZ_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "LUXEMBOURG_LUXEMBOURG_CITY",
@@ -2201,6 +2282,7 @@ const locations = [
             49.637016
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Administration du cadastre et de la topographie",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Administration du cadastre et de la topographie [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -2210,8 +2292,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Luxembourg, Luxembourg [49\u00b036'N, 6\u00b07'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "MONACO_MONTECARLO",
@@ -2228,6 +2310,7 @@ const locations = [
             43.7792151
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
         "license_name": "Etalab 2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
@@ -2237,8 +2320,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Montecarlo, Monaco [43\u00b044'N, 7\u00b025'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/MONACO_MONTECARLO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/MONACO_MONTECARLO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/MONACO_MONTECARLO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/MONACO_MONTECARLO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_AMSTERDAM",
@@ -2255,6 +2338,7 @@ const locations = [
             52.418787
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Rijkswaterstaat",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -2264,8 +2348,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Amsterdam, Netherlands [52\u00b022'N, 4\u00b053'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_DEN_HAAG",
@@ -2282,6 +2366,7 @@ const locations = [
             52.123928
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Rijkswaterstaat",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -2291,8 +2376,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "The Hague, Netherlands [52\u00b04'N, 4\u00b018'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_MAASTRICHT",
@@ -2309,6 +2394,7 @@ const locations = [
             50.884527
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Rijkswaterstaat",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -2318,8 +2404,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Maastricht, Netherlands [50\u00b050'N, 5\u00b041'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_ROTTERDAM",
@@ -2336,6 +2422,7 @@ const locations = [
             51.962429
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Rijkswaterstaat",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -2345,8 +2432,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Rotterdam, Netherlands [51\u00b055'N, 4\u00b028'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_UTRECHT",
@@ -2363,6 +2450,7 @@ const locations = [
             52.1345669
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Rijkswaterstaat",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -2372,8 +2460,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Utrecht, Netherlands [52\u00b05'N, 5\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NEW_ZEALAND_AUCKLAND_2024",
@@ -2390,6 +2478,7 @@ const locations = [
             -36.7711929
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Land Information New Zealand (LINZ)",
         "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Information New Zealand (LINZ) [CC BY 4.0 DEED Attribution 4.0 International]",
@@ -2399,8 +2488,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Auckland, New Zealand [36\u00b051'S, 174\u00b044'E] [36000 x 36000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NEW_ZEALAND_CHRISTCHURCH",
@@ -2417,6 +2506,7 @@ const locations = [
             -43.4962626
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Land Information New Zealand",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Information New Zealand [Attribution 4.0 International (CC BY 4.0)]",
@@ -2426,8 +2516,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Christchurch, New Zealand [43\u00b031'S, 172\u00b038'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NEW_ZEALAND_WELLINGTON",
@@ -2444,6 +2534,7 @@ const locations = [
             -41.2511557
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Land Information New Zealand",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Land Information New Zealand [Attribution 4.0 International (CC BY 4.0)]",
@@ -2453,8 +2544,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Wellington, New Zealand [41\u00b017'S, 174\u00b046'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NEW_ZEALAND_WELLINGTON_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NEW_ZEALAND_WELLINGTON_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NEW_ZEALAND_WELLINGTON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NEW_ZEALAND_WELLINGTON_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NORWAY_BERGEN",
@@ -2471,6 +2562,7 @@ const locations = [
             60.4452793
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Norwegian Mapping Authority",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
@@ -2480,8 +2572,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Bergen, Norway [60\u00b023'N, 5\u00b019'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_BERGEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_BERGEN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_BERGEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_BERGEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NORWAY_OSLO",
@@ -2498,6 +2590,7 @@ const locations = [
             59.9580489
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Norwegian Mapping Authority",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
@@ -2507,8 +2600,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Oslo, Norway [59\u00b054'N, 10\u00b045'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_OSLO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_OSLO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_OSLO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_OSLO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NORWAY_STAVANGER",
@@ -2525,6 +2618,7 @@ const locations = [
             59.0277353
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Norwegian Mapping Authority",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
@@ -2534,8 +2628,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Stavanger, Norway [58\u00b058'N, 5\u00b045'E] [9700 x 11800 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_STAVANGER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_STAVANGER_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_STAVANGER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_STAVANGER_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NORWAY_TROMSO",
@@ -2552,6 +2646,7 @@ const locations = [
             69.6831285
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Norwegian Mapping Authority",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
@@ -2561,8 +2656,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Troms\u00f8, Norway [69\u00b039'N, 18\u00b057'E] [8000 x 8000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_TROMSO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_TROMSO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_TROMSO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_TROMSO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NORWAY_TRONDHEIM",
@@ -2579,6 +2674,7 @@ const locations = [
             63.4831943
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Norwegian Mapping Authority",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
@@ -2588,8 +2684,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Trondheim, Norway [63\u00b025'N, 10\u00b023'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/NORWAY_TRONDHEIM_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/NORWAY_TRONDHEIM_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_TRONDHEIM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_TRONDHEIM_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "POLAND_KRAKOW",
@@ -2606,6 +2702,7 @@ const locations = [
             50.0860748
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Head Office of Geodesy and Cartography",
         "license_name": "",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography []",
@@ -2615,8 +2712,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Krak\u00f3w, Poland [50\u00b03'N, 19\u00b056'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/POLAND_KRAKOW_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/POLAND_KRAKOW_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_KRAKOW_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_KRAKOW_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "POLAND_WARSAW",
@@ -2633,6 +2730,7 @@ const locations = [
             52.2583054
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Head Office of Geodesy and Cartography",
         "license_name": "",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography []",
@@ -2642,8 +2740,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Warsaw, Poland [52\u00b014'N, 21\u00b00'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/POLAND_WARSAW_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/POLAND_WARSAW_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_WARSAW_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_WARSAW_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "PORTUGAL_COIMBRA",
@@ -2660,6 +2758,7 @@ const locations = [
             40.2340549
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Dire\u00e7\u00e3o-Geral do Territ\u00f3rio",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Dire\u00e7\u00e3o-Geral do Territ\u00f3rio [Attribution 4.0 International (CC BY 4.0)]",
@@ -2669,8 +2768,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Coimbra, Portugal [40\u00b012'N, 8\u00b024'W] [13000 x 13000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/PORTUGAL_COIMBRA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/PORTUGAL_COIMBRA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/PORTUGAL_COIMBRA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/PORTUGAL_COIMBRA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "PORTUGAL_LISBON",
@@ -2687,6 +2786,7 @@ const locations = [
             38.7726683
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Dire\u00e7\u00e3o-Geral do Territ\u00f3rio",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Dire\u00e7\u00e3o-Geral do Territ\u00f3rio [Attribution 4.0 International (CC BY 4.0)]",
@@ -2696,8 +2796,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Lisbon, Portugal [38\u00b043'N, 9\u00b08'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/PORTUGAL_LISBON_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/PORTUGAL_LISBON_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/PORTUGAL_LISBON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/PORTUGAL_LISBON_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SLOVAKIA_BRATISLAVA",
@@ -2714,6 +2814,7 @@ const locations = [
             63.0817379
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "",
         "license_name": "",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> |  []",
@@ -2723,8 +2824,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Bratislava, Slovakia [48\u00b07'N, 17\u00b07'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SLOVAKIA_BRATISLAVA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SLOVAKIA_BRATISLAVA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SLOVAKIA_BRATISLAVA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SLOVAKIA_BRATISLAVA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SLOVENIA_LJUBLJANA",
@@ -2741,6 +2842,7 @@ const locations = [
             46.1015993
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Agencija Republike Slovenije za okolje",
         "license_name": "",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agencija Republike Slovenije za okolje []",
@@ -2750,8 +2852,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Ljubljana, Slovenia [46\u00b03'N, 14\u00b030'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SLOVENIA_LJUBLJANA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SLOVENIA_LJUBLJANA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SLOVENIA_LJUBLJANA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SLOVENIA_LJUBLJANA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_BARCELONA_CIR",
@@ -2768,6 +2870,7 @@ const locations = [
             41.450014
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
@@ -2777,8 +2880,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_CEUTA",
@@ -2795,6 +2898,7 @@ const locations = [
             35.9248592
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
@@ -2804,8 +2908,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Ceuta, Spain [35\u00b053'N, 5\u00b019'W] [20000 x 12000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_CEUTA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_CEUTA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_CEUTA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_CEUTA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_CORDOBA",
@@ -2822,6 +2926,7 @@ const locations = [
             37.9364095
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda",
         "license_name": "Creative Commons Attribution 4.0 International Public License (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda [Creative Commons Attribution 4.0 International Public License (CC BY 4.0)]",
@@ -2831,8 +2936,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Cordoba, Spain [37\u00b053'N, 4\u00b046'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_CORDOBA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_CORDOBA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_CORDOBA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_CORDOBA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_GRANADA",
@@ -2849,6 +2954,7 @@ const locations = [
             37.2265549
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda",
         "license_name": "Creative Commons Attribution 4.0 International Public License (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda [Creative Commons Attribution 4.0 International Public License (CC BY 4.0)]",
@@ -2858,8 +2964,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Granada, Spain [37\u00b010'N, 3\u00b035'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_GRANADA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_GRANADA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_GRANADA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_GRANADA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_LOGRONO",
@@ -2876,6 +2982,7 @@ const locations = [
             42.5046825
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Infraestructura de Datos Espaciales de La Rioja",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Infraestructura de Datos Espaciales de La Rioja [Attribution 4.0 International (CC BY 4.0)]",
@@ -2885,8 +2992,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Logro\u00f1o, Spain [42\u00b027'N, 2\u00b026'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_LOGRONO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_LOGRONO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_LOGRONO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_LOGRONO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_MADRID3",
@@ -2903,6 +3010,7 @@ const locations = [
             40.4404181
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Ayuntamiento de Madrid",
         "license_name": "Open Data",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Ayuntamiento de Madrid [Open Data]",
@@ -2912,8 +3020,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Madrid, Spain [40\u00b024'N, 3\u00b042'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_MADRID3_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_MADRID3_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_MADRID3_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_MADRID3_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_MELILLA",
@@ -2930,6 +3038,7 @@ const locations = [
             35.3242063
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
@@ -2939,8 +3048,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Melilla, Spain [35\u00b017'N, 2\u00b056'W] [10000 x 14000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_MELILLA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_MELILLA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_MELILLA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_MELILLA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_PAMPLONA2",
@@ -2957,6 +3066,7 @@ const locations = [
             42.8425483
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Sistema de Informaci\u00f3n Territorial de Navarra",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sistema de Informaci\u00f3n Territorial de Navarra [Attribution 4.0 International (CC BY 4.0)]",
@@ -2966,8 +3076,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Pamplona, Spain [42\u00b049'N, 1\u00b038'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_PAMPLONA2_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_PAMPLONA2_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_PAMPLONA2_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_PAMPLONA2_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_SANTANDER",
@@ -2984,6 +3094,7 @@ const locations = [
             43.5116798
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Gobierno de Cantabria y del IGN-CNIG",
         "license_name": "Open Data",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Gobierno de Cantabria y del IGN-CNIG [Open Data]",
@@ -2993,8 +3104,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Santander, Spain [43\u00b027'N, 3\u00b048'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_SANTANDER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_SANTANDER_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_SANTANDER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_SANTANDER_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_SAN_SEBASTIAN",
@@ -3011,6 +3122,7 @@ const locations = [
             43.347656
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Gipuzkoa Provincial Council",
         "license_name": "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Gipuzkoa Provincial Council [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]",
@@ -3020,8 +3132,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "San Sebastian, Spain [43\u00b018'N, 1\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_SAN_SEBASTIAN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_SAN_SEBASTIAN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_SAN_SEBASTIAN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_SAN_SEBASTIAN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_SEVILLA",
@@ -3038,6 +3150,7 @@ const locations = [
             37.4401375
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda",
         "license_name": "Creative Commons Attribution 4.0 International Public License (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda [Creative Commons Attribution 4.0 International Public License (CC BY 4.0)]",
@@ -3047,8 +3160,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Sevilla, Spain [37\u00b023'N, 5\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_SEVILLA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_SEVILLA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_SEVILLA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_SEVILLA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_VALENCIA",
@@ -3065,6 +3178,7 @@ const locations = [
             39.5378065
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
@@ -3074,8 +3188,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Valencia, Spain [39\u00b028'N, 0\u00b022'W] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SPAIN_VALENCIA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SPAIN_VALENCIA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_VALENCIA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_VALENCIA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWEDEN_GOTEBORG",
@@ -3092,6 +3206,7 @@ const locations = [
             57.757057
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Sweden Land Survey Authority",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -3101,8 +3216,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "G\u00f6teborg, Sweden [57\u00b042'N, 11\u00b057'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_GOTEBORG_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_GOTEBORG_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWEDEN_GOTEBORG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWEDEN_GOTEBORG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWEDEN_MALMO",
@@ -3119,6 +3234,7 @@ const locations = [
             55.6484994
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Sweden Land Survey Authority",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -3128,8 +3244,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Malm\u00f6, Sweden [55\u00b035'N, 13\u00b00'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_MALMO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_MALMO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWEDEN_MALMO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWEDEN_MALMO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWEDEN_STOCKHOLM3",
@@ -3146,6 +3262,7 @@ const locations = [
             59.3620621
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Sweden Land Survey Authority",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -3155,8 +3272,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Stockholm, Sweden [59\u00b019'N, 18\u00b04'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_STOCKHOLM3_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_STOCKHOLM3_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWEDEN_STOCKHOLM3_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWEDEN_STOCKHOLM3_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWEDEN_UPPSALA",
@@ -3173,6 +3290,7 @@ const locations = [
             59.9063854
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Sweden Land Survey Authority",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -3182,8 +3300,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Uppsala, Sweden [59\u00b051'N, 17\u00b038'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_UPPSALA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_UPPSALA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWEDEN_UPPSALA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWEDEN_UPPSALA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWEDEN_VASTERAS",
@@ -3200,6 +3318,7 @@ const locations = [
             59.659598
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Sweden Land Survey Authority",
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Sweden Land Survey Authority [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
@@ -3209,8 +3328,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "V\u00e4ster\u00e5s, Sweden [59\u00b036'N, 16\u00b032'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWEDEN_VASTERAS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWEDEN_VASTERAS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWEDEN_VASTERAS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWEDEN_VASTERAS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_BASEL",
@@ -3227,6 +3346,7 @@ const locations = [
             47.601478
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Federal Office of Topography swisstopo",
         "license_name": "Open Government Data (OGD)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
@@ -3236,8 +3356,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Basel, Switzerland [47\u00b033'N, 7\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BASEL_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BASEL_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWITZERLAND_BASEL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWITZERLAND_BASEL_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_BERN",
@@ -3254,6 +3374,7 @@ const locations = [
             46.992923
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Federal Office of Topography swisstopo",
         "license_name": "Open Government Data (OGD)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
@@ -3263,8 +3384,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Bern, Switzerland [46\u00b056'N, 7\u00b026'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_BERN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_BERN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWITZERLAND_BERN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWITZERLAND_BERN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_GENEVE",
@@ -3281,6 +3402,7 @@ const locations = [
             46.247867
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Federal Office of Topography swisstopo",
         "license_name": "Open Government Data (OGD)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
@@ -3290,8 +3412,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Geneva, Switzerland [46\u00b012'N, 6\u00b08'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_GENEVE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWITZERLAND_GENEVE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWITZERLAND_GENEVE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_LAUSANNE",
@@ -3308,6 +3430,7 @@ const locations = [
             46.570851
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Federal Office of Topography swisstopo",
         "license_name": "Open Government Data (OGD)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
@@ -3317,8 +3440,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Lausanne, Switzerland [46\u00b031'N, 6\u00b037'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_LAUSANNE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWITZERLAND_LAUSANNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWITZERLAND_LAUSANNE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SWITZERLAND_ZURICH",
@@ -3335,6 +3458,7 @@ const locations = [
             47.4219243
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Federal Office of Topography swisstopo",
         "license_name": "Open Government Data (OGD)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Federal Office of Topography swisstopo [Open Government Data (OGD)]",
@@ -3344,8 +3468,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Z\u00fcrich, Switzerland [47\u00b022'N, 8\u00b032'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SWITZERLAND_ZURICH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SWITZERLAND_ZURICH_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_BIRMINGHAM",
@@ -3362,6 +3486,7 @@ const locations = [
             52.5293603
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3371,8 +3496,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Birmingham, United Kingdom [52\u00b028'N, 1\u00b053'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_BIRMINGHAM_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_BIRMINGHAM_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_BIRMINGHAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_BIRMINGHAM_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_BRADFORD",
@@ -3389,6 +3514,7 @@ const locations = [
             53.8424669
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3398,8 +3524,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Bradford, United Kingdom [53\u00b047'N, 1\u00b045'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_BRADFORD_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_BRADFORD_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_BRADFORD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_BRADFORD_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_BRISTOL",
@@ -3416,6 +3542,7 @@ const locations = [
             51.507177
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3425,8 +3552,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Bristol, United Kingdom [51\u00b027'N, 2\u00b035'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_BRISTOL_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_BRISTOL_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_BRISTOL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_BRISTOL_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_KINGSTON_UPON_HULL",
@@ -3443,6 +3570,7 @@ const locations = [
             53.814066
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3452,8 +3580,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Kingston upon Hull, United Kingdom [53\u00b045'N, 0\u00b020'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_LEEDS",
@@ -3470,6 +3598,7 @@ const locations = [
             53.8479668
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3479,8 +3608,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Leeds, United Kingdom [53\u00b047'N, 1\u00b032'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_LEEDS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_LEEDS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_LEEDS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_LEEDS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_LEICESTER",
@@ -3497,6 +3626,7 @@ const locations = [
             52.6794783
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3506,8 +3636,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Leicester, United Kingdom [52\u00b038'N, 1\u00b08'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_LEICESTER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_LEICESTER_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_LEICESTER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_LEICESTER_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_LIVERPOOL",
@@ -3524,6 +3654,7 @@ const locations = [
             53.4564561
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3533,8 +3664,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Liverpool, United Kingdom [53\u00b024'N, 2\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_LIVERPOOL_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_LIVERPOOL_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_LIVERPOOL_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_LIVERPOOL_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_LONDON2",
@@ -3551,6 +3682,7 @@ const locations = [
             51.5223028
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3560,8 +3692,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "London, United Kingdom [51\u00b029'N, 0\u00b06'W] [16000 x 12000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_LONDON2_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_LONDON2_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_LONDON2_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_LONDON2_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_MANCHESTER",
@@ -3578,6 +3710,7 @@ const locations = [
             53.5291004
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3587,8 +3720,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Manchester, United Kingdom [53\u00b028'N, 2\u00b014'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_MANCHESTER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_MANCHESTER_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_MANCHESTER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_MANCHESTER_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_NEWCASTLE_UPON_TYNE",
@@ -3605,6 +3738,7 @@ const locations = [
             55.0223209
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3614,8 +3748,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Newcastle upon Tyne, United Kingdom [54\u00b058'N, 1\u00b036'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_SHEFFIELD",
@@ -3632,6 +3766,7 @@ const locations = [
             53.4291398
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3641,8 +3776,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Sheffield, United Kingdom [53\u00b022'N, 1\u00b028'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_SHEFFIELD_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_SHEFFIELD_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_SHEFFIELD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_SHEFFIELD_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_SOUTHAMPTON",
@@ -3659,6 +3794,7 @@ const locations = [
             50.9608575
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Department for Environment, Food and Rural Affairs",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
@@ -3668,8 +3804,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Southampton, United Kingdom [50\u00b054'N, 1\u00b024'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_ENGLAND_YORK",
@@ -3686,6 +3822,7 @@ const locations = [
             54.008297
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "XXX",
         "license_name": "XXX",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | XXX [XXX]",
@@ -3695,8 +3832,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "York, United Kingdom [53\u00b057'N, 1\u00b04'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_ENGLAND_YORK_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_ENGLAND_YORK_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_ENGLAND_YORK_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_ENGLAND_YORK_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_NORTH_IRELAND_BELFAST",
@@ -3713,6 +3850,7 @@ const locations = [
             54.6224132
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "OpenDataNI - Cyient Europe Ltd",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | OpenDataNI - Cyient Europe Ltd [Open Government License v3.0]",
@@ -3722,8 +3860,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Belfast, United Kingdom [54\u00b035'N, 5\u00b055'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_NORTH_IRELAND_BELFAST_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_NORTH_IRELAND_BELFAST_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_NORTH_IRELAND_BELFAST_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_NORTH_IRELAND_BELFAST_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_SCOTLAND_EDINBURGH",
@@ -3740,6 +3878,7 @@ const locations = [
             55.9756343
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Scottish Remote Sensing Portal",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Scottish Remote Sensing Portal [Open Government License v3.0]",
@@ -3749,8 +3888,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Edinburgh, United Kingdom [55\u00b057'N, 3\u00b011'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_SCOTLAND_EDINBURGH_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_SCOTLAND_EDINBURGH_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_SCOTLAND_EDINBURGH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_SCOTLAND_EDINBURGH_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_SCOTLAND_GLASGOW",
@@ -3767,6 +3906,7 @@ const locations = [
             55.8856141
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Scottish Remote Sensing Portal",
         "license_name": "Open Government License v3.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Scottish Remote Sensing Portal [Open Government License v3.0]",
@@ -3776,8 +3916,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Glasgow, United Kingdom [55\u00b051'N, 4\u00b015'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_SCOTLAND_GLASGOW_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_SCOTLAND_GLASGOW_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_SCOTLAND_GLASGOW_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_SCOTLAND_GLASGOW_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "UK_WALES_CARDIFF",
@@ -3794,6 +3934,7 @@ const locations = [
             51.5275625
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Natural Resources Wales",
         "license_name": "Open Government Licence v2.0",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Natural Resources Wales [Open Government Licence v2.0]",
@@ -3803,8 +3944,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Cardiff, United Kingdom [51\u00b028'N, 3\u00b010'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/UK_WALES_CARDIFF_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/UK_WALES_CARDIFF_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/UK_WALES_CARDIFF_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/UK_WALES_CARDIFF_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "URUGUAY_MONTEVIDEO",
@@ -3821,6 +3962,7 @@ const locations = [
             -34.8593378
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Infraestructura de Datos Espaciales",
         "license_name": "Licencia de Datos Abiertos - Uruguay",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Infraestructura de Datos Espaciales [Licencia de Datos Abiertos - Uruguay]",
@@ -3830,8 +3972,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Montevideo, Uruguay [34\u00b054'S, 56\u00b011'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/URUGUAY_MONTEVIDEO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/URUGUAY_MONTEVIDEO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/URUGUAY_MONTEVIDEO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/URUGUAY_MONTEVIDEO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_ALBUQUERQUE",
@@ -3848,6 +3990,7 @@ const locations = [
             35.1163639
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -3857,8 +4000,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Albuquerque, New Mexico, USA [35\u00b05'N, 106\u00b038'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_ALBUQUERQUE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_ALBUQUERQUE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_ALBUQUERQUE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_ALBUQUERQUE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_ATLANTA",
@@ -3875,6 +4018,7 @@ const locations = [
             33.8031291
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -3884,8 +4028,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Atlanta, Georgia, USA [33\u00b045'N, 84\u00b023'W] [20000 x 20000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_ATLANTA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_ATLANTA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_ATLANTA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_ATLANTA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_AUSTIN",
@@ -3902,6 +4046,7 @@ const locations = [
             30.302358
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -3911,8 +4056,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Austin, Texas, USA [30\u00b016'N, 97\u00b044'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_AUSTIN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_AUSTIN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_AUSTIN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_AUSTIN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_BISMARCK_2023",
@@ -3929,6 +4074,7 @@ const locations = [
             46.8357789
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "Bismarck-Mandan Metropolitan Planning Organization (MPO)",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bismarck-Mandan Metropolitan Planning Organization (MPO) [CC0 1.0 Universal]",
@@ -3938,8 +4084,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Bismarck, North_Dakota, USA [46\u00b048'N, 100\u00b046'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_BISMARCK_2023_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_BISMARCK_2023_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_BISMARCK_2023_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_BISMARCK_2023_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_BOSTON",
@@ -3956,6 +4102,7 @@ const locations = [
             42.4116428
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -3965,8 +4112,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Boston, Massachusetts, USA [42\u00b021'N, 71\u00b03'W] [20000 x 20000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_BOSTON_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_BOSTON_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_BOSTON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_BOSTON_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_CHARLOTTE",
@@ -3983,6 +4130,7 @@ const locations = [
             35.2415711
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -3992,8 +4140,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Charlotte, North_Carolina, USA [35\u00b013'N, 80\u00b050'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CHARLOTTE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CHARLOTTE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_CHARLOTTE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_CHARLOTTE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_CHICAGO",
@@ -4010,6 +4158,7 @@ const locations = [
             41.911416
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Department of Commerce, National Oceanic and Atmospheric Administration",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Department of Commerce, National Oceanic and Atmospheric Administration [CC0 1.0 Universal]",
@@ -4019,8 +4168,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Chicago, Illinois, USA [41\u00b053'N, 87\u00b037'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CHICAGO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CHICAGO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_CHICAGO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_CHICAGO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_CLEVELAND",
@@ -4037,6 +4186,7 @@ const locations = [
             41.5141194
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4046,8 +4196,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Cleveland, Ohio, USA [41\u00b029'N, 81\u00b041'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_CLEVELAND_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_CLEVELAND_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_CLEVELAND_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_CLEVELAND_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_COLUMBUS",
@@ -4064,6 +4214,7 @@ const locations = [
             39.9829766
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4073,8 +4224,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Columbus, Ohio, USA [39\u00b057'N, 83\u00b00'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_COLUMBUS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_COLUMBUS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_COLUMBUS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_COLUMBUS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_DALLAS",
@@ -4091,6 +4242,7 @@ const locations = [
             32.8207091
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4100,8 +4252,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Dallas, Texas, USA [32\u00b047'N, 96\u00b048'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_DALLAS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_DALLAS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_DALLAS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DALLAS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_DENVER",
@@ -4118,6 +4270,7 @@ const locations = [
             39.7911692
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4127,8 +4280,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Denver, Colorado, USA [39\u00b044'N, 104\u00b059'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_DENVER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_DENVER_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_DENVER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DENVER_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_DETROIT",
@@ -4145,6 +4298,7 @@ const locations = [
             42.3488404
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4154,8 +4308,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Detroit, Michigan, USA [42\u00b020'N, 83\u00b02'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_DETROIT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_DETROIT_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_DETROIT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DETROIT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_HOUSTON",
@@ -4172,6 +4326,7 @@ const locations = [
             29.8096563
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4181,8 +4336,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Houston, Texas, USA [29\u00b045'N, 95\u00b021'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_HOUSTON_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_HOUSTON_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_HOUSTON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_HOUSTON_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_KANSAS_CITY",
@@ -4199,6 +4354,7 @@ const locations = [
             39.1406137
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4208,8 +4364,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Kansas City, Missouri, USA [39\u00b06'N, 94\u00b035'W] [8996 x 8658 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_KANSAS_CITY_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_KANSAS_CITY_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_KANSAS_CITY_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_KANSAS_CITY_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LAS_VEGAS",
@@ -4226,6 +4382,7 @@ const locations = [
             36.1793979
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4235,8 +4392,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Las Vegas, Nevada, USA [36\u00b09'N, 115\u00b09'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LAS_VEGAS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LAS_VEGAS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LAS_VEGAS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LAS_VEGAS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_BEVERLY_HILLS",
@@ -4253,6 +4410,7 @@ const locations = [
             34.0944894
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4262,8 +4420,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Los Angeles [Beverly Hills], California, USA [34\u00b04'N, 118\u00b024'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_BEVERLY_HILLS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_BEVERLY_HILLS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LOS_ANGELES_BEVERLY_HILLS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LOS_ANGELES_BEVERLY_HILLS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_DOWNTOWN",
@@ -4280,6 +4438,7 @@ const locations = [
             34.0635173
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4289,8 +4448,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Los Angeles [Downtown], California, USA [34\u00b02'N, 118\u00b014'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_DOWNTOWN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_DOWNTOWN_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LOS_ANGELES_DOWNTOWN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LOS_ANGELES_DOWNTOWN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_HOLLYWOOD",
@@ -4307,6 +4466,7 @@ const locations = [
             34.1200642
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4316,8 +4476,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Los Angeles [Hollywood], California, USA [34\u00b05'N, 118\u00b019'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_HOLLYWOOD_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_HOLLYWOOD_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LOS_ANGELES_HOLLYWOOD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LOS_ANGELES_HOLLYWOOD_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_INTERCHANGE",
@@ -4334,6 +4494,7 @@ const locations = [
             33.9507291
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4343,8 +4504,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Los Angeles [Judge Harry Pregerson Interchange], California, USA [33\u00b055'N, 118\u00b016'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_INTERCHANGE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_INTERCHANGE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LOS_ANGELES_INTERCHANGE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LOS_ANGELES_INTERCHANGE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_SANTA_MONICA",
@@ -4361,6 +4522,7 @@ const locations = [
             34.0509275
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4370,8 +4532,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Los Angeles [Santa Monica], California, USA [34\u00b01'N, 118\u00b028'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_LOS_ANGELES_SANTA_MONICA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_LOS_ANGELES_SANTA_MONICA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LOS_ANGELES_SANTA_MONICA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LOS_ANGELES_SANTA_MONICA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_MADISON",
@@ -4388,6 +4550,7 @@ const locations = [
             43.09579
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4397,8 +4560,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Madison, Wisconsin, USA [43\u00b04'N, 89\u00b024'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_MADISON_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_MADISON_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_MADISON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_MADISON_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_MEMPHIS",
@@ -4415,6 +4578,7 @@ const locations = [
             35.1639875
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4424,8 +4588,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Memphis, Tennessee, USA [35\u00b08'N, 90\u00b02'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_MEMPHIS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_MEMPHIS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_MEMPHIS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_MEMPHIS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_MILWAUKEE",
@@ -4442,6 +4606,7 @@ const locations = [
             43.058701
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4451,8 +4616,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Milwaukee, Wisconsin, USA [43\u00b02'N, 87\u00b054'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_MILWAUKEE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_MILWAUKEE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_MILWAUKEE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_MILWAUKEE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_MINNEAPOLIS",
@@ -4469,6 +4634,7 @@ const locations = [
             45.016426
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4478,8 +4644,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Minneapolis, Minnesota, USA [44\u00b058'N, 93\u00b015'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_MINNEAPOLIS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_MINNEAPOLIS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_MINNEAPOLIS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_MINNEAPOLIS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NASHVILLE",
@@ -4496,6 +4662,7 @@ const locations = [
             36.1827153
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4505,8 +4672,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Nashville, Tennessee, USA [36\u00b09'N, 86\u00b046'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NASHVILLE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NASHVILLE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NASHVILLE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NASHVILLE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_ORLEANS",
@@ -4523,6 +4690,7 @@ const locations = [
             29.9862903
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4532,8 +4700,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "New Orleans, Louisiana, USA [29\u00b057'N, 90\u00b05'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_ORLEANS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_ORLEANS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_ORLEANS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_ORLEANS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_CENTRAL_PARK",
@@ -4550,6 +4718,7 @@ const locations = [
             40.8007021
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "NYC Office of Technology and Innovation (OTI)",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | NYC Office of Technology and Innovation (OTI) [CC0 1.0 Universal]",
@@ -4559,8 +4728,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "New York [Central Park], New York, USA [40\u00b046'N, 73\u00b058'W] [14000 x 14000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_YORK_CENTRAL_PARK_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_YORK_CENTRAL_PARK_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_CENTRAL_PARK_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_CENTRAL_PARK_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_EMPIRE_STATE_BUILDING",
@@ -4577,6 +4746,7 @@ const locations = [
             40.7671884
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "NYC Office of Technology and Innovation (OTI)",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | NYC Office of Technology and Innovation (OTI) [CC0 1.0 Universal]",
@@ -4586,8 +4756,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "New York [Empire State Building], New York, USA [40\u00b044'N, 73\u00b059'W] [15000 x 15000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_YORK_EMPIRE_STATE_BUILDING_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_YORK_EMPIRE_STATE_BUILDING_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_EMPIRE_STATE_BUILDING_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_EMPIRE_STATE_BUILDING_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_FINANCIAL_DISTRICT",
@@ -4604,6 +4774,7 @@ const locations = [
             40.7278152
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "NYC Office of Technology and Innovation (OTI)",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | NYC Office of Technology and Innovation (OTI) [CC0 1.0 Universal]",
@@ -4613,8 +4784,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "New York [Financial District], New York, USA [40\u00b042'N, 74\u00b00'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_ISLANDS",
@@ -4631,6 +4802,7 @@ const locations = [
             40.7032563
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "NYC Office of Technology and Innovation (OTI)",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | NYC Office of Technology and Innovation (OTI) [CC0 1.0 Universal]",
@@ -4640,8 +4812,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "New York [Upper Bay Islands], New York, USA [40\u00b041'N, 74\u00b01'W] [12000 x 8600 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_NEW_YORK_ISLANDS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_NEW_YORK_ISLANDS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_ISLANDS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_ISLANDS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_OKLAHOMA_CITY",
@@ -4658,6 +4830,7 @@ const locations = [
             35.5320561
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4667,8 +4840,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Oklahoma City, Oklahoma, USA [35\u00b027'N, 97\u00b030'W] [15000 x 15000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_OKLAHOMA_CITY_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_OKLAHOMA_CITY_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_OKLAHOMA_CITY_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_OMAHA",
@@ -4685,6 +4858,7 @@ const locations = [
             41.2719679
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4694,8 +4868,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Omaha, Nebraska, USA [41\u00b015'N, 95\u00b055'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_OMAHA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_OMAHA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_OMAHA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_OMAHA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_ORLANDO",
@@ -4712,6 +4886,7 @@ const locations = [
             28.5504869
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4721,8 +4896,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Orlando, Florida, USA [28\u00b032'N, 81\u00b022'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_ORLANDO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_ORLANDO_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_ORLANDO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_ORLANDO_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_PHILADELPHIA",
@@ -4739,6 +4914,7 @@ const locations = [
             39.9922296
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Department of Commerce, National Oceanic and Atmospheric Administration",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Department of Commerce, National Oceanic and Atmospheric Administration [CC0 1.0 Universal]",
@@ -4748,8 +4924,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Philadelphia, Pennsylvania, USA [39\u00b057'N, 75\u00b011'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PHILADELPHIA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PHILADELPHIA_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_PHILADELPHIA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_PHILADELPHIA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_PHOENIX",
@@ -4766,6 +4942,7 @@ const locations = [
             33.502851
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4775,8 +4952,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Phoenix, Arizona, USA [33\u00b027'N, 112\u00b04'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PHOENIX_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PHOENIX_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_PHOENIX_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_PHOENIX_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_PIERRE",
@@ -4793,6 +4970,7 @@ const locations = [
             44.3996879
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4802,8 +4980,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Pierre, South Dakota, USA [44\u00b021'N, 100\u00b021'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PIERRE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PIERRE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_PIERRE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_PIERRE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_PORTLAND",
@@ -4820,6 +4998,7 @@ const locations = [
             45.5659289
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4829,8 +5008,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PORTLAND_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PORTLAND_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_PORTLAND_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_PORTLAND_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_PROVIDENCE_PAWTUCKET",
@@ -4847,6 +5026,7 @@ const locations = [
             41.8928269
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4856,8 +5036,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Providence - Pawtucket, Rhode Island, USA [41\u00b050'N, 71\u00b023'W] [28000 x 40000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_SAINT_LOUIS",
@@ -4874,6 +5054,7 @@ const locations = [
             38.6783773
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4883,8 +5064,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Saint Louis, Missouri, USA [38\u00b037'N, 90\u00b014'W] [10694 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_SAINT_LOUIS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_SAINT_LOUIS_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_SAINT_LOUIS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_SAINT_LOUIS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_SALT_LAKE_CITY",
@@ -4901,6 +5082,7 @@ const locations = [
             40.8009371
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4910,8 +5092,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "m",
         "city_state_coords": "Salt Lake City, Utah, USA [40\u00b045'N, 111\u00b053'W] [9351 x 8352 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_SALT_LAKE_CITY_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_SALT_LAKE_CITY_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_SALT_LAKE_CITY_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_SALT_LAKE_CITY_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_SAN_FRANCISCO_2023",
@@ -4928,6 +5110,7 @@ const locations = [
             37.8373572
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4937,8 +5120,8 @@ const locations = [
         "raster_resolution": "0.5",
         "raster_units": "m",
         "city_state_coords": "San Francisco, California, USA [37\u00b046'N, 122\u00b025'W] [32000 x 32000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_SAN_FRANCISCO_2023_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_SAN_FRANCISCO_2023_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_SAN_FRANCISCO_2023_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_SAN_FRANCISCO_2023_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_SAN_JOSE",
@@ -4955,6 +5138,7 @@ const locations = [
             37.3629854
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4964,8 +5148,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "San Jose, California, USA [37\u00b020'N, 121\u00b053'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_SAN_JOSE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_SAN_JOSE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_SAN_JOSE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_SAN_JOSE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_SEATTLE",
@@ -4982,6 +5166,7 @@ const locations = [
             47.6251598
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -4991,8 +5176,8 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Seattle, Washington, USA [47\u00b036'N, 122\u00b018'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_SEATTLE_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_SEATTLE_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_SEATTLE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_SEATTLE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_WALT_DISNEY_WORLD",
@@ -5009,6 +5194,7 @@ const locations = [
             28.3852555
         ],
         "zoomLevel": 12,
+        "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
@@ -5018,8 +5204,1800 @@ const locations = [
         "raster_resolution": "1.0",
         "raster_units": "ft",
         "city_state_coords": "Walt Disney World, Florida, USA [28\u00b022'N, 81\u00b032'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/USA_WALT_DISNEY_WORLD_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/USA_WALT_DISNEY_WORLD_RGBA_cs_vector.pmtiles"
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_WALT_DISNEY_WORLD_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_WALT_DISNEY_WORLD_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_AK",
+        "cityName": "Alaska",
+        "country_name": "Alaska",
+        "centerCoords": [
+            -138.3979,
+            57.0674929
+        ],
+        "extentCoords": [
+            -179.9999,
+            40.9949058,
+            -96.7953967,
+            73.14008
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 10,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "57\u00b04'N, 138\u00b023'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Alaska, usgs [57\u00b04'N, 138\u00b023'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AK_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AK_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_AL",
+        "cityName": "Alabama",
+        "country_name": "Alabama",
+        "centerCoords": [
+            -86.5942388,
+            32.5426783
+        ],
+        "extentCoords": [
+            -89.671815,
+            29.9593799,
+            -83.5166625,
+            35.1259767
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "32\u00b032'N, 86\u00b035'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Alabama, usgs [32\u00b032'N, 86\u00b035'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AL_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AL_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_AR",
+        "cityName": "Arkansas",
+        "country_name": "Arkansas",
+        "centerCoords": [
+            -92.0674628,
+            34.739025
+        ],
+        "extentCoords": [
+            -94.7033622,
+            32.6051427,
+            -89.4315633,
+            36.8729074
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "34\u00b044'N, 92\u00b04'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Arkansas, usgs [34\u00b044'N, 92\u00b04'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AR_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AR_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_AS",
+        "cityName": "American Samoa",
+        "country_name": "American Samoa",
+        "centerCoords": [
+            -169.6473645,
+            -12.7988156
+        ],
+        "extentCoords": [
+            -171.6057417,
+            -14.7390746,
+            -167.6889873,
+            -10.8585565
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "12\u00b047'S, 169\u00b038'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "American Samoa, usgs [12\u00b047'S, 169\u00b038'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AS_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AS_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_AZ",
+        "cityName": "Arizona",
+        "country_name": "Arizona",
+        "centerCoords": [
+            -111.8076128,
+            34.1305405
+        ],
+        "extentCoords": [
+            -115.4429575,
+            31.0653083,
+            -108.1722682,
+            37.1957728
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "34\u00b07'N, 111\u00b048'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Arizona, usgs [34\u00b07'N, 111\u00b048'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AZ_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AZ_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_CA",
+        "cityName": "California",
+        "country_name": "California",
+        "centerCoords": [
+            -118.6481808,
+            37.2044754
+        ],
+        "extentCoords": [
+            -125.0250296,
+            31.9506881,
+            -112.2713321,
+            42.4582627
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "37\u00b012'N, 118\u00b038'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "California, usgs [37\u00b012'N, 118\u00b038'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/CA_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/CA_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_CO",
+        "cityName": "Colorado",
+        "country_name": "Colorado",
+        "centerCoords": [
+            -105.3969934,
+            38.9690874
+        ],
+        "extentCoords": [
+            -109.2218187,
+            35.9619663,
+            -101.5721681,
+            41.9762086
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "38\u00b058'N, 105\u00b023'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Colorado, usgs [38\u00b058'N, 105\u00b023'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/CO_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/CO_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_CT",
+        "cityName": "Connecticut",
+        "country_name": "Connecticut",
+        "centerCoords": [
+            -72.7448208,
+            41.4866716
+        ],
+        "extentCoords": [
+            -73.7982918,
+            40.734833,
+            -71.6913498,
+            42.2385101
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "41\u00b029'N, 72\u00b044'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Connecticut, usgs [41\u00b029'N, 72\u00b044'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/CT_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/CT_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_DC",
+        "cityName": "District of Columbia",
+        "country_name": "District of Columbia",
+        "centerCoords": [
+            -77.0135904,
+            38.8940448
+        ],
+        "extentCoords": [
+            -77.1929097,
+            38.7476251,
+            -76.8342711,
+            39.0404645
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 15,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "38\u00b053'N, 77\u00b00'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "District of Columbia, usgs [38\u00b053'N, 77\u00b00'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/DC_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/DC_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_DE",
+        "cityName": "Delaware",
+        "country_name": "Delaware",
+        "centerCoords": [
+            -75.3736311,
+            39.141582
+        ],
+        "extentCoords": [
+            -76.3216294,
+            38.3973618,
+            -74.4256329,
+            39.8858021
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "39\u00b08'N, 75\u00b022'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Delaware, usgs [39\u00b08'N, 75\u00b022'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/DE_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/DE_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_FL",
+        "cityName": "Florida",
+        "country_name": "Florida",
+        "centerCoords": [
+            -83.5706089,
+            27.7088412
+        ],
+        "extentCoords": [
+            -87.5432465,
+            24.033124,
+            -79.5979712,
+            31.3845583
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "27\u00b042'N, 83\u00b034'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Florida, usgs [27\u00b042'N, 83\u00b034'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/FL_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/FL_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_GA",
+        "cityName": "Georgia",
+        "country_name": "Georgia",
+        "centerCoords": [
+            -83.0501822,
+            32.6675149
+        ],
+        "extentCoords": [
+            -85.964422,
+            30.1088072,
+            -80.1359424,
+            35.2262225
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "32\u00b040'N, 83\u00b03'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Georgia, usgs [32\u00b040'N, 83\u00b03'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/GA_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/GA_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_HI",
+        "cityName": "Hawaii",
+        "country_name": "Hawaii",
+        "centerCoords": [
+            -165.1751578,
+            24.0278889
+        ],
+        "extentCoords": [
+            -177.1454867,
+            12.36745,
+            -153.2048289,
+            35.6883279
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 10,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "24\u00b01'N, 165\u00b010'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Hawaii, usgs [24\u00b01'N, 165\u00b010'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/HI_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/HI_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_IA",
+        "cityName": "Iowa",
+        "country_name": "Iowa",
+        "centerCoords": [
+            -93.2302262,
+            41.9198311
+        ],
+        "extentCoords": [
+            -96.6637699,
+            39.3444336,
+            -89.7966826,
+            44.4952286
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "41\u00b055'N, 93\u00b013'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Iowa, usgs [41\u00b055'N, 93\u00b013'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/IA_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/IA_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_ID",
+        "cityName": "Idaho",
+        "country_name": "Idaho",
+        "centerCoords": [
+            -113.6215335,
+            45.3191283
+        ],
+        "extentCoords": [
+            -119.1443059,
+            41.7444851,
+            -108.0987612,
+            48.8937715
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "45\u00b019'N, 113\u00b037'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Idaho, usgs [45\u00b019'N, 113\u00b037'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/ID_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/ID_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_IL",
+        "cityName": "Illinois",
+        "country_name": "Illinois",
+        "centerCoords": [
+            -89.0876849,
+            39.7000219
+        ],
+        "extentCoords": [
+            -92.8502833,
+            36.6600664,
+            -85.3250864,
+            42.7399774
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "39\u00b042'N, 89\u00b05'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Illinois, usgs [39\u00b042'N, 89\u00b05'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/IL_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/IL_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_IN",
+        "cityName": "Indiana",
+        "country_name": "Indiana",
+        "centerCoords": [
+            -86.3557395,
+            39.7428547
+        ],
+        "extentCoords": [
+            -89.1447457,
+            37.6224453,
+            -83.5667332,
+            41.8632642
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "39\u00b044'N, 86\u00b021'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Indiana, usgs [39\u00b044'N, 86\u00b021'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/IN_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/IN_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_KS",
+        "cityName": "Kansas",
+        "country_name": "Kansas",
+        "centerCoords": [
+            -98.1380865,
+            38.4536499
+        ],
+        "extentCoords": [
+            -102.2197376,
+            35.3094142,
+            -94.0564354,
+            41.5978856
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "38\u00b027'N, 98\u00b08'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Kansas, usgs [38\u00b027'N, 98\u00b08'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/KS_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/KS_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_KY",
+        "cityName": "Kentucky",
+        "country_name": "Kentucky",
+        "centerCoords": [
+            -85.6005335,
+            37.7523599
+        ],
+        "extentCoords": [
+            -89.7535696,
+            34.5584098,
+            -81.4474974,
+            40.9463099
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "37\u00b045'N, 85\u00b036'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Kentucky, usgs [37\u00b045'N, 85\u00b036'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/KY_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/KY_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_LA",
+        "cityName": "Louisiana",
+        "country_name": "Louisiana",
+        "centerCoords": [
+            -91.2992344,
+            30.917969
+        ],
+        "extentCoords": [
+            -94.1795531,
+            28.512324,
+            -88.4189156,
+            33.3236141
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "30\u00b055'N, 91\u00b017'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Louisiana, usgs [30\u00b055'N, 91\u00b017'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/LA_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/LA_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_MA",
+        "cityName": "Massachusetts",
+        "country_name": "Massachusetts",
+        "centerCoords": [
+            -71.6392023,
+            42.0014556
+        ],
+        "extentCoords": [
+            -73.5192294,
+            40.5104319,
+            -69.7591751,
+            43.4924792
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "42\u00b00'N, 71\u00b038'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Massachusetts, usgs [42\u00b00'N, 71\u00b038'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MA_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MA_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_MD",
+        "cityName": "Maryland",
+        "country_name": "Maryland",
+        "centerCoords": [
+            -77.1626273,
+            38.8074612
+        ],
+        "extentCoords": [
+            -79.4929723,
+            36.8969451,
+            -74.8322823,
+            40.7179773
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "38\u00b048'N, 77\u00b09'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Maryland, usgs [38\u00b048'N, 77\u00b09'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MD_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MD_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_ME",
+        "cityName": "Maine",
+        "country_name": "Maine",
+        "centerCoords": [
+            -68.8305316,
+            45.1424707
+        ],
+        "extentCoords": [
+            -72.2563728,
+            42.7304039,
+            -65.4046904,
+            47.5545374
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "45\u00b08'N, 68\u00b049'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Maine, usgs [45\u00b08'N, 68\u00b049'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/ME_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/ME_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_MI",
+        "cityName": "Michigan",
+        "country_name": "Michigan",
+        "centerCoords": [
+            -85.8606597,
+            44.8998435
+        ],
+        "extentCoords": [
+            -90.889389,
+            41.4312882,
+            -80.8319304,
+            48.3683987
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "44\u00b053'N, 85\u00b051'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Michigan, usgs [44\u00b053'N, 85\u00b051'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MI_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MI_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_MN",
+        "cityName": "Minnesota",
+        "country_name": "Minnesota",
+        "centerCoords": [
+            -93.0496215,
+            46.3616845
+        ],
+        "extentCoords": [
+            -97.603103,
+            43.2099293,
+            -88.4961401,
+            49.5134398
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "46\u00b021'N, 93\u00b02'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Minnesota, usgs [46\u00b021'N, 93\u00b02'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MN_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MN_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_MO",
+        "cityName": "Missouri",
+        "country_name": "Missouri",
+        "centerCoords": [
+            -92.2201512,
+            38.2646671
+        ],
+        "extentCoords": [
+            -95.8032153,
+            35.4909312,
+            -88.6370871,
+            41.038403
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "38\u00b015'N, 92\u00b013'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Missouri, usgs [38\u00b015'N, 92\u00b013'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MO_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MO_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_MP",
+        "cityName": "Commonwealth of the Northern Mariana Islands",
+        "country_name": "Commonwealth of the Northern Mariana Islands",
+        "centerCoords": [
+            145.027286,
+            17.2948678
+        ],
+        "extentCoords": [
+            146.7996739,
+            13.1127891,
+            143.2548982,
+            21.4769465
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "17\u00b017'N, 145\u00b01'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Commonwealth of the Northern Mariana Islands, usgs [17\u00b017'N, 145\u00b01'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MP_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MP_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_MS",
+        "cityName": "Mississippi",
+        "country_name": "Mississippi",
+        "centerCoords": [
+            -89.8070713,
+            32.5329602
+        ],
+        "extentCoords": [
+            -92.8017872,
+            29.8624747,
+            -86.8123553,
+            35.2034456
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "32\u00b031'N, 89\u00b048'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Mississippi, usgs [32\u00b031'N, 89\u00b048'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MS_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MS_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_MT",
+        "cityName": "Montana",
+        "country_name": "Montana",
+        "centerCoords": [
+            -109.3432752,
+            46.5905804
+        ],
+        "extentCoords": [
+            -115.939675,
+            42.2419367,
+            -102.7468754,
+            50.9392242
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "46\u00b035'N, 109\u00b020'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Montana, usgs [46\u00b035'N, 109\u00b020'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MT_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MT_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_NC",
+        "cityName": "North Carolina",
+        "country_name": "North Carolina",
+        "centerCoords": [
+            -79.6494321,
+            35.1211761
+        ],
+        "extentCoords": [
+            -84.4684899,
+            31.2794483,
+            -74.8303743,
+            38.962904
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "35\u00b07'N, 79\u00b038'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "North Carolina, usgs [35\u00b07'N, 79\u00b038'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NC_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NC_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_ND",
+        "cityName": "North Dakota",
+        "country_name": "North Dakota",
+        "centerCoords": [
+            -100.124051,
+            47.4467555
+        ],
+        "extentCoords": [
+            -104.1730138,
+            44.6224923,
+            -96.0750882,
+            50.2710188
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "47\u00b026'N, 100\u00b07'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "North Dakota, usgs [47\u00b026'N, 100\u00b07'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/ND_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/ND_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_NE",
+        "cityName": "Nebraska",
+        "country_name": "Nebraska",
+        "centerCoords": [
+            -99.3992775,
+            41.4599143
+        ],
+        "extentCoords": [
+            -104.1128224,
+            37.889142,
+            -94.6857325,
+            45.0306866
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "41\u00b027'N, 99\u00b023'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Nebraska, usgs [41\u00b027'N, 99\u00b023'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NE_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NE_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_NH",
+        "cityName": "New Hampshire",
+        "country_name": "New Hampshire",
+        "centerCoords": [
+            -71.5691803,
+            43.9786117
+        ],
+        "extentCoords": [
+            -73.4321764,
+            42.5473281,
+            -69.7061842,
+            45.4098953
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "43\u00b058'N, 71\u00b034'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "New Hampshire, usgs [43\u00b058'N, 71\u00b034'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NH_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NH_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_NJ",
+        "cityName": "New Jersey",
+        "country_name": "New Jersey",
+        "centerCoords": [
+            -74.6940323,
+            40.0590628
+        ],
+        "extentCoords": [
+            -76.4841264,
+            38.6935256,
+            -72.9039382,
+            41.4246
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "40\u00b03'N, 74\u00b041'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "New Jersey, usgs [40\u00b03'N, 74\u00b041'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NJ_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NJ_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_NM",
+        "cityName": "New Mexico",
+        "country_name": "New Mexico",
+        "centerCoords": [
+            -105.9688028,
+            34.1647144
+        ],
+        "extentCoords": [
+            -109.5914048,
+            31.1015393,
+            -102.3462009,
+            37.2278895
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "34\u00b09'N, 105\u00b058'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "New Mexico, usgs [34\u00b09'N, 105\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NM_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NM_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_NV",
+        "cityName": "Nevada",
+        "country_name": "Nevada",
+        "centerCoords": [
+            -116.7200792,
+            38.4321451
+        ],
+        "extentCoords": [
+            -121.4963263,
+            34.7078887,
+            -111.943832,
+            42.1564015
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "38\u00b025'N, 116\u00b043'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Nevada, usgs [38\u00b025'N, 116\u00b043'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NV_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NV_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_NY",
+        "cityName": "New York",
+        "country_name": "New York",
+        "centerCoords": [
+            -75.5327263,
+            42.668851
+        ],
+        "extentCoords": [
+            -79.8409236,
+            39.4545479,
+            -71.224529,
+            45.883154
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "42\u00b040'N, 75\u00b031'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "New York, usgs [42\u00b040'N, 75\u00b031'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NY_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NY_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_OH",
+        "cityName": "Ohio",
+        "country_name": "Ohio",
+        "centerCoords": [
+            -82.62161,
+            40.3289655
+        ],
+        "extentCoords": [
+            -85.3001514,
+            38.2042893,
+            -79.9430687,
+            42.4536416
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "40\u00b019'N, 82\u00b037'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Ohio, usgs [40\u00b019'N, 82\u00b037'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/OH_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/OH_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_OK",
+        "cityName": "Oklahoma",
+        "country_name": "Oklahoma",
+        "centerCoords": [
+            -98.4577013,
+            35.2988562
+        ],
+        "extentCoords": [
+            -103.0503999,
+            31.585242,
+            -93.8650026,
+            39.0124704
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "35\u00b017'N, 98\u00b027'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Oklahoma, usgs [35\u00b017'N, 98\u00b027'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/OK_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/OK_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_OR",
+        "cityName": "Oregon",
+        "country_name": "Oregon",
+        "centerCoords": [
+            -120.4587387,
+            44.0347164
+        ],
+        "extentCoords": [
+            -124.9148171,
+            41.0171124,
+            -116.0026602,
+            47.0523205
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "44\u00b02'N, 120\u00b027'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Oregon, usgs [44\u00b02'N, 120\u00b027'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/OR_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/OR_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_PA",
+        "cityName": "Pennsylvania",
+        "country_name": "Pennsylvania",
+        "centerCoords": [
+            -77.5492129,
+            41.101275
+        ],
+        "extentCoords": [
+            -80.6258999,
+            38.6359731,
+            -74.4725259,
+            43.5665769
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "41\u00b06'N, 77\u00b032'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Pennsylvania, usgs [41\u00b06'N, 77\u00b032'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/PA_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/PA_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_PR",
+        "cityName": "Puerto Rico",
+        "country_name": "Puerto Rico",
+        "centerCoords": [
+            -66.5718365,
+            18.1895401
+        ],
+        "extentCoords": [
+            -68.0999174,
+            16.7678764,
+            -65.0437556,
+            19.6112037
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "18\u00b011'N, 66\u00b034'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Puerto Rico, usgs [18\u00b011'N, 66\u00b034'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/PR_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/PR_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_RI",
+        "cityName": "Rhode Island",
+        "country_name": "Rhode Island",
+        "centerCoords": [
+            -71.5004677,
+            41.5557616
+        ],
+        "extentCoords": [
+            -72.1464063,
+            41.0416476,
+            -70.8545291,
+            42.0698757
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 15,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "41\u00b033'N, 71\u00b030'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Rhode Island, usgs [41\u00b033'N, 71\u00b030'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/RI_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/RI_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_SC",
+        "cityName": "South Carolina",
+        "country_name": "South Carolina",
+        "centerCoords": [
+            -80.8506652,
+            33.5827392
+        ],
+        "extentCoords": [
+            -83.425302,
+            31.4360945,
+            -78.2760283,
+            35.7293839
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "33\u00b034'N, 80\u00b051'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "South Carolina, usgs [33\u00b034'N, 80\u00b051'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/SC_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/SC_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_SD",
+        "cityName": "South Dakota",
+        "country_name": "South Dakota",
+        "centerCoords": [
+            -100.0552101,
+            44.2034264
+        ],
+        "extentCoords": [
+            -104.1573268,
+            41.1800554,
+            -95.9530934,
+            47.2267975
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "44\u00b012'N, 100\u00b03'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "South Dakota, usgs [44\u00b012'N, 100\u00b03'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/SD_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/SD_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_TN",
+        "cityName": "Tennessee",
+        "country_name": "Tennessee",
+        "centerCoords": [
+            -85.8036977,
+            35.7626936
+        ],
+        "extentCoords": [
+            -90.4755755,
+            32.0573222,
+            -81.13182,
+            39.468065
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "35\u00b045'N, 85\u00b048'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Tennessee, usgs [35\u00b045'N, 85\u00b048'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/TN_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/TN_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_TX",
+        "cityName": "Texas",
+        "country_name": "Texas",
+        "centerCoords": [
+            -99.6052769,
+            31.0242297
+        ],
+        "extentCoords": [
+            -106.5728454,
+            25.0047504,
+            -92.6377084,
+            37.0437089
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 11,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "31\u00b01'N, 99\u00b036'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Texas, usgs [31\u00b01'N, 99\u00b036'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/TX_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/TX_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_UT",
+        "cityName": "Utah",
+        "country_name": "Utah",
+        "centerCoords": [
+            -111.4333965,
+            39.4647929
+        ],
+        "extentCoords": [
+            -114.8846866,
+            36.7673981,
+            -107.9821063,
+            42.1621877
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "39\u00b027'N, 111\u00b026'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Utah, usgs [39\u00b027'N, 111\u00b026'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/UT_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/UT_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_VA",
+        "cityName": "Virginia",
+        "country_name": "Virginia",
+        "centerCoords": [
+            -79.2223947,
+            37.9130725
+        ],
+        "extentCoords": [
+            -83.8750793,
+            34.3738998,
+            -74.56971,
+            41.4522453
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "37\u00b054'N, 79\u00b013'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Virginia, usgs [37\u00b054'N, 79\u00b013'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/VA_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/VA_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_VI",
+        "cityName": "United States Virgin Islands",
+        "country_name": "United States Virgin Islands",
+        "centerCoords": [
+            -64.8319096,
+            18.0444009
+        ],
+        "extentCoords": [
+            -65.3142099,
+            17.573819,
+            -64.3496092,
+            18.5149828
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "18\u00b02'N, 64\u00b049'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "United States Virgin Islands, usgs [18\u00b02'N, 64\u00b049'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/VI_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/VI_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_VT",
+        "cityName": "Vermont",
+        "country_name": "Vermont",
+        "centerCoords": [
+            -72.452267,
+            43.8698287
+        ],
+        "extentCoords": [
+            -74.208952,
+            42.6752994,
+            -70.695582,
+            45.064358
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "43\u00b052'N, 72\u00b027'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Vermont, usgs [43\u00b052'N, 72\u00b027'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/VT_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/VT_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_WA",
+        "cityName": "Washington",
+        "country_name": "Washington",
+        "centerCoords": [
+            -120.5559919,
+            47.2389623
+        ],
+        "extentCoords": [
+            -124.9809204,
+            44.4117503,
+            -116.1310633,
+            50.0661743
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "47\u00b014'N, 120\u00b033'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Washington, usgs [47\u00b014'N, 120\u00b033'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/WA_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/WA_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_WI",
+        "cityName": "Wisconsin",
+        "country_name": "Wisconsin",
+        "centerCoords": [
+            -89.3745527,
+            44.8510077
+        ],
+        "extentCoords": [
+            -92.9229213,
+            42.1775973,
+            -85.8261841,
+            47.524418
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "44\u00b051'N, 89\u00b022'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Wisconsin, usgs [44\u00b051'N, 89\u00b022'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/WI_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/WI_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_WV",
+        "cityName": "West Virginia",
+        "country_name": "West Virginia",
+        "centerCoords": [
+            -80.1242791,
+            38.8878988
+        ],
+        "extentCoords": [
+            -82.7757398,
+            36.8565234,
+            -77.4728185,
+            40.9192742
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 13,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "38\u00b053'N, 80\u00b07'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "West Virginia, usgs [38\u00b053'N, 80\u00b07'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/WV_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/WV_vector.pmtiles"
+    },
+    {
+        "city_id": "usgs_WY",
+        "cityName": "Wyoming",
+        "country_name": "Wyoming",
+        "centerCoords": [
+            -107.4580801,
+            42.9930603
+        ],
+        "extentCoords": [
+            -111.1951985,
+            40.0879493,
+            -103.7209618,
+            45.8981714
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 12,
+        "data_publisher": "U.S. Geological Survey",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey [CC0 1.0 Universal]",
+        "dms": "42\u00b059'N, 107\u00b027'W",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Wyoming, usgs [42\u00b059'N, 107\u00b027'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/WY_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/WY_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Abruzzo",
+        "cityName": "Abruzzo",
+        "country_name": "Abruzzo",
+        "centerCoords": [
+            13.9297709,
+            42.2855372
+        ],
+        "extentCoords": [
+            12.9303829,
+            41.6249266,
+            14.929159,
+            42.9461477
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "42\u00b017'N, 13\u00b055'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Abruzzo, tinitaly [42\u00b017'N, 13\u00b055'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Abruzzo_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Abruzzo_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Basilicata",
+        "cityName": "Basilicata",
+        "country_name": "Basilicata",
+        "centerCoords": [
+            16.1005904,
+            40.5047896
+        ],
+        "extentCoords": [
+            15.1689901,
+            39.9002357,
+            17.0321906,
+            41.1093436
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "40\u00b030'N, 16\u00b06'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Basilicata, tinitaly [40\u00b030'N, 16\u00b06'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Basilicata_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Basilicata_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Calabria",
+        "cityName": "Calabria",
+        "country_name": "Calabria",
+        "centerCoords": [
+            16.4604781,
+            38.9960468
+        ],
+        "extentCoords": [
+            14.8354307,
+            37.9213634,
+            18.0855255,
+            40.0707302
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "38\u00b059'N, 16\u00b027'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Calabria, tinitaly [38\u00b059'N, 16\u00b027'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Calabria_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Calabria_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Campania",
+        "cityName": "Campania",
+        "country_name": "Campania",
+        "centerCoords": [
+            14.8073657,
+            40.7533142
+        ],
+        "extentCoords": [
+            13.6147258,
+            39.9594073,
+            16.0000055,
+            41.5472212
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "40\u00b045'N, 14\u00b048'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Campania, tinitaly [40\u00b045'N, 14\u00b048'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Campania_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Campania_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Emilia_Romagna",
+        "cityName": "Emilia-Romagna",
+        "country_name": "Emilia-Romagna",
+        "centerCoords": [
+            11.0338492,
+            44.4255996
+        ],
+        "extentCoords": [
+            9.13155,
+            43.1288326,
+            12.9361485,
+            45.7223667
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "44\u00b025'N, 11\u00b02'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Emilia-Romagna, tinitaly [44\u00b025'N, 11\u00b02'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Emilia_Romagna_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Emilia_Romagna_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Friuli_Venezia_Giulia",
+        "cityName": "Friuli-Venezia Giulia",
+        "country_name": "Friuli-Venezia Giulia",
+        "centerCoords": [
+            13.1469548,
+            46.1169442
+        ],
+        "extentCoords": [
+            12.2133036,
+            45.5321337,
+            14.080606,
+            46.7017547
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "46\u00b07'N, 13\u00b08'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Friuli-Venezia Giulia, tinitaly [46\u00b07'N, 13\u00b08'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Friuli_Venezia_Giulia_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Friuli_Venezia_Giulia_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Lazio",
+        "cityName": "Lazio",
+        "country_name": "Lazio",
+        "centerCoords": [
+            12.7613124,
+            41.8005694
+        ],
+        "extentCoords": [
+            11.3028266,
+            40.8011062,
+            14.2197983,
+            42.8000327
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "41\u00b048'N, 12\u00b045'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Lazio, tinitaly [41\u00b048'N, 12\u00b045'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Lazio_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Lazio_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Sardegna",
+        "cityName": "Sardegna",
+        "country_name": "Sardegna",
+        "centerCoords": [
+            9.0118033,
+            40.0754529
+        ],
+        "extentCoords": [
+            7.3559174,
+            38.8040869,
+            10.6676892,
+            41.346819
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "40\u00b04'N, 9\u00b00'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Sardegna, tinitaly [40\u00b04'N, 9\u00b00'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Sardegna_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Sardegna_vector.pmtiles"
+    },
+    {
+        "city_id": "tinitaly_Valle_d_Aosta",
+        "cityName": "Valle d'Aosta",
+        "country_name": "Valle d'Aosta",
+        "centerCoords": [
+            7.3756302,
+            45.7264839
+        ],
+        "extentCoords": [
+            6.7572954,
+            45.2754782,
+            7.993965,
+            46.1774897
+        ],
+        "zoomLevel": 5,
+        "maxZoomLevel": 14,
+        "data_publisher": "Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Istituto Nazionale di Geofisica e Vulcanologia (INGV) - TINItaly 1.1 [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "45\u00b043'N, 7\u00b022'E",
+        "width": 0,
+        "height": 0,
+        "raster_resolution": 0,
+        "raster_units": "",
+        "city_state_coords": "Valle d'Aosta, tinitaly [45\u00b043'N, 7\u00b022'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Valle_d_Aosta_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Valle_d_Aosta_vector.pmtiles"
     }
 ];
 
@@ -5395,7 +7373,7 @@ function openMapPopup(loc) {
     view: new ol.View({
       center: loc.centerCoords,
       zoom: loc.zoomLevel,
-      maxZoom: 18,
+      maxZoom: loc.maxZoomLevel,
       extent: loc.extentCoords,
       multiWorld: false
     }),
