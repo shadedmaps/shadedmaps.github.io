@@ -924,6 +924,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_AMIENS",
+        "cityName": "Amiens",
+        "country_name": "France",
+        "centerCoords": [
+            2.2984168365448205,
+            49.8950890798602
+        ],
+        "extentCoords": [
+            2.2495889,
+            49.8588647,
+            2.3738361,
+            49.9260477
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "49\u00b053'N, 2\u00b017'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Amiens, France [49\u00b053'N, 2\u00b017'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_AMIENS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_AMIENS_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_BORDEAUX",
         "cityName": "Bordeaux",
         "country_name": "France",
@@ -1036,6 +1064,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_MARSEILLE_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_NANCY",
+        "cityName": "Nancy",
+        "country_name": "France",
+        "centerCoords": [
+            6.183286759314409,
+            48.6934995845316
+        ],
+        "extentCoords": [
+            6.1197773,
+            48.6546729,
+            6.2468831,
+            48.732295
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "48\u00b041'N, 6\u00b010'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Nancy, France [48\u00b041'N, 6\u00b010'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_NANCY_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_NANCY_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_NANTES",
         "cityName": "Nantes",
         "country_name": "France",
@@ -1120,6 +1176,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_PARIS_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_STRASBOURG",
+        "cityName": "Strasbourg",
+        "country_name": "France",
+        "centerCoords": [
+            7.748248141714564,
+            48.57662595633151
+        ],
+        "extentCoords": [
+            7.6837307,
+            48.5386389,
+            7.8128464,
+            48.6145855
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "48\u00b034'N, 7\u00b044'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Strasbourg, France [48\u00b034'N, 7\u00b044'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_STRASBOURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_STRASBOURG_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_TOULOUSE",
         "cityName": "Toulouse",
         "country_name": "France",
@@ -1146,6 +1230,34 @@ const locations = [
         "city_state_coords": "Toulouse, France [43\u00b036'N, 1\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_TOULOUSE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_TOULOUSE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "FRANCE_VERSAILLES",
+        "cityName": "Versailles",
+        "country_name": "France",
+        "centerCoords": [
+            2.1200866958601883,
+            48.80487924735647
+        ],
+        "extentCoords": [
+            2.0595473,
+            48.7643983,
+            2.168798,
+            48.8461556
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "48\u00b048'N, 2\u00b07'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Versailles, France [48\u00b048'N, 2\u00b07'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_VERSAILLES_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_VERSAILLES_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_AACHEN",
@@ -1706,6 +1818,34 @@ const locations = [
         "city_state_coords": "Regensburg, Germany [49\u00b01'N, 12\u00b05'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_REGENSBURG_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_REGENSBURG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_SAARBRUCKEN",
+        "cityName": "Saarbr\u00fccken",
+        "country_name": "Germany",
+        "centerCoords": [
+            6.990992441767952,
+            49.24059701561034
+        ],
+        "extentCoords": [
+            6.9102158,
+            49.2013829,
+            7.0719088,
+            49.2797626
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Bayerische Vermessungsverwaltung",
+        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "dms": "49\u00b014'N, 6\u00b059'E",
+        "width": 12000,
+        "height": 8400,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Saarbr\u00fccken, Germany [49\u00b014'N, 6\u00b059'E] [12000 x 8400 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_SAARBRUCKEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_SAARBRUCKEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_WURZBURG",
