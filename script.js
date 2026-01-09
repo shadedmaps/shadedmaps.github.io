@@ -7710,7 +7710,8 @@ const markerHoverStyle = new ol.style.Style({
 const markerFeatures = locations.map((loc) =>
   new ol.Feature({
     geometry: new ol.geom.Point(loc.centerCoords),
-    name: loc.cityName
+    name: loc.cityName,
+    city_id: loc.city_id
   })
 );
 
@@ -7975,7 +7976,8 @@ mainMap.on('singleclick', function(evt) {
     const features = feature.get('features');
     if (features.length === 1) {
       const name = features[0].get('name');
-      const loc = locations.find(l => l.cityName === name);
+      const city_id = features[0].get('city_id');
+      const loc = locations.find(l => l.cityName === name && l.city_id === city_id);
       if (loc) {
         openMapPopup(loc);
       }
