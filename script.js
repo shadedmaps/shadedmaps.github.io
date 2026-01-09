@@ -1708,6 +1708,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_INGOLSTADT_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "GERMANY_KARLSRUHE",
+        "cityName": "Karlsruhe",
+        "country_name": "Germany",
+        "centerCoords": [
+            8.394293694220826,
+            49.004627782129106
+        ],
+        "extentCoords": [
+            8.2859398,
+            48.9320423,
+            8.5029537,
+            49.0771121
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Landesamt f\u00fcr Geoinformation und Land-entwicklung Baden-W\u00fcrttemberg",
+        "license_name": "data license Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geoinformation und Land-entwicklung Baden-W\u00fcrttemberg [data license Germany - Attribution - Version 2.0]",
+        "dms": "49\u00b00'N, 8\u00b023'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Karlsruhe, Germany [49\u00b00'N, 8\u00b023'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_KARLSRUHE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_KARLSRUHE_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "GERMANY_KOELN",
         "cityName": "Cologne",
         "country_name": "Germany",
@@ -1820,6 +1848,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_REGENSBURG_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "GERMANY_ROSTOCK",
+        "cityName": "Rostock",
+        "country_name": "Germany",
+        "centerCoords": [
+            12.109529911683156,
+            54.11645842214777
+        ],
+        "extentCoords": [
+            11.9925054,
+            54.0416536,
+            12.2269677,
+            54.1911494
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Landesamt f\u00fcr innere Verwaltung Amt f\u00fcr Geoinformation, Vermessungs- und Katasterwesen",
+        "license_name": "Data licence Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr innere Verwaltung Amt f\u00fcr Geoinformation, Vermessungs- und Katasterwesen [Data licence Germany - Attribution - Version 2.0]",
+        "dms": "54\u00b06'N, 12\u00b06'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Rostock, Germany [54\u00b06'N, 12\u00b06'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_ROSTOCK_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_ROSTOCK_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "GERMANY_SAARBRUCKEN",
         "cityName": "Saarbr\u00fccken",
         "country_name": "Germany",
@@ -1835,9 +1891,9 @@ const locations = [
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Bayerische Vermessungsverwaltung",
-        "license_name": "CC BY 4.0 DEED Attribution 4.0 International",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Bayerische Vermessungsverwaltung [CC BY 4.0 DEED Attribution 4.0 International]",
+        "data_publisher": "Landesamt f\u00fcr innere Verwaltung Amt f\u00fcr Geoinformation, Vermessungs- und Katasterwesen",
+        "license_name": "Data licence Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr innere Verwaltung Amt f\u00fcr Geoinformation, Vermessungs- und Katasterwesen [Data licence Germany - Attribution - Version 2.0]",
         "dms": "49\u00b014'N, 6\u00b059'E",
         "width": 12000,
         "height": 8400,
@@ -1846,6 +1902,34 @@ const locations = [
         "city_state_coords": "Saarbr\u00fccken, Germany [49\u00b014'N, 6\u00b059'E] [12000 x 8400 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_SAARBRUCKEN_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_SAARBRUCKEN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_STUTTGART",
+        "cityName": "Stuttgart",
+        "country_name": "Germany",
+        "centerCoords": [
+            9.177935166238372,
+            48.77800291351822
+        ],
+        "extentCoords": [
+            9.0689394,
+            48.7061499,
+            9.2872322,
+            48.8497482
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Landesamt f\u00fcr Geoinformation und Land-entwicklung Baden-W\u00fcrttemberg",
+        "license_name": "data license Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geoinformation und Land-entwicklung Baden-W\u00fcrttemberg [data license Germany - Attribution - Version 2.0]",
+        "dms": "48\u00b046'N, 9\u00b010'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Stuttgart, Germany [48\u00b046'N, 9\u00b010'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_STUTTGART_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_STUTTGART_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_WURZBURG",
@@ -4200,6 +4284,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_AUSTIN_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_BIRMINGHAM",
+        "cityName": "Birmingham",
+        "country_name": "Alabama, USA",
+        "centerCoords": [
+            -86.80703108029826,
+            33.51457208645402
+        ],
+        "extentCoords": [
+            -86.8555511,
+            33.4753893,
+            -86.7629954,
+            33.5564278
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "33\u00b030'N, 86\u00b048'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Birmingham, Alabama, USA [33\u00b030'N, 86\u00b048'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_BIRMINGHAM_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_BIRMINGHAM_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "USA_BISMARCK_2023",
         "cityName": "Bismarck",
         "country_name": "North_Dakota, USA",
@@ -4284,6 +4396,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_CHARLOTTE_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_CHATTANOOGA",
+        "cityName": "Chattanooga",
+        "country_name": "Tennessee, USA",
+        "centerCoords": [
+            -85.30474460565057,
+            35.03438060452597
+        ],
+        "extentCoords": [
+            -85.3383721,
+            35.0070992,
+            -85.2710966,
+            35.0616531
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "35\u00b02'N, 85\u00b018'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Chattanooga, Tennessee, USA [35\u00b02'N, 85\u00b018'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_CHATTANOOGA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_CHATTANOOGA_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "USA_CHICAGO",
         "cityName": "Chicago",
         "country_name": "Illinois, USA",
@@ -4310,6 +4450,34 @@ const locations = [
         "city_state_coords": "Chicago, Illinois, USA [41\u00b053'N, 87\u00b037'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_CHICAGO_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_CHICAGO_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_CINCINNATI",
+        "cityName": "Cincinnati",
+        "country_name": "Ohio, USA",
+        "centerCoords": [
+            -84.51808775142982,
+            39.11422529822471
+        ],
+        "extentCoords": [
+            -84.5525222,
+            39.086158,
+            -84.4836265,
+            39.1422846
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Department of Commerce, National Oceanic and Atmospheric Administration",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Department of Commerce, National Oceanic and Atmospheric Administration [CC0 1.0 Universal]",
+        "dms": "39\u00b06'N, 84\u00b031'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Cincinnati, Ohio, USA [39\u00b06'N, 84\u00b031'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_CINCINNATI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_CINCINNATI_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_CLEVELAND",
@@ -4396,7 +4564,7 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DALLAS_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "USA_DENVER",
+        "city_id": "USA_DENVER_USGS",
         "cityName": "Denver",
         "country_name": "Colorado, USA",
         "centerCoords": [
@@ -4404,10 +4572,10 @@ const locations = [
             39.74163345850023
         ],
         "extentCoords": [
-            -105.0556204,
-            39.6920664,
-            -104.9272242,
-            39.7911692
+            -105.0847501,
+            39.6695231,
+            -104.8979919,
+            39.8136725
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
@@ -4415,13 +4583,13 @@ const locations = [
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
         "dms": "39\u00b044'N, 104\u00b059'W",
-        "width": 11000,
-        "height": 11000,
+        "width": 16000,
+        "height": 16000,
         "raster_resolution": "1.0",
         "raster_units": "m",
-        "city_state_coords": "Denver, Colorado, USA [39\u00b044'N, 104\u00b059'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_DENVER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DENVER_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Denver, Colorado, USA [39\u00b044'N, 104\u00b059'W] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_DENVER_USGS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DENVER_USGS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_DETROIT",
@@ -4506,6 +4674,34 @@ const locations = [
         "city_state_coords": "Kansas City, Missouri, USA [39\u00b06'N, 94\u00b035'W] [8996 x 8658 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_KANSAS_CITY_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_KANSAS_CITY_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_KNOXVILLE",
+        "cityName": "Knoxville",
+        "country_name": "Tennessee, USA",
+        "centerCoords": [
+            -83.92473942454488,
+            35.96217856077658
+        ],
+        "extentCoords": [
+            -83.959226,
+            35.9352905,
+            -83.8902267,
+            35.9890556
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "35\u00b057'N, 83\u00b055'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Knoxville, Tennessee, USA [35\u00b057'N, 83\u00b055'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_KNOXVILLE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_KNOXVILLE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LAS_VEGAS",
@@ -5122,6 +5318,34 @@ const locations = [
         "city_state_coords": "Pierre, South Dakota, USA [44\u00b021'N, 100\u00b021'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_PIERRE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_PIERRE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_PITTSBURGH",
+        "cityName": "Pittsburgh",
+        "country_name": "Pennsylvania, USA",
+        "centerCoords": [
+            -79.99848910803463,
+            40.44003864794216
+        ],
+        "extentCoords": [
+            -80.0580659,
+            40.3954981,
+            -79.9388469,
+            40.4838244
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "40\u00b026'N, 79\u00b059'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Pittsburgh, Pennsylvania, USA [40\u00b026'N, 79\u00b059'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_PITTSBURGH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_PITTSBURGH_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_PORTLAND",
