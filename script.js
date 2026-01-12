@@ -1488,26 +1488,26 @@ const locations = [
         "cityName": "Dresden",
         "country_name": "Germany",
         "centerCoords": [
-            13.737323039014965,
-            51.049649986417954
+            13.74197093799103,
+            51.05423764655139
         ],
         "extentCoords": [
-            13.6778006,
-            51.0107746,
-            13.7969576,
-            51.0885015
+            13.6859315,
+            51.0176471,
+            13.7980976,
+            51.0907974
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN)",
-        "license_name": "Data licence Germany - Attribution - Version 2.0",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geobasisinformation Sachsen (GeoSN) [Data licence Germany - Attribution - Version 2.0]",
-        "dms": "51\u00b02'N, 13\u00b044'E",
-        "width": 8500,
-        "height": 8500,
-        "raster_resolution": "1.0",
+        "data_publisher": "Landesamt f\u00fcr Geobasisinformation Sachsen",
+        "license_name": "Data licence Germany - attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr Geobasisinformation Sachsen [Data licence Germany - attribution - Version 2.0]",
+        "dms": "51\u00b03'N, 13\u00b044'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Dresden, Germany [51\u00b02'N, 13\u00b044'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
+        "city_state_coords": "Dresden, Germany [51\u00b03'N, 13\u00b044'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_DRESDEN_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_DRESDEN_RGBA_cs_vector.pmtiles"
     },
@@ -1762,6 +1762,34 @@ const locations = [
         "city_state_coords": "Cologne, Germany [50\u00b056'N, 6\u00b057'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_KOELN_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_KOELN_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "GERMANY_MAGDEBURG",
+        "cityName": "Magdeburg",
+        "country_name": "Germany",
+        "centerCoords": [
+            11.627169383071767,
+            52.12864611993265
+        ],
+        "extentCoords": [
+            11.5667357,
+            52.094005,
+            11.687709,
+            52.1632528
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Geodatenportal Sachsen-Anhalt",
+        "license_name": "Data licence Germany - attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geodatenportal Sachsen-Anhalt [Data licence Germany - attribution - Version 2.0]",
+        "dms": "52\u00b07'N, 11\u00b037'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Magdeburg, Germany [52\u00b07'N, 11\u00b037'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_MAGDEBURG_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_MAGDEBURG_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_MUNICH",
@@ -4646,6 +4674,34 @@ const locations = [
         "city_state_coords": "Houston, Texas, USA [29\u00b045'N, 95\u00b021'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_HOUSTON_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_HOUSTON_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_HUNTSVILLE",
+        "cityName": "Huntsville",
+        "country_name": "Alabama, USA",
+        "centerCoords": [
+            -86.5892577351688,
+            34.72786001189946
+        ],
+        "extentCoords": [
+            -86.6855233,
+            34.6637175,
+            -86.4928337,
+            34.7919187
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "34\u00b043'N, 86\u00b035'W",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "1.0",
+        "raster_units": "m",
+        "city_state_coords": "Huntsville, Alabama, USA [34\u00b043'N, 86\u00b035'W] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_HUNTSVILLE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_HUNTSVILLE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_KANSAS_CITY",
