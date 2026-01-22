@@ -4704,6 +4704,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_HUNTSVILLE_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_INDIANAPOLIS",
+        "cityName": "Indianapolis",
+        "country_name": "Indiana, USA",
+        "centerCoords": [
+            -86.15910009956501,
+            39.767051359958884
+        ],
+        "extentCoords": [
+            -86.1944644,
+            39.7394443,
+            -86.1237099,
+            39.7946501
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "39\u00b046'N, 86\u00b09'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Indianapolis, Indiana, USA [39\u00b046'N, 86\u00b09'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_INDIANAPOLIS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_INDIANAPOLIS_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "USA_KANSAS_CITY",
         "cityName": "Kansas City",
         "country_name": "Missouri, USA",
@@ -4764,26 +4792,26 @@ const locations = [
         "cityName": "Las Vegas",
         "country_name": "Nevada, USA",
         "centerCoords": [
-            -115.15085489619867,
-            36.16435798760168
+            -115.16090042567284,
+            36.13376841183002
         ],
         "extentCoords": [
-            -115.1695659,
-            36.1493146,
-            -115.132134,
-            36.1793979
+            -115.2033969,
+            36.0995711,
+            -115.1183663,
+            36.1679501
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
-        "dms": "36\u00b09'N, 115\u00b09'W",
-        "width": 11000,
-        "height": 11000,
+        "dms": "36\u00b08'N, 115\u00b09'W",
+        "width": 25000,
+        "height": 25000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Las Vegas, Nevada, USA [36\u00b09'N, 115\u00b09'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Las Vegas, Nevada, USA [36\u00b08'N, 115\u00b09'W] [25000 x 25000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LAS_VEGAS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LAS_VEGAS_RGBA_cs_vector.pmtiles"
     },
@@ -5097,7 +5125,7 @@ const locations = [
     },
     {
         "city_id": "USA_NEW_YORK_CENTRAL_PARK",
-        "cityName": "New York [Central Park]",
+        "cityName": "New York City [Central Park]",
         "country_name": "New York, USA",
         "centerCoords": [
             -73.96679,
@@ -5119,13 +5147,13 @@ const locations = [
         "height": 14000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York [Central Park], New York, USA [40\u00b046'N, 73\u00b058'W] [14000 x 14000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York City [Central Park], New York, USA [40\u00b046'N, 73\u00b058'W] [14000 x 14000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_CENTRAL_PARK_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_CENTRAL_PARK_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_EMPIRE_STATE_BUILDING",
-        "cityName": "New York [Empire State Building]",
+        "cityName": "New York City [Empire State Building]",
         "country_name": "New York, USA",
         "centerCoords": [
             -73.98674,
@@ -5147,13 +5175,41 @@ const locations = [
         "height": 15000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York [Empire State Building], New York, USA [40\u00b044'N, 73\u00b059'W] [15000 x 15000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York City [Empire State Building], New York, USA [40\u00b044'N, 73\u00b059'W] [15000 x 15000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_EMPIRE_STATE_BUILDING_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_EMPIRE_STATE_BUILDING_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_NEW_YORK_FINANCIAL_DISTRICT_LARGE",
+        "cityName": "New York City [Financial District]",
+        "country_name": "New York, USA",
+        "centerCoords": [
+            -74.00168,
+            40.71272
+        ],
+        "extentCoords": [
+            -74.0377374,
+            40.6852668,
+            -73.9655959,
+            40.7401628
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "NYC Office of Technology and Innovation (OTI)",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | NYC Office of Technology and Innovation (OTI) [CC0 1.0 Universal]",
+        "dms": "40\u00b042'N, 74\u00b00'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "New York City [Financial District], New York, USA [40\u00b042'N, 74\u00b00'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_LARGE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_LARGE_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "USA_NEW_YORK_FINANCIAL_DISTRICT",
-        "cityName": "New York [Financial District]",
+        "cityName": "New York City [Financial District]",
         "country_name": "New York, USA",
         "centerCoords": [
             -74.00168,
@@ -5175,13 +5231,13 @@ const locations = [
         "height": 11000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York [Financial District], New York, USA [40\u00b042'N, 74\u00b00'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York City [Financial District], New York, USA [40\u00b042'N, 74\u00b00'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_NEW_YORK_ISLANDS",
-        "cityName": "New York [Upper Bay Islands]",
+        "cityName": "New York City [Upper Bay Islands]",
         "country_name": "New York, USA",
         "centerCoords": [
             -74.02982,
@@ -5203,7 +5259,7 @@ const locations = [
         "height": 8600,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York [Upper Bay Islands], New York, USA [40\u00b041'N, 74\u00b01'W] [12000 x 8600 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York City [Upper Bay Islands], New York, USA [40\u00b041'N, 74\u00b01'W] [12000 x 8600 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_ISLANDS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_ISLANDS_RGBA_cs_vector.pmtiles"
     },
@@ -5464,26 +5520,26 @@ const locations = [
         "cityName": "Saint Louis",
         "country_name": "Missouri, USA",
         "centerCoords": [
-            -90.23491985327925,
-            38.63029655765346
+            -90.20420627959203,
+            38.62741590324394
         ],
         "extentCoords": [
-            -90.2998941,
-            38.5822623,
-            -90.1733712,
-            38.6783773
+            -90.2928066,
+            38.5619279,
+            -90.1154384,
+            38.6928293
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
         "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
-        "dms": "38\u00b037'N, 90\u00b014'W",
-        "width": 10694,
-        "height": 11000,
-        "raster_resolution": "1.0",
+        "dms": "38\u00b037'N, 90\u00b012'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.8",
         "raster_units": "m",
-        "city_state_coords": "Saint Louis, Missouri, USA [38\u00b037'N, 90\u00b014'W] [10694 x 11000 pixels, 1 pixel = 1.0 m]",
+        "city_state_coords": "Saint Louis, Missouri, USA [38\u00b037'N, 90\u00b012'W] [20000 x 20000 pixels, 1 pixel = 0.8 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_SAINT_LOUIS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_SAINT_LOUIS_RGBA_cs_vector.pmtiles"
     },
