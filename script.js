@@ -5208,34 +5208,6 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_LARGE_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "USA_NEW_YORK_FINANCIAL_DISTRICT",
-        "cityName": "New York City [Financial District]",
-        "country_name": "New York, USA",
-        "centerCoords": [
-            -74.00168,
-            40.71272
-        ],
-        "extentCoords": [
-            -74.0215151,
-            40.6976224,
-            -73.9818373,
-            40.7278152
-        ],
-        "zoomLevel": 12,
-        "maxZoomLevel": 18,
-        "data_publisher": "NYC Office of Technology and Innovation (OTI)",
-        "license_name": "CC0 1.0 Universal",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | NYC Office of Technology and Innovation (OTI) [CC0 1.0 Universal]",
-        "dms": "40\u00b042'N, 74\u00b00'W",
-        "width": 11000,
-        "height": 11000,
-        "raster_resolution": "1.0",
-        "raster_units": "ft",
-        "city_state_coords": "New York City [Financial District], New York, USA [40\u00b042'N, 74\u00b00'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_FINANCIAL_DISTRICT_RGBA_cs_vector.pmtiles"
-    },
-    {
         "city_id": "USA_NEW_YORK_ISLANDS",
         "cityName": "New York City [Upper Bay Islands]",
         "country_name": "New York, USA",
