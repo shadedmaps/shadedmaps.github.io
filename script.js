@@ -3052,6 +3052,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/PORTUGAL_LISBON_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "PORTUGAL_PORTO",
+        "cityName": "Porto",
+        "country_name": "Portugal",
+        "centerCoords": [
+            -8.63154,
+            41.15715
+        ],
+        "extentCoords": [
+            -8.6907277,
+            41.1118555,
+            -8.5722744,
+            41.2024115
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Dire\u00e7\u00e3o-Geral do Territ\u00f3rio",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Dire\u00e7\u00e3o-Geral do Territ\u00f3rio [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "41\u00b09'N, 8\u00b037'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Porto, Portugal [41\u00b09'N, 8\u00b037'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/PORTUGAL_PORTO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/PORTUGAL_PORTO_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "SLOVAKIA_BRATISLAVA",
         "cityName": "Bratislava",
         "country_name": "Slovakia",
@@ -4788,7 +4816,7 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_KNOXVILLE_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "USA_LAS_VEGAS",
+        "city_id": "USA_LAS_VEGAS_LARGE",
         "cityName": "Las Vegas",
         "country_name": "Nevada, USA",
         "centerCoords": [
@@ -4796,10 +4824,10 @@ const locations = [
             36.13376841183002
         ],
         "extentCoords": [
-            -115.2033969,
-            36.0995711,
-            -115.1183663,
-            36.1679501
+            -115.2288628,
+            36.0822732,
+            -115.0928082,
+            36.1916795
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
@@ -4807,13 +4835,13 @@ const locations = [
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
         "dms": "36\u00b08'N, 115\u00b09'W",
-        "width": 25000,
-        "height": 25000,
+        "width": 40000,
+        "height": 40000,
         "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "Las Vegas, Nevada, USA [36\u00b08'N, 115\u00b09'W] [25000 x 25000 pixels, 1 pixel = 1.0 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LAS_VEGAS_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LAS_VEGAS_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Las Vegas, Nevada, USA [36\u00b08'N, 115\u00b09'W] [40000 x 40000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_LAS_VEGAS_LARGE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_LAS_VEGAS_LARGE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_LOS_ANGELES_BEVERLY_HILLS",
@@ -5656,6 +5684,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_WALT_DISNEY_WORLD_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_WASHINGTON",
+        "cityName": "Washington",
+        "country_name": "District of Columbia, USA",
+        "centerCoords": [
+            -77.021482,
+            38.890148
+        ],
+        "extentCoords": [
+            -77.0777852,
+            38.8441032,
+            -76.9651043,
+            38.9361581
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "38\u00b053'N, 77\u00b01'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Washington, District of Columbia, USA [38\u00b053'N, 77\u00b01'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_WASHINGTON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_WASHINGTON_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "usgs_AK",
         "cityName": "Alaska",
         "country_name": "Alaska",
@@ -5679,7 +5735,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Alaska, usgs [57\u00b04'N, 138\u00b023'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Alaska, usgs [57\u00b04'N, 138\u00b023'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AK_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AK_vector.pmtiles"
     },
@@ -5707,7 +5763,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Alabama, usgs [32\u00b032'N, 86\u00b035'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Alabama, usgs [32\u00b032'N, 86\u00b035'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AL_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AL_vector.pmtiles"
     },
@@ -5735,7 +5791,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Arkansas, usgs [34\u00b044'N, 92\u00b04'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Arkansas, usgs [34\u00b044'N, 92\u00b04'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AR_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AR_vector.pmtiles"
     },
@@ -5763,7 +5819,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "American Samoa, usgs [12\u00b047'S, 169\u00b038'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "American Samoa, usgs [12\u00b047'S, 169\u00b038'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AS_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AS_vector.pmtiles"
     },
@@ -5791,7 +5847,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Arizona, usgs [34\u00b07'N, 111\u00b048'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Arizona, usgs [34\u00b07'N, 111\u00b048'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/AZ_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/AZ_vector.pmtiles"
     },
@@ -5819,7 +5875,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "California, usgs [37\u00b012'N, 118\u00b038'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "California, usgs [37\u00b012'N, 118\u00b038'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/CA_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/CA_vector.pmtiles"
     },
@@ -5847,7 +5903,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Colorado, usgs [38\u00b058'N, 105\u00b023'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Colorado, usgs [38\u00b058'N, 105\u00b023'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/CO_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/CO_vector.pmtiles"
     },
@@ -5875,7 +5931,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Connecticut, usgs [41\u00b029'N, 72\u00b044'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Connecticut, usgs [41\u00b029'N, 72\u00b044'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/CT_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/CT_vector.pmtiles"
     },
@@ -5903,7 +5959,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "District of Columbia, usgs [38\u00b053'N, 77\u00b00'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "District of Columbia, usgs [38\u00b053'N, 77\u00b00'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/DC_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/DC_vector.pmtiles"
     },
@@ -5931,7 +5987,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Delaware, usgs [39\u00b08'N, 75\u00b022'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Delaware, usgs [39\u00b08'N, 75\u00b022'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/DE_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/DE_vector.pmtiles"
     },
@@ -5959,7 +6015,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Florida, usgs [27\u00b042'N, 83\u00b034'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Florida, usgs [27\u00b042'N, 83\u00b034'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/FL_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/FL_vector.pmtiles"
     },
@@ -5987,7 +6043,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Georgia, usgs [32\u00b040'N, 83\u00b03'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Georgia, usgs [32\u00b040'N, 83\u00b03'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/GA_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/GA_vector.pmtiles"
     },
@@ -6015,7 +6071,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Hawaii, usgs [24\u00b01'N, 165\u00b010'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Hawaii, usgs [24\u00b01'N, 165\u00b010'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/HI_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/HI_vector.pmtiles"
     },
@@ -6043,7 +6099,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Iowa, usgs [41\u00b055'N, 93\u00b013'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Iowa, usgs [41\u00b055'N, 93\u00b013'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/IA_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/IA_vector.pmtiles"
     },
@@ -6071,7 +6127,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Idaho, usgs [45\u00b019'N, 113\u00b037'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Idaho, usgs [45\u00b019'N, 113\u00b037'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/ID_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/ID_vector.pmtiles"
     },
@@ -6099,7 +6155,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Illinois, usgs [39\u00b042'N, 89\u00b05'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Illinois, usgs [39\u00b042'N, 89\u00b05'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/IL_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/IL_vector.pmtiles"
     },
@@ -6127,7 +6183,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Indiana, usgs [39\u00b044'N, 86\u00b021'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Indiana, usgs [39\u00b044'N, 86\u00b021'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/IN_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/IN_vector.pmtiles"
     },
@@ -6155,7 +6211,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Kansas, usgs [38\u00b027'N, 98\u00b08'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Kansas, usgs [38\u00b027'N, 98\u00b08'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/KS_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/KS_vector.pmtiles"
     },
@@ -6183,7 +6239,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Kentucky, usgs [37\u00b045'N, 85\u00b036'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Kentucky, usgs [37\u00b045'N, 85\u00b036'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/KY_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/KY_vector.pmtiles"
     },
@@ -6211,7 +6267,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Louisiana, usgs [30\u00b055'N, 91\u00b017'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Louisiana, usgs [30\u00b055'N, 91\u00b017'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/LA_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/LA_vector.pmtiles"
     },
@@ -6239,7 +6295,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Massachusetts, usgs [42\u00b00'N, 71\u00b038'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Massachusetts, usgs [42\u00b00'N, 71\u00b038'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MA_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MA_vector.pmtiles"
     },
@@ -6267,7 +6323,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Maryland, usgs [38\u00b048'N, 77\u00b09'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Maryland, usgs [38\u00b048'N, 77\u00b09'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MD_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MD_vector.pmtiles"
     },
@@ -6295,7 +6351,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Maine, usgs [45\u00b08'N, 68\u00b049'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Maine, usgs [45\u00b08'N, 68\u00b049'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/ME_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/ME_vector.pmtiles"
     },
@@ -6323,7 +6379,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Michigan, usgs [44\u00b053'N, 85\u00b051'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Michigan, usgs [44\u00b053'N, 85\u00b051'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MI_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MI_vector.pmtiles"
     },
@@ -6351,7 +6407,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Minnesota, usgs [46\u00b021'N, 93\u00b02'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Minnesota, usgs [46\u00b021'N, 93\u00b02'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MN_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MN_vector.pmtiles"
     },
@@ -6379,7 +6435,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Missouri, usgs [38\u00b015'N, 92\u00b013'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Missouri, usgs [38\u00b015'N, 92\u00b013'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MO_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MO_vector.pmtiles"
     },
@@ -6407,7 +6463,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Commonwealth of the Northern Mariana Islands, usgs [17\u00b017'N, 145\u00b01'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Commonwealth of the Northern Mariana Islands, usgs [17\u00b017'N, 145\u00b01'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MP_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MP_vector.pmtiles"
     },
@@ -6435,7 +6491,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Mississippi, usgs [32\u00b031'N, 89\u00b048'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Mississippi, usgs [32\u00b031'N, 89\u00b048'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MS_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MS_vector.pmtiles"
     },
@@ -6463,7 +6519,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Montana, usgs [46\u00b035'N, 109\u00b020'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Montana, usgs [46\u00b035'N, 109\u00b020'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/MT_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/MT_vector.pmtiles"
     },
@@ -6491,7 +6547,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "North Carolina, usgs [35\u00b07'N, 79\u00b038'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "North Carolina, usgs [35\u00b07'N, 79\u00b038'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NC_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NC_vector.pmtiles"
     },
@@ -6519,7 +6575,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "North Dakota, usgs [47\u00b026'N, 100\u00b07'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "North Dakota, usgs [47\u00b026'N, 100\u00b07'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/ND_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/ND_vector.pmtiles"
     },
@@ -6547,7 +6603,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Nebraska, usgs [41\u00b027'N, 99\u00b023'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Nebraska, usgs [41\u00b027'N, 99\u00b023'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NE_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NE_vector.pmtiles"
     },
@@ -6575,7 +6631,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "New Hampshire, usgs [43\u00b058'N, 71\u00b034'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New Hampshire, usgs [43\u00b058'N, 71\u00b034'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NH_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NH_vector.pmtiles"
     },
@@ -6603,7 +6659,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "New Jersey, usgs [40\u00b03'N, 74\u00b041'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New Jersey, usgs [40\u00b03'N, 74\u00b041'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NJ_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NJ_vector.pmtiles"
     },
@@ -6631,7 +6687,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "New Mexico, usgs [34\u00b09'N, 105\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New Mexico, usgs [34\u00b09'N, 105\u00b058'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NM_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NM_vector.pmtiles"
     },
@@ -6659,7 +6715,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Nevada, usgs [38\u00b025'N, 116\u00b043'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Nevada, usgs [38\u00b025'N, 116\u00b043'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NV_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NV_vector.pmtiles"
     },
@@ -6687,7 +6743,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "New York, usgs [42\u00b040'N, 75\u00b031'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "New York, usgs [42\u00b040'N, 75\u00b031'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/NY_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/NY_vector.pmtiles"
     },
@@ -6715,7 +6771,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Ohio, usgs [40\u00b019'N, 82\u00b037'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Ohio, usgs [40\u00b019'N, 82\u00b037'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/OH_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/OH_vector.pmtiles"
     },
@@ -6743,7 +6799,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Oklahoma, usgs [35\u00b017'N, 98\u00b027'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Oklahoma, usgs [35\u00b017'N, 98\u00b027'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/OK_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/OK_vector.pmtiles"
     },
@@ -6771,7 +6827,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Oregon, usgs [44\u00b02'N, 120\u00b027'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Oregon, usgs [44\u00b02'N, 120\u00b027'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/OR_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/OR_vector.pmtiles"
     },
@@ -6799,7 +6855,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Pennsylvania, usgs [41\u00b06'N, 77\u00b032'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Pennsylvania, usgs [41\u00b06'N, 77\u00b032'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/PA_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/PA_vector.pmtiles"
     },
@@ -6827,7 +6883,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Puerto Rico, usgs [18\u00b011'N, 66\u00b034'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Puerto Rico, usgs [18\u00b011'N, 66\u00b034'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/PR_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/PR_vector.pmtiles"
     },
@@ -6855,7 +6911,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Rhode Island, usgs [41\u00b033'N, 71\u00b030'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Rhode Island, usgs [41\u00b033'N, 71\u00b030'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/RI_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/RI_vector.pmtiles"
     },
@@ -6883,7 +6939,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "South Carolina, usgs [33\u00b034'N, 80\u00b051'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "South Carolina, usgs [33\u00b034'N, 80\u00b051'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/SC_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/SC_vector.pmtiles"
     },
@@ -6911,7 +6967,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "South Dakota, usgs [44\u00b012'N, 100\u00b03'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "South Dakota, usgs [44\u00b012'N, 100\u00b03'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/SD_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/SD_vector.pmtiles"
     },
@@ -6939,7 +6995,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Tennessee, usgs [35\u00b045'N, 85\u00b048'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Tennessee, usgs [35\u00b045'N, 85\u00b048'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/TN_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/TN_vector.pmtiles"
     },
@@ -6967,7 +7023,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Texas, usgs [31\u00b01'N, 99\u00b036'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Texas, usgs [31\u00b01'N, 99\u00b036'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/TX_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/TX_vector.pmtiles"
     },
@@ -6995,7 +7051,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Utah, usgs [39\u00b027'N, 111\u00b026'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Utah, usgs [39\u00b027'N, 111\u00b026'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/UT_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/UT_vector.pmtiles"
     },
@@ -7023,7 +7079,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Virginia, usgs [37\u00b054'N, 79\u00b013'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Virginia, usgs [37\u00b054'N, 79\u00b013'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/VA_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/VA_vector.pmtiles"
     },
@@ -7051,7 +7107,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "United States Virgin Islands, usgs [18\u00b02'N, 64\u00b049'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "United States Virgin Islands, usgs [18\u00b02'N, 64\u00b049'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/VI_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/VI_vector.pmtiles"
     },
@@ -7079,7 +7135,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Vermont, usgs [43\u00b052'N, 72\u00b027'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Vermont, usgs [43\u00b052'N, 72\u00b027'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/VT_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/VT_vector.pmtiles"
     },
@@ -7107,7 +7163,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Washington, usgs [47\u00b014'N, 120\u00b033'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Washington, usgs [47\u00b014'N, 120\u00b033'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/WA_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/WA_vector.pmtiles"
     },
@@ -7135,7 +7191,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Wisconsin, usgs [44\u00b051'N, 89\u00b022'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Wisconsin, usgs [44\u00b051'N, 89\u00b022'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/WI_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/WI_vector.pmtiles"
     },
@@ -7163,7 +7219,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "West Virginia, usgs [38\u00b053'N, 80\u00b07'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "West Virginia, usgs [38\u00b053'N, 80\u00b07'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/WV_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/WV_vector.pmtiles"
     },
@@ -7191,7 +7247,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Wyoming, usgs [42\u00b059'N, 107\u00b027'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Wyoming, usgs [42\u00b059'N, 107\u00b027'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/usgs/WY_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/usgs/WY_vector.pmtiles"
     },
@@ -7219,7 +7275,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Abruzzo, tinitaly [42\u00b017'N, 13\u00b055'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Abruzzo, tinitaly [42\u00b017'N, 13\u00b055'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Abruzzo_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Abruzzo_vector.pmtiles"
     },
@@ -7247,7 +7303,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Basilicata, tinitaly [40\u00b030'N, 16\u00b06'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Basilicata, tinitaly [40\u00b030'N, 16\u00b06'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Basilicata_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Basilicata_vector.pmtiles"
     },
@@ -7275,7 +7331,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Calabria, tinitaly [38\u00b059'N, 16\u00b027'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Calabria, tinitaly [38\u00b059'N, 16\u00b027'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Calabria_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Calabria_vector.pmtiles"
     },
@@ -7303,7 +7359,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Campania, tinitaly [40\u00b045'N, 14\u00b048'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Campania, tinitaly [40\u00b045'N, 14\u00b048'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Campania_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Campania_vector.pmtiles"
     },
@@ -7331,7 +7387,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Emilia-Romagna, tinitaly [44\u00b025'N, 11\u00b02'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Emilia-Romagna, tinitaly [44\u00b025'N, 11\u00b02'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Emilia_Romagna_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Emilia_Romagna_vector.pmtiles"
     },
@@ -7359,7 +7415,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Friuli-Venezia Giulia, tinitaly [46\u00b07'N, 13\u00b08'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Friuli-Venezia Giulia, tinitaly [46\u00b07'N, 13\u00b08'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Friuli_Venezia_Giulia_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Friuli_Venezia_Giulia_vector.pmtiles"
     },
@@ -7387,7 +7443,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Lazio, tinitaly [41\u00b048'N, 12\u00b045'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Lazio, tinitaly [41\u00b048'N, 12\u00b045'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Lazio_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Lazio_vector.pmtiles"
     },
@@ -7415,7 +7471,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Liguria, tinitaly [44\u00b013'N, 8\u00b048'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Liguria, tinitaly [44\u00b013'N, 8\u00b048'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Liguria_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Liguria_vector.pmtiles"
     },
@@ -7443,7 +7499,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Lombardia, tinitaly [45\u00b038'N, 10\u00b00'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Lombardia, tinitaly [45\u00b038'N, 10\u00b00'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Lombardia_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Lombardia_vector.pmtiles"
     },
@@ -7471,7 +7527,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Marche, tinitaly [43\u00b019'N, 13\u00b04'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Marche, tinitaly [43\u00b019'N, 13\u00b04'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Marche_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Marche_vector.pmtiles"
     },
@@ -7499,7 +7555,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Molise, tinitaly [41\u00b043'N, 14\u00b033'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Molise, tinitaly [41\u00b043'N, 14\u00b033'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Molise_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Molise_vector.pmtiles"
     },
@@ -7527,7 +7583,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Piemonte, tinitaly [45\u00b014'N, 7\u00b057'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Piemonte, tinitaly [45\u00b014'N, 7\u00b057'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Piemonte_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Piemonte_vector.pmtiles"
     },
@@ -7555,7 +7611,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Puglia, tinitaly [41\u00b00'N, 16\u00b048'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Puglia, tinitaly [41\u00b00'N, 16\u00b048'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Puglia_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Puglia_vector.pmtiles"
     },
@@ -7583,7 +7639,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Sardegna, tinitaly [40\u00b04'N, 9\u00b00'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Sardegna, tinitaly [40\u00b04'N, 9\u00b00'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Sardegna_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Sardegna_vector.pmtiles"
     },
@@ -7611,7 +7667,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Sicilia, tinitaly [37\u00b08'N, 13\u00b047'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Sicilia, tinitaly [37\u00b08'N, 13\u00b047'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Sicilia_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Sicilia_vector.pmtiles"
     },
@@ -7639,7 +7695,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Toscana, tinitaly [43\u00b020'N, 11\u00b02'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Toscana, tinitaly [43\u00b020'N, 11\u00b02'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Toscana_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Toscana_vector.pmtiles"
     },
@@ -7667,7 +7723,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Trentino-Alto Adige, tinitaly [46\u00b022'N, 11\u00b025'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Trentino-Alto Adige, tinitaly [46\u00b022'N, 11\u00b025'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Trentino_Alto_Adige_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Trentino_Alto_Adige_vector.pmtiles"
     },
@@ -7695,7 +7751,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Umbria, tinitaly [42\u00b058'N, 12\u00b035'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Umbria, tinitaly [42\u00b058'N, 12\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Umbria_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Umbria_vector.pmtiles"
     },
@@ -7723,7 +7779,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Valle d'Aosta, tinitaly [45\u00b043'N, 7\u00b022'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Valle d'Aosta, tinitaly [45\u00b043'N, 7\u00b022'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Valle_d_Aosta_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Valle_d_Aosta_vector.pmtiles"
     },
@@ -7751,7 +7807,7 @@ const locations = [
         "height": 0,
         "raster_resolution": 0,
         "raster_units": "",
-        "city_state_coords": "Veneto, tinitaly [45\u00b044'N, 11\u00b053'E] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
+        "city_state_coords": "Veneto, tinitaly [45\u00b044'N, 11\u00b053'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/tinitaly/Veneto_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/tinitaly/Veneto_vector.pmtiles"
     }
