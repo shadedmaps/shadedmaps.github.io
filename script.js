@@ -2240,32 +2240,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_GENOVA_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "ITALY_MILANO",
+        "city_id": "ITALY_MILANO_2025",
         "cityName": "Milano",
         "country_name": "Italy",
         "centerCoords": [
-            9.1699262,
-            45.4650392
+            9.18854,
+            45.464151
         ],
         "extentCoords": [
-            9.1098837,
-            45.4200839,
-            9.230064,
-            45.509962
+            9.1116818,
+            45.410244,
+            9.2655403,
+            45.5180042
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Ministero dell\u2019Ambiente e della Sicurezza Energetica",
-        "license_name": "Attribution-ShareAlike 3.0 Italy (CC BY-SA 3.0 IT)",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Ministero dell\u2019Ambiente e della Sicurezza Energetica [Attribution-ShareAlike 3.0 Italy (CC BY-SA 3.0 IT)]",
-        "dms": "45\u00b027'N, 9\u00b010'E",
-        "width": 11000,
-        "height": 11000,
-        "raster_resolution": "0.9",
+        "data_publisher": "Comune di Milano",
+        "license_name": "Solo consultazione autorizzata. Altri usi vietati.",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Comune di Milano [Solo consultazione autorizzata. Altri usi vietati.]",
+        "dms": "45\u00b027'N, 9\u00b011'E",
+        "width": 12000,
+        "height": 12000,
+        "raster_resolution": "1.0",
         "raster_units": "m",
-        "city_state_coords": "Milano, Italy [45\u00b027'N, 9\u00b010'E] [11000 x 11000 pixels, 1 pixel = 0.9 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_MILANO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_MILANO_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Milano, Italy [45\u00b027'N, 9\u00b011'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ITALY_MILANO_2025_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ITALY_MILANO_2025_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "ITALY_NAPOLI",
@@ -4674,6 +4674,34 @@ const locations = [
         "city_state_coords": "Detroit, Michigan, USA [42\u00b020'N, 83\u00b02'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_DETROIT_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DETROIT_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_HONOLULU",
+        "cityName": "Honolulu",
+        "country_name": "Hawaii, USA",
+        "centerCoords": [
+            -157.85572640313816,
+            21.317948520156346
+        ],
+        "extentCoords": [
+            -157.9042663,
+            21.2730979,
+            -157.8071601,
+            21.3627769
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "21\u00b019'N, 157\u00b051'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Honolulu, Hawaii, USA [21\u00b019'N, 157\u00b051'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_HONOLULU_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_HONOLULU_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_HOUSTON",
