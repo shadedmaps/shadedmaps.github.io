@@ -560,32 +560,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "CANADA_OTTAWA",
+        "city_id": "CANADA_OTTAWA_2026",
         "cityName": "Ottawa",
         "country_name": "Canada",
         "centerCoords": [
-            -75.70036760747453,
-            45.41941804368536
+            -75.69764,
+            45.42004
         ],
         "extentCoords": [
-            -75.7351889,
-            45.3944484,
-            -75.665508,
-            45.4443827
+            -75.7568294,
+            45.3788551,
+            -75.6291377,
+            45.462284
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Government of Ontario",
-        "license_name": "Open Government Licence \u2013 Ontario",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of Ontario [Open Government Licence \u2013 Ontario]",
-        "dms": "45\u00b025'N, 75\u00b042'W",
-        "width": 11000,
-        "height": 11000,
+        "data_publisher": "Natural Resources Canada",
+        "license_name": "Canada Open Government Licence",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Natural Resources Canada [Canada Open Government Licence]",
+        "dms": "45\u00b025'N, 75\u00b041'W",
+        "width": 25000,
+        "height": 25000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Ottawa, Canada [45\u00b025'N, 75\u00b042'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_OTTAWA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_OTTAWA_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Ottawa, Canada [45\u00b025'N, 75\u00b041'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_OTTAWA_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_OTTAWA_2026_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CANADA_TORONTO",
