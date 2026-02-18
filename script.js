@@ -588,32 +588,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_OTTAWA_2026_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "CANADA_TORONTO",
+        "city_id": "CANADA_TORONTO_2026",
         "cityName": "Toronto",
         "country_name": "Canada",
         "centerCoords": [
-            -79.38530363598082,
-            43.64300197286423
+            -79.38596,
+            43.66107
         ],
         "extentCoords": [
-            -79.4200415,
-            43.6187279,
-            -79.3505491,
-            43.6672674
+            -79.449218,
+            43.6124739,
+            -79.3243265,
+            43.7097535
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Government of Ontario",
-        "license_name": "Open Government Licence - Ontario",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of Ontario [Open Government Licence - Ontario]",
-        "dms": "43\u00b038'N, 79\u00b023'W",
-        "width": 11000,
-        "height": 11000,
+        "data_publisher": "Natural Resources Canada",
+        "license_name": "Canada Open Government Licence",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Natural Resources Canada [Canada Open Government Licence]",
+        "dms": "43\u00b039'N, 79\u00b023'W",
+        "width": 25000,
+        "height": 25000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Toronto, Canada [43\u00b038'N, 79\u00b023'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_TORONTO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_TORONTO_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Toronto, Canada [43\u00b039'N, 79\u00b023'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_TORONTO_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_TORONTO_2026_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CANADA_VANCOUVER",
@@ -3136,32 +3136,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SLOVENIA_LJUBLJANA_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "SPAIN_BARCELONA_CIR",
+        "city_id": "SPAIN_BARCELONA_ICGC",
         "cityName": "Barcelona",
         "country_name": "Spain",
         "centerCoords": [
-            2.15076,
-            41.39547
+            2.15096,
+            41.39598
         ],
         "extentCoords": [
-            2.079759,
-            41.3408749,
-            2.221883,
-            41.450014
+            2.076999,
+            41.3391146,
+            2.2250459,
+            41.4528006
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
+        "data_publisher": "Institut Cartogr\u00e0fic i Geol\u00f2gic de Catalunya",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut Cartogr\u00e0fic i Geol\u00f2gic de Catalunya [Attribution 4.0 International (CC BY 4.0)]",
         "dms": "41\u00b023'N, 2\u00b09'E",
-        "width": 16000,
-        "height": 16000,
-        "raster_resolution": "1.0",
+        "width": 25000,
+        "height": 25000,
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_BARCELONA_CIR_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_BARCELONA_CIR_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Barcelona, Spain [41\u00b023'N, 2\u00b09'E] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_BARCELONA_ICGC_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_BARCELONA_ICGC_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_CEUTA",
@@ -4394,6 +4394,34 @@ const locations = [
         "city_state_coords": "Bismarck, North_Dakota, USA [46\u00b048'N, 100\u00b046'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_BISMARCK_2023_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_BISMARCK_2023_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_BOISE",
+        "cityName": "Boise",
+        "country_name": "Idaho, USA",
+        "centerCoords": [
+            -116.2311,
+            43.602419
+        ],
+        "extentCoords": [
+            -116.2935751,
+            43.5578005,
+            -116.1685353,
+            43.6470004
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "43\u00b036'N, 116\u00b013'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Boise, Idaho, USA [43\u00b036'N, 116\u00b013'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_BOISE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_BOISE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_BOSTON",
