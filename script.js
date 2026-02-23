@@ -1919,9 +1919,9 @@ const locations = [
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Landesamt f\u00fcr innere Verwaltung Amt f\u00fcr Geoinformation, Vermessungs- und Katasterwesen",
-        "license_name": "Data licence Germany - Attribution - Version 2.0",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamt f\u00fcr innere Verwaltung Amt f\u00fcr Geoinformation, Vermessungs- und Katasterwesen [Data licence Germany - Attribution - Version 2.0]",
+        "data_publisher": "Landesamtes f\u00fcr Vermessung, Geoinformation und Landentwicklung (LVGL)",
+        "license_name": "Data licence Germany - attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Landesamtes f\u00fcr Vermessung, Geoinformation und Landentwicklung (LVGL) [Data licence Germany - attribution - Version 2.0]",
         "dms": "49\u00b014'N, 6\u00b059'E",
         "width": 12000,
         "height": 8400,
@@ -4551,9 +4551,9 @@ const locations = [
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "U.S. Department of Commerce, National Oceanic and Atmospheric Administration",
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
         "license_name": "CC0 1.0 Universal",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Department of Commerce, National Oceanic and Atmospheric Administration [CC0 1.0 Universal]",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
         "dms": "39\u00b06'N, 84\u00b031'W",
         "width": 20000,
         "height": 20000,
@@ -5094,6 +5094,62 @@ const locations = [
         "city_state_coords": "Memphis, Tennessee, USA [35\u00b08'N, 90\u00b02'W] [16000 x 16000 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_MEMPHIS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_MEMPHIS_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_MIAMI_BEACH",
+        "cityName": "Miami Beach",
+        "country_name": "Florida, USA",
+        "centerCoords": [
+            -80.148643,
+            25.792441
+        ],
+        "extentCoords": [
+            -80.179222,
+            25.7651047,
+            -80.1181718,
+            25.8197725
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "25\u00b047'N, 80\u00b08'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Miami Beach, Florida, USA [25\u00b047'N, 80\u00b08'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_MIAMI_BEACH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_MIAMI_BEACH_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_MIAMI",
+        "cityName": "Miami",
+        "country_name": "Florida, USA",
+        "centerCoords": [
+            -80.192445,
+            25.773649
+        ],
+        "extentCoords": [
+            -80.2291204,
+            25.7408331,
+            -80.1557495,
+            25.8064567
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "25\u00b046'N, 80\u00b011'W",
+        "width": 24000,
+        "height": 24000,
+        "raster_resolution": "1.0",
+        "raster_units": "ft",
+        "city_state_coords": "Miami, Florida, USA [25\u00b046'N, 80\u00b011'W] [24000 x 24000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_MIAMI_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_MIAMI_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_MILWAUKEE",
