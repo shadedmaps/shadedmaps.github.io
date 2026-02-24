@@ -7934,10 +7934,30 @@ const basemapPMTilesUrl = "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtil
 // Use geographic coordinates (lon/lat) instead of Web Mercator
 ol.proj.useGeographic();
 
+function isCoarsePointer() {
+  return window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+}
+
+function getMarkerRadius() {
+  return isCoarsePointer() ? 18 : 10;
+}
+
+function getClusterRadius() {
+  return isCoarsePointer() ? 24 : 15;
+}
+
+function getPixelRatio() {
+  return isCoarsePointer() ? 1 : window.devicePixelRatio || 1;
+}
+
+function getHitTolerance() {
+  return isCoarsePointer() ? 18 : 0;
+}
+
 // Marker default style
 const markerDefaultStyle = new ol.style.Style({
   image: new ol.style.Circle({
-    radius: 6,
+    radius: getMarkerRadius(),
     fill: new ol.style.Fill({
       color: '#ff660000'}),
     stroke: new ol.style.Stroke({
@@ -7949,7 +7969,7 @@ const markerDefaultStyle = new ol.style.Style({
 // Marker hover style
 const markerHoverStyle = new ol.style.Style({
   image: new ol.style.Circle({
-    radius: 6,
+    radius: getMarkerRadius(),
     fill: new ol.style.Fill({
       color: '#dddddd'}), // blue on hover
     stroke: new ol.style.Stroke({
@@ -7984,7 +8004,7 @@ const clusterStyle = function(feature) {
     // Clustered marker
     return new ol.style.Style({
       image: new ol.style.Circle({
-        radius: 10,
+        radius: getClusterRadius(),
         fill: new ol.style.Fill({ color: '#88888880' }),
         stroke: new ol.style.Stroke({ color: '#000000', width: 2 })
       }),
@@ -8156,12 +8176,59 @@ const mainMap = new ol.Map({
     zoom: 2,
     extent: [-180, -65, 200, 75]
   }),
+  pixelRatio: getPixelRatio(),
 controls: new ol.control.defaults.defaults({
   zoom: false,
   rotate: false,
   attribution: false
 })
 });
+
+function disablePageGestureZoom(mapInstance) {
+  if (!mapInstance || !mapInstance.getViewport) return;
+  const viewport = mapInstance.getViewport();
+  const targetElement = mapInstance.getTargetElement ? mapInstance.getTargetElement() : null;
+  viewport.style.touchAction = 'none';
+  if (targetElement) {
+    targetElement.style.touchAction = 'none';
+  }
+  const events = ['gesturestart', 'gesturechange', 'gestureend'];
+  events.forEach(function(eventName) {
+    viewport.addEventListener(eventName, function(evt) {
+      evt.preventDefault();
+    }, { passive: false });
+    if (targetElement) {
+      targetElement.addEventListener(eventName, function(evt) {
+        evt.preventDefault();
+      }, { passive: false });
+    }
+  });
+  const touchHandler = function(evt) {
+    if (evt.touches && evt.touches.length > 1) {
+      evt.preventDefault();
+    }
+  };
+  viewport.addEventListener('touchmove', touchHandler, { passive: false });
+  if (targetElement) {
+    targetElement.addEventListener('touchmove', touchHandler, { passive: false });
+  }
+}
+
+function disableRotationInteractions(mapInstance) {
+  if (!mapInstance || !mapInstance.getInteractions) return;
+  if (!ol || !ol.interaction) return;
+  mapInstance.getInteractions().forEach(function(interaction) {
+    const isDragRotate = ol.interaction.DragRotate && interaction instanceof ol.interaction.DragRotate;
+    const isPinchRotate = ol.interaction.PinchRotate && interaction instanceof ol.interaction.PinchRotate;
+    if (isDragRotate || isPinchRotate) {
+      mapInstance.removeInteraction(interaction);
+    }
+  });
+}
+
+// Prevent the page from handling pinch/scroll gestures over the map
+disablePageGestureZoom(mainMap);
+disableRotationInteractions(mainMap);
 
 // Tooltip overlay displaying the name of the location on hover
 const tooltip = document.createElement('div');
@@ -8177,49 +8244,51 @@ tooltip.style.fontSize = '0.75em';
 tooltip.style.display = 'none';
 document.body.appendChild(tooltip);
 
-// Tooltip logic
+// Tooltip logic (desktop only)
 let lastHoveredFeature = null;
-mainMap.on('pointermove', function (evt) {
-  const pixel = evt.pixel;
-  // Only consider features from markerLayer
-  const feature = mainMap.forEachFeatureAtPixel(pixel, function (feature, layer) {
-    if (layer === markerLayer) return feature;
-  });
-  if (feature) {
-    const features = feature.get('features');
-    if (features.length === 1) {
-      const name = features[0].get('name');
-      tooltip.textContent = name;
-    } else {
-      tooltip.textContent = features.length + ' locations';
-    }
-    tooltip.style.display = 'block';
-    tooltip.style.left = (evt.originalEvent.clientX + 15) + 'px';
-    tooltip.style.top = (evt.originalEvent.clientY + 5) + 'px';
-  } else {
-    tooltip.style.display = 'none';
-  }
-  // Hover style logic (only for single features)
-  if (feature !== lastHoveredFeature) {
-    // Remove hover from last feature
-    if (lastHoveredFeature) {
-      const lastFeatures = lastHoveredFeature.get('features');
-      if (lastFeatures.length === 1) {
-        lastFeatures[0].set('hover', false);
-        markerLayer.changed();
-      }
-    }
-    // Set hover on new feature
+if (!isCoarsePointer()) {
+  mainMap.on('pointermove', function (evt) {
+    const pixel = evt.pixel;
+    // Only consider features from markerLayer
+    const feature = mainMap.forEachFeatureAtPixel(pixel, function (feature, layer) {
+      if (layer === markerLayer) return feature;
+    });
     if (feature) {
       const features = feature.get('features');
       if (features.length === 1) {
-        features[0].set('hover', true);
-        markerLayer.changed();
+        const name = features[0].get('name');
+        tooltip.textContent = name;
+      } else {
+        tooltip.textContent = features.length + ' locations';
       }
+      tooltip.style.display = 'block';
+      tooltip.style.left = (evt.originalEvent.clientX + 15) + 'px';
+      tooltip.style.top = (evt.originalEvent.clientY + 5) + 'px';
+    } else {
+      tooltip.style.display = 'none';
     }
-    lastHoveredFeature = feature;
-  }
-});
+    // Hover style logic (only for single features)
+    if (feature !== lastHoveredFeature) {
+      // Remove hover from last feature
+      if (lastHoveredFeature) {
+        const lastFeatures = lastHoveredFeature.get('features');
+        if (lastFeatures.length === 1) {
+          lastFeatures[0].set('hover', false);
+          markerLayer.changed();
+        }
+      }
+      // Set hover on new feature
+      if (feature) {
+        const features = feature.get('features');
+        if (features.length === 1) {
+          features[0].set('hover', true);
+          markerLayer.changed();
+        }
+      }
+      lastHoveredFeature = feature;
+    }
+  });
+}
 
 // Popup logic
 let popupMap = null;
@@ -8234,7 +8303,7 @@ mainMap.on('singleclick', function(evt) {
         openMapPopup(loc);
       }
     }
-  });
+  }, { hitTolerance: getHitTolerance() });
 });
 
 // Function to open popup with map
@@ -8303,12 +8372,16 @@ function openMapPopup(loc) {
       extent: loc.extentCoords,
       multiWorld: false
     }),
+    pixelRatio: getPixelRatio(),
     controls: new ol.control.defaults.defaults({
   zoom: false,
   rotate: false,
   attribution: false
 })
   });
+
+  disablePageGestureZoom(popupMap);
+  disableRotationInteractions(popupMap);
 }
 
 // Close popup logic
