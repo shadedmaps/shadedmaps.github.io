@@ -2548,6 +2548,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "MEXICO_GUADALAJARA",
+        "cityName": "Guadalajara",
+        "country_name": "Mexico",
+        "centerCoords": [
+            -103.34418,
+            20.6779
+        ],
+        "extentCoords": [
+            -103.3805302,
+            20.6443722,
+            -103.3078143,
+            20.7114222
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Gobierno de Jalisco",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Gobierno de Jalisco [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "20\u00b040'N, 103\u00b020'W",
+        "width": 15000,
+        "height": 15000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Guadalajara, Mexico [20\u00b040'N, 103\u00b020'W] [15000 x 15000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/MEXICO_GUADALAJARA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/MEXICO_GUADALAJARA_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "MONACO_MONTECARLO",
         "cityName": "Montecarlo",
         "country_name": "Monaco",
