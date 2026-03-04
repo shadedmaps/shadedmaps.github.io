@@ -560,6 +560,62 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "CANADA_CALGARY_2026",
+        "cityName": "Calgary",
+        "country_name": "Canada",
+        "centerCoords": [
+            -114.06847,
+            51.04634
+        ],
+        "extentCoords": [
+            -114.1350948,
+            51.0029842,
+            -113.9964633,
+            51.0889461
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Natural Resources Canada",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Natural Resources Canada [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "51\u00b02'N, 114\u00b04'W",
+        "width": 25000,
+        "height": 25000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Calgary, Canada [51\u00b02'N, 114\u00b04'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_CALGARY_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_CALGARY_2026_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "CANADA_EDMONTON_2026",
+        "cityName": "Edmonton",
+        "country_name": "Canada",
+        "centerCoords": [
+            -113.492377,
+            53.544542
+        ],
+        "extentCoords": [
+            -113.5620447,
+            53.5026082,
+            -113.4219474,
+            53.5843092
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Natural Resources Canada",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Natural Resources Canada [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "53\u00b032'N, 113\u00b029'W",
+        "width": 25000,
+        "height": 25000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Edmonton, Canada [53\u00b032'N, 113\u00b029'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_EDMONTON_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_EDMONTON_2026_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "CANADA_OTTAWA_2026",
         "cityName": "Ottawa",
         "country_name": "Canada",
@@ -586,6 +642,62 @@ const locations = [
         "city_state_coords": "Ottawa, Canada [45\u00b025'N, 75\u00b041'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_OTTAWA_2026_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_OTTAWA_2026_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "CANADA_REGINA_2026",
+        "cityName": "Regina",
+        "country_name": "Canada",
+        "centerCoords": [
+            -104.61293,
+            50.44812
+        ],
+        "extentCoords": [
+            -104.6621996,
+            50.4167929,
+            -104.5630968,
+            50.479174
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Natural Resources Canada",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Natural Resources Canada [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "50\u00b026'N, 104\u00b036'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Regina, Canada [50\u00b026'N, 104\u00b036'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_REGINA_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_REGINA_2026_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "CANADA_SASKATOON_2026",
+        "cityName": "Saskatoon",
+        "country_name": "Canada",
+        "centerCoords": [
+            -106.662276,
+            52.130087
+        ],
+        "extentCoords": [
+            -106.7335415,
+            52.0840974,
+            -106.6081073,
+            52.1595352
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Natural Resources Canada",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Natural Resources Canada [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "52\u00b07'N, 106\u00b039'W",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Saskatoon, Canada [52\u00b07'N, 106\u00b039'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_SASKATOON_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_SASKATOON_2026_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "CANADA_TORONTO_2026",
@@ -2462,6 +2574,34 @@ const locations = [
         "city_state_coords": "Tokyo, Japan [35\u00b041'N, 139\u00b045'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "JAPAN_YOKOHAMA",
+        "cityName": "Yokohama",
+        "country_name": "Japan",
+        "centerCoords": [
+            139.61333,
+            35.45275
+        ],
+        "extentCoords": [
+            139.5446625,
+            35.4023585,
+            139.6808619,
+            35.5131734
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Kanagawa Prefecture General Affairs Bureau Digital Strategy Headquarters Office",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Kanagawa Prefecture General Affairs Bureau Digital Strategy Headquarters Office [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "35\u00b027'N, 139\u00b036'E",
+        "width": 25000,
+        "height": 25000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Yokohama, Japan [35\u00b027'N, 139\u00b036'E] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/JAPAN_YOKOHAMA_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/JAPAN_YOKOHAMA_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "LATVIA_RIGA",
@@ -5402,6 +5542,34 @@ const locations = [
         "city_state_coords": "New York City [Upper Bay Islands], New York, USA [40\u00b041'N, 74\u00b01'W] [12000 x 8600 pixels, 1 pixel = 1.0 ft]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_ISLANDS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_ISLANDS_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "USA_NEW_YORK_MANHATTAN",
+        "cityName": "New York City [Manhattan]",
+        "country_name": "New York, USA",
+        "centerCoords": [
+            -73.96552692675984,
+            40.78836390345583
+        ],
+        "extentCoords": [
+            -74.0246161,
+            40.6984921,
+            -73.9062765,
+            40.8782035
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "NYC Office of Technology and Innovation (OTI)",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | NYC Office of Technology and Innovation (OTI) [CC0 1.0 Universal]",
+        "dms": "40\u00b047'N, 73\u00b057'W",
+        "width": 20000,
+        "height": 40000,
+        "raster_resolution": "1.6",
+        "raster_units": "ft",
+        "city_state_coords": "New York City [Manhattan], New York, USA [40\u00b047'N, 73\u00b057'W] [20000 x 40000 pixels, 1 pixel = 1.6 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_MANHATTAN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_MANHATTAN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_OKLAHOMA_CITY",
