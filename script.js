@@ -616,6 +616,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_EDMONTON_2026_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "CANADA_MONTREAL_2026",
+        "cityName": "Montreal",
+        "country_name": "Canada",
+        "centerCoords": [
+            -73.56757,
+            45.49942
+        ],
+        "extentCoords": [
+            -73.6406337,
+            45.4458888,
+            -73.4946271,
+            45.5538855
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Government and Municipalities of Qu\u00e9bec",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government and Municipalities of Qu\u00e9bec [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "45\u00b029'N, 73\u00b034'W",
+        "width": 30000,
+        "height": 30000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Montreal, Canada [45\u00b029'N, 73\u00b034'W] [30000 x 30000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_MONTREAL_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_MONTREAL_2026_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "CANADA_OTTAWA_2026",
         "cityName": "Ottawa",
         "country_name": "Canada",
