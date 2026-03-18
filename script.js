@@ -3164,60 +3164,88 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_TRONDHEIM_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "POLAND_KRAKOW",
+        "city_id": "POLAND_KRAKOW_2025",
         "cityName": "Krak\u00f3w",
         "country_name": "Poland",
         "centerCoords": [
-            19.938294650194536,
-            50.06165906400675
+            19.937644192380258,
+            50.060871336796055
         ],
         "extentCoords": [
-            19.8994027,
-            50.0372211,
-            19.9772227,
-            50.0860748
+            19.8669722,
+            50.016433,
+            20.0084595,
+            50.1052587
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
         "data_publisher": "Head Office of Geodesy and Cartography",
-        "license_name": "",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography []",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography [Attribution 4.0 International (CC BY 4.0)]",
         "dms": "50\u00b03'N, 19\u00b056'E",
-        "width": 11000,
-        "height": 11000,
+        "width": 20000,
+        "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Krak\u00f3w, Poland [50\u00b03'N, 19\u00b056'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_KRAKOW_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_KRAKOW_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Krak\u00f3w, Poland [50\u00b03'N, 19\u00b056'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_KRAKOW_2025_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_KRAKOW_2025_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "POLAND_WARSAW",
+        "city_id": "POLAND_POZNAN_2024",
+        "cityName": "Pozna\u0144",
+        "country_name": "Poland",
+        "centerCoords": [
+            16.9323645019217,
+            52.40733694796317
+        ],
+        "extentCoords": [
+            16.8610576,
+            52.361098,
+            17.0038055,
+            52.4535406
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Head Office of Geodesy and Cartography",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "52\u00b024'N, 16\u00b055'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Pozna\u0144, Poland [52\u00b024'N, 16\u00b055'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_POZNAN_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_POZNAN_2024_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "POLAND_WARSAW_2025",
         "cityName": "Warsaw",
         "country_name": "Poland",
         "centerCoords": [
-            21.014904543989793,
-            52.234282288628556
+            21.01883,
+            52.23211
         ],
         "extentCoords": [
-            20.9735565,
-            52.2102477,
-            21.056307,
-            52.2583054
+            20.9286571,
+            52.1796512,
+            21.1092039,
+            52.2844983
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
         "data_publisher": "Head Office of Geodesy and Cartography",
-        "license_name": "",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography []",
-        "dms": "52\u00b014'N, 21\u00b00'E",
-        "width": 11000,
-        "height": 11000,
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "52\u00b013'N, 21\u00b01'E",
+        "width": 24000,
+        "height": 24000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Warsaw, Poland [52\u00b014'N, 21\u00b00'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_WARSAW_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_WARSAW_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Warsaw, Poland [52\u00b013'N, 21\u00b01'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_WARSAW_2025_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_WARSAW_2025_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "PORTUGAL_COIMBRA",
