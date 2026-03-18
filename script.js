@@ -700,6 +700,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_REGINA_2026_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "CANADA_SAINT_JOHN",
+        "cityName": "Saint John",
+        "country_name": "Canada",
+        "centerCoords": [
+            -66.05964,
+            45.266628
+        ],
+        "extentCoords": [
+            -66.1300475,
+            45.2173953,
+            -65.9899222,
+            45.3112111
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Government of New Brunswick",
+        "license_name": "Open Government Licence - New Brunswick",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Government of New Brunswick [Open Government Licence - New Brunswick]",
+        "dms": "45\u00b015'N, 66\u00b03'W",
+        "width": 15000,
+        "height": 15000,
+        "raster_resolution": "0.8",
+        "raster_units": "m",
+        "city_state_coords": "Saint John, Canada [45\u00b015'N, 66\u00b03'W] [15000 x 15000 pixels, 1 pixel = 0.8 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/CANADA_SAINT_JOHN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/CANADA_SAINT_JOHN_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "CANADA_SASKATOON_2026",
         "cityName": "Saskatoon",
         "country_name": "Canada",
