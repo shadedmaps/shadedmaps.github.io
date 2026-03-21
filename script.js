@@ -3164,6 +3164,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_TRONDHEIM_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "POLAND_GDANSK_2024",
+        "cityName": "Gdansk",
+        "country_name": "Poland",
+        "centerCoords": [
+            18.65048583814203,
+            54.35518616842627
+        ],
+        "extentCoords": [
+            18.5739902,
+            54.309986,
+            18.7271399,
+            54.4003307
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Head Office of Geodesy and Cartography",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "54\u00b021'N, 18\u00b039'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Gdansk, Poland [54\u00b021'N, 18\u00b039'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_GDANSK_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_GDANSK_2024_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "POLAND_KRAKOW_2025",
         "cityName": "Krak\u00f3w",
         "country_name": "Poland",
@@ -3190,6 +3218,34 @@ const locations = [
         "city_state_coords": "Krak\u00f3w, Poland [50\u00b03'N, 19\u00b056'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_KRAKOW_2025_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_KRAKOW_2025_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "POLAND_LODZ_2024",
+        "cityName": "Lodz",
+        "country_name": "Poland",
+        "centerCoords": [
+            19.4547337054317,
+            51.76501469967455
+        ],
+        "extentCoords": [
+            19.3809505,
+            51.7209633,
+            19.5286535,
+            51.809026
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Head Office of Geodesy and Cartography",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "51\u00b045'N, 19\u00b027'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Lodz, Poland [51\u00b045'N, 19\u00b027'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_LODZ_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_LODZ_2024_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "POLAND_POZNAN_2024",
@@ -3220,6 +3276,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_POZNAN_2024_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "POLAND_SZCZECIN_2024",
+        "cityName": "Szczecin",
+        "country_name": "Poland",
+        "centerCoords": [
+            14.548062260585361,
+            53.43282503225811
+        ],
+        "extentCoords": [
+            14.4777821,
+            53.3851829,
+            14.618504,
+            53.4804316
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Head Office of Geodesy and Cartography",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "53\u00b025'N, 14\u00b032'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Szczecin, Poland [53\u00b025'N, 14\u00b032'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_SZCZECIN_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_SZCZECIN_2024_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "POLAND_WARSAW_2025",
         "cityName": "Warsaw",
         "country_name": "Poland",
@@ -3246,6 +3330,34 @@ const locations = [
         "city_state_coords": "Warsaw, Poland [52\u00b013'N, 21\u00b01'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_WARSAW_2025_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_WARSAW_2025_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "POLAND_WROCLAW_2024",
+        "cityName": "Wroclaw",
+        "country_name": "Poland",
+        "centerCoords": [
+            17.038969544722562,
+            51.109860686972794
+        ],
+        "extentCoords": [
+            16.9695413,
+            51.0636922,
+            17.1085441,
+            51.1559855
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Head Office of Geodesy and Cartography",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Head Office of Geodesy and Cartography [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "51\u00b06'N, 17\u00b02'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Wroclaw, Poland [51\u00b06'N, 17\u00b02'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/POLAND_WROCLAW_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/POLAND_WROCLAW_2024_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "PORTUGAL_COIMBRA",
