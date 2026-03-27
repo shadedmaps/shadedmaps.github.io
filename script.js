@@ -5068,6 +5068,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DETROIT_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_DOVER",
+        "cityName": "Dover",
+        "country_name": "Delaware, USA",
+        "centerCoords": [
+            -75.5092024,
+            39.1496034
+        ],
+        "extentCoords": [
+            -75.5781959,
+            39.0952161,
+            -75.4401061,
+            39.2039339
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "39\u00b08'N, 75\u00b030'W",
+        "width": 24000,
+        "height": 24000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Dover, Delaware, USA [39\u00b08'N, 75\u00b030'W] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_DOVER_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DOVER_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "USA_HONOLULU",
         "cityName": "Honolulu",
         "country_name": "Hawaii, USA",
