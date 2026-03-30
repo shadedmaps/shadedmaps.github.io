@@ -5096,6 +5096,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DOVER_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "USA_DULUTH",
+        "cityName": "Duluth",
+        "country_name": "Minnesota, USA",
+        "centerCoords": [
+            -92.11521,
+            46.77493
+        ],
+        "extentCoords": [
+            -92.1979081,
+            46.7192948,
+            -92.0323531,
+            46.8305045
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+        "license_name": "CC0 1.0 Universal",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+        "dms": "46\u00b046'N, 92\u00b06'W",
+        "width": 25000,
+        "height": 25000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Duluth, Minnesota, USA [46\u00b046'N, 92\u00b06'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_DULUTH_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_DULUTH_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "USA_HONOLULU",
         "cityName": "Honolulu",
         "country_name": "Hawaii, USA",
