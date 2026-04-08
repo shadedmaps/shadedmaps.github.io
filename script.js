@@ -1344,6 +1344,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_PARIS_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_SAINT_DENIS",
+        "cityName": "Saint-Denis",
+        "country_name": "France",
+        "centerCoords": [
+            55.471312,
+            -20.899702
+        ],
+        "extentCoords": [
+            55.4036915,
+            -20.9306975,
+            55.5389018,
+            -20.8686738
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "20\u00b053'S, 55\u00b028'E",
+        "width": 28000,
+        "height": 14000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Saint-Denis, France [20\u00b053'S, 55\u00b028'E] [28000 x 14000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_SAINT_DENIS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_SAINT_DENIS_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_STRASBOURG",
         "cityName": "Strasbourg",
         "country_name": "France",
@@ -3610,6 +3638,34 @@ const locations = [
         "city_state_coords": "Granada, Spain [37\u00b010'N, 3\u00b035'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_GRANADA_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_GRANADA_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "SPAIN_LAS_PALMAS",
+        "cityName": "Las Palmas",
+        "country_name": "Spain",
+        "centerCoords": [
+            -15.437826,
+            28.12389
+        ],
+        "extentCoords": [
+            -15.4876857,
+            28.0605339,
+            -15.3886757,
+            28.187192
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Organismo Aut\u00f3nomo Centro Nacional de Informaci\u00f3n Geogr\u00e1fica - PNOA-LiDAR [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "28\u00b07'N, 15\u00b026'W",
+        "width": 20000,
+        "height": 28000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Las Palmas, Spain [28\u00b07'N, 15\u00b026'W] [20000 x 28000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/SPAIN_LAS_PALMAS_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/SPAIN_LAS_PALMAS_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "SPAIN_LOGRONO",
