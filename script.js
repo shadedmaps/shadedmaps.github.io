@@ -5852,7 +5852,7 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_ISLANDS_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "USA_NEW_YORK_MANHATTAN",
+        "city_id": "USA_NEW_YORK_MANHATTAN_1ft",
         "cityName": "New York City [Manhattan]",
         "country_name": "New York, USA",
         "centerCoords": [
@@ -5860,10 +5860,10 @@ const locations = [
             40.78836390345583
         ],
         "extentCoords": [
-            -74.0246161,
-            40.6984921,
-            -73.9062765,
-            40.8782035
+            -74.0250775,
+            40.6977901,
+            -73.9058126,
+            40.8789066
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
@@ -5871,13 +5871,13 @@ const locations = [
         "license_name": "CC0 1.0 Universal",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | NYC Office of Technology and Innovation (OTI) [CC0 1.0 Universal]",
         "dms": "40\u00b047'N, 73\u00b057'W",
-        "width": 20000,
-        "height": 40000,
-        "raster_resolution": "1.6",
+        "width": 33000,
+        "height": 66000,
+        "raster_resolution": "1.0",
         "raster_units": "ft",
-        "city_state_coords": "New York City [Manhattan], New York, USA [40\u00b047'N, 73\u00b057'W] [20000 x 40000 pixels, 1 pixel = 1.6 ft]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_MANHATTAN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_MANHATTAN_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "New York City [Manhattan], New York, USA [40\u00b047'N, 73\u00b057'W] [33000 x 66000 pixels, 1 pixel = 1.0 ft]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/USA_NEW_YORK_MANHATTAN_1ft_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/USA_NEW_YORK_MANHATTAN_1ft_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "USA_OKLAHOMA_CITY",
