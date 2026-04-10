@@ -1148,6 +1148,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_AMIENS_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_AVIGNON",
+        "cityName": "Avignon",
+        "country_name": "France",
+        "centerCoords": [
+            4.809162,
+            43.947991
+        ],
+        "extentCoords": [
+            4.7518818,
+            43.9084167,
+            4.8665292,
+            43.9875365
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "43\u00b056'N, 4\u00b048'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Avignon, France [43\u00b056'N, 4\u00b048'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_AVIGNON_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_AVIGNON_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_BORDEAUX",
         "cityName": "Bordeaux",
         "country_name": "France",
@@ -1176,6 +1204,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_BORDEAUX_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_BREST",
+        "cityName": "Brest",
+        "country_name": "France",
+        "centerCoords": [
+            -4.48831,
+            48.39726
+        ],
+        "extentCoords": [
+            -4.5631873,
+            48.3518218,
+            -4.4133117,
+            48.4426505
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "48\u00b023'N, 4\u00b029'W",
+        "width": 24000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Brest, France [48\u00b023'N, 4\u00b029'W] [24000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_BREST_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_BREST_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_GRENOBLE",
         "cityName": "Grenoble",
         "country_name": "France",
@@ -1202,6 +1258,62 @@ const locations = [
         "city_state_coords": "Grenoble, France [45\u00b011'N, 5\u00b043'E] [15000 x 15000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_GRENOBLE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_GRENOBLE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "FRANCE_LE_HAVRE",
+        "cityName": "Le Havre",
+        "country_name": "France",
+        "centerCoords": [
+            0.15054,
+            49.48995
+        ],
+        "extentCoords": [
+            0.0703701,
+            49.4430652,
+            0.2308441,
+            49.5367727
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "49\u00b029'N, 0\u00b09'E",
+        "width": 24000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Le Havre, France [49\u00b029'N, 0\u00b09'E] [24000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_LE_HAVRE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_LE_HAVRE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "FRANCE_LIMOGES",
+        "cityName": "Limoges",
+        "country_name": "France",
+        "centerCoords": [
+            1.259175,
+            45.831695
+        ],
+        "extentCoords": [
+            1.2088262,
+            45.7948776,
+            1.3095828,
+            45.8684875
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "45\u00b049'N, 1\u00b015'E",
+        "width": 16000,
+        "height": 16000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Limoges, France [45\u00b049'N, 1\u00b015'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_LIMOGES_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_LIMOGES_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_LYON",
@@ -1258,6 +1370,34 @@ const locations = [
         "city_state_coords": "Marseille, France [43\u00b018'N, 5\u00b022'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_MARSEILLE_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_MARSEILLE_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "FRANCE_METZ",
+        "cityName": "Metz",
+        "country_name": "France",
+        "centerCoords": [
+            6.17234,
+            49.12652
+        ],
+        "extentCoords": [
+            6.1012013,
+            49.0833881,
+            6.2435916,
+            49.1696136
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "49\u00b07'N, 6\u00b010'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Metz, France [49\u00b07'N, 6\u00b010'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_METZ_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_METZ_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_NANCY",
@@ -1372,6 +1512,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_PARIS_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_POINTE_A_PITRE",
+        "cityName": "Pointe-\u00e0-Pitre",
+        "country_name": "France",
+        "centerCoords": [
+            -61.549608,
+            16.248735
+        ],
+        "extentCoords": [
+            -61.6060611,
+            16.2039204,
+            -61.4931361,
+            16.293525
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "16\u00b014'N, 61\u00b032'W",
+        "width": 24000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Pointe-\u00e0-Pitre, France [16\u00b014'N, 61\u00b032'W] [24000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_POINTE_A_PITRE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_POINTE_A_PITRE_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_SAINT_DENIS",
         "cityName": "Saint-Denis",
         "country_name": "France",
@@ -1398,6 +1566,34 @@ const locations = [
         "city_state_coords": "Saint-Denis, France [20\u00b053'S, 55\u00b028'E] [28000 x 14000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_SAINT_DENIS_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_SAINT_DENIS_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "FRANCE_SAINT_ETIENNE",
+        "cityName": "Saint-\u00c9tienne",
+        "country_name": "France",
+        "centerCoords": [
+            4.397249,
+            45.437894
+        ],
+        "extentCoords": [
+            4.3322258,
+            45.3936595,
+            4.4623733,
+            45.4820979
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "45\u00b026'N, 4\u00b023'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Saint-\u00c9tienne, France [45\u00b026'N, 4\u00b023'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_SAINT_ETIENNE_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_SAINT_ETIENNE_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FRANCE_STRASBOURG",
