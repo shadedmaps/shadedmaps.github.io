@@ -3332,32 +3332,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_OSLO_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "NORWAY_STAVANGER",
+        "city_id": "NORWAY_STAVANGER_2019",
         "cityName": "Stavanger",
         "country_name": "Norway",
         "centerCoords": [
-            5.76474,
-            58.97275
+            5.730041,
+            58.969014
         ],
         "extentCoords": [
-            5.6856056,
-            58.9177194,
-            5.8441144,
-            59.0277353
+            5.6905022,
+            58.9275607,
+            5.7696614,
+            59.01045
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
         "data_publisher": "Norwegian Mapping Authority",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
-        "dms": "58\u00b058'N, 5\u00b045'E",
-        "width": 9700,
-        "height": 11800,
-        "raster_resolution": "1.0",
+        "dms": "58\u00b058'N, 5\u00b043'E",
+        "width": 10000,
+        "height": 18000,
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Stavanger, Norway [58\u00b058'N, 5\u00b045'E] [9700 x 11800 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_STAVANGER_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_STAVANGER_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Stavanger, Norway [58\u00b058'N, 5\u00b043'E] [10000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_STAVANGER_2019_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_STAVANGER_2019_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NORWAY_TROMSO",
