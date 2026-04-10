@@ -1092,6 +1092,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "FRANCE_AJACCIO",
+        "cityName": "Ajaccio",
+        "country_name": "France",
+        "centerCoords": [
+            8.767228,
+            41.9241968
+        ],
+        "extentCoords": [
+            8.6926429,
+            41.9012225,
+            8.8418651,
+            41.9471056
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+        "license_name": "Etalab 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+        "dms": "41\u00b055'N, 8\u00b046'E",
+        "width": 24000,
+        "height": 12000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Ajaccio, France [41\u00b055'N, 8\u00b046'E] [24000 x 12000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/FRANCE_AJACCIO_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/FRANCE_AJACCIO_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "FRANCE_AMIENS",
         "cityName": "Amiens",
         "country_name": "France",
