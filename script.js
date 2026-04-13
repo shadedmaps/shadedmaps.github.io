@@ -1051,9 +1051,9 @@ const locations = [
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "",
-        "license_name": "",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> |  []",
+        "data_publisher": "Danish Agency for Data Supply",
+        "license_name": "Attribution 4.0 International (CC BY 4.0)",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Danish Agency for Data Supply [Attribution 4.0 International (CC BY 4.0)]",
         "dms": "59\u00b026'N, 24\u00b044'E",
         "width": 11000,
         "height": 11000,
@@ -3304,32 +3304,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_BERGEN_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "NORWAY_OSLO",
+        "city_id": "NORWAY_OSLO_2019",
         "cityName": "Oslo",
         "country_name": "Norway",
         "centerCoords": [
-            10.752364412389243,
-            59.90566062336651
+            10.740309,
+            59.912891
         ],
         "extentCoords": [
-            10.6607574,
-            59.8532174,
-            10.8442672,
-            59.9580489
+            10.6487139,
+            59.8691611,
+            10.8321437,
+            59.9565538
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
         "data_publisher": "Norwegian Mapping Authority",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Norwegian Mapping Authority [Attribution 4.0 International (CC BY 4.0)]",
-        "dms": "59\u00b054'N, 10\u00b045'E",
-        "width": 11000,
-        "height": 11000,
-        "raster_resolution": "1.0",
+        "dms": "59\u00b054'N, 10\u00b044'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Oslo, Norway [59\u00b054'N, 10\u00b045'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_OSLO_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_OSLO_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Oslo, Norway [59\u00b054'N, 10\u00b044'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NORWAY_OSLO_2019_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NORWAY_OSLO_2019_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NORWAY_STAVANGER_2019",
