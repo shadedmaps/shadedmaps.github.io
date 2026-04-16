@@ -2968,18 +2968,18 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LIECHTENSTEIN_VADUZ_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "LUXEMBOURG_LUXEMBOURG_CITY",
-        "cityName": "Luxembourg",
+        "city_id": "LUXEMBOURG_LUXEMBOURG_CITY_2024",
+        "cityName": "Luxembourg City",
         "country_name": "Luxembourg",
         "centerCoords": [
-            6.131785557785231,
-            49.61228956213712
+            6.1309344788332405,
+            49.6105787410666
         ],
         "extentCoords": [
-            6.0937734,
-            49.5875422,
-            6.1698398,
-            49.637016
+            6.0618463,
+            49.5655794,
+            6.2001425,
+            49.6555327
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
@@ -2987,13 +2987,13 @@ const locations = [
         "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Administration du cadastre et de la topographie [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
         "dms": "49\u00b036'N, 6\u00b07'E",
-        "width": 11000,
-        "height": 11000,
+        "width": 20000,
+        "height": 20000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Luxembourg, Luxembourg [49\u00b036'N, 6\u00b07'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Luxembourg City, Luxembourg [49\u00b036'N, 6\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_2024_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_2024_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "MEXICO_GUADALAJARA",
