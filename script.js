@@ -1036,32 +1036,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_ROSKILDE_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "ESTONIA_TALLINN",
+        "city_id": "ESTONIA_TALLINN_2023",
         "cityName": "Tallinn",
         "country_name": "Estonia",
         "centerCoords": [
-            24.74593084550171,
-            59.43741414941703
+            24.740098,
+            59.432325
         ],
         "extentCoords": [
-            24.6480813,
-            59.388564,
-            24.8440716,
-            59.4861984
+            24.6245086,
+            59.3745756,
+            24.8560794,
+            59.4899721
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Danish Agency for Data Supply",
-        "license_name": "Attribution 4.0 International (CC BY 4.0)",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Danish Agency for Data Supply [Attribution 4.0 International (CC BY 4.0)]",
-        "dms": "59\u00b026'N, 24\u00b044'E",
-        "width": 11000,
-        "height": 11000,
-        "raster_resolution": "1.0",
+        "data_publisher": "Republic of Estonia Land and Spatial Development Board",
+        "license_name": "ETAK open data licence",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Republic of Estonia Land and Spatial Development Board [ETAK open data licence]",
+        "dms": "59\u00b025'N, 24\u00b044'E",
+        "width": 26000,
+        "height": 26000,
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Tallinn, Estonia [59\u00b026'N, 24\u00b044'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ESTONIA_TALLINN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ESTONIA_TALLINN_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Tallinn, Estonia [59\u00b025'N, 24\u00b044'E] [26000 x 26000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/ESTONIA_TALLINN_2023_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/ESTONIA_TALLINN_2023_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "FINLAND_HELSINKI_2021",
