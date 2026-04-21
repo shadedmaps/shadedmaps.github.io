@@ -952,32 +952,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_AARHUS_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "DENMARK_COPENHAGEN",
+        "city_id": "DENMARK_COPENHAGEN_2026",
         "cityName": "Copenhagen",
         "country_name": "Denmark",
         "centerCoords": [
-            12.58,
-            55.68451
+            12.559742,
+            55.687268
         ],
         "extentCoords": [
-            12.5266187,
-            55.6572813,
-            12.633459,
-            55.7117097
+            12.4555613,
+            55.6340479,
+            12.6641954,
+            55.7403884
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
         "data_publisher": "Danish Agency for Data Supply",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
         "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Danish Agency for Data Supply [Attribution 4.0 International (CC BY 4.0)]",
-        "dms": "55\u00b041'N, 12\u00b034'E",
-        "width": 16000,
-        "height": 16000,
-        "raster_resolution": "0.4",
+        "dms": "55\u00b041'N, 12\u00b033'E",
+        "width": 25000,
+        "height": 25000,
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Copenhagen, Denmark [55\u00b041'N, 12\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.4 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/DENMARK_COPENHAGEN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_COPENHAGEN_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Copenhagen, Denmark [55\u00b041'N, 12\u00b033'E] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/DENMARK_COPENHAGEN_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/DENMARK_COPENHAGEN_2026_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "DENMARK_ODENSE",
