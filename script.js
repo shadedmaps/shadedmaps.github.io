@@ -2912,32 +2912,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/JAPAN_YOKOHAMA_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "LATVIA_RIGA",
+        "city_id": "LATVIA_RIGA_2022",
         "cityName": "Riga",
         "country_name": "Latvia",
         "centerCoords": [
-            24.114051589265195,
-            56.95302480276672
+            24.106872,
+            56.949354
         ],
         "extentCoords": [
-            24.0235942,
-            56.9036677,
-            24.2047443,
-            57.0023217
+            24.0246455,
+            56.9044761,
+            24.189294,
+            56.994171
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "Latvian Geospatial Information Agency",
+        "data_publisher": "GEO RIGA",
         "license_name": "Attribution 4.0 International (CC BY 4.0)",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Latvian Geospatial Information Agency [Attribution 4.0 International (CC BY 4.0)]",
-        "dms": "56\u00b057'N, 24\u00b06'E",
-        "width": 11000,
-        "height": 11000,
-        "raster_resolution": "1.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | GEO RIGA [Attribution 4.0 International (CC BY 4.0)]",
+        "dms": "56\u00b056'N, 24\u00b06'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Riga, Latvia [56\u00b057'N, 24\u00b06'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/LATVIA_RIGA_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LATVIA_RIGA_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Riga, Latvia [56\u00b056'N, 24\u00b06'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/LATVIA_RIGA_2022_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/LATVIA_RIGA_2022_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "LIECHTENSTEIN_VADUZ",
