@@ -3136,6 +3136,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_ENSCHEDE_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "NETHERLANDS_GRONINGEN",
+        "cityName": "Groningen",
+        "country_name": "Netherlands",
+        "centerCoords": [
+            6.5654,
+            53.21603
+        ],
+        "extentCoords": [
+            6.4894119,
+            53.1718185,
+            6.6415322,
+            53.2601886
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "53\u00b012'N, 6\u00b033'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Groningen, Netherlands [53\u00b012'N, 6\u00b033'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_GRONINGEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_GRONINGEN_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "NETHERLANDS_MAASTRICHT",
         "cityName": "Maastricht",
         "country_name": "Netherlands",
