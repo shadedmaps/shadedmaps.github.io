@@ -2156,32 +2156,32 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_KARLSRUHE_RGBA_cs_vector.pmtiles"
     },
     {
-        "city_id": "GERMANY_KOELN",
+        "city_id": "GERMANY_KOELN_2026",
         "cityName": "Cologne",
         "country_name": "Germany",
         "centerCoords": [
-            6.959679487841393,
-            50.93988099216314
+            6.958913,
+            50.938886
         ],
         "extentCoords": [
-            6.9216695,
-            50.9144803,
-            6.9977362,
-            50.9652755
+            6.8553441,
+            50.8695788,
+            7.0627924,
+            51.0081121
         ],
         "zoomLevel": 12,
         "maxZoomLevel": 18,
-        "data_publisher": "North Rhine - Westphalia Geoportal",
-        "license_name": "Data licence Germany - Zero - Version 2.0",
-        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | North Rhine - Westphalia Geoportal [Data licence Germany - Zero - Version 2.0]",
+        "data_publisher": "Geobasis NRW",
+        "license_name": "data license Germany - Attribution - Version 2.0",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geobasis NRW [data license Germany - Attribution - Version 2.0]",
         "dms": "50\u00b056'N, 6\u00b057'E",
-        "width": 11000,
-        "height": 11000,
+        "width": 30000,
+        "height": 30000,
         "raster_resolution": "0.5",
         "raster_units": "m",
-        "city_state_coords": "Cologne, Germany [50\u00b056'N, 6\u00b057'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_KOELN_RGBA_cs_raster.pmtiles",
-        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_KOELN_RGBA_cs_vector.pmtiles"
+        "city_state_coords": "Cologne, Germany [50\u00b056'N, 6\u00b057'E] [30000 x 30000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/GERMANY_KOELN_2026_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/GERMANY_KOELN_2026_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "GERMANY_MAGDEBURG",
@@ -3080,6 +3080,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "NETHERLANDS_DELFT",
+        "cityName": "Delft",
+        "country_name": "Netherlands",
+        "centerCoords": [
+            4.36206,
+            52.00464
+        ],
+        "extentCoords": [
+            4.2975126,
+            51.963606,
+            4.4267173,
+            52.0456302
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "52\u00b00'N, 4\u00b021'E",
+        "width": 18000,
+        "height": 18000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Delft, Netherlands [52\u00b00'N, 4\u00b021'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_DELFT_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_DELFT_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "NETHERLANDS_DEN_HAAG",
         "cityName": "The Hague",
         "country_name": "Netherlands",
@@ -3106,6 +3134,34 @@ const locations = [
         "city_state_coords": "The Hague, Netherlands [52\u00b04'N, 4\u00b018'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
         "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles",
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles"
+    },
+    {
+        "city_id": "NETHERLANDS_EINDHOVEN",
+        "cityName": "Eindhoven",
+        "country_name": "Netherlands",
+        "centerCoords": [
+            5.48085,
+            51.44161
+        ],
+        "extentCoords": [
+            5.4089123,
+            51.3967038,
+            5.552929,
+            51.4864747
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "51\u00b026'N, 5\u00b028'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Eindhoven, Netherlands [51\u00b026'N, 5\u00b028'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_EINDHOVEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_EINDHOVEN_RGBA_cs_vector.pmtiles"
     },
     {
         "city_id": "NETHERLANDS_ENSCHEDE",
