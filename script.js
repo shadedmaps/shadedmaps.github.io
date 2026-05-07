@@ -3220,6 +3220,34 @@ const locations = [
         "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_GRONINGEN_RGBA_cs_vector.pmtiles"
     },
     {
+        "city_id": "NETHERLANDS_LEIDEN",
+        "cityName": "Leiden",
+        "country_name": "Netherlands",
+        "centerCoords": [
+            4.493238,
+            52.15862
+        ],
+        "extentCoords": [
+            4.4211443,
+            52.1131107,
+            4.5654668,
+            52.2040881
+        ],
+        "zoomLevel": 12,
+        "maxZoomLevel": 18,
+        "data_publisher": "Rijkswaterstaat",
+        "license_name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Rijkswaterstaat [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication]",
+        "dms": "52\u00b09'N, 4\u00b029'E",
+        "width": 20000,
+        "height": 20000,
+        "raster_resolution": "0.5",
+        "raster_units": "m",
+        "city_state_coords": "Leiden, Netherlands [52\u00b09'N, 4\u00b029'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+        "rasterPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/raster_pmtiles/cities/NETHERLANDS_LEIDEN_RGBA_cs_raster.pmtiles",
+        "vectorPMTilesUrl": "https://shaded-maps-dzi.s3.amazonaws.com/vector_pmtiles/cities/NETHERLANDS_LEIDEN_RGBA_cs_vector.pmtiles"
+    },
+    {
         "city_id": "NETHERLANDS_MAASTRICHT",
         "cityName": "Maastricht",
         "country_name": "Netherlands",
