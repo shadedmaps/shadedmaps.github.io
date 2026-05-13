@@ -1,3 +1,5 @@
+cog_rasters
+raster_pmtiles
+vector_geojson
+vector_pmtiles
 thumbnails/
-raster_pmtiles/
-vector_pmtiles/
