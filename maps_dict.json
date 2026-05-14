@@ -1157,10 +1157,10 @@
                 43.947991
             ],
             "extentCoords": [
-                4.7518818,
-                43.9084167,
-                4.8665292,
-                43.9875365
+                4.751881821384003,
+                43.90656246224775,
+                4.866529296803927,
+                43.98939351973301
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1173,8 +1173,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Avignon, France [43\u00b056'N, 4\u00b048'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_AVIGNON_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_AVIGNON_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                845226.0,
+                6318218.0
+            ],
+            "nativeBounds": [
+                840726.0,
+                6313718.0,
+                849726.0,
+                6322718.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_AVIGNON_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_AVIGNON_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_BORDEAUX",
