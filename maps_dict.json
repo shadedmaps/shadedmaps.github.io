@@ -9,10 +9,10 @@
                 -34.927705206351966
             ],
             "extentCoords": [
-                138.5438362,
-                -34.9716597,
-                138.655856,
-                -34.8837258
+                138.54383628250338,
+                -34.97382550399897,
+                138.65585607123023,
+                -34.88156727264375
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -25,8 +25,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Adelaide, Australia [34\u00b055'S, 138\u00b035'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRALIA_ADELAIDE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRALIA_ADELAIDE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 7854,
+            "nativeProj4": "+proj=utm +zone=54 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                280770.0,
+                6132344.0
+            ],
+            "nativeBounds": [
+                275770.0,
+                6127344.0,
+                285770.0,
+                6137344.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRALIA_ADELAIDE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRALIA_ADELAIDE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRALIA_BRISBANE",
@@ -37,10 +49,10 @@
                 -27.469953899170427
             ],
             "extentCoords": [
-                152.973896,
-                -27.5150939,
-                153.0750913,
-                -27.4247962
+                152.97389608631636,
+                -27.51509392879975,
+                153.07515251663244,
+                -27.424796259912615
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -53,8 +65,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Brisbane, Australia [27\u00b028'S, 153\u00b01'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRALIA_BRISBANE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRALIA_BRISBANE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28356,
+            "nativeProj4": "+proj=utm +zone=56 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                502422.0,
+                6961511.0
+            ],
+            "nativeBounds": [
+                497422.0,
+                6956511.0,
+                507422.0,
+                6966511.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRALIA_BRISBANE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRALIA_BRISBANE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRALIA_CAIRNS",
@@ -65,10 +89,10 @@
                 -16.9145
             ],
             "extentCoords": [
-                145.7167847,
-                -16.9683923,
-                145.8301457,
-                -16.8606174
+                145.7167847488793,
+                -16.9690702375536,
+                145.830145777012,
+                -16.85994423492862
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -81,8 +105,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Cairns, Australia [16\u00b054'S, 145\u00b046'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRALIA_CAIRNS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRALIA_CAIRNS_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28355,
+            "nativeProj4": "+proj=utm +zone=55 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                369378.0,
+                8129495.0
+            ],
+            "nativeBounds": [
+                363378.0,
+                8123495.0,
+                375378.0,
+                8135495.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRALIA_CAIRNS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRALIA_CAIRNS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRALIA_CANBERRA",
@@ -93,10 +129,10 @@
                 -35.29695217751767
             ],
             "extentCoords": [
-                149.073069,
-                -35.3429587,
-                149.1806203,
-                -35.2509174
+                149.0707712925096,
+                -35.34295872697099,
+                149.18303976408066,
+                -35.25091746510256
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -109,8 +145,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Canberra, Australia [35\u00b017'S, 149\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRALIA_CANBERRA_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRALIA_CANBERRA_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 7855,
+            "nativeProj4": "+proj=utm +zone=55 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                693392.0,
+                6091951.0
+            ],
+            "nativeBounds": [
+                688392.0,
+                6086951.0,
+                698392.0,
+                6096951.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRALIA_CANBERRA_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRALIA_CANBERRA_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRALIA_HOBART",
@@ -121,10 +169,10 @@
                 -42.86454
             ],
             "extentCoords": [
-                147.2713082,
-                -42.9187784,
-                147.4176169,
-                -42.8117876
+                147.27084206184983,
+                -42.9187784010873,
+                147.41833571760816,
+                -42.811787628778184
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -137,8 +185,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Hobart, Australia [42\u00b051'S, 147\u00b020'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRALIA_HOBART_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRALIA_HOBART_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28355,
+            "nativeProj4": "+proj=utm +zone=55 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                528143.0,
+                5254084.96
+            ],
+            "nativeBounds": [
+                522143.0,
+                5248168.96,
+                534143.0,
+                5260000.96
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRALIA_HOBART_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRALIA_HOBART_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRALIA_MELBOURNE",
@@ -149,10 +209,10 @@
                 -37.8077
             ],
             "extentCoords": [
-                144.9032646,
-                -37.8429252,
-                144.995964,
-                -37.7728104
+                144.90326462703283,
+                -37.844506900050185,
+                144.99596400303744,
+                -37.771232870821045
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -165,8 +225,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Melbourne, Australia [37\u00b048'S, 144\u00b056'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRALIA_MELBOURNE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRALIA_MELBOURNE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28355,
+            "nativeProj4": "+proj=utm +zone=55 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                319505.25,
+                5813520.75
+            ],
+            "nativeBounds": [
+                315510.0,
+                5809541.0,
+                323500.5,
+                5817500.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRALIA_MELBOURNE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRALIA_MELBOURNE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRALIA_SYDNEY_LONG_05",
@@ -177,10 +249,10 @@
                 -33.85925934261056
             ],
             "extentCoords": [
-                151.1104379,
-                -33.91189,
-                151.307195,
-                -33.80659
+                151.11043761148449,
+                -33.91472250829438,
+                151.30719534431054,
+                -33.803768642519174
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -193,8 +265,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Sydney, Australia [33\u00b051'S, 151\u00b012'E] [36000 x 24000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 7856,
+            "nativeProj4": "+proj=utm +zone=56 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                334311.0,
+                6252003.25
+            ],
+            "nativeBounds": [
+                325311.0,
+                6246006.0,
+                343311.0,
+                6258000.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRALIA_SYDNEY_LONG_05_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRIA_GRAZ",
@@ -2609,10 +2693,10 @@
                 39.22614953879807
             ],
             "extentCoords": [
-                9.0783087,
-                39.1766514,
-                9.2059478,
-                39.2756166
+                9.078308762185593,
+                39.176496261083216,
+                9.20594785373343,
+                39.275772409199845
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2625,8 +2709,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Cagliari, Italy [39\u00b013'N, 9\u00b08'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_CAGLIARI_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_CAGLIARI_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32632,
+            "nativeProj4": "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                512264.0,
+                4341883.0
+            ],
+            "nativeBounds": [
+                506764.0,
+                4336383.0,
+                517764.0,
+                4347383.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_CAGLIARI_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_CAGLIARI_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_FIRENZE",
