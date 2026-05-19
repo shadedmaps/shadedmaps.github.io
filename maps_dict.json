@@ -653,10 +653,10 @@
                 51.04634
             ],
             "extentCoords": [
-                -114.1350948,
-                51.0029842,
-                -113.9964633,
-                51.0889461
+                -114.1350948688975,
+                50.999648163176566,
+                -113.99646339997568,
+                51.092292842059045
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -669,8 +669,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Calgary, Canada [51\u00b02'N, 114\u00b04'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_CALGARY_2026_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_CALGARY_2026_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2955,
+            "nativeProj4": "+proj=utm +zone=11 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                705667.251,
+                5659034.956720458
+            ],
+            "nativeBounds": [
+                701000.001,
+                5654062.956720458,
+                710334.501,
+                5664006.956720458
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_CALGARY_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_CALGARY_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_EDMONTON_2026",
@@ -681,10 +693,10 @@
                 53.544542
             ],
             "extentCoords": [
-                -113.5620447,
-                53.5026082,
-                -113.4219474,
-                53.5843092
+                -113.56680296046291,
+                53.50260825633699,
+                -113.41745712798112,
+                53.58430927080276
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -697,8 +709,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Edmonton, Canada [53\u00b032'N, 113\u00b029'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_EDMONTON_2026_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_EDMONTON_2026_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2956,
+            "nativeProj4": "+proj=utm +zone=12 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                334880.55553968117,
+                5935619.0
+            ],
+            "nativeBounds": [
+                330081.05553968117,
+                5931238.0,
+                339680.05553968117,
+                5940000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_EDMONTON_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_EDMONTON_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_MONTREAL_2026",
@@ -709,10 +733,10 @@
                 45.49942
             ],
             "extentCoords": [
-                -73.6406337,
-                45.4458888,
-                -73.4946271,
-                45.5538855
+                -73.64063371902313,
+                45.44409609419197,
+                -73.49462719696257,
+                45.55568520098232
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -725,8 +749,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Montreal, Canada [45\u00b029'N, 73\u00b034'W] [30000 x 30000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_MONTREAL_2026_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_MONTREAL_2026_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2959,
+            "nativeProj4": "+proj=utm +zone=18 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                611901.1135,
+                5039483.38
+            ],
+            "nativeBounds": [
+                606304.6135,
+                5033382.63,
+                617497.6135,
+                5045584.13
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_MONTREAL_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_MONTREAL_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_OTTAWA_2026",
@@ -737,10 +773,10 @@
                 45.42004
             ],
             "extentCoords": [
-                -75.7568294,
-                45.3788551,
-                -75.6291377,
-                45.462284
+                -75.757934479829,
+                45.378855100714844,
+                -75.62822045053264,
+                45.46228400389218
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -753,8 +789,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Ottawa, Canada [45\u00b025'N, 75\u00b041'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_OTTAWA_2026_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_OTTAWA_2026_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2959,
+            "nativeProj4": "+proj=utm +zone=18 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                445779.85060191323,
+                5029906.608659751
+            ],
+            "nativeBounds": [
+                440744.85060191323,
+                5025315.358659751,
+                450814.85060191323,
+                5034497.858659751
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_OTTAWA_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_OTTAWA_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_REGINA_2026",
@@ -765,10 +813,10 @@
                 50.44812
             ],
             "extentCoords": [
-                -104.6621996,
-                50.4167929,
-                -104.5630968,
-                50.479174
+                -104.66219963871728,
+                50.41646520456452,
+                -104.56309687722539,
+                50.47950255594028
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -781,8 +829,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Regina, Canada [50\u00b026'N, 104\u00b036'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_REGINA_2026_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_REGINA_2026_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2957,
+            "nativeProj4": "+proj=utm +zone=13 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                527500.038237183,
+                5588513.49071427
+            ],
+            "nativeBounds": [
+                524000.038237183,
+                5585026.99071427,
+                531000.038237183,
+                5591999.99071427
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_REGINA_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_REGINA_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_SAINT_JOHN",
@@ -793,10 +853,10 @@
                 45.266628
             ],
             "extentCoords": [
-                -66.1300475,
-                45.2173953,
-                -65.9899222,
-                45.3112111
+                -66.13004755093111,
+                45.21685334106717,
+                -65.98992223024473,
+                45.31175453331864
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -809,8 +869,20 @@
             "raster_resolution": "0.8",
             "raster_units": "m",
             "city_state_coords": "Saint John, Canada [45\u00b015'N, 66\u00b03'W] [15000 x 15000 pixels, 1 pixel = 0.8 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_SAINT_JOHN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_SAINT_JOHN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2953,
+            "nativeProj4": "+proj=sterea +lat_0=46.5 +lon_0=-66.5 +k=0.999912 +x_0=2500000 +y_0=7500000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                2534530.125,
+                7362756.875
+            ],
+            "nativeBounds": [
+                2529060.0,
+                7357513.25,
+                2540000.25,
+                7368000.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_SAINT_JOHN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_SAINT_JOHN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_SASKATOON_2026",
@@ -821,10 +893,10 @@
                 52.130087
             ],
             "extentCoords": [
-                -106.7335415,
-                52.0840974,
-                -106.6081073,
-                52.1595352
+                -106.73640091855147,
+                52.084097415308925,
+                -106.6054590365228,
+                52.15953521812774
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -837,8 +909,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Saskatoon, Canada [52\u00b07'N, 106\u00b039'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_SASKATOON_2026_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_SASKATOON_2026_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2957,
+            "nativeProj4": "+proj=utm +zone=13 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                385609.83650000003,
+                5775904.7635
+            ],
+            "nativeBounds": [
+                381219.83650000003,
+                5771808.7635,
+                389999.83650000003,
+                5780000.7635
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_SASKATOON_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_SASKATOON_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_TORONTO_2026",
@@ -849,10 +933,10 @@
                 43.66107
             ],
             "extentCoords": [
-                -79.449218,
-                43.6124739,
-                -79.3243265,
-                43.7097535
+                -79.44921809028408,
+                43.61075142169855,
+                -79.32432650847596,
+                43.71148204979378
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -865,8 +949,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Toronto, Canada [43\u00b039'N, 79\u00b023'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_TORONTO_2026_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_TORONTO_2026_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2958,
+            "nativeProj4": "+proj=utm +zone=17 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                630070.0,
+                4835500.0
+            ],
+            "nativeBounds": [
+                625140.0,
+                4830000.0,
+                635000.0,
+                4841000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_TORONTO_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_TORONTO_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_VANCOUVER",
@@ -877,10 +973,10 @@
                 49.27976
             ],
             "extentCoords": [
-                -123.173264,
-                49.243711,
-                -123.063443,
-                49.315785
+                -123.17351604888584,
+                49.24371104374751,
+                -123.06335111507664,
+                49.31578498311607
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -893,8 +989,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Vancouver, Canada [49\u00b016'N, 123\u00b07'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_VANCOUVER_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_VANCOUVER_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 26910,
+            "nativeProj4": "+proj=utm +zone=10 +datum=NAD83 +units=m +no_defs",
+            "nativeCenterCoords": [
+                491389.0,
+                5458563.0
+            ],
+            "nativeBounds": [
+                487389.0,
+                5454563.0,
+                495389.0,
+                5462563.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_VANCOUVER_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_VANCOUVER_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_WINNIPEG",
@@ -905,10 +1013,10 @@
                 49.89468
             ],
             "extentCoords": [
-                -97.2114436,
-                49.8508232,
-                -97.0688307,
-                49.9384852
+                -97.21144365956371,
+                49.84859414097888,
+                -97.06883073721527,
+                49.940721443329
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -921,8 +1029,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Winnipeg, Canada [49\u00b053'N, 97\u00b08'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CANADA_WINNIPEG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CANADA_WINNIPEG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3158,
+            "nativeProj4": "+proj=utm +zone=14 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                633574.0,
+                5528578.0
+            ],
+            "nativeBounds": [
+                628574.0,
+                5523578.0,
+                638574.0,
+                5533578.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CANADA_WINNIPEG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CANADA_WINNIPEG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CZECH_REPUBLIC_BRNO",
