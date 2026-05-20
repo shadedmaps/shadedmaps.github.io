@@ -1305,10 +1305,10 @@
                 41.9241968
             ],
             "extentCoords": [
-                8.6926429,
-                41.9012225,
-                8.8418651,
-                41.9471056
+                8.692642941589094,
+                41.893360333789026,
+                8.84186515902647,
+                41.95497552030837
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1321,8 +1321,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Ajaccio, France [41\u00b055'N, 8\u00b046'E] [24000 x 12000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_AJACCIO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_AJACCIO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                1179000.5,
+                6109000.5
+            ],
+            "nativeBounds": [
+                1173001.0,
+                6106001.0,
+                1185000.0,
+                6112000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_AJACCIO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_AJACCIO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_AMIENS",
@@ -1333,10 +1345,10 @@
                 49.8950890798602
             ],
             "extentCoords": [
-                2.2495889,
-                49.8588647,
-                2.3738361,
-                49.9260477
+                2.248610323062508,
+                49.858864771507584,
+                2.374651669965055,
+                49.926047765165194
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1349,8 +1361,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Amiens, France [49\u00b053'N, 2\u00b017'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_AMIENS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_AMIENS_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                650500.0,
+                6977300.25
+            ],
+            "nativeBounds": [
+                646000.0,
+                6973600.0,
+                655000.0,
+                6981000.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_AMIENS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_AMIENS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_AVIGNON",
@@ -1401,10 +1425,10 @@
                 44.84077559378069
             ],
             "extentCoords": [
-                -0.6282444,
-                44.7984577,
-                -0.5196237,
-                44.8830708
+                -0.6334793178504597,
+                44.798457759388725,
+                -0.5145524009752286,
+                44.883070847343426
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1417,8 +1441,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Bordeaux, France [44\u00b050'N, 0\u00b034'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_BORDEAUX_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_BORDEAUX_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                417669.0,
+                6422125.0
+            ],
+            "nativeBounds": [
+                413169.0,
+                6417625.0,
+                422169.0,
+                6426625.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_BORDEAUX_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_BORDEAUX_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_BREST",
@@ -1429,10 +1465,10 @@
                 48.39726
             ],
             "extentCoords": [
-                -4.5631873,
-                48.3518218,
-                -4.4133117,
-                48.4426505
+                -4.574823298480114,
+                48.35182187102683,
+                -4.401921016137544,
+                48.44265054313582
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1445,8 +1481,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Brest, France [48\u00b023'N, 4\u00b029'W] [24000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_BREST_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_BREST_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                146542.0,
+                6837037.0
+            ],
+            "nativeBounds": [
+                140542.0,
+                6832537.0,
+                152542.0,
+                6841537.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_BREST_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_BREST_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_GRENOBLE",
@@ -1457,10 +1505,10 @@
                 45.18887776175447
             ],
             "extentCoords": [
-                5.6750878,
-                45.1562871,
-                5.7738257,
-                45.2214487
+                5.675087844046505,
+                45.15395903950083,
+                5.773825792375778,
+                45.22377968975673
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1473,8 +1521,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Grenoble, France [45\u00b011'N, 5\u00b043'E] [15000 x 15000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_GRENOBLE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_GRENOBLE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                913917.0,
+                6458087.0
+            ],
+            "nativeBounds": [
+                910167.0,
+                6454337.0,
+                917667.0,
+                6461837.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_GRENOBLE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_GRENOBLE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_LE_HAVRE",
@@ -1485,10 +1545,10 @@
                 49.48995
             ],
             "extentCoords": [
-                0.0703701,
-                49.4430652,
-                0.2308441,
-                49.5367727
+                0.06524828875122177,
+                49.44306522114235,
+                0.2356774472993298,
+                49.536772781151896
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1501,36 +1561,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Le Havre, France [49\u00b029'N, 0\u00b09'E] [24000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_LE_HAVRE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_LE_HAVRE_RGBA_cs_vector.pmtiles"
-        },
-        {
-            "city_id": "FRANCE_LIMOGES",
-            "cityName": "Limoges",
-            "country_name": "France",
-            "centerCoords": [
-                1.259175,
-                45.831695
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                493511.0,
+                6936013.0
             ],
-            "extentCoords": [
-                1.2088262,
-                45.7948776,
-                1.3095828,
-                45.8684875
+            "nativeBounds": [
+                487511.0,
+                6931013.0,
+                499511.0,
+                6941013.0
             ],
-            "zoomLevel": 12,
-            "maxZoomLevel": 18,
-            "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
-            "license_name": "Etalab 2.0",
-            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
-            "dms": "45\u00b049'N, 1\u00b015'E",
-            "width": 16000,
-            "height": 16000,
-            "raster_resolution": "0.5",
-            "raster_units": "m",
-            "city_state_coords": "Limoges, France [45\u00b049'N, 1\u00b015'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_LIMOGES_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_LIMOGES_RGBA_cs_vector.pmtiles"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_LE_HAVRE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_LE_HAVRE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_LYON",
@@ -1541,10 +1585,10 @@
                 45.74684303645273
             ],
             "extentCoords": [
-                4.7882209,
-                45.7072665,
-                4.9066544,
-                45.7863923
+                4.788220998963974,
+                45.70537200403215,
+                4.906654497647764,
+                45.7882896237438
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1557,8 +1601,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Lyon, France [45\u00b044'N, 4\u00b050'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_LYON_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_LYON_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                843620.0,
+                6518041.0
+            ],
+            "nativeBounds": [
+                839120.0,
+                6513541.0,
+                848120.0,
+                6522541.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_LYON_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_LYON_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_MARSEILLE",
@@ -1569,10 +1625,10 @@
                 43.305446980729165
             ],
             "extentCoords": [
-                5.3289513,
-                43.2705492,
-                5.4304177,
-                43.3403137
+                5.32895131620532,
+                43.26838221485496,
+                5.430417732175805,
+                43.342483585556344
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1585,36 +1641,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Marseille, France [43\u00b018'N, 5\u00b022'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_MARSEILLE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_MARSEILLE_RGBA_cs_vector.pmtiles"
-        },
-        {
-            "city_id": "FRANCE_METZ",
-            "cityName": "Metz",
-            "country_name": "France",
-            "centerCoords": [
-                6.17234,
-                49.12652
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                893160.0,
+                6248053.0
             ],
-            "extentCoords": [
-                6.1012013,
-                49.0833881,
-                6.2435916,
-                49.1696136
+            "nativeBounds": [
+                889160.0,
+                6244053.0,
+                897160.0,
+                6252053.0
             ],
-            "zoomLevel": 12,
-            "maxZoomLevel": 18,
-            "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
-            "license_name": "Etalab 2.0",
-            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
-            "dms": "49\u00b07'N, 6\u00b010'E",
-            "width": 20000,
-            "height": 20000,
-            "raster_resolution": "0.5",
-            "raster_units": "m",
-            "city_state_coords": "Metz, France [49\u00b07'N, 6\u00b010'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_METZ_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_METZ_RGBA_cs_vector.pmtiles"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_MARSEILLE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_MARSEILLE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_NANCY",
@@ -1625,10 +1665,10 @@
                 48.6934995845316
             ],
             "extentCoords": [
-                6.1197773,
-                48.6546729,
-                6.2468831,
-                48.732295
+                6.119777334728692,
+                48.651412799627714,
+                6.246883108493016,
+                48.735559968668696
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1641,8 +1681,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Nancy, France [48\u00b041'N, 6\u00b010'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_NANCY_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_NANCY_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                934237.0,
+                6848428.0
+            ],
+            "nativeBounds": [
+                929737.0,
+                6843928.0,
+                938737.0,
+                6852928.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_NANCY_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_NANCY_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_NANTES",
@@ -1653,10 +1705,10 @@
                 47.215623
             ],
             "extentCoords": [
-                -1.6091844,
-                47.172831,
-                -1.4973186,
-                47.2583903
+                -1.6161267962615062,
+                47.172831096825085,
+                -1.4905542179585989,
+                47.258390323225434
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1669,8 +1721,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Nantes, France [47\u00b012'N, 1\u00b033'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_NANTES_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_NANTES_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                355583.0,
+                6689414.0
+            ],
+            "nativeBounds": [
+                351083.0,
+                6684914.0,
+                360083.0,
+                6693914.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_NANTES_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_NANTES_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_NICE",
@@ -1681,10 +1745,10 @@
                 43.70097029210567
             ],
             "extentCoords": [
-                7.211274,
-                43.6725272,
-                7.3157166,
-                43.7405237
+                7.211274010931865,
+                43.66864490024111,
+                7.315716680594954,
+                43.74441115081963
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1697,8 +1761,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Nice, France [43\u00b042'N, 7\u00b015'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_NICE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_NICE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                1043550.0,
+                6299000.0
+            ],
+            "nativeBounds": [
+                1039550.0,
+                6295000.0,
+                1047550.0,
+                6303000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_NICE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_NICE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_PARIS",
@@ -1709,10 +1785,10 @@
                 48.858195017332235
             ],
             "extentCoords": [
-                2.256989,
-                48.803754,
-                2.419163,
-                48.912574
+                2.2554482621472305,
+                48.8037542673874,
+                2.420365042734001,
+                48.91257351611152
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1725,36 +1801,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Paris, France [48\u00b051'N, 2\u00b020'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_PARIS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_PARIS_RGBA_cs_vector.pmtiles"
-        },
-        {
-            "city_id": "FRANCE_POINTE_A_PITRE",
-            "cityName": "Pointe-\u00e0-Pitre",
-            "country_name": "France",
-            "centerCoords": [
-                -61.549608,
-                16.248735
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                651428.0,
+                6862221.0
             ],
-            "extentCoords": [
-                -61.6060611,
-                16.2039204,
-                -61.4931361,
-                16.293525
+            "nativeBounds": [
+                645428.0,
+                6856221.0,
+                657428.0,
+                6868221.0
             ],
-            "zoomLevel": 12,
-            "maxZoomLevel": 18,
-            "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
-            "license_name": "Etalab 2.0",
-            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
-            "dms": "16\u00b014'N, 61\u00b032'W",
-            "width": 24000,
-            "height": 20000,
-            "raster_resolution": "0.5",
-            "raster_units": "m",
-            "city_state_coords": "Pointe-\u00e0-Pitre, France [16\u00b014'N, 61\u00b032'W] [24000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_POINTE_A_PITRE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_POINTE_A_PITRE_RGBA_cs_vector.pmtiles"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_PARIS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_PARIS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_SAINT_DENIS",
@@ -1765,10 +1825,10 @@
                 -20.899702
             ],
             "extentCoords": [
-                55.4036915,
-                -20.9306975,
-                55.5389018,
-                -20.8686738
+                55.40369159631768,
+                -20.93190343965299,
+                55.538901855562365,
+                -20.867471950793437
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1781,36 +1841,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Saint-Denis, France [20\u00b053'S, 55\u00b028'E] [28000 x 14000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_SAINT_DENIS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_SAINT_DENIS_RGBA_cs_vector.pmtiles"
-        },
-        {
-            "city_id": "FRANCE_SAINT_ETIENNE",
-            "cityName": "Saint-\u00c9tienne",
-            "country_name": "France",
-            "centerCoords": [
-                4.397249,
-                45.437894
+            "nativeEPSG": 2975,
+            "nativeProj4": "+proj=utm +zone=40 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                341005.0,
+                7688196.0
             ],
-            "extentCoords": [
-                4.3322258,
-                45.3936595,
-                4.4623733,
-                45.4820979
+            "nativeBounds": [
+                334005.0,
+                7684696.0,
+                348005.0,
+                7691696.0
             ],
-            "zoomLevel": 12,
-            "maxZoomLevel": 18,
-            "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
-            "license_name": "Etalab 2.0",
-            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
-            "dms": "45\u00b026'N, 4\u00b023'E",
-            "width": 20000,
-            "height": 20000,
-            "raster_resolution": "0.5",
-            "raster_units": "m",
-            "city_state_coords": "Saint-\u00c9tienne, France [45\u00b026'N, 4\u00b023'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_SAINT_ETIENNE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_SAINT_ETIENNE_RGBA_cs_vector.pmtiles"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_SAINT_DENIS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_SAINT_DENIS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_STRASBOURG",
@@ -1821,10 +1865,10 @@
                 48.57662595633151
             ],
             "extentCoords": [
-                7.6837307,
-                48.5386389,
-                7.8128464,
-                48.6145855
+                7.6837307032584805,
+                48.533777235387575,
+                7.812846479908686,
+                48.6194544871448
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1837,8 +1881,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Strasbourg, France [48\u00b034'N, 7\u00b044'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_STRASBOURG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_STRASBOURG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                1050057.0,
+                6841241.0
+            ],
+            "nativeBounds": [
+                1045557.0,
+                6836741.0,
+                1054557.0,
+                6845741.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_STRASBOURG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_STRASBOURG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_TOULOUSE",
@@ -1849,10 +1905,10 @@
                 43.60182117769797
             ],
             "extentCoords": [
-                1.3950533,
-                43.5651169,
-                1.4921327,
-                43.6385028
+                1.393039040481993,
+                43.565116957108984,
+                1.494022993432932,
+                43.638502888213324
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1865,8 +1921,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Toulouse, France [43\u00b036'N, 1\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_TOULOUSE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_TOULOUSE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                574300.0,
+                6279324.0
+            ],
+            "nativeBounds": [
+                570300.0,
+                6275324.0,
+                578300.0,
+                6283324.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_TOULOUSE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_TOULOUSE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_VERSAILLES",
@@ -1877,10 +1945,10 @@
                 48.80487924735647
             ],
             "extentCoords": [
-                2.0595473,
-                48.7643983,
-                2.168798,
-                48.8461556
+                2.0580867844694013,
+                48.764398399674526,
+                2.170086899048105,
+                48.84615569970114
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1893,8 +1961,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Versailles, France [48\u00b048'N, 2\u00b07'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FRANCE_VERSAILLES_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FRANCE_VERSAILLES_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                634937.75,
+                6856500.0
+            ],
+            "nativeBounds": [
+                630875.0,
+                6852000.0,
+                639000.5,
+                6861000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_VERSAILLES_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_VERSAILLES_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_AACHEN",
@@ -1905,10 +1985,10 @@
                 50.775416802484976
             ],
             "extentCoords": [
-                6.048988,
-                50.7497345,
-                6.123821,
-                50.8010788
+                6.045875536998011,
+                50.74973456048357,
+                6.126851769603371,
+                50.80107881613735
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1921,8 +2001,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Aachen, Germany [50\u00b046'N, 6\u00b05'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_AACHEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_AACHEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                294585.0,
+                5628898.0
+            ],
+            "nativeBounds": [
+                291835.0,
+                5626148.0,
+                297335.0,
+                5631648.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_AACHEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_AACHEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_AUGSBURG",
@@ -1933,10 +2025,10 @@
                 48.36902870861831
             ],
             "extentCoords": [
-                10.8382471,
-                48.333938,
-                10.9488735,
-                48.404094
+                10.838247129098637,
+                48.332162780426344,
+                10.948873504540552,
+                48.40587376876849
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1949,8 +2041,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Augsburg, Germany [48\u00b022'N, 10\u00b053'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_AUGSBURG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_AUGSBURG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                640235.0,
+                5359050.0
+            ],
+            "nativeBounds": [
+                636235.0,
+                5355050.0,
+                644235.0,
+                5363050.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_AUGSBURG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_AUGSBURG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_BERLIN",
@@ -1961,10 +2065,10 @@
                 52.51855560371546
             ],
             "extentCoords": [
-                13.342236,
-                52.472616,
-                13.486317,
-                52.564457
+                13.338849055329485,
+                52.472615583425295,
+                13.489403308588034,
+                52.56445698569267
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1977,8 +2081,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Berlin, Germany [52\u00b031'N, 13\u00b024'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_BERLIN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_BERLIN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25833,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                392400.0,
+                5819898.0
+            ],
+            "nativeBounds": [
+                387400.0,
+                5814898.0,
+                397400.0,
+                5824898.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_BERLIN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_BERLIN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_BIELEFELD",
@@ -1989,10 +2105,10 @@
                 52.026799246012835
             ],
             "extentCoords": [
-                8.4909203,
-                52.00191,
-                8.5705638,
-                52.0516776
+                8.490358531296687,
+                52.001910048230734,
+                8.57103721410047,
+                52.05167769458467
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2005,8 +2121,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Bielefeld, Germany [52\u00b01'N, 8\u00b031'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_BIELEFELD_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_BIELEFELD_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                467803.0,
+                5764123.0
+            ],
+            "nativeBounds": [
+                465053.0,
+                5761373.0,
+                470553.0,
+                5766873.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_BIELEFELD_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_BIELEFELD_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_BOCHUM",
@@ -2017,10 +2145,10 @@
                 51.48183725989465
             ],
             "extentCoords": [
-                7.1792032,
-                51.456511,
-                7.2564423,
-                51.5071451
+                7.177233233525622,
+                51.45651106123943,
+                7.258326890303628,
+                51.507145147897944
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2033,8 +2161,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Bochum, Germany [51\u00b028'N, 7\u00b013'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_BOCHUM_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_BOCHUM_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                376248.0,
+                5704915.0
+            ],
+            "nativeBounds": [
+                373498.0,
+                5702165.0,
+                378998.0,
+                5707665.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_BOCHUM_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_BOCHUM_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_BONN",
@@ -2045,10 +2185,10 @@
                 50.735435723992445
             ],
             "extentCoords": [
-                7.0628961,
-                50.7100787,
-                7.1387926,
-                50.7607816
+                7.060855376665895,
+                50.71007874318274,
+                7.140751476232675,
+                50.760781643476626
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2061,8 +2201,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Bonn, Germany [50\u00b044'N, 7\u00b06'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_BONN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_BONN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                365984.0,
+                5622125.0
+            ],
+            "nativeBounds": [
+                363234.0,
+                5619375.0,
+                368734.0,
+                5624875.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_BONN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_BONN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_CHEMNITZ",
@@ -2073,10 +2225,10 @@
                 50.832732814537444
             ],
             "extentCoords": [
-                12.8616126,
-                50.7934515,
-                12.9788385,
-                50.8719903
+                12.85811818345812,
+                50.793451539282096,
+                12.982136482151603,
+                50.8719903111945
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2089,8 +2241,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Chemnitz, Germany [50\u00b049'N, 12\u00b055'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_CHEMNITZ_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_CHEMNITZ_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25833,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                353542.0,
+                5633286.0
+            ],
+            "nativeBounds": [
+                349292.0,
+                5629036.0,
+                357792.0,
+                5637536.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_CHEMNITZ_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_CHEMNITZ_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_DORTMUND",
@@ -2101,10 +2265,10 @@
                 51.514135793633265
             ],
             "extentCoords": [
-                7.4264484,
-                51.4888937,
-                7.5040189,
-                51.5393671
+                7.424743852393776,
+                51.48889371189349,
+                7.505637839211318,
+                51.539367155451075
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2117,8 +2281,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Dortmund, Germany [51\u00b030'N, 7\u00b027'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_DORTMUND_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_DORTMUND_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                393502.0,
+                5708118.0
+            ],
+            "nativeBounds": [
+                390752.0,
+                5705368.0,
+                396252.0,
+                5710868.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_DORTMUND_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_DORTMUND_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_DRESDEN",
@@ -2129,10 +2305,10 @@
                 51.05423764655139
             ],
             "extentCoords": [
-                13.6859315,
-                51.0176471,
-                13.7980976,
-                51.0907974
+                13.683894142962359,
+                51.01764710682526,
+                13.799958288624973,
+                51.090797430418995
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2145,8 +2321,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Dresden, Germany [51\u00b03'N, 13\u00b044'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_DRESDEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_DRESDEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25833,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                411829.0,
+                5656609.0
+            ],
+            "nativeBounds": [
+                407829.0,
+                5652609.0,
+                415829.0,
+                5660609.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_DRESDEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_DRESDEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_DUESSELDORF",
@@ -2157,10 +2345,10 @@
                 51.22529433818025
             ],
             "extentCoords": [
-                6.7362259,
-                51.1998332,
-                6.8125454,
-                51.25075
+                6.733799199790181,
+                51.199833201888964,
+                6.81488799001413,
+                51.25075004753853
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2173,8 +2361,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "D\u00fcsseldorf, Germany [51\u00b013'N, 6\u00b046'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_DUESSELDORF_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_DUESSELDORF_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                344594.0,
+                5677233.0
+            ],
+            "nativeBounds": [
+                341844.0,
+                5674483.0,
+                347344.0,
+                5679983.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_DUESSELDORF_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_DUESSELDORF_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_DUISBURG",
@@ -2185,10 +2385,10 @@
                 51.4332383683671
             ],
             "extentCoords": [
-                6.7276937,
-                51.4077699,
-                6.8043427,
-                51.4586947
+                6.725239681261205,
+                51.40776996521687,
+                6.806711605839468,
+                51.458694710581526
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2201,8 +2401,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Duisburg, Germany [51\u00b025'N, 6\u00b045'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_DUISBURG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_DUISBURG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                344714.0,
+                5700372.0
+            ],
+            "nativeBounds": [
+                341964.0,
+                5697622.0,
+                347464.0,
+                5703122.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_DUISBURG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_DUISBURG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_ERLANGEN",
@@ -2213,10 +2425,10 @@
                 49.5858007023072
             ],
             "extentCoords": [
-                10.936335,
-                49.5507836,
-                11.049878,
-                49.6207922
+                10.936335015189822,
+                49.54888068455559,
+                11.049878082675969,
+                49.62270007849496
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2229,8 +2441,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Erlangen, Germany [49\u00b035'N, 10\u00b059'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_ERLANGEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_ERLANGEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                644056.0,
+                5494488.0
+            ],
+            "nativeBounds": [
+                640056.0,
+                5490488.0,
+                648056.0,
+                5498488.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_ERLANGEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_ERLANGEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_ESSEN",
@@ -2241,10 +2465,10 @@
                 51.45650685002174
             ],
             "extentCoords": [
-                6.9726275,
-                51.4311139,
-                7.0495918,
-                51.4818814
+                6.970436103237945,
+                51.4311139929158,
+                7.051698039021608,
+                51.481881475915486
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2257,8 +2481,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Essen, Germany [51\u00b027'N, 7\u00b00'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_ESSEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_ESSEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                361819.0,
+                5702468.0
+            ],
+            "nativeBounds": [
+                359069.0,
+                5699718.0,
+                364569.0,
+                5705218.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_ESSEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_ESSEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_FRANKFURT",
@@ -2269,10 +2505,10 @@
                 50.111706550037624
             ],
             "extentCoords": [
-                8.5918498,
-                50.0574763,
-                8.7589476,
-                50.1658703
+                8.590931451449507,
+                50.0574763408876,
+                8.759488795126119,
+                50.165870337130016
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2285,8 +2521,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Frankfurt am Main, Germany [50\u00b06'N, 8\u00b040'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_FRANKFURT_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_FRANKFURT_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                476784.0,
+                5551101.0
+            ],
+            "nativeBounds": [
+                470784.0,
+                5545101.0,
+                482784.0,
+                5557101.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_FRANKFURT_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_FRANKFURT_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_HAMBURG",
@@ -2297,10 +2545,10 @@
                 53.550287775987094
             ],
             "extentCoords": [
-                9.8993118,
-                53.4970777,
-                10.0829258,
-                53.6034239
+                9.899311845109253,
+                53.495580046094716,
+                10.082925892209893,
+                53.60492751331545
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2313,8 +2561,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Hamburg, Germany [53\u00b033'N, 9\u00b059'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_HAMBURG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_HAMBURG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                565657.0,
+                5933945.0
+            ],
+            "nativeBounds": [
+                559657.0,
+                5927945.0,
+                571657.0,
+                5939945.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_HAMBURG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_HAMBURG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_INGOLSTADT",
@@ -2325,10 +2585,10 @@
                 48.76510732256981
             ],
             "extentCoords": [
-                11.368362,
-                48.7302882,
-                11.4805921,
-                48.7999021
+                11.36836204233738,
+                48.72800173270587,
+                11.48059216183911,
+                48.80219448969049
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2341,8 +2601,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Ingolstadt, Germany [48\u00b045'N, 11\u00b025'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_INGOLSTADT_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_INGOLSTADT_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                678155.0,
+                5404180.0
+            ],
+            "nativeBounds": [
+                674155.0,
+                5400180.0,
+                682155.0,
+                5408180.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_INGOLSTADT_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_INGOLSTADT_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_KARLSRUHE",
@@ -2353,10 +2625,10 @@
                 49.004627782129106
             ],
             "extentCoords": [
-                8.2859398,
-                48.9320423,
-                8.5029537,
-                49.0771121
+                8.283879095492201,
+                48.93204231907769,
+                8.504384087887727,
+                49.07711216176378
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2369,8 +2641,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Karlsruhe, Germany [49\u00b00'N, 8\u00b023'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_KARLSRUHE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_KARLSRUHE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                455701.0,
+                5428147.0
+            ],
+            "nativeBounds": [
+                447701.0,
+                5420147.0,
+                463701.0,
+                5436147.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_KARLSRUHE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_KARLSRUHE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_KOELN_2026",
@@ -2421,10 +2705,10 @@
                 52.12864611993265
             ],
             "extentCoords": [
-                11.5667357,
-                52.094005,
-                11.687709,
-                52.1632528
+                11.5667357817656,
+                52.091405836661686,
+                11.687709039979172,
+                52.165858734723635
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2437,8 +2721,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Magdeburg, Germany [52\u00b07'N, 11\u00b037'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_MAGDEBURG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_MAGDEBURG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                679824.1,
+                5778602.100000001
+            ],
+            "nativeBounds": [
+                675824.1,
+                5774602.100000001,
+                683824.1,
+                5782602.100000001
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_MAGDEBURG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_MAGDEBURG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_MUNICH",
@@ -2449,10 +2745,10 @@
                 48.138594653118275
             ],
             "extentCoords": [
-                11.517882,
-                48.103828,
-                11.628902,
-                48.173325
+                11.517881593692398,
+                48.10142447697037,
+                11.628902218489976,
+                48.17573429097483
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2465,8 +2761,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Munich, Germany [48\u00b08'N, 11\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_MUNICH_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_MUNICH_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                691439.0,
+                5334907.0
+            ],
+            "nativeBounds": [
+                687439.0,
+                5330907.0,
+                695439.0,
+                5338907.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_MUNICH_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_MUNICH_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_NUREMBERG",
@@ -2477,10 +2785,10 @@
                 49.45263543935335
             ],
             "extentCoords": [
-                11.0205108,
-                49.4176555,
-                11.1338574,
-                49.4875856
+                11.020510829868027,
+                49.415676230490895,
+                11.133857445697808,
+                49.48956999003026
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2493,8 +2801,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Nuremberg, Germany [49\u00b027'N, 11\u00b04'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_NUREMBERG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_NUREMBERG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                650541.0,
+                5479849.0
+            ],
+            "nativeBounds": [
+                646541.0,
+                5475849.0,
+                654541.0,
+                5483849.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_NUREMBERG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_NUREMBERG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_REGENSBURG",
@@ -2505,10 +2825,10 @@
                 49.018348434115104
             ],
             "extentCoords": [
-                12.039553,
-                48.9838674,
-                12.1532705,
-                49.0527924
+                12.039553033666294,
+                48.980936624974994,
+                12.15327052739475,
+                49.0557306442732
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2521,8 +2841,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Regensburg, Germany [49\u00b01'N, 12\u00b05'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_REGENSBURG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_REGENSBURG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                726378.0,
+                5434115.0
+            ],
+            "nativeBounds": [
+                722378.0,
+                5430115.0,
+                730378.0,
+                5438115.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_REGENSBURG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_REGENSBURG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_ROSTOCK",
@@ -2533,10 +2865,10 @@
                 54.11645842214777
             ],
             "extentCoords": [
-                11.9925054,
-                54.0416536,
-                12.2269677,
-                54.1911494
+                11.98208349150795,
+                54.04165364015494,
+                12.236546811954701,
+                54.19114941220393
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2549,8 +2881,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Rostock, Germany [54\u00b06'N, 12\u00b06'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_ROSTOCK_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_ROSTOCK_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25833,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                311085.0,
+                6000341.0
+            ],
+            "nativeBounds": [
+                303085.0,
+                5992341.0,
+                319085.0,
+                6008341.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_ROSTOCK_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_ROSTOCK_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_SAARBRUCKEN",
@@ -2561,10 +2905,10 @@
                 49.24059701561034
             ],
             "extentCoords": [
-                6.9102158,
-                49.2013829,
-                7.0719088,
-                49.2797626
+                6.907026055693043,
+                49.20138295234149,
+                7.074847761267785,
+                49.27976268562911
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2577,8 +2921,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Saarbr\u00fccken, Germany [49\u00b014'N, 6\u00b059'E] [12000 x 8400 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_SAARBRUCKEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_SAARBRUCKEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                353770.0,
+                5456145.0
+            ],
+            "nativeBounds": [
+                347770.0,
+                5451945.0,
+                359770.0,
+                5460345.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_SAARBRUCKEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_SAARBRUCKEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_STUTTGART",
@@ -2589,10 +2945,10 @@
                 48.77800291351822
             ],
             "extentCoords": [
-                9.0689394,
-                48.7061499,
-                9.2872322,
-                48.8497482
+                9.068939428573247,
+                48.7058146375876,
+                9.287232226352788,
+                48.85008532460503
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2605,8 +2961,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Stuttgart, Germany [48\u00b046'N, 9\u00b010'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_STUTTGART_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_STUTTGART_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                513072.0,
+                5402793.0
+            ],
+            "nativeBounds": [
+                505072.0,
+                5394793.0,
+                521072.0,
+                5410793.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_STUTTGART_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_STUTTGART_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_WURZBURG",
@@ -2617,10 +2985,10 @@
                 49.79610449567004
             ],
             "extentCoords": [
-                9.8773163,
-                49.7605644,
-                9.9898426,
-                49.8316144
+                9.877316354972452,
+                49.759670177858474,
+                9.989842694170557,
+                49.832510927010674
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2633,8 +3001,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "W\u00fcrzburg, Germany [49\u00b047'N, 9\u00b056'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_WURZBURG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_WURZBURG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                567186.0,
+                5516379.0
+            ],
+            "nativeBounds": [
+                563186.0,
+                5512379.0,
+                571186.0,
+                5520379.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_WURZBURG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_WURZBURG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "GERMANY_ZWICKAU",
@@ -2645,10 +3025,10 @@
                 50.71740743742261
             ],
             "extentCoords": [
-                12.4246007,
-                50.6779129,
-                12.5407962,
-                50.7568777
+                12.42040975433379,
+                50.677912976849335,
+                12.544792078452707,
+                50.75687779547129
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -2661,8 +3041,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Zwickau, Germany [50\u00b043'N, 12\u00b028'E] [8500 x 8500 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/GERMANY_ZWICKAU_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/GERMANY_ZWICKAU_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25833,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                322299.0,
+                5621423.0
+            ],
+            "nativeBounds": [
+                318049.0,
+                5617173.0,
+                326549.0,
+                5625673.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/GERMANY_ZWICKAU_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/GERMANY_ZWICKAU_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "HAITI_PORT_AU_PRINCE",
