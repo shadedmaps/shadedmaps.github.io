@@ -289,10 +289,10 @@
                 47.068887696358104
             ],
             "extentCoords": [
-                15.3847073,
-                47.0312938,
-                15.4959579,
-                47.106455
+                15.384707334232768,
+                47.03086913039015,
+                15.495957978713912,
+                47.106880854849585
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -305,8 +305,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Graz, Austria [47\u00b04'N, 15\u00b026'E] [8400 x 8400 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRIA_GRAZ_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRIA_GRAZ_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32633,
+            "nativeProj4": "+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                533430.5,
+                5212913.5
+            ],
+            "nativeBounds": [
+                529230.5,
+                5208713.5,
+                537630.5,
+                5217113.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRIA_GRAZ_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRIA_GRAZ_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRIA_INNSBRUCK",
@@ -317,10 +329,10 @@
                 47.265360781139556
             ],
             "extentCoords": [
-                11.3400909,
-                47.2404577,
-                11.4521475,
-                47.29339
+                11.340090968058059,
+                47.23943212155752,
+                11.452147584416734,
+                47.29441760311937
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -333,8 +345,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Innsbruck, Austria [47\u00b015'N, 11\u00b023'E] [8400 x 6000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRIA_INNSBRUCK_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRIA_INNSBRUCK_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 31254,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=10.3333333333333 +k=1 +x_0=0 +y_0=-5000000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                80449.5,
+                236999.5
+            ],
+            "nativeBounds": [
+                76249.5,
+                233999.5,
+                84649.5,
+                239999.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRIA_INNSBRUCK_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRIA_INNSBRUCK_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "AUSTRIA_WIEN",
@@ -345,10 +369,10 @@
                 48.20951403850834
             ],
             "extentCoords": [
-                16.317989,
-                48.1735481,
-                16.4256735,
-                48.2433426
+                16.317964381030816,
+                48.17351484701247,
+                16.42567358613183,
+                48.24337604372828
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -361,8 +385,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Vienna, Austria [48\u00b012'N, 16\u00b022'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/AUSTRIA_WIEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/AUSTRIA_WIEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 31286,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=16.3333333333333 +k=1 +x_0=750000 +y_0=0 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                752947.7500000007,
+                5341118.000000001
+            ],
+            "nativeBounds": [
+                748947.7499999999,
+                5337235.75,
+                756947.7500000014,
+                5345000.250000002
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/AUSTRIA_WIEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/AUSTRIA_WIEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_ANTWERP",
@@ -373,10 +409,10 @@
                 51.22062948145971
             ],
             "extentCoords": [
-                4.334879,
-                51.1801839,
-                4.463752,
-                51.261045
+                4.334820980789041,
+                51.18014982292837,
+                4.463751555758372,
+                51.261079255941915
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -389,8 +425,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Antwerp, Belgium [51\u00b013'N, 4\u00b023'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_ANTWERP_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_ANTWERP_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 31370,
+            "nativeProj4": "+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +units=m +no_defs",
+            "nativeCenterCoords": [
+                152131.0,
+                212298.99
+            ],
+            "nativeBounds": [
+                147631.0,
+                207798.99,
+                156631.0,
+                216798.99
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_ANTWERP_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_ANTWERP_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_BRUGES",
@@ -401,10 +449,10 @@
                 51.20885175159836
             ],
             "extentCoords": [
-                3.1469343,
-                51.1586299,
-                3.3018967,
-                51.2590137
+                3.144343131684721,
+                51.15862992051196,
+                3.304154463110499,
+                51.25901376498917
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -417,8 +465,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Bruges, Belgium [51\u00b012'N, 3\u00b013'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_BRUGES_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_BRUGES_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 31370,
+            "nativeProj4": "+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +units=m +no_defs",
+            "nativeCenterCoords": [
+                70027.0,
+                211603.0
+            ],
+            "nativeBounds": [
+                64527.0,
+                206103.0,
+                75527.0,
+                217103.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_BRUGES_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_BRUGES_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_BRUSSELS",
@@ -429,10 +489,10 @@
                 50.846729
             ],
             "extentCoords": [
-                4.280871,
-                50.801751,
-                4.422833,
-                50.891665
+                4.2807038062835,
+                50.80175063965454,
+                4.42283309778333,
+                50.89166541594129
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -445,8 +505,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Brussels, Belgium [50\u00b050'N, 4\u00b021'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_BRUSSELS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_BRUSSELS_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 31370,
+            "nativeProj4": "+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +units=m +no_defs",
+            "nativeCenterCoords": [
+                148805.0,
+                170703.0
+            ],
+            "nativeBounds": [
+                143805.0,
+                165703.0,
+                153805.0,
+                175703.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_BRUSSELS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_BRUSSELS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_CHARLEROI",
@@ -457,10 +529,10 @@
                 50.41170590431629
             ],
             "extentCoords": [
-                4.3883452,
-                50.3757701,
-                4.5010288,
-                50.4476106
+                4.388345289192128,
+                50.375687460353355,
+                4.501028869703862,
+                50.44769342787796
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -473,8 +545,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Charleroi, Belgium [50\u00b024'N, 4\u00b026'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_CHARLEROI_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_CHARLEROI_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3812,
+            "nativeProj4": "+proj=lcc +lat_0=50.797815 +lon_0=4.35921583333333 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=649328 +y_0=665262 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                655400.0,
+                622317.0
+            ],
+            "nativeBounds": [
+                651400.0,
+                618317.0,
+                659400.0,
+                626317.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_CHARLEROI_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_CHARLEROI_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_GHENT",
@@ -485,10 +569,10 @@
                 51.053235212417164
             ],
             "extentCoords": [
-                3.6465153,
-                51.0033419,
-                3.8020312,
-                51.1030738
+                3.64498930904446,
+                51.00334190427617,
+                3.8032258917621204,
+                51.10307385710028
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -501,8 +585,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Ghent, Belgium [51\u00b03'N, 3\u00b043'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_GHENT_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_GHENT_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 31370,
+            "nativeProj4": "+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +units=m +no_defs",
+            "nativeCenterCoords": [
+                104806.0,
+                193871.0
+            ],
+            "nativeBounds": [
+                99306.0,
+                188371.0,
+                110306.0,
+                199371.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_GHENT_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_GHENT_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_LEUVEN",
@@ -513,10 +609,10 @@
                 50.8786992585703
             ],
             "extentCoords": [
-                4.6248855,
-                50.8294504,
-                4.7818887,
-                50.9278866
+                4.624885500091169,
+                50.82900442852199,
+                4.781888761514614,
+                50.92833354326035
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -529,8 +625,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Leuven, Belgium [50\u00b052'N, 4\u00b042'E] [16000 x 16000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_LEUVEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_LEUVEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 31370,
+            "nativeProj4": "+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +units=m +no_defs",
+            "nativeCenterCoords": [
+                173545.0,
+                174312.0
+            ],
+            "nativeBounds": [
+                168045.0,
+                168812.0,
+                179045.0,
+                179812.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_LEUVEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_LEUVEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_LIEGE",
@@ -541,10 +649,10 @@
                 50.636570663844495
             ],
             "extentCoords": [
-                5.5180909,
-                50.6011856,
-                5.6330183,
-                50.6719183
+                5.5180909639793185,
+                50.60000851866402,
+                5.633018323253629,
+                50.67309728501863
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -557,8 +665,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Liege, Belgium [50\u00b038'N, 5\u00b034'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_LIEGE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_LIEGE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3812,
+            "nativeProj4": "+proj=lcc +lat_0=50.797815 +lon_0=4.35921583333333 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=649328 +y_0=665262 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                735365.0,
+                648030.0
+            ],
+            "nativeBounds": [
+                731365.0,
+                644030.0,
+                739365.0,
+                652030.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_LIEGE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_LIEGE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_MONS",
@@ -569,10 +689,10 @@
                 50.45344824506188
             ],
             "extentCoords": [
-                3.895365,
-                50.4172739,
-                4.0073978,
-                50.4895907
+                3.894660792131726,
+                50.417273930611344,
+                4.007931176550759,
+                50.48959073712914
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -585,8 +705,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Mons, Belgium [50\u00b027'N, 3\u00b057'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_MONS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_MONS_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3812,
+            "nativeProj4": "+proj=lcc +lat_0=50.797815 +lon_0=4.35921583333333 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=649328 +y_0=665262 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                620363.0,
+                627036.0
+            ],
+            "nativeBounds": [
+                616363.0,
+                623036.0,
+                624363.0,
+                631036.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_MONS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_MONS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BELGIUM_NAMUR",
@@ -597,10 +729,10 @@
                 50.465832363979516
             ],
             "extentCoords": [
-                4.8071325,
-                50.430103,
-                4.9205783,
-                50.5015352
+                4.807132510727539,
+                50.42961463508484,
+                4.920578375374571,
+                50.50202440675491
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -613,8 +745,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Namur, Belgium [50\u00b027'N, 4\u00b051'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BELGIUM_NAMUR_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BELGIUM_NAMUR_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3812,
+            "nativeProj4": "+proj=lcc +lat_0=50.797815 +lon_0=4.35921583333333 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=649328 +y_0=665262 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                685152.0,
+                628456.0
+            ],
+            "nativeBounds": [
+                681152.0,
+                624456.0,
+                689152.0,
+                632456.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BELGIUM_NAMUR_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BELGIUM_NAMUR_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "BRAZIL_SAO_PAULO",
@@ -1577,6 +1721,46 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_LE_HAVRE_RGBA_cs_vector.geojson.gz"
         },
         {
+            "city_id": "FRANCE_LIMOGES",
+            "cityName": "Limoges",
+            "country_name": "France",
+            "centerCoords": [
+                1.259175,
+                45.831695
+            ],
+            "extentCoords": [
+                1.206487304629892,
+                45.79487767624034,
+                1.3117874586392555,
+                45.868487521219336
+            ],
+            "zoomLevel": 12,
+            "maxZoomLevel": 18,
+            "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+            "license_name": "Etalab 2.0",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+            "dms": "45\u00b049'N, 1\u00b015'E",
+            "width": 16000,
+            "height": 16000,
+            "raster_resolution": "0.5",
+            "raster_units": "m",
+            "city_state_coords": "Limoges, France [45\u00b049'N, 1\u00b015'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                564871.0,
+                6527273.0
+            ],
+            "nativeBounds": [
+                560871.0,
+                6523273.0,
+                568871.0,
+                6531273.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_LIMOGES_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_LIMOGES_RGBA_cs_vector.geojson.gz"
+        },
+        {
             "city_id": "FRANCE_LYON",
             "cityName": "Lyon",
             "country_name": "France",
@@ -1655,6 +1839,46 @@
             ],
             "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_MARSEILLE_RGBA_cs_raster.tif",
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_MARSEILLE_RGBA_cs_vector.geojson.gz"
+        },
+        {
+            "city_id": "FRANCE_METZ",
+            "cityName": "Metz",
+            "country_name": "France",
+            "centerCoords": [
+                6.17234,
+                49.12652
+            ],
+            "extentCoords": [
+                6.101201383603397,
+                49.07977997132032,
+                6.243591691977387,
+                49.17322772329569
+            ],
+            "zoomLevel": 12,
+            "maxZoomLevel": 18,
+            "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+            "license_name": "Etalab 2.0",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+            "dms": "49\u00b07'N, 6\u00b010'E",
+            "width": 20000,
+            "height": 20000,
+            "raster_resolution": "0.5",
+            "raster_units": "m",
+            "city_state_coords": "Metz, France [49\u00b07'N, 6\u00b010'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                931498.0,
+                6896509.0
+            ],
+            "nativeBounds": [
+                926498.0,
+                6891509.0,
+                936498.0,
+                6901509.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_METZ_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_METZ_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_NANCY",
@@ -1817,6 +2041,46 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_PARIS_RGBA_cs_vector.geojson.gz"
         },
         {
+            "city_id": "FRANCE_POINTE_A_PITRE",
+            "cityName": "Pointe-\u00e0-Pitre",
+            "country_name": "France",
+            "centerCoords": [
+                -61.549608,
+                16.248735
+            ],
+            "extentCoords": [
+                -61.6060611477324,
+                16.203154434334813,
+                -61.49313618895201,
+                16.29429558758053
+            ],
+            "zoomLevel": 12,
+            "maxZoomLevel": 18,
+            "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+            "license_name": "Etalab 2.0",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+            "dms": "16\u00b014'N, 61\u00b032'W",
+            "width": 24000,
+            "height": 20000,
+            "raster_resolution": "0.5",
+            "raster_units": "m",
+            "city_state_coords": "Pointe-\u00e0-Pitre, France [16\u00b014'N, 61\u00b032'W] [24000 x 20000 pixels, 1 pixel = 0.5 m]",
+            "nativeEPSG": 5490,
+            "nativeProj4": "+proj=utm +zone=20 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                655000.0,
+                1796998.0
+            ],
+            "nativeBounds": [
+                649000.0,
+                1791998.0,
+                661000.0,
+                1801998.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_POINTE_A_PITRE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_POINTE_A_PITRE_RGBA_cs_vector.geojson.gz"
+        },
+        {
             "city_id": "FRANCE_SAINT_DENIS",
             "cityName": "Saint-Denis",
             "country_name": "France",
@@ -1855,6 +2119,46 @@
             ],
             "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_SAINT_DENIS_RGBA_cs_raster.tif",
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_SAINT_DENIS_RGBA_cs_vector.geojson.gz"
+        },
+        {
+            "city_id": "FRANCE_SAINT_ETIENNE",
+            "cityName": "Saint-\u00c9tienne",
+            "country_name": "France",
+            "centerCoords": [
+                4.397249,
+                45.437894
+            ],
+            "extentCoords": [
+                4.332225897104179,
+                45.39206751516155,
+                4.462373342061826,
+                45.48369257969107
+            ],
+            "zoomLevel": 12,
+            "maxZoomLevel": 18,
+            "data_publisher": "Institut national de l'information g\u00e9ographique et foresti\u00e8re",
+            "license_name": "Etalab 2.0",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Institut national de l'information g\u00e9ographique et foresti\u00e8re [Etalab 2.0]",
+            "dms": "45\u00b026'N, 4\u00b023'E",
+            "width": 20000,
+            "height": 20000,
+            "raster_resolution": "0.5",
+            "raster_units": "m",
+            "city_state_coords": "Saint-\u00c9tienne, France [45\u00b026'N, 4\u00b023'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                809236.0,
+                6483018.0
+            ],
+            "nativeBounds": [
+                804236.0,
+                6478018.0,
+                814236.0,
+                6488018.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FRANCE_SAINT_ETIENNE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FRANCE_SAINT_ETIENNE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_STRASBOURG",
@@ -3693,10 +3997,10 @@
                 52.37357014709851
             ],
             "extentCoords": [
-                4.825577,
-                52.328308,
-                4.971428,
-                52.418787
+                4.824438258618822,
+                52.32830816676721,
+                4.972269362908352,
+                52.41878719530623
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3709,8 +4013,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Amsterdam, Netherlands [52\u00b022'N, 4\u00b053'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                121715.0,
+                487411.72000000003
+            ],
+            "nativeBounds": [
+                116715.0,
+                482411.72000000003,
+                126715.0,
+                492411.72000000003
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_AMSTERDAM_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_AMSTERDAM_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_DELFT",
@@ -3721,10 +4037,10 @@
                 52.00464
             ],
             "extentCoords": [
-                4.2975126,
-                51.963606,
-                4.4267173,
-                52.0456302
+                4.2955447707850976,
+                51.96360601961118,
+                4.428448796065543,
+                52.045630295580665
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3737,8 +4053,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Delft, Netherlands [52\u00b00'N, 4\u00b021'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_DELFT_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_DELFT_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                84610.0,
+                446748.09
+            ],
+            "nativeBounds": [
+                80110.0,
+                442248.09,
+                89110.0,
+                451248.09
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_DELFT_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_DELFT_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_DEN_HAAG",
@@ -3749,10 +4077,10 @@
                 52.077984733897914
             ],
             "extentCoords": [
-                4.2385849,
-                52.032727,
-                4.382276,
-                52.123928
+                4.236275517349067,
+                52.0327273162719,
+                4.384292914966291,
+                52.123927781323275
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3765,8 +4093,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "The Hague, Netherlands [52\u00b04'N, 4\u00b018'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                81182.0,
+                455000.07
+            ],
+            "nativeBounds": [
+                76182.0,
+                450000.07,
+                86182.0,
+                460000.07
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_DEN_HAAG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_DEN_HAAG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_EINDHOVEN",
@@ -3777,10 +4117,10 @@
                 51.44161
             ],
             "extentCoords": [
-                5.4089123,
-                51.3967038,
-                5.552929,
-                51.4864747
+                5.408912324784905,
+                51.396588335859526,
+                5.5529290552743085,
+                51.48659058752186
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3793,8 +4133,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Eindhoven, Netherlands [51\u00b026'N, 5\u00b028'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_EINDHOVEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_EINDHOVEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                161511.0,
+                383616.99
+            ],
+            "nativeBounds": [
+                156511.0,
+                378616.99,
+                166511.0,
+                388616.99
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_EINDHOVEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_EINDHOVEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_ENSCHEDE",
@@ -3805,10 +4157,10 @@
                 52.221474
             ],
             "extentCoords": [
-                6.8182477,
-                52.1774562,
-                6.9675882,
-                52.2654432
+                6.8182477198849325,
+                52.175592718621346,
+                6.967588245571467,
+                52.26731161638119
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3821,8 +4173,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Enschede, Netherlands [52\u00b013'N, 6\u00b053'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_ENSCHEDE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_ENSCHEDE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                257879.0,
+                471445.0
+            ],
+            "nativeBounds": [
+                252879.0,
+                466445.0,
+                262879.0,
+                476445.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_ENSCHEDE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_ENSCHEDE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_GRONINGEN",
@@ -3833,10 +4197,10 @@
                 53.21603
             ],
             "extentCoords": [
-                6.4894119,
-                53.1718185,
-                6.6415322,
-                53.2601886
+                6.489411948346601,
+                53.17035075637725,
+                6.6415322751498245,
+                53.26166032616763
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3849,8 +4213,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Groningen, Netherlands [53\u00b012'N, 6\u00b033'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_GRONINGEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_GRONINGEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                233702.0,
+                581689.0
+            ],
+            "nativeBounds": [
+                228702.0,
+                576689.0,
+                238702.0,
+                586689.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_GRONINGEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_GRONINGEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_LEIDEN",
@@ -3861,10 +4237,10 @@
                 52.15862
             ],
             "extentCoords": [
-                4.4211443,
-                52.1131107,
-                4.5654668,
-                52.2040881
+                4.419197007072077,
+                52.11311071197998,
+                4.567119996712543,
+                52.20408818721182
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3877,8 +4253,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Leiden, Netherlands [52\u00b09'N, 4\u00b029'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_LEIDEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_LEIDEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                93827.6,
+                463760.5
+            ],
+            "nativeBounds": [
+                88827.6,
+                458760.5,
+                98827.6,
+                468760.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_LEIDEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_LEIDEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_MAASTRICHT",
@@ -3889,10 +4277,10 @@
                 50.84873462521852
             ],
             "extentCoords": [
-                5.640714,
-                50.812923,
-                5.754785,
-                50.884527
+                5.6407142089890705,
+                50.812618002003745,
+                5.754785302027843,
+                50.88483247551227
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3905,8 +4293,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Maastricht, Netherlands [50\u00b050'N, 5\u00b041'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                176868.5,
+                317702.14
+            ],
+            "nativeBounds": [
+                172868.5,
+                313702.14,
+                180868.5,
+                321702.14
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_MAASTRICHT_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_MAASTRICHT_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_ROTTERDAM",
@@ -3917,10 +4317,10 @@
                 51.916947917982675
             ],
             "extentCoords": [
-                4.404241,
-                51.871429,
-                4.547755,
-                51.962429
+                4.402273747064274,
+                51.871429400200476,
+                4.54943172126145,
+                51.96242948347048
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3933,8 +4333,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Rotterdam, Netherlands [51\u00b055'N, 4\u00b028'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                92306.01,
+                436888.89
+            ],
+            "nativeBounds": [
+                87306.01,
+                431888.89,
+                97306.01,
+                441888.89
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_ROTTERDAM_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_ROTTERDAM_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_UTRECHT",
@@ -3945,10 +4357,10 @@
                 52.08948968599842
             ],
             "extentCoords": [
-                5.054165,
-                52.0443659,
-                5.1995509,
-                52.1345669
+                5.0534948018355905,
+                52.044365729241385,
+                5.1999279331016375,
+                52.13456741677742
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3961,8 +4373,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Utrecht, Netherlands [52\u00b05'N, 5\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NETHERLANDS_UTRECHT_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NETHERLANDS_UTRECHT_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 28992,
+            "nativeProj4": "+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                137152.27,
+                455724.08
+            ],
+            "nativeBounds": [
+                132152.27,
+                450724.08,
+                142152.27,
+                460724.08
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NETHERLANDS_UTRECHT_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NETHERLANDS_UTRECHT_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NEW_ZEALAND_AUCKLAND_2024",
