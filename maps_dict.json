@@ -769,10 +769,10 @@
                 -23.549670703074327
             ],
             "extentCoords": [
-                -46.673939,
-                -23.585371,
-                -46.5946939,
-                -23.513962
+                -46.67393917282284,
+                -23.586196337502628,
+                -46.59469417885302,
+                -23.513139933911127
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -785,8 +785,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Sao Paulo, Brazil [23\u00b032'S, 46\u00b038'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/BRAZIL_SAO_PAULO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/BRAZIL_SAO_PAULO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 31983,
+            "nativeProj4": "+proj=utm +zone=23 +south +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                333184.17,
+                7394678.790000001
+            ],
+            "nativeBounds": [
+                329184.17,
+                7390678.790000001,
+                337184.17,
+                7398678.790000001
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/BRAZIL_SAO_PAULO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/BRAZIL_SAO_PAULO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CANADA_CALGARY_2026",
@@ -1197,10 +1209,10 @@
                 49.19500381958254
             ],
             "extentCoords": [
-                16.5916048,
-                49.1813831,
-                16.6250712,
-                49.208622
+                16.58753981944969,
+                49.18138314356504,
+                16.629118216031813,
+                49.20862207863357
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1213,8 +1225,20 @@
             "raster_resolution": "0.2",
             "raster_units": "m",
             "city_state_coords": "Brno, Czech Republic [49\u00b011'N, 16\u00b036'E] [11000 x 11000 pixels, 1 pixel = 0.2 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CZECH_REPUBLIC_BRNO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CZECH_REPUBLIC_BRNO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 5514,
+            "nativeProj4": "+proj=krovak +lat_0=49.5 +lon_0=24.8333333333333 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                -598139.0,
+                -1160767.0
+            ],
+            "nativeBounds": [
+                -599514.0,
+                -1162142.0,
+                -596764.0,
+                -1159392.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CZECH_REPUBLIC_BRNO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CZECH_REPUBLIC_BRNO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "CZECH_REPUBLIC_PRAGUE",
@@ -1225,10 +1249,10 @@
                 50.087284288706314
             ],
             "extentCoords": [
-                14.3486971,
-                50.0315279,
-                14.4800091,
-                50.142998
+                14.327575211962342,
+                50.0315279360335,
+                14.500827005609752,
+                50.1429980219152
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1241,8 +1265,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Prague, Czech Republic [50\u00b05'N, 14\u00b024'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/CZECH_REPUBLIC_PRAGUE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/CZECH_REPUBLIC_PRAGUE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 5514,
+            "nativeProj4": "+proj=krovak +lat_0=49.5 +lon_0=24.8333333333333 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                -743307.0,
+                -1042965.0
+            ],
+            "nativeBounds": [
+                -748807.0,
+                -1048465.0,
+                -737807.0,
+                -1037465.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/CZECH_REPUBLIC_PRAGUE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/CZECH_REPUBLIC_PRAGUE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "DENMARK_AALBORG",
@@ -1253,10 +1289,10 @@
                 57.04630095041474
             ],
             "extentCoords": [
-                9.8854391,
-                57.0268035,
-                9.9589297,
-                57.0657916
+                9.885439129765375,
+                57.02627013502398,
+                9.95892972576071,
+                57.06632586274715
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1269,8 +1305,20 @@
             "raster_resolution": "0.4",
             "raster_units": "m",
             "city_state_coords": "Aalborg, Denmark [57\u00b02'N, 9\u00b055'E] [11000 x 11000 pixels, 1 pixel = 0.4 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/DENMARK_AALBORG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/DENMARK_AALBORG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                555949.0,
+                6322918.0
+            ],
+            "nativeBounds": [
+                553749.0,
+                6320718.0,
+                558149.0,
+                6325118.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/DENMARK_AALBORG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/DENMARK_AALBORG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "DENMARK_AARHUS",
@@ -1281,10 +1329,10 @@
                 56.15762972666413
             ],
             "extentCoords": [
-                10.1711457,
-                56.1382113,
-                10.2432073,
-                56.1770435
+                10.171145784412754,
+                56.13752015794201,
+                10.243207392392678,
+                56.17773585309873
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1297,8 +1345,20 @@
             "raster_resolution": "0.4",
             "raster_units": "m",
             "city_state_coords": "Aarhus, Denmark [56\u00b09'N, 10\u00b012'E] [11000 x 11000 pixels, 1 pixel = 0.4 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/DENMARK_AARHUS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/DENMARK_AARHUS_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                574979.0,
+                6224280.0
+            ],
+            "nativeBounds": [
+                572779.0,
+                6222080.0,
+                577179.0,
+                6226480.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/DENMARK_AARHUS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/DENMARK_AARHUS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "DENMARK_COPENHAGEN_2026",
@@ -1309,10 +1369,10 @@
                 55.687268
             ],
             "extentCoords": [
-                12.4555613,
-                55.6340479,
-                12.6641954,
-                55.7403884
+                12.455561316550016,
+                55.62829991554642,
+                12.664195463368229,
+                55.74616055603678
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1325,8 +1385,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Copenhagen, Denmark [55\u00b041'N, 12\u00b033'E] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/DENMARK_COPENHAGEN_2026_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/DENMARK_COPENHAGEN_2026_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                723750.0,
+                6177018.0
+            ],
+            "nativeBounds": [
+                717500.0,
+                6170768.0,
+                730000.0,
+                6183268.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/DENMARK_COPENHAGEN_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/DENMARK_COPENHAGEN_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "DENMARK_ODENSE",
@@ -1337,10 +1409,10 @@
                 55.40188142143784
             ],
             "extentCoords": [
-                10.3528691,
-                55.3825105,
-                10.4237144,
-                55.421248
+                10.35286919565125,
+                55.38172261834874,
+                10.423714452162775,
+                55.422037131654186
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1353,8 +1425,20 @@
             "raster_resolution": "0.4",
             "raster_units": "m",
             "city_state_coords": "Odense, Denmark [55\u00b024'N, 10\u00b023'E] [11000 x 11000 pixels, 1 pixel = 0.4 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/DENMARK_ODENSE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/DENMARK_ODENSE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                587913.0,
+                6140391.0
+            ],
+            "nativeBounds": [
+                585713.0,
+                6138191.0,
+                590113.0,
+                6142591.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/DENMARK_ODENSE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/DENMARK_ODENSE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "DENMARK_ROSKILDE",
@@ -1365,10 +1449,10 @@
                 55.64112055082009
             ],
             "extentCoords": [
-                12.0463271,
-                55.6222552,
-                12.1192321,
-                55.6599788
+                12.04632714103771,
+                55.620501370539706,
+                12.119232109743953,
+                55.661735398608585
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1381,8 +1465,20 @@
             "raster_resolution": "0.4",
             "raster_units": "m",
             "city_state_coords": "Roskilde, Denmark [55\u00b038'N, 12\u00b04'E] [11000 x 11000 pixels, 1 pixel = 0.4 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/DENMARK_ROSKILDE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/DENMARK_ROSKILDE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                694009.0,
+                6170449.0
+            ],
+            "nativeBounds": [
+                691809.0,
+                6168249.0,
+                696209.0,
+                6172649.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/DENMARK_ROSKILDE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/DENMARK_ROSKILDE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ESTONIA_TALLINN_2023",
@@ -1393,10 +1489,10 @@
                 59.432325
             ],
             "extentCoords": [
-                24.6245086,
-                59.3745756,
-                24.8560794,
-                59.4899721
+                24.624508614761133,
+                59.37329030753782,
+                24.856079469254027,
+                59.49126185388115
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1409,8 +1505,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Tallinn, Estonia [59\u00b025'N, 24\u00b044'E] [26000 x 26000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ESTONIA_TALLINN_2023_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ESTONIA_TALLINN_2023_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3301,
+            "nativeProj4": "+proj=lcc +lat_0=57.5175539305556 +lon_0=24 +lat_1=59.3333333333333 +lat_2=58 +x_0=500000 +y_0=6375000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                542003.0,
+                6588507.01
+            ],
+            "nativeBounds": [
+                535503.0,
+                6582007.01,
+                548503.0,
+                6595007.01
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ESTONIA_TALLINN_2023_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ESTONIA_TALLINN_2023_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FINLAND_HELSINKI_2021",
@@ -1421,10 +1529,10 @@
                 60.182989143135586
             ],
             "extentCoords": [
-                24.856641,
-                60.142537,
-                25.018674,
-                60.223392
+                24.856288348737426,
+                60.14253693707356,
+                25.018674429122694,
+                60.22339197376932
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -1437,8 +1545,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Helsinki, Finland [60\u00b010'N, 24\u00b056'E] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/FINLAND_HELSINKI_2021_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/FINLAND_HELSINKI_2021_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3879,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=25 +k=1 +x_0=25500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                25496535.0,
+                6674462.0
+            ],
+            "nativeBounds": [
+                25492035.0,
+                6669962.0,
+                25501035.0,
+                6678962.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/FINLAND_HELSINKI_2021_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/FINLAND_HELSINKI_2021_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "FRANCE_AJACCIO",
@@ -3369,10 +3489,10 @@
                 18.56278
             ],
             "extentCoords": [
-                -72.3532647,
-                18.5227567,
-                -72.2738076,
-                18.597715
+                -72.35326473839011,
+                18.521644333953965,
+                -72.27380762175267,
+                18.598832395538107
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3385,8 +3505,20 @@
             "raster_resolution": "0.8",
             "raster_units": "m",
             "city_state_coords": "Port-au-Prince, Haiti [18\u00b033'N, 72\u00b018'W] [12000 x 12000 pixels, 1 pixel = 0.8 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/HAITI_PORT_AU_PRINCE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/HAITI_PORT_AU_PRINCE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32618,
+            "nativeProj4": "+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                783567.0,
+                2054287.395
+            ],
+            "nativeBounds": [
+                779433.0,
+                2050074.27,
+                787701.0,
+                2058500.52
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/HAITI_PORT_AU_PRINCE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/HAITI_PORT_AU_PRINCE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "HONG_KONG_HONG_KONG",
@@ -3397,10 +3529,10 @@
                 22.298716830086335
             ],
             "extentCoords": [
-                114.1470478,
-                22.273883,
-                114.2004217,
-                22.3235524
+                114.14703733207617,
+                22.273883044141648,
+                114.20042173875456,
+                22.323552453540554
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3413,8 +3545,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Hong Kong, Hong_Kong [22\u00b017'N, 114\u00b010'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/HONG_KONG_HONG_KONG_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/HONG_KONG_HONG_KONG_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2326,
+            "nativeProj4": "+proj=tmerc +lat_0=22.3121333333333 +lon_0=114.178555555556 +k=1 +x_0=836694.05 +y_0=819069.8 +ellps=intl +units=m +no_defs",
+            "nativeCenterCoords": [
+                835944.0,
+                817754.0
+            ],
+            "nativeBounds": [
+                833194.0,
+                815004.0,
+                838694.0,
+                820504.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/HONG_KONG_HONG_KONG_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/HONG_KONG_HONG_KONG_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "IRELAND_DUBLIN",
@@ -3425,10 +3569,10 @@
                 53.34595
             ],
             "extentCoords": [
-                -6.2738086,
-                53.3371877,
-                -6.2430609,
-                53.3547111
+                -6.273808665050605,
+                53.33674964556376,
+                -6.243060973544101,
+                53.35514954885661
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3441,8 +3585,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Dublin, Ireland [53\u00b020'N, 6\u00b015'W] [4000 x 4000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/IRELAND_DUBLIN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/IRELAND_DUBLIN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 29902,
+            "nativeProj4": "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +a=6377340.189 +rf=299.3249646 +units=m +no_defs",
+            "nativeCenterCoords": [
+                316035.0,
+                234246.0
+            ],
+            "nativeBounds": [
+                315035.0,
+                233246.0,
+                317035.0,
+                235246.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/IRELAND_DUBLIN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/IRELAND_DUBLIN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_BOLOGNA",
@@ -3453,10 +3609,10 @@
                 44.50037098953136
             ],
             "extentCoords": [
-                11.2868809,
-                44.4603623,
-                11.4011815,
-                44.5399837
+                11.28688091844936,
+                44.45808599672459,
+                11.401181501642085,
+                44.54226660190818
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3469,8 +3625,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Bologna, Italy [44\u00b030'N, 11\u00b020'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_BOLOGNA_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_BOLOGNA_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32632,
+            "nativeProj4": "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                686342.5,
+                4930102.5
+            ],
+            "nativeBounds": [
+                681926.0,
+                4925550.0,
+                690759.0,
+                4934655.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_BOLOGNA_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_BOLOGNA_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_BOLZANO",
@@ -3481,10 +3649,10 @@
                 46.49377666423946
             ],
             "extentCoords": [
-                11.3060548,
-                46.469337,
-                11.381131,
-                46.5181976
+                11.306054859469135,
+                46.46784365668017,
+                11.381131099564243,
+                46.519693716474805
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3497,8 +3665,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Bolzano, Italy [46\u00b029'N, 11\u00b020'E] [11200 x 11200 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_BOLZANO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_BOLZANO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                679845.0,
+                5151580.0
+            ],
+            "nativeBounds": [
+                677045.0,
+                5148780.0,
+                682645.0,
+                5154380.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_BOLZANO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_BOLZANO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_CAGLIARI",
@@ -3549,10 +3729,10 @@
                 43.777169
             ],
             "extentCoords": [
-                11.196273,
-                43.742143,
-                11.2983049,
-                43.812164
+                11.196272778317441,
+                43.740191349645826,
+                11.298304683575434,
+                43.81412085439465
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3565,8 +3745,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Firenze, Italy [43\u00b046'N, 11\u00b014'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_FIRENZE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_FIRENZE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6707,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                680847.0,
+                4849578.0
+            ],
+            "nativeBounds": [
+                676847.0,
+                4845578.0,
+                684847.0,
+                4853578.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_FIRENZE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_FIRENZE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_GENOVA",
@@ -3577,10 +3769,10 @@
                 44.43785
             ],
             "extentCoords": [
-                8.8418335,
-                44.3876598,
-                8.9924803,
-                44.4802011
+                8.84158400801372,
+                44.38765988080264,
+                8.992492162524854,
+                44.48020112398045
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3593,8 +3785,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Genova, Italy [44\u00b026'N, 8\u00b055'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_GENOVA_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_GENOVA_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32632,
+            "nativeProj4": "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                493402.0,
+                4920076.5
+            ],
+            "nativeBounds": [
+                487402.0,
+                4914943.0,
+                499402.0,
+                4925210.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_GENOVA_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_GENOVA_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_MILANO_2025",
@@ -3605,10 +3809,10 @@
                 45.464151
             ],
             "extentCoords": [
-                9.1116818,
-                45.410244,
-                9.2655403,
-                45.5180042
+                9.111681874231929,
+                45.40999113626109,
+                9.26554030192126,
+                45.51825811914406
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3621,8 +3825,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Milano, Italy [45\u00b027'N, 9\u00b011'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_MILANO_2025_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_MILANO_2025_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 7791,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                514739.2,
+                5034531.0200000005
+            ],
+            "nativeBounds": [
+                508739.2,
+                5028531.0200000005,
+                520739.2,
+                5040531.0200000005
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_MILANO_2025_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_MILANO_2025_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_NAPOLI",
@@ -3633,10 +3849,10 @@
                 40.85324
             ],
             "extentCoords": [
-                14.191388,
-                40.8078006,
-                14.3090034,
-                40.8986487
+                14.190292124816855,
+                40.807800634040085,
+                14.309938751551886,
+                40.89864871088184
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3649,8 +3865,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Napoli, Italy [40\u00b051'N, 14\u00b015'E] [10000 x 10000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_NAPOLI_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_NAPOLI_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32633,
+            "nativeProj4": "+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                436797.0,
+                4522736.0
+            ],
+            "nativeBounds": [
+                431797.0,
+                4517736.0,
+                441797.0,
+                4527736.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_NAPOLI_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_NAPOLI_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_PERUGIA",
@@ -3661,10 +3889,10 @@
                 43.10548031942827
             ],
             "extentCoords": [
-                12.3277228,
-                43.0705817,
-                12.4339144,
-                43.1398858
+                12.327722838811102,
+                43.06756238865714,
+                12.433914415532666,
+                43.14291279413326
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3677,8 +3905,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Perugia, Italy [43\u00b06'N, 12\u00b023'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_PERUGIA_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_PERUGIA_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32632,
+            "nativeProj4": "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                775102.5,
+                4778052.0
+            ],
+            "nativeBounds": [
+                770937.0,
+                4774029.0,
+                779268.0,
+                4782075.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_PERUGIA_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_PERUGIA_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_TRENTO",
@@ -3689,10 +3929,10 @@
                 46.0706547471959
             ],
             "extentCoords": [
-                11.08746,
-                46.0465505,
-                11.1589042,
-                46.0947253
+                11.087460015190068,
+                46.04525925393295,
+                11.158904273462168,
+                46.09601892972857
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3705,8 +3945,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Trento, Italy [46\u00b04'N, 11\u00b07'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_TRENTO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_TRENTO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                664191.0,
+                5104088.0
+            ],
+            "nativeBounds": [
+                661500.0,
+                5101338.0,
+                666882.0,
+                5106838.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_TRENTO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_TRENTO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_TRIESTE",
@@ -3717,10 +3969,10 @@
                 45.63645
             ],
             "extentCoords": [
-                13.7184513,
-                45.5862388,
-                13.8512844,
-                45.6861224
+                13.716205064371303,
+                45.58623881665969,
+                13.853294491882197,
+                45.6861224127857
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3733,8 +3985,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Trieste, Italy [45\u00b038'N, 13\u00b046'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/ITALY_TRIESTE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/ITALY_TRIESTE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6708,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                405290.325,
+                5054346.138
+            ],
+            "nativeBounds": [
+                400029.825,
+                5048876.138,
+                410550.825,
+                5059816.138
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_TRIESTE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_TRIESTE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "JAPAN_KOBE",
