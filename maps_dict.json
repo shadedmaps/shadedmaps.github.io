@@ -3761,44 +3761,44 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_FIRENZE_RGBA_cs_vector.geojson.gz"
         },
         {
-            "city_id": "ITALY_GENOVA",
+            "city_id": "ITALY_GENOVA2",
             "cityName": "Genova",
             "country_name": "Italy",
             "centerCoords": [
-                8.91709,
-                44.43785
+                8.915645,
+                44.420776
             ],
             "extentCoords": [
-                8.84158400801372,
-                44.38765988080264,
-                8.992492162524854,
-                44.48020112398045
+                8.802422825109232,
+                44.37920274827603,
+                9.028725414646399,
+                44.469397871366084
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
-            "data_publisher": "Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica",
-            "license_name": "CC BY 4.0 Attribution 4.0 International",
-            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geoportale Nazionale del Ministero dell'Ambiente e della Sicurezza Energetica [CC BY 4.0 Attribution 4.0 International]",
-            "dms": "44\u00b026'N, 8\u00b055'E",
-            "width": 12000,
-            "height": 12000,
-            "raster_resolution": "1.0",
+            "data_publisher": "Comune di Genova",
+            "license_name": "Attribution 4.0 International (CC BY 4.0)",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Comune di Genova [Attribution 4.0 International (CC BY 4.0)]",
+            "dms": "44\u00b025'N, 8\u00b054'E",
+            "width": 36000,
+            "height": 20000,
+            "raster_resolution": "0.5",
             "raster_units": "m",
-            "city_state_coords": "Genova, Italy [44\u00b026'N, 8\u00b055'E] [12000 x 12000 pixels, 1 pixel = 1.0 m]",
-            "nativeEPSG": 32632,
-            "nativeProj4": "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs",
+            "city_state_coords": "Genova, Italy [44\u00b025'N, 8\u00b054'E] [36000 x 20000 pixels, 1 pixel = 0.5 m]",
+            "nativeEPSG": 7791,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
             "nativeCenterCoords": [
-                493402.0,
-                4920076.5
+                493284.8,
+                4919010.38
             ],
             "nativeBounds": [
-                487402.0,
-                4914943.0,
-                499402.0,
-                4925210.0
+                484284.8,
+                4914010.38,
+                502284.8,
+                4924010.38
             ],
-            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_GENOVA_RGBA_cs_raster.tif",
-            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_GENOVA_RGBA_cs_vector.geojson.gz"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_GENOVA2_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_GENOVA2_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "ITALY_MILANO_2025",
