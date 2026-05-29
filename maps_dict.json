@@ -3769,10 +3769,10 @@
                 44.420776
             ],
             "extentCoords": [
-                8.802422825109232,
+                8.802472917407854,
                 44.37920274827603,
-                9.028725414646399,
-                44.469397871366084
+                9.028718131754479,
+                44.45454328828947
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -3789,13 +3789,13 @@
             "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
             "nativeCenterCoords": [
                 493284.8,
-                4919010.38
+                4918185.38
             ],
             "nativeBounds": [
                 484284.8,
                 4914010.38,
                 502284.8,
-                4924010.38
+                4922360.38
             ],
             "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_GENOVA2_RGBA_cs_raster.tif",
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_GENOVA2_RGBA_cs_vector.geojson.gz"
