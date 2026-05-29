@@ -4009,10 +4009,10 @@
                 34.67834031593773
             ],
             "extentCoords": [
-                135.1434107,
-                34.629179,
-                135.2644763,
-                34.7274775
+                135.14341070197904,
+                34.62832333554025,
+                135.26447633454086,
+                34.728336432836414
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4025,8 +4025,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Kobe, Japan [34\u00b040'N, 135\u00b012'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/JAPAN_KOBE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/JAPAN_KOBE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2447,
+            "nativeProj4": "+proj=tmerc +lat_0=36 +lon_0=134.333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                79776.0,
+                -146274.0
+            ],
+            "nativeBounds": [
+                74276.0,
+                -151774.0,
+                85276.0,
+                -140774.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/JAPAN_KOBE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/JAPAN_KOBE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "JAPAN_SHIZUOKA",
@@ -4037,10 +4049,10 @@
                 34.973788305002806
             ],
             "extentCoords": [
-                138.3400369,
-                34.9452531,
-                138.4123627,
-                34.99942
+                138.33993174026918,
+                34.94525317846068,
+                138.4124203630848,
+                34.999420034435836
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4053,8 +4065,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Shizuoka, Japan [34\u00b058'N, 138\u00b023'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/JAPAN_SHIZUOKA_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/JAPAN_SHIZUOKA_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6676,
+            "nativeProj4": "+proj=tmerc +lat_0=36 +lon_0=138.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                -11305.25,
+                -113999.75
+            ],
+            "nativeBounds": [
+                -14611.0,
+                -117000.0,
+                -7999.5,
+                -110999.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/JAPAN_SHIZUOKA_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/JAPAN_SHIZUOKA_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "JAPAN_TOKYO_IMPERIAL_PALACE",
@@ -4065,10 +4089,10 @@
                 35.68465
             ],
             "extentCoords": [
-                139.6981128,
-                35.6395279,
-                139.808505,
-                35.7297383
+                139.69796065383872,
+                35.639527913941976,
+                139.80853294124614,
+                35.7297383807039
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4081,8 +4105,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Tokyo, Japan [35\u00b041'N, 139\u00b045'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6677,
+            "nativeProj4": "+proj=tmerc +lat_0=36 +lon_0=139.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                -7246.0,
+                -34984.0
+            ],
+            "nativeBounds": [
+                -12246.0,
+                -39984.0,
+                -2246.0,
+                -29984.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/JAPAN_TOKYO_IMPERIAL_PALACE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "JAPAN_YOKOHAMA",
@@ -4093,10 +4129,10 @@
                 35.45275
             ],
             "extentCoords": [
-                139.5446625,
-                35.4023585,
-                139.6808619,
-                35.5131734
+                139.54426727814462,
+                35.402358544494646,
+                139.6810704107068,
+                35.51317348639835
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4109,8 +4145,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Yokohama, Japan [35\u00b027'N, 139\u00b036'E] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/JAPAN_YOKOHAMA_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/JAPAN_YOKOHAMA_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6677,
+            "nativeProj4": "+proj=tmerc +lat_0=36 +lon_0=139.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                -20025.0,
+                -60132.5
+            ],
+            "nativeBounds": [
+                -26220.0,
+                -66265.5,
+                -13830.0,
+                -53999.5
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/JAPAN_YOKOHAMA_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/JAPAN_YOKOHAMA_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "LATVIA_RIGA_2022",
@@ -4121,10 +4169,10 @@
                 56.949354
             ],
             "extentCoords": [
-                24.0246455,
-                56.9044761,
-                24.189294,
-                56.994171
+                24.024645571999706,
+                56.90433590404034,
+                24.189294036118774,
+                56.99431172479725
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4137,8 +4185,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Riga, Latvia [56\u00b056'N, 24\u00b06'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/LATVIA_RIGA_2022_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/LATVIA_RIGA_2022_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3059,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=-6000000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                506501.0,
+                311753.0
+            ],
+            "nativeBounds": [
+                501501.0,
+                306753.0,
+                511501.0,
+                316753.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/LATVIA_RIGA_2022_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/LATVIA_RIGA_2022_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "LIECHTENSTEIN_VADUZ",
@@ -4149,10 +4209,10 @@
                 47.14064079538869
             ],
             "extentCoords": [
-                9.4834289,
-                47.1165685,
-                9.5578321,
-                47.1647097
+                9.483428963278495,
+                47.115256280610716,
+                9.557832109048432,
+                47.16602317191101
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4165,8 +4225,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Vaduz, Liechtenstein [47\u00b08'N, 9\u00b031'E] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/LIECHTENSTEIN_VADUZ_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/LIECHTENSTEIN_VADUZ_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2056,
+            "nativeProj4": "+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +units=m +no_defs",
+            "nativeCenterCoords": [
+                2757915.0,
+                1223169.0
+            ],
+            "nativeBounds": [
+                2755165.0,
+                1220419.0,
+                2760665.0,
+                1225919.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/LIECHTENSTEIN_VADUZ_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/LIECHTENSTEIN_VADUZ_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "LUXEMBOURG_LUXEMBOURG_CITY_2024",
@@ -4177,10 +4249,10 @@
                 49.6105787410666
             ],
             "extentCoords": [
-                6.0618463,
-                49.5655794,
-                6.2001425,
-                49.6555327
+                6.061652321367506,
+                49.56557942414021,
+                6.200142545310083,
+                49.655532706687104
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4193,8 +4265,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Luxembourg City, Luxembourg [49\u00b036'N, 6\u00b07'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_2024_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/LUXEMBOURG_LUXEMBOURG_CITY_2024_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2169,
+            "nativeProj4": "+proj=tmerc +lat_0=49.8333333333333 +lon_0=6.16666666666667 +k=1 +x_0=80000 +y_0=100000 +ellps=intl +units=m +no_defs",
+            "nativeCenterCoords": [
+                77312.0,
+                75106.0
+            ],
+            "nativeBounds": [
+                72312.0,
+                70106.0,
+                82312.0,
+                80106.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/LUXEMBOURG_LUXEMBOURG_CITY_2024_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/LUXEMBOURG_LUXEMBOURG_CITY_2024_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "MEXICO_GUADALAJARA",
@@ -4205,10 +4289,10 @@
                 20.6779
             ],
             "extentCoords": [
-                -103.3805302,
-                20.6443722,
-                -103.3078143,
-                20.7114222
+                -103.38053028524656,
+                20.643682011516034,
+                -103.3078143111721,
+                20.712114949755353
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4221,8 +4305,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Guadalajara, Mexico [20\u00b040'N, 103\u00b020'W] [15000 x 15000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/MEXICO_GUADALAJARA_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/MEXICO_GUADALAJARA_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32613,
+            "nativeProj4": "+proj=utm +zone=13 +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                672472.0,
+                2287381.0
+            ],
+            "nativeBounds": [
+                668722.0,
+                2283631.0,
+                676222.0,
+                2291131.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/MEXICO_GUADALAJARA_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/MEXICO_GUADALAJARA_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "MONACO_MONTECARLO",
@@ -4233,10 +4329,10 @@
                 43.737353952874635
             ],
             "extentCoords": [
-                7.3744269,
-                43.7111423,
-                7.4735041,
-                43.7792151
+                7.374426954215888,
+                43.70734252331855,
+                7.473504170325934,
+                43.783019954808864
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4249,8 +4345,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Montecarlo, Monaco [43\u00b044'N, 7\u00b025'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/MONACO_MONTECARLO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/MONACO_MONTECARLO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2154,
+            "nativeProj4": "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=49 +lat_2=44 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                1056227.0,
+                6304000.0
+            ],
+            "nativeBounds": [
+                1052454.0,
+                6300000.0,
+                1060000.0,
+                6308000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/MONACO_MONTECARLO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/MONACO_MONTECARLO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NETHERLANDS_AMSTERDAM",
@@ -4661,10 +4769,10 @@
                 -36.8538
             ],
             "extentCoords": [
-                174.638743,
-                -36.936333,
-                174.836893,
-                -36.7711929
+                174.63528357113643,
+                -36.93633344487386,
+                174.8407791999572,
+                -36.77119323666129
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4677,8 +4785,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Auckland, New Zealand [36\u00b051'S, 174\u00b044'E] [36000 x 36000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2193,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                1754936.0,
+                5919936.0030000005
+            ],
+            "nativeBounds": [
+                1745936.0,
+                5910936.0030000005,
+                1763936.0,
+                5928936.0030000005
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NEW_ZEALAND_AUCKLAND_2024_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NEW_ZEALAND_CHRISTCHURCH",
@@ -4689,10 +4809,10 @@
                 -43.53212795474367
             ],
             "extentCoords": [
-                172.5839566,
-                -43.5679779,
-                172.6833987,
-                -43.4962626
+                172.58395666524785,
+                -43.56829557514009,
+                172.6833987620666,
+                -43.495945896043175
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4705,8 +4825,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Christchurch, New Zealand [43\u00b031'S, 172\u00b038'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2193,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                1570403.0,
+                5180025.0
+            ],
+            "nativeBounds": [
+                1566403.0,
+                5176025.0,
+                1574403.0,
+                5184025.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NEW_ZEALAND_CHRISTCHURCH_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NEW_ZEALAND_WELLINGTON",
@@ -4717,10 +4849,10 @@
                 -41.2879147557007
             ],
             "extentCoords": [
-                174.7290173,
-                -41.3246568,
-                174.8225578,
-                -41.2511557
+                174.72711620880983,
+                -41.324656861374706,
+                174.82456391323595,
+                -41.251155755330835
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4733,8 +4865,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Wellington, New Zealand [41\u00b017'S, 174\u00b046'E] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NEW_ZEALAND_WELLINGTON_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NEW_ZEALAND_WELLINGTON_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2193,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                1748700.0,
+                5427760.0
+            ],
+            "nativeBounds": [
+                1744700.0,
+                5423760.0,
+                1752700.0,
+                5431760.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NEW_ZEALAND_WELLINGTON_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NEW_ZEALAND_WELLINGTON_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NORWAY_BERGEN",
@@ -4745,10 +4889,10 @@
                 60.389401240444016
             ],
             "extentCoords": [
-                5.239842,
-                60.333486,
-                5.4074006,
-                60.4452793
+                5.2103942340366665,
+                60.333486039973245,
+                5.436278252850233,
+                60.445279370950566
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4761,8 +4905,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Bergen, Norway [60\u00b023'N, 5\u00b019'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NORWAY_BERGEN_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NORWAY_BERGEN_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25833,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                -32073.0,
+                6733981.0
+            ],
+            "nativeBounds": [
+                -37573.0,
+                6728481.0,
+                -26573.0,
+                6739481.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NORWAY_BERGEN_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NORWAY_BERGEN_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NORWAY_OSLO_2019",
@@ -4773,10 +4929,10 @@
                 59.912891
             ],
             "extentCoords": [
-                10.6487139,
-                59.8691611,
-                10.8321437,
-                59.9565538
+                10.64871392080419,
+                59.86680584653357,
+                10.832143726039885,
+                59.95891768806712
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4789,8 +4945,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Oslo, Norway [59\u00b054'N, 10\u00b044'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NORWAY_OSLO_2019_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NORWAY_OSLO_2019_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                597318.0,
+                6642989.01
+            ],
+            "nativeBounds": [
+                592318.0,
+                6637989.01,
+                602318.0,
+                6647989.01
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NORWAY_OSLO_2019_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NORWAY_OSLO_2019_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NORWAY_STAVANGER_2019",
@@ -4801,10 +4969,10 @@
                 58.969014
             ],
             "extentCoords": [
-                5.6905022,
-                58.9275607,
-                5.7696614,
-                59.01045
+                5.6827512756672265,
+                58.92756074646829,
+                5.777210230843239,
+                59.01045003817231
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4817,8 +4985,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Stavanger, Norway [58\u00b058'N, 5\u00b043'E] [10000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NORWAY_STAVANGER_2019_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NORWAY_STAVANGER_2019_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25832,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                312012.0,
+                6541200.0
+            ],
+            "nativeBounds": [
+                309512.0,
+                6536700.0,
+                314512.0,
+                6545700.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NORWAY_STAVANGER_2019_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NORWAY_STAVANGER_2019_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NORWAY_TROMSO",
@@ -4829,10 +5009,10 @@
                 69.6558
             ],
             "extentCoords": [
-                18.8723514,
-                69.6219457,
-                19.0740411,
-                69.6831285
+                18.872351423488045,
+                69.61766026889036,
+                19.0740411142709,
+                69.68742899299272
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4845,8 +5025,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Troms\u00f8, Norway [69\u00b039'N, 18\u00b057'E] [8000 x 8000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NORWAY_TROMSO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NORWAY_TROMSO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25833,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                654084.5,
+                7732140.5
+            ],
+            "nativeBounds": [
+                650400.0,
+                7728481.0,
+                657769.0,
+                7735800.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NORWAY_TROMSO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NORWAY_TROMSO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "NORWAY_TRONDHEIM",
@@ -4857,10 +5049,10 @@
                 63.43048683517563
             ],
             "extentCoords": [
-                10.2934698,
-                63.3777025,
-                10.4973497,
-                63.4831943
+                10.27726887233855,
+                63.377702550303006,
+                10.512802142987313,
+                63.483194364036024
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4873,8 +5065,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Trondheim, Norway [63\u00b025'N, 10\u00b023'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/NORWAY_TRONDHEIM_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/NORWAY_TRONDHEIM_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 25833,
+            "nativeProj4": "+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                270346.0,
+                7041814.0
+            ],
+            "nativeBounds": [
+                264846.0,
+                7036314.0,
+                275846.0,
+                7047314.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/NORWAY_TRONDHEIM_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/NORWAY_TRONDHEIM_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "POLAND_GDANSK_2024",
@@ -4885,10 +5089,10 @@
                 54.35518616842627
             ],
             "extentCoords": [
-                18.5739902,
-                54.309986,
-                18.7271399,
-                54.4003307
+                18.57305927639278,
+                54.309986043944974,
+                18.72773491943474,
+                54.400330776321724
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4901,8 +5105,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Gdansk, Poland [54\u00b021'N, 18\u00b039'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/POLAND_GDANSK_2024_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/POLAND_GDANSK_2024_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2180,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                477291.53,
+                721289.29
+            ],
+            "nativeBounds": [
+                472291.53,
+                716289.29,
+                482291.53,
+                726289.29
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/POLAND_GDANSK_2024_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/POLAND_GDANSK_2024_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "POLAND_KRAKOW_2025",
@@ -4913,10 +5129,10 @@
                 50.060871336796055
             ],
             "extentCoords": [
-                19.8669722,
-                50.016433,
-                20.0084595,
-                50.1052587
+                19.866972208756135,
+                50.01530605113772,
+                20.008459553268825,
+                50.10638932285925
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4929,8 +5145,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Krak\u00f3w, Poland [50\u00b03'N, 19\u00b056'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/POLAND_KRAKOW_2025_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/POLAND_KRAKOW_2025_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2180,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                567093.13,
+                244154.98
+            ],
+            "nativeBounds": [
+                562093.13,
+                239154.98,
+                572093.13,
+                249154.98
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/POLAND_KRAKOW_2025_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/POLAND_KRAKOW_2025_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "POLAND_LODZ_2024",
@@ -4941,10 +5169,10 @@
                 51.76501469967455
             ],
             "extentCoords": [
-                19.3809505,
-                51.7209633,
-                19.5286535,
-                51.809026
+                19.380950567687176,
+                51.719173869326575,
+                19.52865359410481,
+                51.81082133710858
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4957,8 +5185,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Lodz, Poland [51\u00b045'N, 19\u00b027'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/POLAND_LODZ_2024_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/POLAND_LODZ_2024_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2177,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                6600420.0,
+                5737758.0
+            ],
+            "nativeBounds": [
+                6595420.0,
+                5732758.0,
+                6605420.0,
+                5742758.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/POLAND_LODZ_2024_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/POLAND_LODZ_2024_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "POLAND_POZNAN_2024",
@@ -4969,10 +5209,10 @@
                 52.40733694796317
             ],
             "extentCoords": [
-                16.8610576,
-                52.361098,
-                17.0038055,
-                52.4535406
+                16.856704747793707,
+                52.36109808511711,
+                17.007860259448197,
+                52.45354068008944
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -4985,8 +5225,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Pozna\u0144, Poland [52\u00b024'N, 16\u00b055'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/POLAND_POZNAN_2024_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/POLAND_POZNAN_2024_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2180,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                359397.15,
+                506613.34
+            ],
+            "nativeBounds": [
+                354397.15,
+                501613.34,
+                364397.15,
+                511613.34
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/POLAND_POZNAN_2024_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/POLAND_POZNAN_2024_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "POLAND_SZCZECIN_2024",
@@ -4997,10 +5249,10 @@
                 53.43282503225811
             ],
             "extentCoords": [
-                14.4777821,
-                53.3851829,
-                14.618504,
-                53.4804316
+                14.468238603982552,
+                53.38518294312917,
+                14.627733704747836,
+                53.4804316750725
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -5013,8 +5265,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Szczecin, Poland [53\u00b025'N, 14\u00b032'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/POLAND_SZCZECIN_2024_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/POLAND_SZCZECIN_2024_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2180,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                204400.5,
+                627875.43
+            ],
+            "nativeBounds": [
+                199400.5,
+                622875.43,
+                209400.5,
+                632875.43
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/POLAND_SZCZECIN_2024_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/POLAND_SZCZECIN_2024_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "POLAND_WARSAW_2025",
@@ -5025,10 +5289,10 @@
                 52.23211
             ],
             "extentCoords": [
-                20.9286571,
-                52.1796512,
-                21.1092039,
-                52.2844983
+                20.928657161224407,
+                52.17665175666792,
+                21.109203970395555,
+                52.28750950300619
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -5041,8 +5305,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Warsaw, Poland [52\u00b013'N, 21\u00b01'E] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/POLAND_WARSAW_2025_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/POLAND_WARSAW_2025_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2180,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                637826.96,
+                487037.8
+            ],
+            "nativeBounds": [
+                631826.96,
+                481037.8,
+                643826.96,
+                493037.8
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/POLAND_WARSAW_2025_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/POLAND_WARSAW_2025_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "POLAND_WROCLAW_2024",
@@ -5053,10 +5329,10 @@
                 51.109860686972794
             ],
             "extentCoords": [
-                16.9695413,
-                51.0636922,
-                17.1085441,
-                51.1559855
+                16.96559711542875,
+                51.06369224346325,
+                17.112211725736362,
+                51.15598555998682
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -5069,8 +5345,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Wroclaw, Poland [51\u00b06'N, 17\u00b02'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/POLAND_WROCLAW_2024_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/POLAND_WROCLAW_2024_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2180,
+            "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                362767.62,
+                362170.71
+            ],
+            "nativeBounds": [
+                357767.62,
+                357170.71,
+                367767.62,
+                367170.71
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/POLAND_WROCLAW_2024_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/POLAND_WROCLAW_2024_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "PORTUGAL_COIMBRA",
@@ -5081,10 +5369,10 @@
                 40.2047
             ],
             "extentCoords": [
-                -8.4530021,
-                40.1753315,
-                -8.3768991,
-                40.2340549
+                -8.453277470877056,
+                40.1753315712144,
+                -8.376689591741297,
+                40.2340549570141
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -5097,8 +5385,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Coimbra, Portugal [40\u00b012'N, 8\u00b024'W] [13000 x 13000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/PORTUGAL_COIMBRA_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/PORTUGAL_COIMBRA_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3763,
+            "nativeProj4": "+proj=tmerc +lat_0=39.6682583333333 +lon_0=-8.13310833333333 +k=1 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                -23997.0,
+                59601.0
+            ],
+            "nativeBounds": [
+                -27247.0,
+                56351.0,
+                -20747.0,
+                62851.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/PORTUGAL_COIMBRA_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/PORTUGAL_COIMBRA_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "PORTUGAL_LISBON",
@@ -5109,10 +5409,10 @@
                 38.72262
             ],
             "extentCoords": [
-                -9.1962542,
-                38.6816108,
-                -9.0825376,
-                38.7726683
+                -9.197589946936858,
+                38.681610846814955,
+                -9.08134624721941,
+                38.77266839220881
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -5125,8 +5425,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Lisbon, Portugal [38\u00b043'N, 9\u00b08'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/PORTUGAL_LISBON_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/PORTUGAL_LISBON_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3763,
+            "nativeProj4": "+proj=tmerc +lat_0=39.6682583333333 +lon_0=-8.13310833333333 +k=1 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                -87509.0,
+                -104000.0
+            ],
+            "nativeBounds": [
+                -92509.0,
+                -109000.0,
+                -82509.0,
+                -99000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/PORTUGAL_LISBON_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/PORTUGAL_LISBON_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "PORTUGAL_PORTO",
@@ -5137,10 +5449,10 @@
                 41.15715
             ],
             "extentCoords": [
-                -8.6907277,
-                41.1118555,
-                -8.5722744,
-                41.2024115
+                -8.691491308751917,
+                41.111855581293284,
+                -8.571673910329805,
+                41.20241152979962
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -5153,8 +5465,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Porto, Portugal [41\u00b09'N, 8\u00b037'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/PORTUGAL_PORTO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/PORTUGAL_PORTO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 3763,
+            "nativeProj4": "+proj=tmerc +lat_0=39.6682583333333 +lon_0=-8.13310833333333 +k=1 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                -41836.107,
+                165450.0
+            ],
+            "nativeBounds": [
+                -46836.107,
+                160450.0,
+                -36836.107,
+                170450.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/PORTUGAL_PORTO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/PORTUGAL_PORTO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "SLOVAKIA_BRATISLAVA",
