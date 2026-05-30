@@ -6489,10 +6489,10 @@
                 52.480012634135036
             ],
             "extentCoords": [
-                -1.9785943,
-                52.430611,
-                -1.8163987,
-                52.5293603
+                -1.9785943935505803,
+                52.43047146095363,
+                -1.816398768577565,
+                52.529501216895945
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6505,8 +6505,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Birmingham, United Kingdom [52\u00b028'N, 1\u00b053'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_BIRMINGHAM_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_BIRMINGHAM_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                407052.0,
+                286902.0
+            ],
+            "nativeBounds": [
+                401552.0,
+                281402.0,
+                412552.0,
+                292402.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_BIRMINGHAM_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_BIRMINGHAM_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_BRADFORD",
@@ -6517,10 +6529,10 @@
                 53.793229227483124
             ],
             "extentCoords": [
-                -1.8400029,
-                53.743939,
-                -1.6724539,
-                53.8424669
+                -1.8400029718087854,
+                53.74360147886525,
+                -1.672453910489613,
+                53.842805951047765
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6533,8 +6545,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Bradford, United Kingdom [53\u00b047'N, 1\u00b045'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_BRADFORD_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_BRADFORD_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                416150.0,
+                433017.0
+            ],
+            "nativeBounds": [
+                410650.0,
+                427517.0,
+                421650.0,
+                438517.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_BRADFORD_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_BRADFORD_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_BRISTOL",
@@ -6545,10 +6569,10 @@
                 51.45738882007008
             ],
             "extentCoords": [
-                -2.6483644,
-                51.4076238,
-                -2.5190891,
-                51.507177
+                -2.649768114942858,
+                51.40762382844901,
+                -2.517966956989056,
+                51.50717705182705
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6561,8 +6585,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Bristol, United Kingdom [51\u00b027'N, 2\u00b035'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_BRISTOL_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_BRISTOL_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                359535.0,
+                173322.0
+            ],
+            "nativeBounds": [
+                355000.0,
+                167822.0,
+                364070.0,
+                178822.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_BRISTOL_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_BRISTOL_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_KINGSTON_UPON_HULL",
@@ -6573,10 +6609,10 @@
                 53.7657415425215
             ],
             "extentCoords": [
-                -0.4186113,
-                53.7174565,
-                -0.2548373,
-                53.814066
+                -0.4186113451818204,
+                53.71524520549704,
+                -0.25483738393201755,
+                53.81628777816543
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6589,8 +6625,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Kingston upon Hull, United Kingdom [53\u00b045'N, 0\u00b020'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                509728.5,
+                431219.0
+            ],
+            "nativeBounds": [
+                504457.0,
+                425719.0,
+                515000.0,
+                436719.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_KINGSTON_UPON_HULL_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_LEEDS",
@@ -6601,10 +6649,10 @@
                 53.7988809511169
             ],
             "extentCoords": [
-                -1.6303342,
-                53.7497326,
-                -1.4622716,
-                53.8479668
+                -1.6303342545213018,
+                53.749103589606065,
+                -1.4622716913053035,
+                53.84859791310812
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6617,8 +6665,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Leeds, United Kingdom [53\u00b047'N, 1\u00b032'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_LEEDS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_LEEDS_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                429975.0,
+                433713.0
+            ],
+            "nativeBounds": [
+                424475.0,
+                428213.0,
+                435475.0,
+                439213.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_LEEDS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_LEEDS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_LEICESTER",
@@ -6629,10 +6689,10 @@
                 52.635097377647774
             ],
             "extentCoords": [
-                -1.1894734,
-                52.595039,
-                -1.0586789,
-                52.6794783
+                -1.1894734722042197,
+                52.59408715145204,
+                -1.0586789196370066,
+                52.68043368358768
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6645,8 +6705,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Leicester, United Kingdom [52\u00b038'N, 1\u00b08'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_LEICESTER_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_LEICESTER_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                459368.5,
+                304750.0
+            ],
+            "nativeBounds": [
+                455000.0,
+                300000.0,
+                463737.0,
+                309500.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_LEICESTER_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_LEICESTER_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_LIVERPOOL",
@@ -6657,10 +6729,10 @@
                 53.406375083689994
             ],
             "extentCoords": [
-                -3.060681,
-                53.3562401,
-                -2.8975134,
-                53.4564561
+                -3.063141751672425,
+                53.35624013621848,
+                -2.8954349590659483,
+                53.45645618863634
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6673,8 +6745,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Liverpool, United Kingdom [53\u00b024'N, 2\u00b058'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_LIVERPOOL_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_LIVERPOOL_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                335001.0,
+                390396.0
+            ],
+            "nativeBounds": [
+                329501.0,
+                384896.0,
+                340501.0,
+                395896.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_LIVERPOOL_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_LIVERPOOL_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_LONDON2",
@@ -6685,10 +6769,10 @@
                 51.49629506426874
             ],
             "extentCoords": [
-                -0.1593857,
-                51.4702485,
-                -0.0419656,
-                51.5223028
+                -0.15938571853997419,
+                51.46838449474059,
+                -0.04196561528770464,
+                51.52417046647665
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6701,8 +6785,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "London, United Kingdom [51\u00b029'N, 0\u00b06'W] [16000 x 12000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_LONDON2_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_LONDON2_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                531939.0,
+                179193.0
+            ],
+            "nativeBounds": [
+                527939.0,
+                176193.0,
+                535939.0,
+                182193.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_LONDON2_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_LONDON2_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_MANCHESTER",
@@ -6713,10 +6809,10 @@
                 53.47952423869547
             ],
             "extentCoords": [
-                -2.3274113,
-                53.4298887,
-                -2.162234,
-                53.5291004
+                -2.32817170497918,
+                53.429888796469214,
+                -2.1618569050310446,
+                53.52910045147206
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6729,8 +6825,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Manchester, United Kingdom [53\u00b028'N, 2\u00b014'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_MANCHESTER_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_MANCHESTER_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                383843.0,
+                398115.0
+            ],
+            "nativeBounds": [
+                378343.0,
+                392615.0,
+                389343.0,
+                403615.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_MANCHESTER_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_MANCHESTER_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_NEWCASTLE_UPON_TYNE",
@@ -6741,10 +6849,10 @@
                 54.97319663123111
             ],
             "extentCoords": [
-                -1.6894858,
-                54.9239961,
-                -1.526501,
-                55.0223209
+                -1.6894858487544406,
+                54.923476002810595,
+                -1.5265010791794238,
+                55.02284231361201
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6757,8 +6865,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Newcastle upon Tyne, United Kingdom [54\u00b058'N, 1\u00b036'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                425186.0,
+                564355.0
+            ],
+            "nativeBounds": [
+                420000.0,
+                558855.0,
+                430372.0,
+                569855.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_NEWCASTLE_UPON_TYNE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_SHEFFIELD",
@@ -6769,10 +6889,10 @@
                 53.380103235568484
             ],
             "extentCoords": [
-                -1.5509959,
-                53.3309898,
-                -1.3874675,
-                53.4291398
+                -1.5509959938700708,
+                53.33027151474329,
+                -1.3874675850112221,
+                53.42986094492882
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6785,8 +6905,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Sheffield, United Kingdom [53\u00b022'N, 1\u00b028'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_SHEFFIELD_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_SHEFFIELD_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                435398.5,
+                387156.0
+            ],
+            "nativeBounds": [
+                430000.0,
+                381656.0,
+                440797.0,
+                392656.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_SHEFFIELD_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_SHEFFIELD_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_SOUTHAMPTON",
@@ -6797,10 +6929,10 @@
                 50.91183016891249
             ],
             "extentCoords": [
-                -1.4852066,
-                50.8627408,
-                -1.3274934,
-                50.9608575
+                -1.4852066024620763,
+                50.86194634180584,
+                -1.3274934069552247,
+                50.96165430562312
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6813,8 +6945,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Southampton, United Kingdom [50\u00b054'N, 1\u00b024'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                441826.0,
+                112653.0
+            ],
+            "nativeBounds": [
+                436326.0,
+                107153.0,
+                447326.0,
+                118153.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_SOUTHAMPTON_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_YORK",
@@ -6825,10 +6969,10 @@
                 53.95953768140212
             ],
             "extentCoords": [
-                -1.1642395,
-                53.910699,
-                -0.9981189,
-                54.008297
+                -1.1642395225955005,
+                53.90944913805937,
+                -0.998118998689986,
+                54.009552339613215
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6841,8 +6985,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "York, United Kingdom [53\u00b057'N, 1\u00b04'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_ENGLAND_YORK_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_ENGLAND_YORK_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                460379.5,
+                451882.0
+            ],
+            "nativeBounds": [
+                455000.0,
+                446382.0,
+                465759.0,
+                457382.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_YORK_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_YORK_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_NORTH_IRELAND_BELFAST",
@@ -6853,10 +7009,10 @@
                 54.59846478783382
             ],
             "extentCoords": [
-                -5.9737311,
-                54.5744934,
-                -5.8861861,
-                54.6224132
+                -5.973731110560675,
+                54.5730397947689,
+                -5.886186168577018,
+                54.62386952312699
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6869,8 +7025,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Belfast, United Kingdom [54\u00b035'N, 5\u00b055'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_NORTH_IRELAND_BELFAST_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_NORTH_IRELAND_BELFAST_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 29903,
+            "nativeProj4": "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +a=6377340.189 +rf=299.3249646 +units=m +no_defs",
+            "nativeCenterCoords": [
+                333832.0,
+                374217.0
+            ],
+            "nativeBounds": [
+                331082.0,
+                371467.0,
+                336582.0,
+                376967.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_NORTH_IRELAND_BELFAST_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_NORTH_IRELAND_BELFAST_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_SCOTLAND_EDINBURGH",
@@ -6881,10 +7049,10 @@
                 55.950512736785406
             ],
             "extentCoords": [
-                -3.2384524,
-                55.9253756,
-                -3.1519256,
-                55.9756343
+                -3.240032465703693,
+                55.92537566041242,
+                -3.1504586992810757,
+                55.975634304151754
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6897,8 +7065,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Edinburgh, United Kingdom [55\u00b057'N, 3\u00b011'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_SCOTLAND_EDINBURGH_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_SCOTLAND_EDINBURGH_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                325460.0,
+                673699.0
+            ],
+            "nativeBounds": [
+                322710.0,
+                670949.0,
+                328210.0,
+                676449.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_SCOTLAND_EDINBURGH_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_SCOTLAND_EDINBURGH_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_SCOTLAND_GLASGOW",
@@ -6909,10 +7089,10 @@
                 55.86012856892226
             ],
             "extentCoords": [
-                -4.2961133,
-                55.8346271,
-                -4.2111754,
-                55.8856141
+                -4.299028851086793,
+                55.834627121463015,
+                -4.208370738619228,
+                55.885614182859236
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6925,8 +7105,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Glasgow, United Kingdom [55\u00b051'N, 4\u00b015'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_SCOTLAND_GLASGOW_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_SCOTLAND_GLASGOW_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                259043.0,
+                665291.0
+            ],
+            "nativeBounds": [
+                256293.0,
+                662541.0,
+                261793.0,
+                668041.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_SCOTLAND_GLASGOW_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_SCOTLAND_GLASGOW_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_WALES_CARDIFF",
@@ -6937,10 +7129,10 @@
                 51.47734609802474
             ],
             "extentCoords": [
-                -3.2549915,
-                51.4270856,
-                -3.0991794,
-                51.5275625
+                -3.2577080997781795,
+                51.42708567818486,
+                -3.0968038793871573,
+                51.52756252062918
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6953,8 +7145,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Cardiff, United Kingdom [51\u00b028'N, 3\u00b010'W] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/UK_WALES_CARDIFF_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/UK_WALES_CARDIFF_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 27700,
+            "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
+            "nativeCenterCoords": [
+                318345.0,
+                176034.0
+            ],
+            "nativeBounds": [
+                312845.0,
+                170534.0,
+                323845.0,
+                181534.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_WALES_CARDIFF_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_WALES_CARDIFF_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "URUGUAY_MONTEVIDEO",
@@ -6965,10 +7169,10 @@
                 -34.901132855989836
             ],
             "extentCoords": [
-                -56.2467444,
-                -34.939125,
-                -56.1500003,
-                -34.8593378
+                -56.24746671797057,
+                -34.93912509389603,
+                -56.14918455822891,
+                -34.859337828870096
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -6981,8 +7185,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Montevideo, Uruguay [34\u00b054'S, 56\u00b011'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/URUGUAY_MONTEVIDEO_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/URUGUAY_MONTEVIDEO_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 32721,
+            "nativeProj4": "+proj=utm +zone=21 +south +datum=WGS84 +units=m +no_defs",
+            "nativeCenterCoords": [
+                573242.37,
+                6137837.48
+            ],
+            "nativeBounds": [
+                568787.37,
+                6133448.73,
+                577697.37,
+                6142226.23
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/URUGUAY_MONTEVIDEO_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/URUGUAY_MONTEVIDEO_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_ALBUQUERQUE",
@@ -8673,10 +8889,10 @@
                 40.78836390345583
             ],
             "extentCoords": [
-                -74.0250775,
-                40.6977901,
-                -73.9058126,
-                40.8789066
+                -74.02514569406311,
+                40.69775433855524,
+                -73.90581264289683,
+                40.87894257016088
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -8689,8 +8905,20 @@
             "raster_resolution": "1.0",
             "raster_units": "ft",
             "city_state_coords": "New York City [Manhattan], New York, USA [40\u00b047'N, 73\u00b057'W] [33000 x 66000 pixels, 1 pixel = 1.0 ft]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_NEW_YORK_MANHATTAN_1ft_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_NEW_YORK_MANHATTAN_1ft_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 2263,
+            "nativeProj4": "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=41.0333333333333 +lat_2=40.6666666666667 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+            "nativeCenterCoords": [
+                993796.2121033272,
+                226501.37002710794
+            ],
+            "nativeBounds": [
+                977296.2121033272,
+                193501.37002710794,
+                1010296.2121033272,
+                259501.37002710794
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_NEW_YORK_MANHATTAN_1ft_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_NEW_YORK_MANHATTAN_1ft_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_OKLAHOMA_CITY",
@@ -8981,10 +9209,10 @@
                 45.52138
             ],
             "extentCoords": [
-                -122.709668,
-                45.476821,
-                -122.639649,
-                45.5659289
+                -122.73807812700663,
+                45.47682149824144,
+                -122.6113321048689,
+                45.56592948227576
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -8997,8 +9225,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_PORTLAND_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_PORTLAND_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6350,
+            "nativeProj4": "+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                -2056914.99,
+                2794288.0100000002
+            ],
+            "nativeBounds": [
+                -2060914.99,
+                2790288.0100000002,
+                -2052914.99,
+                2798288.0100000002
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_PORTLAND_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_PORTLAND_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_PROVIDENCE_PAWTUCKET",
@@ -9009,10 +9249,10 @@
                 41.83471
             ],
             "extentCoords": [
-                -71.447816,
-                41.7831509,
-                -71.344889,
-                41.8928269
+                -71.4478157514533,
+                41.783058229951,
+                -71.34488881176561,
+                41.89292006658249
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9025,8 +9265,20 @@
             "raster_resolution": "1.0",
             "raster_units": "ft",
             "city_state_coords": "Providence - Pawtucket, Rhode Island, USA [41\u00b050'N, 71\u00b023'W] [28000 x 40000 pixels, 1 pixel = 1.0 ft]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6568,
+            "nativeProj4": "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=99999.99998984 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+            "nativeCenterCoords": [
+                356316.0,
+                275000.0
+            ],
+            "nativeBounds": [
+                342316.0,
+                255000.0,
+                370316.0,
+                295000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_PROVIDENCE_PAWTUCKET_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_SAINT_LOUIS",
@@ -9037,10 +9289,10 @@
                 38.62741590324394
             ],
             "extentCoords": [
-                -90.2928066,
-                38.5619279,
-                -90.1154384,
-                38.6928293
+                -90.29280666242434,
+                38.5578217210257,
+                -90.11543841797402,
+                38.6969553343469
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9053,8 +9305,20 @@
             "raster_resolution": "0.8",
             "raster_units": "m",
             "city_state_coords": "Saint Louis, Missouri, USA [38\u00b037'N, 90\u00b012'W] [20000 x 20000 pixels, 1 pixel = 0.8 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_SAINT_LOUIS_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_SAINT_LOUIS_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6344,
+            "nativeProj4": "+proj=utm +zone=15 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                743379.0,
+                4279140.25
+            ],
+            "nativeBounds": [
+                735879.0,
+                4271640.25,
+                750879.0,
+                4286640.25
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_SAINT_LOUIS_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_SAINT_LOUIS_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_SALT_LAKE_CITY",
@@ -9065,10 +9329,10 @@
                 40.76585623024487
             ],
             "extentCoords": [
-                -111.9514547,
-                40.7248456,
-                -111.8416885,
-                40.8009371
+                -111.95252829596808,
+                40.724845683486926,
+                -111.84073978197056,
+                40.8009371797353
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9081,8 +9345,20 @@
             "raster_resolution": "1.0",
             "raster_units": "m",
             "city_state_coords": "Salt Lake City, Utah, USA [40\u00b045'N, 111\u00b053'W] [9351 x 8352 pixels, 1 pixel = 1.0 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_SALT_LAKE_CITY_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_SALT_LAKE_CITY_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 26912,
+            "nativeProj4": "+proj=utm +zone=12 +datum=NAD83 +units=m +no_defs",
+            "nativeCenterCoords": [
+                424324.5,
+                4512824.0
+            ],
+            "nativeBounds": [
+                419649.0,
+                4508648.0,
+                429000.0,
+                4517000.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_SALT_LAKE_CITY_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_SALT_LAKE_CITY_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_SAN_FRANCISCO_2023",
@@ -9093,10 +9369,10 @@
                 37.767215
             ],
             "extentCoords": [
-                -122.5159791,
-                37.6970317,
-                -122.3477572,
-                37.8373572
+                -122.5161039366043,
+                37.69700609408792,
+                -122.34775729038574,
+                37.83738307854366
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9109,8 +9385,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "San Francisco, California, USA [37\u00b046'N, 122\u00b025'W] [32000 x 32000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_SAN_FRANCISCO_2023_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_SAN_FRANCISCO_2023_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 7131,
+            "nativeProj4": "+proj=tmerc +lat_0=37.75 +lon_0=-122.45 +k=1.000007 +x_0=48000 +y_0=24000 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                49590.590000000004,
+                25912.0
+            ],
+            "nativeBounds": [
+                42181.090000000004,
+                18123.0,
+                57000.090000000004,
+                33701.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_SAN_FRANCISCO_2023_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_SAN_FRANCISCO_2023_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_SAN_JOSE",
@@ -9121,10 +9409,10 @@
                 37.33512
             ],
             "extentCoords": [
-                -121.924738,
-                37.3072457,
-                -121.8569763,
-                37.3629854
+                -121.92578567151321,
+                37.30724574841922,
+                -121.85597923765408,
+                37.3629854429219
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9137,8 +9425,20 @@
             "raster_resolution": "1.0",
             "raster_units": "ft",
             "city_state_coords": "San Jose, California, USA [37\u00b020'N, 121\u00b053'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_SAN_JOSE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_SAN_JOSE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6420,
+            "nativeProj4": "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=38.4333333333333 +lat_2=37.0666666666667 +x_0=2000000.0001016 +y_0=500000.0001016 +ellps=GRS80 +units=us-ft +no_defs",
+            "nativeCenterCoords": [
+                6157310.0,
+                1947497.0
+            ],
+            "nativeBounds": [
+                6147310.0,
+                1937497.0,
+                6167310.0,
+                1957497.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_SAN_JOSE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_SAN_JOSE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_SEATTLE",
@@ -9149,10 +9449,10 @@
                 47.61139
             ],
             "extentCoords": [
-                -122.355883,
-                47.5944212,
-                -122.3121669,
-                47.6251598
+                -122.35676550036044,
+                47.59442120928402,
+                -122.31131029960045,
+                47.62515988999519
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9165,8 +9465,20 @@
             "raster_resolution": "1.0",
             "raster_units": "ft",
             "city_state_coords": "Seattle, Washington, USA [47\u00b036'N, 122\u00b018'W] [20000 x 20000 pixels, 1 pixel = 1.0 ft]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_SEATTLE_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_SEATTLE_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6597,
+            "nativeProj4": "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=48.7333333333333 +lat_2=47.5 +x_0=500000.0001016 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+            "nativeCenterCoords": [
+                1270264.0,
+                226043.0
+            ],
+            "nativeBounds": [
+                1264764.0,
+                220543.0,
+                1275764.0,
+                231543.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_SEATTLE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_SEATTLE_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_WALT_DISNEY_WORLD",
@@ -9177,10 +9489,10 @@
                 28.370057718439217
             ],
             "extentCoords": [
-                -81.5663928,
-                28.3548643,
-                -81.5323442,
-                28.3852555
+                -81.56655357524944,
+                28.35486433361575,
+                -81.53219328968943,
+                28.38525559652678
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9193,8 +9505,20 @@
             "raster_resolution": "1.0",
             "raster_units": "ft",
             "city_state_coords": "Walt Disney World, Florida, USA [28\u00b022'N, 81\u00b032'W] [11000 x 11000 pixels, 1 pixel = 1.0 ft]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_WALT_DISNEY_WORLD_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_WALT_DISNEY_WORLD_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 6438,
+            "nativeProj4": "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941177 +x_0=200000.0001016 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+            "nativeCenterCoords": [
+                479498.0,
+                1467649.0
+            ],
+            "nativeBounds": [
+                473998.0,
+                1462149.0,
+                484998.0,
+                1473149.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_WALT_DISNEY_WORLD_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_WALT_DISNEY_WORLD_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_WASHINGTON",
@@ -9205,10 +9529,10 @@
                 38.890148
             ],
             "extentCoords": [
-                -77.0777852,
-                38.8441032,
-                -76.9651043,
-                38.9361581
+                -77.08041167317353,
+                38.84410326494097,
+                -76.96262313851993,
+                38.93615819960683
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9221,8 +9545,20 @@
             "raster_resolution": "0.5",
             "raster_units": "m",
             "city_state_coords": "Washington, District of Columbia, USA [38\u00b053'N, 77\u00b01'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
-            "rasterPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/raster_pmtiles/cities/USA_WASHINGTON_RGBA_cs_raster.pmtiles",
-            "vectorPMTilesUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_pmtiles/cities/USA_WASHINGTON_RGBA_cs_vector.pmtiles"
+            "nativeEPSG": 26918,
+            "nativeProj4": "+proj=utm +zone=18 +datum=NAD83 +units=m +no_defs",
+            "nativeCenterCoords": [
+                324678.0,
+                4306528.0
+            ],
+            "nativeBounds": [
+                319678.0,
+                4301528.0,
+                329678.0,
+                4311528.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_WASHINGTON_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_WASHINGTON_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "usgs_AK",
