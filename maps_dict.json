@@ -7321,6 +7321,46 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_AUSTIN_RGBA_cs_vector.geojson.gz"
         },
         {
+            "city_id": "USA_BALTIMORE",
+            "cityName": "Baltimore",
+            "country_name": "Maryland, USA",
+            "centerCoords": [
+                -76.5997630316436,
+                39.29487291127379
+            ],
+            "extentCoords": [
+                -76.67059932454632,
+                39.2398567372594,
+                -76.52903238671277,
+                39.34985701662175
+            ],
+            "zoomLevel": 12,
+            "maxZoomLevel": 18,
+            "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+            "license_name": "CC0 1.0 Universal",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+            "dms": "39\u00b017'N, 76\u00b035'W",
+            "width": 24000,
+            "height": 24000,
+            "raster_resolution": "0.5",
+            "raster_units": "m",
+            "city_state_coords": "Baltimore, Maryland, USA [39\u00b017'N, 76\u00b035'W] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
+            "nativeEPSG": 6347,
+            "nativeProj4": "+proj=utm +zone=18 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                362047.0,
+                4350720.0
+            ],
+            "nativeBounds": [
+                356047.0,
+                4344720.0,
+                368047.0,
+                4356720.0
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_BALTIMORE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_BALTIMORE_RGBA_cs_vector.geojson.gz"
+        },
+        {
             "city_id": "USA_BIRMINGHAM",
             "cityName": "Birmingham",
             "country_name": "Alabama, USA",
