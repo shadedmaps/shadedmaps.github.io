@@ -7241,6 +7241,46 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_ALBUQUERQUE_RGBA_cs_vector.geojson.gz"
         },
         {
+            "city_id": "USA_ANCHORAGE",
+            "cityName": "Anchorage",
+            "country_name": "Alaska, USA",
+            "centerCoords": [
+                -149.917068,
+                61.176795
+            ],
+            "extentCoords": [
+                -150.10804569043,
+                61.08309529600702,
+                -149.7201133229966,
+                61.27041150155296
+            ],
+            "zoomLevel": 12,
+            "maxZoomLevel": 18,
+            "data_publisher": "U.S. Geological Survey, National Geospatial Program",
+            "license_name": "CC0 1.0 Universal",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+            "dms": "61\u00b010'N, 149\u00b055'W",
+            "width": 20000,
+            "height": 20000,
+            "raster_resolution": "1.0",
+            "raster_units": "m",
+            "city_state_coords": "Anchorage, Alaska, USA [61\u00b010'N, 149\u00b055'W] [20000 x 20000 pixels, 1 pixel = 1.0 m]",
+            "nativeEPSG": 26906,
+            "nativeProj4": "+proj=utm +zone=6 +datum=NAD83 +units=m +no_defs",
+            "nativeCenterCoords": [
+                343331.08956858015,
+                6785978.83966436
+            ],
+            "nativeBounds": [
+                333331.08956858015,
+                6775978.83966436,
+                353331.08956858015,
+                6795978.83966436
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_ANCHORAGE_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_ANCHORAGE_RGBA_cs_vector.geojson.gz"
+        },
+        {
             "city_id": "USA_ATLANTA",
             "cityName": "Atlanta",
             "country_name": "Georgia, USA",
@@ -8681,44 +8721,44 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_MILWAUKEE_RGBA_cs_vector.geojson.gz"
         },
         {
-            "city_id": "USA_MINNEAPOLIS",
-            "cityName": "Minneapolis",
+            "city_id": "USA_MINNEAPOLIS_SAINT_PAUL",
+            "cityName": "Twin Cities [Minneapolis & Saint Paul]",
             "country_name": "Minnesota, USA",
             "centerCoords": [
-                -93.26268575438648,
-                44.98031188057133
+                -93.176991,
+                44.962265
             ],
             "extentCoords": [
-                -93.31361885401492,
-                44.94417773495747,
-                -93.21182264550757,
-                45.01642600394542
+                -93.32945636241138,
+                44.90791862742056,
+                -93.02481606782827,
+                45.01641318334104
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
             "data_publisher": "U.S. Geological Survey, National Geospatial Program",
             "license_name": "CC0 1.0 Universal",
             "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
-            "dms": "44\u00b058'N, 93\u00b015'W",
-            "width": 16000,
-            "height": 16000,
+            "dms": "44\u00b057'N, 93\u00b010'W",
+            "width": 48000,
+            "height": 24000,
             "raster_resolution": "0.5",
             "raster_units": "m",
-            "city_state_coords": "Minneapolis, Minnesota, USA [44\u00b058'N, 93\u00b015'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+            "city_state_coords": "Twin Cities [Minneapolis & Saint Paul], Minnesota, USA [44\u00b057'N, 93\u00b010'W] [48000 x 24000 pixels, 1 pixel = 0.5 m]",
             "nativeEPSG": 6344,
             "nativeProj4": "+proj=utm +zone=15 +ellps=GRS80 +units=m +no_defs",
             "nativeCenterCoords": [
-                479289.0,
-                4980797.0
+                486041.0,
+                4978774.0
             ],
             "nativeBounds": [
-                475289.0,
-                4976797.0,
-                483289.0,
-                4984797.0
+                474041.0,
+                4972774.0,
+                498041.0,
+                4984774.0
             ],
-            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_MINNEAPOLIS_RGBA_cs_raster.tif",
-            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_MINNEAPOLIS_RGBA_cs_vector.geojson.gz"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_MINNEAPOLIS_SAINT_PAUL_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_MINNEAPOLIS_SAINT_PAUL_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_NASHVILLE",
@@ -9121,44 +9161,44 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_ORLANDO_RGBA_cs_vector.geojson.gz"
         },
         {
-            "city_id": "USA_PHILADELPHIA",
+            "city_id": "USA_PHILADELPHIA_2026",
             "cityName": "Philadelphia",
             "country_name": "Pennsylvania, USA",
             "centerCoords": [
-                -75.18737,
-                39.95404
+                -75.15694,
+                39.95246
             ],
             "extentCoords": [
-                -75.23713457396794,
-                39.915748819912736,
-                -75.13884885119154,
-                39.99222963881075
+                -75.22736496214767,
+                39.89828854409103,
+                -75.08663408638242,
+                40.00659675918164
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
-            "data_publisher": "U.S. Department of Commerce, National Oceanic and Atmospheric Administration",
+            "data_publisher": "U.S. Geological Survey, National Geospatial Program",
             "license_name": "CC0 1.0 Universal",
-            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Department of Commerce, National Oceanic and Atmospheric Administration [CC0 1.0 Universal]",
-            "dms": "39\u00b057'N, 75\u00b011'W",
-            "width": 18000,
-            "height": 18000,
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
+            "dms": "39\u00b057'N, 75\u00b09'W",
+            "width": 24000,
+            "height": 24000,
             "raster_resolution": "0.5",
             "raster_units": "m",
-            "city_state_coords": "Philadelphia, Pennsylvania, USA [39\u00b057'N, 75\u00b011'W] [18000 x 18000 pixels, 1 pixel = 0.5 m]",
-            "nativeEPSG": 26918,
-            "nativeProj4": "+proj=utm +zone=18 +datum=NAD83 +units=m +no_defs",
+            "city_state_coords": "Philadelphia, Pennsylvania, USA [39\u00b057'N, 75\u00b09'W] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
+            "nativeEPSG": 6347,
+            "nativeProj4": "+proj=utm +zone=18 +ellps=GRS80 +units=m +no_defs",
             "nativeCenterCoords": [
-                483944.5,
-                4422668.39
+                486594.0,
+                4422493.0
             ],
             "nativeBounds": [
-                479755.75,
-                4418432.89,
-                488133.25,
-                4426903.89
+                480594.0,
+                4416493.0,
+                492594.0,
+                4428493.0
             ],
-            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_PHILADELPHIA_RGBA_cs_raster.tif",
-            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_PHILADELPHIA_RGBA_cs_vector.geojson.gz"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_PHILADELPHIA_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_PHILADELPHIA_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_PHOENIX",
@@ -9281,18 +9321,18 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_PITTSBURGH_RGBA_cs_vector.geojson.gz"
         },
         {
-            "city_id": "USA_PORTLAND",
+            "city_id": "USA_PORTLAND_2026",
             "cityName": "Portland",
             "country_name": "Oregon, USA",
             "centerCoords": [
-                -122.67468,
-                45.52138
+                -122.680873,
+                45.518683
             ],
             "extentCoords": [
-                -122.73807812700663,
-                45.47682149824144,
-                -122.6113321048689,
-                45.56592948227576
+                -122.7759863361359,
+                45.4518425314515,
+                -122.58586813807078,
+                45.58550840331874
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
@@ -9300,25 +9340,25 @@
             "license_name": "CC0 1.0 Universal",
             "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | U.S. Geological Survey, National Geospatial Program [CC0 1.0 Universal]",
             "dms": "45\u00b031'N, 122\u00b040'W",
-            "width": 16000,
-            "height": 16000,
+            "width": 24000,
+            "height": 24000,
             "raster_resolution": "0.5",
             "raster_units": "m",
-            "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [16000 x 16000 pixels, 1 pixel = 0.5 m]",
+            "city_state_coords": "Portland, Oregon, USA [45\u00b031'N, 122\u00b040'W] [24000 x 24000 pixels, 1 pixel = 0.5 m]",
             "nativeEPSG": 6350,
             "nativeProj4": "+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
             "nativeCenterCoords": [
-                -2056914.99,
-                2794288.0100000002
+                -2057462.99,
+                2794134.0100000002
             ],
             "nativeBounds": [
-                -2060914.99,
-                2790288.0100000002,
-                -2052914.99,
-                2798288.0100000002
+                -2063462.99,
+                2788134.0100000002,
+                -2051462.99,
+                2800134.0100000002
             ],
-            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_PORTLAND_RGBA_cs_raster.tif",
-            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_PORTLAND_RGBA_cs_vector.geojson.gz"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/USA_PORTLAND_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/USA_PORTLAND_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "USA_PROVIDENCE_PAWTUCKET",
