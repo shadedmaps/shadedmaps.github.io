@@ -5521,44 +5521,44 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/SLOVAKIA_BRATISLAVA_RGBA_cs_vector.geojson.gz"
         },
         {
-            "city_id": "SLOVENIA_LJUBLJANA",
+            "city_id": "SLOVENIA_LJUBLJANA_2026",
             "cityName": "Ljubljana",
             "country_name": "Slovenia",
             "centerCoords": [
-                14.509172404150787,
-                46.051827235138546
+                14.508816,
+                46.052749
             ],
             "extentCoords": [
-                14.437595595059872,
-                46.00201940849488,
-                14.580616922909378,
-                46.101599307118015
+                14.443757608358895,
+                46.007466226805334,
+                14.573779703400449,
+                46.097993802706675
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
-            "data_publisher": "Agencija Republike Slovenije za okolje",
-            "license_name": "",
-            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Agencija Republike Slovenije za okolje []",
+            "data_publisher": "Geodetska uprava Republike Slovenije (GURS)",
+            "license_name": "Creative Commons Attribution 4.0 International Public License (CC BY 4.0)",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Geodetska uprava Republike Slovenije (GURS) [Creative Commons Attribution 4.0 International Public License (CC BY 4.0)]",
             "dms": "46\u00b03'N, 14\u00b030'E",
-            "width": 11000,
-            "height": 11000,
-            "raster_resolution": "1.0",
+            "width": 20000,
+            "height": 20000,
+            "raster_resolution": "0.5",
             "raster_units": "m",
-            "city_state_coords": "Ljubljana, Slovenia [46\u00b03'N, 14\u00b030'E] [11000 x 11000 pixels, 1 pixel = 1.0 m]",
+            "city_state_coords": "Ljubljana, Slovenia [46\u00b03'N, 14\u00b030'E] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
             "nativeEPSG": 3794,
             "nativeProj4": "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
             "nativeCenterCoords": [
-                462018.0,
-                101454.0
+                461991.652,
+                101556.069
             ],
             "nativeBounds": [
-                456518.0,
-                95954.0,
-                467518.0,
-                106954.0
+                456991.652,
+                96556.069,
+                466991.652,
+                106556.069
             ],
-            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/SLOVENIA_LJUBLJANA_RGBA_cs_raster.tif",
-            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/SLOVENIA_LJUBLJANA_RGBA_cs_vector.geojson.gz"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/SLOVENIA_LJUBLJANA_2026_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/SLOVENIA_LJUBLJANA_2026_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "SPAIN_BARCELONA_ICGC",
