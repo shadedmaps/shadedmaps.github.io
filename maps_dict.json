@@ -3921,6 +3921,46 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_PERUGIA_RGBA_cs_vector.geojson.gz"
         },
         {
+            "city_id": "ITALY_TORINO_010",
+            "cityName": "Torino",
+            "country_name": "Italy",
+            "centerCoords": [
+                7.687358,
+                45.053847
+            ],
+            "extentCoords": [
+                7.67768044475553,
+                45.04698795442463,
+                7.697033991095677,
+                45.06070609562727
+            ],
+            "zoomLevel": 12,
+            "maxZoomLevel": 18,
+            "data_publisher": "Links Foundation",
+            "license_name": "MIT license",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Links Foundation [MIT license]",
+            "dms": "45\u00b03'N, 7\u00b041'E",
+            "width": 15000,
+            "height": 15000,
+            "raster_resolution": "0.1",
+            "raster_units": "m",
+            "city_state_coords": "Torino, Italy [45\u00b03'N, 7\u00b041'E] [15000 x 15000 pixels, 1 pixel = 0.1 m]",
+            "nativeEPSG": null,
+            "nativeProj4": "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs",
+            "nativeCenterCoords": [
+                396640.71,
+                4989770.25
+            ],
+            "nativeBounds": [
+                395890.71,
+                4989020.25,
+                397390.71,
+                4990520.25
+            ],
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/ITALY_TORINO_010_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/ITALY_TORINO_010_RGBA_cs_vector.geojson.gz"
+        },
+        {
             "city_id": "ITALY_TRENTO",
             "cityName": "Trento",
             "country_name": "Italy",
@@ -6761,44 +6801,44 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_LIVERPOOL_RGBA_cs_vector.geojson.gz"
         },
         {
-            "city_id": "UK_ENGLAND_LONDON2",
+            "city_id": "UK_ENGLAND_LONDON_2026_05",
             "cityName": "London",
             "country_name": "United Kingdom",
             "centerCoords": [
-                -0.10070380087677688,
-                51.49629506426874
+                -0.12754,
+                51.50953
             ],
             "extentCoords": [
-                -0.15938571853997419,
-                51.46838449474059,
-                -0.04196561528770464,
-                51.52417046647665
+                -0.2013198260462366,
+                51.46342375358489,
+                -0.05361798245797324,
+                51.55559146349563
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
-            "data_publisher": "Department for Environment, Food and Rural Affairs",
-            "license_name": "Open Government License v3.0",
-            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Department for Environment, Food and Rural Affairs [Open Government License v3.0]",
-            "dms": "51\u00b029'N, 0\u00b06'W",
-            "width": 16000,
-            "height": 12000,
+            "data_publisher": "Environment Agency",
+            "license_name": "Open Government Licence v3.0",
+            "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Environment Agency [Open Government Licence v3.0]",
+            "dms": "51\u00b030'N, 0\u00b07'W",
+            "width": 20000,
+            "height": 20000,
             "raster_resolution": "0.5",
             "raster_units": "m",
-            "city_state_coords": "London, United Kingdom [51\u00b029'N, 0\u00b06'W] [16000 x 12000 pixels, 1 pixel = 0.5 m]",
+            "city_state_coords": "London, United Kingdom [51\u00b030'N, 0\u00b07'W] [20000 x 20000 pixels, 1 pixel = 0.5 m]",
             "nativeEPSG": 27700,
             "nativeProj4": "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs",
             "nativeCenterCoords": [
-                531939.0,
-                179193.0
+                530039.01,
+                180617.01
             ],
             "nativeBounds": [
-                527939.0,
-                176193.0,
-                535939.0,
-                182193.0
+                525039.01,
+                175617.01,
+                535039.01,
+                185617.01
             ],
-            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_LONDON2_RGBA_cs_raster.tif",
-            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_LONDON2_RGBA_cs_vector.geojson.gz"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/UK_ENGLAND_LONDON_2026_05_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/UK_ENGLAND_LONDON_2026_05_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "UK_ENGLAND_MANCHESTER",
