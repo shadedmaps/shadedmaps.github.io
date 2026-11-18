@@ -5841,44 +5841,44 @@
             "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/SPAIN_LOGRONO_RGBA_cs_vector.geojson.gz"
         },
         {
-            "city_id": "SPAIN_MADRID3",
+            "city_id": "SPAIN_MADRID_2023",
             "cityName": "Madrid",
             "country_name": "Spain",
             "centerCoords": [
-                -3.707282327993127,
-                40.41545241490047
+                -3.66485,
+                40.41759
             ],
             "extentCoords": [
-                -3.739962937544783,
-                40.39047501542504,
-                -3.674621260976984,
-                40.440418122080374
+                -3.7391258189773295,
+                40.36083628176908,
+                -3.590686609728948,
+                40.47429019311882
             ],
             "zoomLevel": 12,
             "maxZoomLevel": 18,
             "data_publisher": "Ayuntamiento de Madrid",
             "license_name": "Open Data",
             "attribution": "<a href=\"https://shadedmaps.github.io\" target=\"_blank\">Shaded Maps</a> | Ayuntamiento de Madrid [Open Data]",
-            "dms": "40\u00b024'N, 3\u00b042'W",
-            "width": 11000,
-            "height": 11000,
+            "dms": "40\u00b025'N, 3\u00b039'W",
+            "width": 25000,
+            "height": 25000,
             "raster_resolution": "0.5",
             "raster_units": "m",
-            "city_state_coords": "Madrid, Spain [40\u00b024'N, 3\u00b042'W] [11000 x 11000 pixels, 1 pixel = 0.5 m]",
+            "city_state_coords": "Madrid, Spain [40\u00b025'N, 3\u00b039'W] [25000 x 25000 pixels, 1 pixel = 0.5 m]",
             "nativeEPSG": 25830,
             "nativeProj4": "+proj=utm +zone=30 +ellps=GRS80 +units=m +no_defs",
             "nativeCenterCoords": [
-                439994.0,
-                4474110.0
+                443596.05,
+                4474319.05
             ],
             "nativeBounds": [
-                437244.0,
-                4471360.0,
-                442744.0,
-                4476860.0
+                437346.05,
+                4468069.05,
+                449846.05,
+                4480569.05
             ],
-            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/SPAIN_MADRID3_RGBA_cs_raster.tif",
-            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/SPAIN_MADRID3_RGBA_cs_vector.geojson.gz"
+            "cogUrl": "https://dj22dj8wh8n7s.cloudfront.net/cog_rasters/cities/SPAIN_MADRID_2023_RGBA_cs_raster.tif",
+            "vectorGeoJsonUrl": "https://dj22dj8wh8n7s.cloudfront.net/vector_geojson/cities/SPAIN_MADRID_2023_RGBA_cs_vector.geojson.gz"
         },
         {
             "city_id": "SPAIN_MELILLA",
